@@ -1,0 +1,480 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "cism.l09",
+      "moduleId": "cism",
+      "topic": "CISM",
+      "subtopic": "",
+      "title": "Security Metrics and Reporting to Management",
+      "summary": "Focuses on selecting metrics and reporting security performance to leadership.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Select meaningful security metrics",
+        "Communicate risk and performance to management",
+        "Align reporting with business objectives"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Focuses on selecting metrics and reporting security performance to leadership. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Select meaningful security metrics",
+            "Communicate risk and performance to management",
+            "Align reporting with business objectives"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for security metrics and reporting to management are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Security Metrics and Reporting to Management",
+          "context": "A team must address security metrics and reporting to management in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Security Metrics and Reporting to Management",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to security metrics and reporting to management.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cism",
+        "cism"
+      ]
+    },
+    {
+      "id": "cism.l10",
+      "moduleId": "cism",
+      "topic": "CISM",
+      "subtopic": "",
+      "title": "Security Programme Resources and Integration",
+      "summary": "Covers resourcing, budgeting and integrating security into business processes.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain resource planning for security programmes",
+        "Integrate security into projects and operations",
+        "Balance priorities and constraints"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers resourcing, budgeting and integrating security into business processes. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain resource planning for security programmes",
+            "Integrate security into projects and operations",
+            "Balance priorities and constraints"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for security programme resources and integration are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Security Programme Resources and Integration",
+          "context": "A team must address security programme resources and integration in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Security Programme Resources and Integration",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to security programme resources and integration.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cism",
+        "cism"
+      ]
+    },
+    {
+      "id": "cism.l11",
+      "moduleId": "cism",
+      "topic": "CISM",
+      "subtopic": "",
+      "title": "Identity, Access and Control Management",
+      "summary": "Addresses governance of identity, access and control environments.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe access governance principles",
+        "Evaluate control management practices",
+        "Identify common access governance gaps"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Addresses governance of identity, access and control environments. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe access governance principles",
+            "Evaluate control management practices",
+            "Identify common access governance gaps"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for identity, access and control management are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Identity, Access and Control Management",
+          "context": "A team must address identity, access and control management in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Identity, Access and Control Management",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to identity, access and control management.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cism",
+        "cism"
+      ]
+    },
+    {
+      "id": "cism.l12",
+      "moduleId": "cism",
+      "topic": "CISM",
+      "subtopic": "",
+      "title": "Security Architecture and Emerging Risks",
+      "summary": "Explores security architecture considerations and managing emerging risks.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain security architecture governance",
+        "Assess emerging technology risks",
+        "Align architecture decisions with risk appetite"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Explores security architecture considerations and managing emerging risks. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain security architecture governance",
+            "Assess emerging technology risks",
+            "Align architecture decisions with risk appetite"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for security architecture and emerging risks are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Security Architecture and Emerging Risks",
+          "context": "A team must address security architecture and emerging risks in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Security Architecture and Emerging Risks",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to security architecture and emerging risks.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cism",
+        "cism"
+      ]
+    },
+    {
+      "id": "cism.l13",
+      "moduleId": "cism",
+      "topic": "CISM",
+      "subtopic": "",
+      "title": "Incident Response Leadership and Crisis Coordination",
+      "summary": "Focuses on leadership during incidents, coordination and stakeholder communication.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe leadership roles in incidents",
+        "Coordinate response across stakeholders",
+        "Evaluate post-incident communication"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Focuses on leadership during incidents, coordination and stakeholder communication. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe leadership roles in incidents",
+            "Coordinate response across stakeholders",
+            "Evaluate post-incident communication"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for incident response leadership and crisis coordination are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Incident Response Leadership and Crisis Coordination",
+          "context": "A team must address incident response leadership and crisis coordination in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Incident Response Leadership and Crisis Coordination",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to incident response leadership and crisis coordination.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cism",
+        "cism"
+      ]
+    },
+    {
+      "id": "cism.l14",
+      "moduleId": "cism",
+      "topic": "CISM",
+      "subtopic": "",
+      "title": "Programme Maturity and Continuous Improvement",
+      "summary": "Covers measuring programme maturity and driving continuous improvement.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Assess security programme maturity",
+        "Identify improvement priorities",
+        "Track outcomes and lessons learned"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers measuring programme maturity and driving continuous improvement. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Assess security programme maturity",
+            "Identify improvement priorities",
+            "Track outcomes and lessons learned"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for programme maturity and continuous improvement are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Programme Maturity and Continuous Improvement",
+          "context": "A team must address programme maturity and continuous improvement in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Programme Maturity and Continuous Improvement",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to programme maturity and continuous improvement.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cism",
+        "cism"
+      ]
+    }
+  ]
+}

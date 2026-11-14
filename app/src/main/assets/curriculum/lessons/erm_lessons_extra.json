@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "erm.l13",
+      "moduleId": "erm",
+      "topic": "ERM",
+      "subtopic": "",
+      "title": "Risk Reporting and Escalation",
+      "summary": "Covers risk reporting structures, dashboards and escalation thresholds.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Design effective risk reporting",
+        "Define escalation criteria and paths",
+        "Communicate risk to decision-makers"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers risk reporting structures, dashboards and escalation thresholds. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Design effective risk reporting",
+            "Define escalation criteria and paths",
+            "Communicate risk to decision-makers"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for risk reporting and escalation are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Risk Reporting and Escalation",
+          "context": "A team must address risk reporting and escalation in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Risk Reporting and Escalation",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to risk reporting and escalation.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "erm",
+        "erm"
+      ]
+    },
+    {
+      "id": "erm.l14",
+      "moduleId": "erm",
+      "topic": "ERM",
+      "subtopic": "",
+      "title": "Integrating ERM with Strategy and Performance",
+      "summary": "Explores aligning risk management with strategy, objectives and performance.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain ERM integration with strategy",
+        "Link risks to objectives and KPIs",
+        "Assess risk-informed performance decisions"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Explores aligning risk management with strategy, objectives and performance. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain ERM integration with strategy",
+            "Link risks to objectives and KPIs",
+            "Assess risk-informed performance decisions"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for integrating erm with strategy and performance are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Integrating ERM with Strategy and Performance",
+          "context": "A team must address integrating erm with strategy and performance in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Integrating ERM with Strategy and Performance",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to integrating erm with strategy and performance.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "erm",
+        "erm"
+      ]
+    }
+  ]
+}

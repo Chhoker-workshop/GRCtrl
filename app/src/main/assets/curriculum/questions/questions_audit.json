@@ -1,0 +1,1506 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "QUESTIONS",
+  "items": [
+    {
+      "id": "q.audit.001",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.002",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.003",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.004",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.005",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.006",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.007",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.008",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.009",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.010",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.011",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.012",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.013",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.014",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.015",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.016",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.017",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.018",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.019",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.020",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.021",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.audit.022",
+      "domain": "AUDIT",
+      "topic": "Audit",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Audit, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Audit.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Audit issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Audit as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Audit work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Audit.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Audit"
+      ]
+    },
+    {
+      "id": "q.cisa.001",
+      "domain": "AUDIT",
+      "topic": "Cisa",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Cisa, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Cisa.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Cisa issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Cisa as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Cisa work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Cisa.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Cisa"
+      ]
+    },
+    {
+      "id": "q.cisa.002",
+      "domain": "AUDIT",
+      "topic": "Cisa",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Cisa, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Cisa.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Cisa issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Cisa as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Cisa work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Cisa.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Cisa"
+      ]
+    },
+    {
+      "id": "q.cisa.003",
+      "domain": "AUDIT",
+      "topic": "Cisa",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Cisa, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Cisa.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Cisa issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Cisa as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Cisa work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Cisa.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Cisa"
+      ]
+    },
+    {
+      "id": "q.cisa.004",
+      "domain": "AUDIT",
+      "topic": "Cisa",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Cisa, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Cisa.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Cisa issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Cisa as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Cisa work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Cisa.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Cisa"
+      ]
+    },
+    {
+      "id": "q.cisa.005",
+      "domain": "AUDIT",
+      "topic": "Cisa",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Cisa, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Cisa.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Cisa issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Cisa as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Cisa work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Cisa.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Cisa"
+      ]
+    },
+    {
+      "id": "q.cisa.006",
+      "domain": "AUDIT",
+      "topic": "Cisa",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Cisa, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Cisa.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Cisa issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Cisa as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Cisa work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Cisa.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Cisa"
+      ]
+    },
+    {
+      "id": "q.cisa.007",
+      "domain": "AUDIT",
+      "topic": "Cisa",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Cisa, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Cisa.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Cisa issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Cisa as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Cisa work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Cisa.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Cisa"
+      ]
+    },
+    {
+      "id": "q.cisa.008",
+      "domain": "AUDIT",
+      "topic": "Cisa",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Cisa, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Cisa.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Cisa issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Cisa as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Cisa work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Cisa.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Cisa"
+      ]
+    }
+  ]
+}

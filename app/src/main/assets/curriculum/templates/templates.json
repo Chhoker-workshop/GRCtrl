@@ -1,0 +1,319 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "TEMPLATES",
+  "items": [
+    {
+      "id": "tpl_01",
+      "title": "Information Security Policy",
+      "category": "Policies",
+      "purpose": "This is the top-level policy that states management intent and the mandatory information security requirements for the whole organisation. It is the document against which every other security policy, standard and control is justified, and it supports the decision of whether a business initiative may proceed given the information security risk it creates.",
+      "instructions": [
+        "Confirm the scope statement names every in-scope entity, location, system and population, including outsourced operations.",
+        "Write the management intent paragraph in the voice of the CEO and tie it to the risk appetite approved by the Board.",
+        "Map each policy clause to a requirement in ISO/IEC 27001:2022 and the RBI Cyber Security Framework rather than restating either document.",
+        "Define roles using the three lines model so that policy ownership, operational execution and assurance are separated.",
+        "State how exceptions are requested, who approves them and how long they may live before renewal.",
+        "Attach the revision history and the approval record, and schedule the next review date before circulating."
+      ],
+      "requiredInformation": [
+        "Policy identifier, version number, effective date and next scheduled review date",
+        "Scope statement covering entities, offices, systems, channels and personnel in scope",
+        "Management intent statement and its linkage to the Board-approved risk appetite",
+        "Roles and responsibilities under the three lines model (Board, executive management, business owners, assurance)",
+        "Mandatory requirements mapped to ISO/IEC 27001:2022 clauses 5 to 10 and RBI CSF 2022 sections",
+        "Exception handling, approval authority and maximum exception duration",
+        "Enforcement, disciplinary consequences and regulatory reporting triggers",
+        "Revision triggers such as material business change, incident or audit finding"
+      ],
+      "exampleEntries": [
+        "Policy ID ISP-MFSL-001, version 3.0, effective 01 April 2026, next review 01 April 2027, owned by the CISO and approved by the Board Risk Committee on 12 February 2026.",
+        "Scope resolved to Meridian Financial Services Ltd, 180 retail branches, 4.1 million registered internet and mobile banking customers, the Pune Security Operations Centre and all outsourced service providers with production access.",
+        "Management intent drafted as: the Board Risk Committee requires that no customer information is knowingly exposed, no service is operated without a tested recovery capability, and information security risk is never accepted outside the approved appetite.",
+        "Clause 4.3 requires systems to be designed and operated in line with ISO/IEC 27001:2022 and RBI CSF 2022, with COBIT 2019 used for governance decisions rather than as a control set.",
+        "Clause 6 sets a 90-day maximum lifetime for security exceptions approved by the CISO, with renewal by the Executive Risk Committee only.",
+        "Aligned with the RBI Master Direction on Information Technology Governance, Cyber Security Framework, and the CERT-In directions of April 2022 for incident reporting.",
+        "Policy refresh triggered by the November 2025 SOC consolidation project, the FY2026-27 cloud migration and two P1 incident post-incident reviews."
+      ],
+      "ownership": "CISO",
+      "reviewFrequency": "Annual or upon material change",
+      "approvalRequired": "Board Risk Committee",
+      "disclaimer": "This is an educational example prepared for learning purposes. It is not a compliant document for any organisation and must be adapted, legally reviewed and approved before it is adopted or relied upon.",
+      "body": "DOCUMENT CONTROL\nPolicy Title: Information Security Policy\nPolicy ID: ISP-MFSL-001\nVersion: [3.0]\nEffective Date: [01 April 2026]\nPolicy Owner: [CISO]\nApproved By: [Board Risk Committee]\nNext Review Date: [01 April 2027]\nDocument Classification: [Internal]\n\n1. PURPOSE\nThis policy sets out the mandatory requirements for protecting the confidentiality, integrity and availability of information assets owned or processed by Meridian Financial Services Ltd (MFSL), including customer data held in the retail core banking platform, the internet banking and mobile channels and the branch network. It translates the risk appetite approved by the Board into obligations that every employee, contractor and third party can be held to, and it provides the reference point against which the detailed policies, standards and controls of the information security management system are derived.\n\n2. SCOPE\nThis policy applies to all MFSL entities, the 180 branch offices, the Pune Security Operations Centre, the retail internet banking and mobile channels, and to all employees, temporary staff, interns, vendors and outsourced service providers who access MFSL information assets. It applies irrespective of location, device or whether access is physical or logical.\n\n3. MANAGEMENT INTENT\nThe Chief Executive Officer and the Board Risk Committee require that MFSL protects customer trust and the integrity of the financial system. No business initiative may proceed where the information security risk created exceeds the approved risk appetite or where the controls required by this policy are not in place. Information security is treated as a business enabler as well as a defence, and is resourced accordingly.\n\n4. MANDATORY REQUIREMENTS\n4.1 Every information asset must be classified and handled in accordance with the Data Classification Policy.\n4.2 Access to systems and data must follow least privilege, least duration and separation of duties, and must be certified by application owners at defined intervals.\n4.3 Information systems must be designed, operated and maintained in line with ISO/IEC 27001:2022, and the security architecture must be reviewed against the NIST CSF 2.0 and the RBI Cyber Security Framework 2022.\n4.4 Security events must be logged centrally, monitored continuously and reported to the Security Operations Centre within one hour of discovery.\n4.5 Supplier security must be governed through the Vendor Security Policy, and material outsourcing must satisfy the RBI guidelines on outsourcing.\n4.6 Information security requirements must be addressed at the earliest stage of every change or project through the Secure Development Policy and the Change Management Policy.\n\n5. ROLES AND RESPONSIBILITIES\nThe CISO owns this policy and the security management system. The Head of IT implements the policy for infrastructure, applications and operations. Business heads own the information security risk of the data they are accountable for and accept residual risk only within appetite. Every employee is responsible for reporting suspected incidents and for complying with the Acceptable Use Policy. Internal Audit provides independent assurance over the effectiveness of this policy and reports to the Audit Committee of the Board.\n\n6. EXCEPTIONS\nExceptions must be requested using the Security Exception and Risk Acceptance Form, approved by the CISO, recorded in the exceptions register, and reported to the Executive Risk Committee at each quarterly meeting. Exceptions expire after 90 days unless renewed.\n\n7. ENFORCEMENT\nFailure to comply may result in withdrawal of system access, disciplinary action under the Code of Conduct and Policy Framework, and reporting to the RBI where a regulatory obligation is affected.\n\n8. REVIEW\nThis policy is reviewed annually by the CISO and immediately following any material change to the business, the regulatory environment, the risk assessment, or the outcome of a significant incident.",
+      "competencyDomain": "INFORMATION_SECURITY"
+    },
+    {
+      "id": "tpl_02",
+      "title": "Access Control Policy",
+      "category": "Policies",
+      "purpose": "This policy defines how access to MFSL systems, data and premises is granted, reviewed, modified and revoked across the identity lifecycle. It exists to make privilege abuse and excessive access impossible by default, and it supports decisions on access architecture, joiner-mover-leaver execution and quarterly access certification.",
+      "instructions": [
+        "List every population that holds access, including employees, contractors, vendor accounts, service accounts and shared administrator accounts.",
+        "State the access principles explicitly and map each one to ISO/IEC 27001:2022 clause 8.2 and RBAC or ABAC design decisions.",
+        "Set time-bound targets for each stage of the identity lifecycle and agree how they are measured.",
+        "Define the certification frequency by system criticality and name the person accountable for each certification.",
+        "Document the privileged access model, including vaulting, session recording and just-in-time elevation.",
+        "Set the exception expiry limit and the consequence of repeated access violations."
+      ],
+      "requiredInformation": [
+        "In-scope populations, systems and locations covered by the policy",
+        "Access principles such as least privilege, need to know, separation of duties and unique identification",
+        "Identity lifecycle controls with target times for joiner, mover, leaver and dormant account handling",
+        "Privileged access management approach including vaulting, session recording and elevation expiry",
+        "Certification frequency by system tier and the named accountabilities",
+        "Segregation of duties matrix ownership and conflict remediation timelines",
+        "Physical access controls for branches, server rooms and data centres",
+        "Rules for service accounts, shared accounts and break-glass accounts"
+      ],
+      "exampleEntries": [
+        "Tier 1 systems (core banking, internet banking, payment switch, SWIFT gateway) certified quarterly; all other systems certified semi-annually, with 98.4 per cent certification completed in the September 2025 cycle.",
+        "Joiner access provisioned within one working day of the joiner date, mover access revalidated within five working days, leaver access revoked within four hours of the last working hour as evidenced by the HR leaver feed reconciliation.",
+        "Tier 1 and Tier 2 administrators authenticate with FIDO2 hardware keys; 214 of 218 privileged accounts had completed the migration by December 2025, the remaining four being firewall vendor support accounts under an approved exception.",
+        "Segregation of duties conflicts identified in the quarterly matrix: 11 conflicts raised, 9 resolved, 2 accepted with compensating controls approved by the Head of IT.",
+        "Bank employee roles such as Teller and Customer Service Officer are separated from roles such as Transaction Authorisation and Ledger Maintenance, with system-enforced conflict rules in the core banking platform.",
+        "Vendor access is time-bound to 90 days, brokered through the privileged access manager, with all vendor sessions recorded and reviewed by the SOC.",
+        "Dormant accounts with 45 days of inactivity are auto-suspended; 63 dormant accounts were suspended in FY2025-26 with 11 confirmed as legitimate extended leaves."
+      ],
+      "ownership": "Head of IT",
+      "reviewFrequency": "Annual or upon material change",
+      "approvalRequired": "CISO",
+      "disclaimer": "Educational sample only. This policy has not been through legal or regulatory review and is not a compliant policy for any entity. Adapt it to your own context and obtain approval before use.",
+      "body": "DOCUMENT CONTROL\nPolicy Title: Access Control Policy\nPolicy ID: ACP-MFSL-003\nVersion: [2.1]\nEffective Date: [01 April 2026]\nPolicy Owner: [Head of IT]\nApproved By: [CISO]\nNext Review Date: [01 April 2027]\nDocument Classification: [Internal]\n\n1. PURPOSE\nThis policy defines how MFSL grants, reviews, modifies and revokes logical and physical access to information systems and data. It applies the principles of least privilege, need to know and separation of duties required by ISO/IEC 27001:2022 clause 8.2 and by the RBI Cyber Security Framework 2022, and it exists so that no individual holds more access than their role requires and no access survives a change of role or a departure.\n\n2. SCOPE\nThis policy covers all workforce, vendor, contractor and service accounts across the retail core banking platform, the internet banking and mobile channels, 180 branch offices, the Pune Security Operations Centre, corporate IT and the outsourced payments processing environment.\n\n3. ACCESS PRINCIPLES\n3.1 Access is granted against a documented role profile that maps to an approved job description.\n3.2 Privileged access (root, database administrator, security administrator, payment switch operator) is brokered through the privileged access manager, is individually attributable and is never shared.\n3.3 No account is created without the approval of the application owner and the Head of IT.\n3.4 Segregation of duties conflicts are recorded in the SoD matrix and remediated within 30 days of identification.\n3.5 All access to production is authenticated, logged and retained for at least 12 months.\n\n4. IDENTITY LIFECYCLE\n4.1 Joiner: HR raises the onboarding request; access is provisioned within one working day of the joiner date.\n4.2 Mover: access is reviewed within five working days of the transfer and re-validated against the new role profile; residual rights are removed automatically.\n4.3 Leaver: system access is revoked within four hours of the last working hour, and privileged and payment-related accounts immediately on notification.\n4.4 Dormant: accounts with no activity for 45 days are suspended automatically and restored only on manager request.\n\n5. AUTHENTICATION\nMulti-factor authentication is mandatory for all workforce and vendor access to internal systems. Administrative access to internet-facing systems requires phishing-resistant factors such as FIDO2 hardware keys, held by all Tier 1 and Tier 2 administrators. Service accounts may not be used for interactive logon.\n\n6. ACCESS REVIEWS\n6.1 Application owners certify user access quarterly for Tier 1 and critical systems, and semi-annually for all other systems.\n6.2 The Head of IT reports certification completion, removals and escalations to the Executive Risk Committee.\n6.3 Privileged sessions are recorded, and the SOC reviews all sessions flagged by behaviour analytics.\n\n7. PHYSICAL ACCESS\nBranch cash zones, server rooms and data centres are protected with badge, biometric and visitor controls. Escorted access is required for all visitors, access to server rooms is restricted to named engineers, and access logs are retained for 12 months.\n\n8. EXCEPTIONS AND VIOLATIONS\nExceptions follow the Security Exception and Risk Acceptance Form, are approved by the CISO and expire after 90 days unless renewed. Repeated lockouts, access denials or attempted unauthorised access are reported to the SOC as a potential compromise and may result in immediate suspension of access pending investigation.",
+      "competencyDomain": "INFORMATION_SECURITY"
+    },
+    {
+      "id": "tpl_03",
+      "title": "Acceptable Use Policy",
+      "category": "Policies",
+      "purpose": "This policy states what employees and third parties may and may not do with MFSL devices, networks, data and communication channels. It exists to set a consistent, enforceable standard of behaviour for a hybrid workforce, and it supports decisions on monitoring, web filtering, bring-your-own-device access and disciplinary action.",
+      "instructions": [
+        "List the assets and populations in scope so that no group is left uncovered, including contractors and vendors working on-site.",
+        "Write the behavioural rules as positive obligations rather than a list of prohibitions wherever possible.",
+        "State what monitoring takes place and explicitly address the limits of monitoring and privacy.",
+        "Align device rules with the endpoint baseline so that the policy and the technical controls do not diverge.",
+        "Add the clauses covering emerging practices such as generative AI, personal cloud storage and messaging.",
+        "Define the enforcement ladder and record the reference to the Code of Conduct and disciplinary process."
+      ],
+      "requiredInformation": [
+        "Scope covering assets, locations and personnel groups including contractors and vendor staff",
+        "Rules for business and limited personal use of MFSL devices and connectivity",
+        "Prohibitions on bypassing endpoint, filtering, logging or data loss prevention controls",
+        "Approved channels for email, file sharing, messaging and printing",
+        "Rules for personally owned devices including enrolment, MDM and permitted applications",
+        "Monitoring statement and the purpose, proportionality and retention of telemetry",
+        "Rules covering generative AI tools and external file sharing with personal accounts",
+        "Enforcement consequences and the disciplinary referral route"
+      ],
+      "exampleEntries": [
+        "Endpoint management reports 3,041 of 3,118 laptops and desktops compliant with the baseline, with 77 devices non-compliant primarily because of unapproved screen-lock configuration; 61 were remediated within the 30-day window.",
+        "Web gateway blocks categories including gambling, adult content and unmanaged file sharing, and logs approximately 1.2 TB of DNS metadata daily for the SOC.",
+        "DLP blocked 214 outbound emails containing customer PAN data to external domains in FY2025-26, 190 of which were blocked before transmission because the policy applies at the point of send.",
+        "Bring-your-own-device access is limited to a 34-application managed directory, with 611 employee devices enrolled and a signed undertaking retained in the HR record.",
+        "Generative AI: employees were instructed that no MFSL or customer data may be pasted into public AI tools, and a 90-day exception covering a sanitised internal sales model expired on 31 December 2025.",
+        "Monitoring clause states that endpoint, proxy and DLP logs are retained for 180 days, reviewed only for legitimate business or security purposes, and that reading personal communications requires approval from the [Chief Information Security Officer] and the legal function.",
+        "Enforcement ladder: coaching note, access restriction, formal disciplinary referral; three cases referred in FY2025-26, all for copying customer data to personal email."
+      ],
+      "ownership": "Head of IT",
+      "reviewFrequency": "Annual",
+      "approvalRequired": "CISO",
+      "disclaimer": "Provided for training purposes only. This template does not constitute professional, legal or compliance advice and is not fit for adoption without review and amendment by your own legal and HR functions.",
+      "body": "DOCUMENT CONTROL\nPolicy Title: Acceptable Use Policy\nPolicy ID: AUP-MFSL-004\nVersion: [1.3]\nEffective Date: [01 April 2026]\nPolicy Owner: [Head of IT]\nApproved By: [CISO]\nAudience: [All employees, interns, contractors and vendor personnel]\nNext Review Date: [01 April 2027]\n\n1. PURPOSE\nThis policy sets out responsible and acceptable use of MFSL information assets, networks, devices and communication channels. It protects customers and the Bank from avoidable loss, and it creates a clear, enforceable standard of behaviour for a workforce that is increasingly hybrid, mobile and expected to work with a wide range of collaboration tools.\n\n2. SCOPE\nThis policy applies to every employee, intern, contractor and third-party personnel who uses MFSL systems, devices, networks, email, collaboration tools, cloud services or physical premises, whether on site at a branch, at home or while travelling.\n\n3. GENERAL REQUIREMENTS\n3.1 MFSL devices are used primarily for business purposes. Limited personal use is permitted where it does not interfere with duties, consume material bandwidth or expose MFSL data.\n3.2 Users must not remove, disable or bypass information security controls such as endpoint protection, email filtering, data loss prevention or logging.\n3.3 Devices must be kept physically secure. MFSL laptops must not be left unattended in a vehicle or in public view, and lock screens must engage after five minutes.\n3.4 Storage of MFSL data on personal devices, personal email or consumer cloud storage is prohibited unless a documented exception has been approved.\n3.5 Only software from the approved catalogue may be installed, and administrative rights are not granted to standard users.\n\n4. INTERNET AND COMMUNICATION\n4.1 Business web browsing is routed through the secure web gateway. Known malicious destinations are blocked centrally and updated daily.\n4.2 MFSL email must not be used to send unencrypted customer data to personal or external addresses.\n4.3 Bulk distribution of customer contact data by email is prohibited; campaigns are executed only through the approved marketing platform with consent and suppression checks applied.\n4.4 Instant messaging groups are created only on approved platforms, and customer data may not be forwarded into personal messaging applications.\n\n5. DEVICES AND REMOTE WORK\n5.1 Company laptops use full-disk encryption, automatic patching and a five-minute screen lock.\n5.2 Remote access is through the corporate VPN or the zero-trust access broker. Split tunnelling and unauthorised proxies are not permitted.\n5.3 Users must connect to the corporate network before printing from home printers on the office LAN.\n5.4 Confidential conversations that risk customer information must not take place in public areas or on speakerphone in unsecured rooms.\n\n6. PERSONAL DEVICES\nBring-your-own-device use is limited to a defined directory of applications, requires MDM enrolment, device compliance checks and a signed undertaking. MFSL data may only be accessed through the managed mobile application; local copies and offline storage of customer records are prohibited.\n\n7. GENERATIVE AI\nUse of public generative AI services with MFSL or customer data is prohibited until the specific tool has been assessed against the AI Usage Policy and registered in the AI use case inventory.\n\n8. MONITORING AND ENFORCEMENT\nEndpoint, proxy and data loss prevention telemetry is logged and may be reviewed where there is a legitimate business or security purpose. Violations may result in removal of access, disciplinary action under the Code of Conduct and recovery of costs where data loss is involved. Monitoring does not permit reading personal communications without authorisation from the [Chief Information Security Officer] and the legal function.",
+      "competencyDomain": "INFORMATION_SECURITY"
+    },
+    {
+      "id": "tpl_04",
+      "title": "Password and Authentication Policy",
+      "category": "Policies",
+      "purpose": "This policy sets the minimum authentication requirements for workforce, privileged, vendor and customer access, adopting current NIST guidance that length and strength matter more than forced periodic rotation. It exists to reduce credential stuffing, phishing and insider credential theft across the estate, and it supports decisions on privileged access architecture and customer authentication risk.",
+      "instructions": [
+        "Separate workforce, privileged, vendor, service and customer requirements so that each population gets a proportionate rule set.",
+        "State password length, prohibited patterns and prohibited storage methods using NIST SP 800-63B language rather than legacy composition rules.",
+        "Define the multi-factor authentication baseline and list exactly where phishing-resistant factors are mandatory.",
+        "Document the customer authentication approach, including risk-based step-up and what staff must never ask for.",
+        "Set rotation, monitoring and breach-response rules for credentials and service accounts.",
+        "Define the exception route, maximum duration and the approving roles for any deviation from the phishing-resistant requirement."
+      ],
+      "requiredInformation": [
+        "Scope across workforce, privileged, vendor, service and customer authentication",
+        "Minimum password length and prohibited patterns, with a statement that composition rules are not mandated",
+        "Approved credential storage, including mandatory use of a password manager and central vault for secrets",
+        "Multi-factor authentication baseline and mandatory use of phishing-resistant factors for named populations",
+        "Customer authentication controls covering risk-based step-up, cooling-off and out-of-band verification",
+        "Service account and non-human credential management including rotation and ownership",
+        "Monitoring requirements for credential stuffing, spraying and new-device registration",
+        "Exception route, approval authority and maximum duration"
+      ],
+      "exampleEntries": [
+        "Minimum length set at 14 characters for workforce and 12 for customer internet banking credentials, with no mandatory periodic rotation except on compromise, following NIST SP 800-63B guidance.",
+        "Phishing-resistant FIDO2 keys required for the 218 privileged accounts, the 46 SOC staff and the 31 retail banking administrators, with 100 per cent adoption for privileged roles at 31 January 2026.",
+        "SMS one-time passcodes withdrawn from privileged and remote administrative access from 01 October 2025 and retained only for low-risk internal functions such as intranet lookups.",
+        "The bank blocks 41,000 known breached passwords on the customer password list and blocks more than 2.1 million common password patterns on the workforce list.",
+        "Customer step-up verification triggered for beneficiary addition, net banking payee creation, profile changes and transactions above INR 2 lakh in a single session.",
+        "118 service accounts are vault-managed with 180-day rotation and a named system owner each; four legacy accounts with shared static credentials are being migrated with a target date of 30 September 2026.",
+        "SOC monitoring detects an average of 14 credential-stuffing attempts against the customer authentication service each day, with 96 per cent blocked at the edge through device fingerprinting and rate limiting."
+      ],
+      "ownership": "CISO",
+      "reviewFrequency": "Annual or upon material change",
+      "approvalRequired": "CISO",
+      "disclaimer": "Illustrative teaching material. It is not an approved organisational document, does not satisfy any certification or regulatory requirement, and must be tailored and reviewed before it is used.",
+      "body": "DOCUMENT CONTROL\nPolicy Title: Password and Authentication Policy\nPolicy ID: PAP-MFSL-005\nVersion: [2.0]\nEffective Date: [01 April 2026]\nPolicy Owner: [CISO]\nApproved By: [CISO]\nReference Standards: [NIST SP 800-63B, ISO/IEC 27001:2022 clause 8.5, RBI CSF 2022]\nNext Review Date: [01 April 2027]\n\n1. PURPOSE\nThis policy sets the minimum authentication requirements for workforce, privileged, vendor and customer access to MFSL systems. It adopts current NIST guidance that length and strength matter more than periodic forced rotation, and it exists to reduce credential stuffing, phishing and insider credential theft across the estate.\n\n2. SCOPE\nAll authentication to MFSL applications, infrastructure, cloud tenants, databases, code repositories and administrative interfaces, whether accessed from managed devices, personally owned devices, or through third-party service providers.\n\n3. PASSWORD REQUIREMENTS\n3.1 Minimum length of 14 characters for workforce and 12 for customers, with a maximum of at least 64 characters and no mandated composition rules.\n3.2 Prohibited: passwords taken from the current compromised-password lists, passwords reused across systems or shared with colleagues, passwords containing the employee identifier or the organisation name, and passwords transmitted by email, chat or telephone.\n3.3 A managed password vault is mandatory for privileged, administrative and service credentials, and strongly recommended for all workforce users.\n3.4 Credentials are never stored in scripts, source code, tickets, spreadsheets or chat messages. Secrets are rotated on change and at defined intervals.\n\n4. MULTI-FACTOR AUTHENTICATION\n4.1 Multi-factor authentication is mandatory for all workforce and vendor access to internal systems and for all privileged access.\n4.2 Phishing-resistant factors (FIDO2 security keys or an equivalent) are required for Tier 1 and Tier 2 administrators, security operations staff, access administrators and payment operations.\n4.3 Phishing-resistant factors are also required for retail banking administrators with authority to create beneficiaries or adjust customer limits.\n4.4 Short message service and voice-based one-time passcodes are permitted only for low-risk internal functions and are prohibited for privileged and remote administrative access.\n\n5. CUSTOMER AUTHENTICATION\n5.1 Internet banking authentication combines a password or PIN with a risk-based second factor. A one-time passcode is required for high-risk transactions such as beneficiary addition, payee creation and profile changes.\n5.2 Failed-attempt controls escalate to step-up verification and an account cooling-off period, and suspicious behaviour feeds the fraud monitoring model in the SOC.\n5.3 MFSL staff never request credentials, PINs, passwords or one-time passcodes over the telephone or by email, and staff must refuse any customer request to disclose them.\n\n6. SERVICE AND LEGACY ACCOUNTS\nService accounts use vault-managed secrets or certificates with rotation at least every 180 days, are owned by a named system owner, and are monitored for anomalous use. Break-glass accounts are held in the vault, monitored and tested quarterly.\n\n7. MONITORING AND COMPROMISE RESPONSE\nThe SOC monitors for credential stuffing, password spraying, impossible travel and new-device registration. A confirmed compromise triggers mandatory credential reset, revocation of all active sessions and a review of recent activity on the affected account.\n\n8. EXCEPTIONS\nAny exception to the phishing-resistant requirement is documented on the Security Exception and Risk Acceptance Form, approved by the CISO and the accountable business head, and expires within 90 days.",
+      "competencyDomain": "INFORMATION_SECURITY"
+    },
+    {
+      "id": "tpl_05",
+      "title": "Incident Response Policy",
+      "category": "Policies",
+      "purpose": "This policy defines how MFSL identifies, contains, eradicates and recovers from information security incidents and meets its notification obligations to customers, regulators and law enforcement. It exists so that the first hour of an incident is spent on decisive containment with a single accountable commander, rather than on escalation debate.",
+      "instructions": [
+        "Define the incident lifecycle phases and who owns each phase, including the handover between the SOC and the business.",
+        "Write a severity matrix with concrete examples drawn from the actual estate rather than abstract definitions.",
+        "Map notification obligations to each regulator with the clock start event named explicitly.",
+        "State the evidence preservation and legal hold requirements before they are needed in an incident.",
+        "Set the mandatory post-incident review triggers and the deadline for each severity.",
+        "Commit the organisation to a testing and exercise regime and specify how exercises are reported to the Board."
+      ],
+      "requiredInformation": [
+        "Scope including third-party incidents where MFSL data or customers are involved",
+        "Incident lifecycle phases, owners and decision rights",
+        "Severity classification matrix with definitions and escalation times for each level",
+        "Case management requirements including identifier, timeline and status reporting",
+        "Regulatory and customer notification triggers, recipients and timeframes",
+        "Evidence preservation, forensic support and legal hold provisions",
+        "Post-incident review requirements, deadlines and escalation for repeat incidents",
+        "Exercise regime with frequency, scope and reporting line"
+      ],
+      "exampleEntries": [
+        "Severity matrix defines P1 as ransomware encrypting core banking services, confirmed large-scale customer data compromise, or a retail banking outage exceeding 60 minutes, with P2 for targeted privileged account compromise and P3 for contained single-endpoint malware.",
+        "Notification clocks: CERT-In directions require reporting of specified incidents within 72 hours of occurrence or of being brought to the organisation's notice, and material cyber incidents determined under the RBI Cyber Security Framework are reported to RBI CSAL promptly and in any case within four hours of determination.",
+        "Incident commander must be appointed within 15 minutes of a P1 classification, with the role-based contact tree maintained in the SOC runbook and tested monthly.",
+        "Evidence from the November 2025 case (case reference INC-2025-1187) was preserved using forensic disk images, and the imaging protocol is referenced in the runbook rather than described in the policy.",
+        "Post-incident review within 15 working days of closure for P1 and P2, and within 30 days for P3, with a template that captures timeline, root cause, missed detection opportunities and corrective actions.",
+        "Six-monthly tabletop and annual full technical exercise, with the FY2025-26 exercise simulating a ransomware encryption of the core banking database and the branch fallback procedure.",
+        "Customer notification uses a pre-approved template and a dedicated helpline script; 41 customers affected by a credential stuffing wave in July 2025 were contacted within 48 hours with monitoring advice."
+      ],
+      "ownership": "Head of Security Operations Centre",
+      "reviewFrequency": "Annual or upon material change",
+      "approvalRequired": "CISO",
+      "disclaimer": "Learning resource only. Completing this template does not establish compliance with any standard, regulation or law. It must be reviewed by your legal, compliance and incident management functions before use.",
+      "body": "DOCUMENT CONTROL\nPolicy Title: Incident Response Policy\nPolicy ID: IRP-MFSL-006\nVersion: [3.2]\nEffective Date: [01 April 2026]\nPolicy Owner: [Head of Security Operations Centre]\nApproved By: [CISO]\nNext Review Date: [01 April 2027]\nNotification References: [CERT-In directions 2022, RBI Cyber Security Framework 2022, RBI Master Direction on IT Governance 2023]\n\n1. PURPOSE\nThis policy establishes how MFSL identifies, contains, eradicates and recovers from information security incidents, and how the Bank meets its notification obligations to customers, regulators and law enforcement. It exists to ensure that the first hour of any incident is spent on decisive containment under a single accountable commander, rather than on deciding who has the authority to decide.\n\n2. SCOPE\nAll suspected or confirmed compromises of MFSL systems, data or services, including incidents affecting outsourced vendors where MFSL data or customer impact is involved, and incidents of any material impact on customer accounts.\n\n3. RESPONSE MODEL\n3.1 Incidents are handled in four phases: preparation, detection and analysis, containment, eradication and recovery, and post-incident review.\n3.2 The Security Operations Centre operates 24x7 from Pune with a documented failover to the Hyderabad team and a tested escalation to the [Chief Information Security Officer].\n3.3 A single incident commander is appointed for every P1 and P2 incident. The incident commander is from the SOC for technical incidents and from the business continuity team for customer-impacting outages.\n3.4 Escalation paths, customer contact numbers and authority matrices are maintained in the SOC runbook and tested monthly.\n\n4. SEVERITY CLASSIFICATION\nP1 Critical: a material cyber incident such as ransomware encrypting core banking services, confirmed compromise of customer data at scale, or a production outage of retail banking lasting more than 60 minutes.\nP2 High: targeted credential compromise, privileged account takeover, or unauthorised access to a customer database.\nP3 Medium: malware containment on a single endpoint, or a policy violation without confirmed data impact.\nP4 Low: informational events and false positives.\nEvery incident is recorded in the incident management system with a case identifier within 15 minutes of detection.\n\n5. REGULATORY AND CUSTOMER NOTIFICATION\n5.1 The CISO assesses materiality with the legal function and notifies the Executive Risk Committee and the Board Risk Committee for P1 incidents.\n5.2 Where an incident qualifies as a material cyber incident under the RBI Cyber Security Framework, the Bank reports to RBI CSAL promptly and in any case within four hours of determination, with follow-up submissions as facts are confirmed.\n5.3 The CERT-In directions require reporting of specified incidents to CERT-In within 72 hours of occurrence or of the incident being brought to the organisation's notice.\n5.4 Affected customers are informed through the approved communication channel, with advice on monitoring accounts and, where relevant, on credit monitoring or identity documentation support.\n5.5 Forensic evidence is preserved in line with applicable law enforcement and regulatory guidance, and legal hold is applied where instructed by the legal function.\n\n6. POST-INCIDENT REVIEW\nA review is completed within 15 working days of closure for every P1 and P2 incident and within 30 days for P3. The review records the timeline, root cause, control failures, missed detection opportunities, corrective actions with owners and due dates, and any resulting changes to the risk register, the vulnerability backlog or the policies in this set.\n\n7. EXERCISES\nA tabletop exercise is held every six months and a full technical exercise annually, covering at least one customer-impacting scenario. Findings are tracked through the Corrective Action Plan and reported to the Board Risk Committee.",
+      "competencyDomain": "INFORMATION_SECURITY"
+    },
+    {
+      "id": "tpl_06",
+      "title": "Vendor Security Policy",
+      "category": "Policies",
+      "purpose": "This policy sets the minimum security and governance requirements for any third party that accesses MFSL systems, data, premises or customers on the Bank's behalf. It exists so that outsourcing never becomes a route by which MFSL loses visibility of a risk it has already accepted, and it supports decisions on tiering, due diligence, contracting and exit.",
+      "instructions": [
+        "Define vendor tiers using both access and business criticality, and assign at least one named example to each tier.",
+        "Specify the due diligence evidence required at each tier and the acceptable validity period of that evidence.",
+        "Turn the control expectations into mandatory contractual clauses, including incident notification, audit rights and data location.",
+        "State the approval path for onboarding, for scope changes and for exceptions to the standard onboarding pack.",
+        "Set the reassessment frequency by tier and the continuous monitoring signals that trigger an out-of-cycle review.",
+        "Require an exit plan for every critical relationship and make exit readiness a standing committee agenda item."
+      ],
+      "requiredInformation": [
+        "Scope covering all supplier types including cloud, managed service, processing, staffing and consultancy",
+        "Tiering model with tier definitions, criteria and named examples",
+        "Due diligence requirements, evidence list and validity period per tier",
+        "Mandatory contractual clauses including incident notification, audit rights and data location",
+        "Onboarding, access provisioning and offboarding requirements",
+        "Ongoing monitoring and reassessment frequency including out-of-cycle triggers",
+        "Exit planning, data return and destruction obligations",
+        "Roles for third party risk, business sponsors and procurement, and the committee that approves exceptions"
+      ],
+      "exampleEntries": [
+        "Tier 1 critical encompasses core banking managed services, hosting of the retail internet banking platform, card processing and collections, each of which is subject to the full due diligence pack and an annual reassessment.",
+        "Due diligence evidence must be no more than 12 months old; ISO/IEC 27001 certificates are verified against the issuing body's register and an expiry inside the next 90 days triggers an exception request.",
+        "Contractual requirement for critical vendors to notify MFSL of a security incident within 24 hours of discovery, tightening the RBI and CERT-In notification obligations the Bank itself carries.",
+        "Customer data must be stored and processed in India; 3 of 41 critical vendors operate offshore delivery models and were subject to a documented exception approved by the CISO and the legal function.",
+        "Continuous monitoring tracks cyber insurance lapse, certification withdrawal, credit rating changes and public breach disclosure, each of which triggers out-of-cycle reassessment; 6 such triggers occurred in FY2025-26.",
+        "Tier 1 contracts reviewed in FY2025-26 identified 9 contracts lacking audit rights, all remediated by 30 November 2025 through addendum rather than renegotiation.",
+        "Exit plans are tested for the two most critical vendors annually, with data destruction evidence retained for seven years to satisfy audit and regulatory record-keeping expectations."
+      ],
+      "ownership": "Head of Third Party Risk",
+      "reviewFrequency": "Annual or upon material change",
+      "approvalRequired": "Executive Risk Committee",
+      "disclaimer": "This template is provided for education and training. It is not a compliant policy, does not reflect the regulatory requirements of any jurisdiction, and must be reviewed and adapted before use.",
+      "body": "DOCUMENT CONTROL\nPolicy Title: Vendor Security Policy\nPolicy ID: VSP-MFSL-007\nVersion: [2.2]\nEffective Date: [01 April 2026]\nPolicy Owner: [Head of Third Party Risk]\nApproved By: [Executive Risk Committee]\nReference Standards: [RBI Guidelines on Outsourcing 2017, ISO/IEC 27001:2022 clause 8.4, NIST CSF 2.0 GV.SC]\nNext Review Date: [01 April 2027]\n\n1. PURPOSE\nThis policy sets the minimum security requirements for any third party that accesses MFSL systems, data, premises or customers on the Bank's behalf, and the control framework used to assess, contract, monitor and exit those relationships. It exists so that outsourcing never becomes a route by which the Bank loses visibility of a risk it has already accepted, and so that regulatory expectations for material outsourcing are met consistently.\n\n2. SCOPE\nAll vendors, outsourcers, managed service providers, cloud providers, payment aggregators, technology partners, consultants and temporary staffing agencies. It applies to material outsourcing as defined by the RBI and to any supplier holding customer data or holding privileged access to production.\n\n3. TIERING\n3.1 Tier 1 Critical: an outsourced activity that is integral to a critical business activity, holds customer data, or can directly affect a regulatory obligation. Examples: core banking managed service, cloud hosting of the retail internet banking platform, card processing and collections outsourcing.\n3.2 Tier 2 Material: significant but non-integral outsourced activity, for example facility management, document digitisation and non-core application support.\n3.3 Tier 3 General: commodity suppliers with no MFSL system access and no customer data, subject to basic screening and a contract template.\n\n4. DUE DILIGENCE\nBefore onboarding, the third party is assessed against a tier-appropriate control set covering governance, access control, secure development, vulnerability management, incident response, data protection, continuity and exit. Evidence must be current: certification reports, penetration test summaries, financial statements, client references and, for overseas delivery, data protection impact assessments. Critical vendors must hold ISO/IEC 27001 certification or pass an equivalent independent assessment with an agreed remediation plan and interim compensating controls.\n\n5. CONTRACTUAL REQUIREMENTS\n5.1 A security schedule is executed for every Tier 1 and Tier 2 relationship covering data location, permitted processing, sub-processor approval, audit rights, incident notification within 24 hours, service levels, continuity commitments, return or destruction of data at exit, and financial and business continuity obligations.\n5.2 The contract prevents the vendor from making material changes to its control environment without notice and permits MFSL audit and regulatory access.\n5.3 Customer data must be stored and processed in India unless a written exception is approved by the CISO and the legal function; cardholder data may not be transferred outside India.\n\n6. ONBOARDING AND ACCESS\nAccess is granted through the identity platform with time-bound, least-privilege roles, multi-factor authentication and no standing production access. Privileged vendor sessions are brokered and recorded. Onboarding cannot complete until the due diligence pack, the contract, the exit plan and the evidence pack are all approved.\n\n7. ONGOING MONITORING\nCritical vendors are reassessed annually and material vendors every two years. Continuous monitoring provides risk rating changes, breach notifications and financial health indicators. Performance against contracted service levels is reviewed quarterly with the business sponsor.\n\n8. EXIT\nEvery critical vendor contract includes a tested exit plan covering data extraction and destruction, knowledge transfer, service migration and regulatory obligations. Exit readiness is a standing item on the Third Party Risk Committee agenda.",
+      "competencyDomain": "THIRD_PARTY"
+    },
+    {
+      "id": "tpl_07",
+      "title": "Data Classification Policy",
+      "category": "Policies",
+      "purpose": "This policy defines how MFSL classifies information assets and applies handling, protection, retention and disposal requirements according to sensitivity. It exists so that protection effort is proportional to the harm of loss or misuse, and so that statutory retention duties such as the RBI requirement to retain payment system data for ten years are applied consistently.",
+      "instructions": [
+        "Define no more than four classification levels and give concrete examples from the actual business, including a per-level list of document types.",
+        "Tie each level to a specific control set for encryption, masking, print, email, sharing and physical storage.",
+        "State the hard prohibitions in absolute terms, such as the non-storage of card verification values, so that exceptions cannot be argued around.",
+        "Map the retention schedule to each record class, naming the statutory source for each retention period.",
+        "Require classification at creation and on receipt, and set an annual confirmation for retained records.",
+        "Define the disposal and legal hold procedure so that retention does not become indefinite storage by default."
+      ],
+      "requiredInformation": [
+        "Scope covering all information created, received, processed or stored by MFSL including test data and vendor custody",
+        "Classification levels with definitions and representative examples for each level",
+        "Handling rules per level covering encryption, masking, printing, email, sharing and physical storage",
+        "Absolute prohibitions such as the non-storage of card verification values and tokenisation of cardholder numbers",
+        "Retention schedule with the statutory source for each record class",
+        "Disposal and legal hold procedure including destruction evidence and retention of records",
+        "Classification ownership, review cadence and the data governance forum",
+        "Privacy linkage covering consent, notice and data residency obligations"
+      ],
+      "exampleEntries": [
+        "Four levels defined: Public, Internal, Confidential and Restricted, with Restricted reserved for PAN, CVV, PIN, net banking credentials, cryptographic keys, payment source code and regulatory examination material.",
+        "Card verification values are never stored after authorisation in any system, including logs, test data and screenshots, and a quarterly automated scan of the data estate found 0 instances after the FY2025-26 remediation.",
+        "PAN is held only tokenised or masked outside the card processing environment, with 100 per cent tokenisation coverage confirmed for the e-commerce gateway and 94 per cent for the core banking system.",
+        "Retention of payment system data for 10 years applies to transaction records, chargeback files and customer statements, per the RBI storage of payment system data direction; legal hold overrides disposal and is issued only by the legal function.",
+        "Confidential and Restricted data may only be shared using the approved encrypted file transfer tool with named recipients and expiry, and every external transfer is written to the data transfer register.",
+        "Test environments use masked or synthetically generated data; an automated check in the CI pipeline blocks deployments containing unseeded production identifiers.",
+        "Classification inventory confirmed by 47 data owners at the quarterly data governance forum in January 2026, with 3 areas reclassified following the migration of the customer profiling platform to Restricted."
+      ],
+      "ownership": "CISO",
+      "reviewFrequency": "Annual or upon material change",
+      "approvalRequired": "CISO",
+      "disclaimer": "Educational example for training purposes only. It is not a compliant policy and should not be adopted without legal, privacy and data protection review, plus adaptation to your own record types and regulatory context.",
+      "body": "DOCUMENT CONTROL\nPolicy Title: Data Classification Policy\nPolicy ID: DCP-MFSL-008\nVersion: [1.4]\nEffective Date: [01 April 2026]\nPolicy Owner: [CISO] with [Data Protection Officer]\nApproved By: [CISO]\nNext Review Date: [01 April 2027]\nDocument Classification: [Internal]\n\n1. PURPOSE\nThis policy defines how MFSL classifies information assets and applies handling, protection, retention and disposal requirements according to sensitivity. It exists so that protection effort is proportional to the harm that would result if data were lost or misused, and so that regulatory retention duties, including the RBI requirement to retain payment system data for ten years, are consistently applied rather than interpreted locally.\n\n2. SCOPE\nAll information created, received, processed or stored by MFSL, whether on premises, in the cloud, on employee devices, in test and development environments, or in the custody of third parties.\n\n3. CLASSIFICATION LEVELS\n3.1 Public: information intended for external release, for example published product rates, the annual report and marketing materials. Integrity and authenticity are the only requirements.\n3.2 Internal: routine business information such as internal circulars, training material, non-sensitive process documents and meeting notes. Appropriate for all employees and approved contractors.\n3.3 Confidential: sensitive business and customer information, including customer KYC and contact records, account details, pricing models, contract terms, unremediated vulnerability findings, and audit reports.\n3.4 Restricted: the highest sensitivity, including PAN, card verification values, PINs, net banking credentials, cryptographic keys, payment platform source code and regulatory examination material. Restricted data may not leave the controlled environment without written authorisation from the CISO and the data owner.\n\n4. HANDLING REQUIREMENTS\n4.1 Confidential and Restricted data must be encrypted in transit using TLS 1.2 or above and at rest using AES-256 with centrally managed keys held in the key management service.\n4.2 Card verification values are never stored after authorisation in any system, including logs, test data and screenshots. Cardholder numbers are held only in tokenised or masked form outside the card processing environment.\n4.3 Customer data in test and development environments is masked or synthetically generated, and the build pipeline blocks releases containing unseeded production identifiers.\n4.4 Printing of Confidential and Restricted data requires authorisation, printing is confined to controlled devices, output is collected immediately and destroyed through shredding.\n4.5 Restricted data may be shared only through approved encrypted channels with named recipients and an expiry, and every external transfer is logged in the data transfer register.\n4.6 Restricted data is never printed on a shared device without a collection ticket.\n\n5. RETENTION AND DISPOSAL\n5.1 A retention schedule aligned to statutory requirements is maintained for each record class, including ten years for payment system records where required.\n5.2 Records are disposed of on expiry through approved secure destruction, including cryptographic erasure for cloud data and certified shredding for physical records, with a certificate retained as evidence.\n5.3 Legal hold overrides disposal instructions and is documented and issued by the legal function only.\n\n6. CLASSIFICATION ACTIVITIES\nClassification is applied at creation, on receipt and at least annually for retained records. Each data owner maintains the classification inventory for their area and confirms it during the quarterly data governance forum.\n\n7. PRIVACY AND RESIDENCY\nPersonal data is handled under the privacy notice and consent architecture required by the Digital Personal Data Protection Act, 2023. Customer data is stored and processed within India, and any transfer requires a documented exception approved by the CISO and the legal function.",
+      "competencyDomain": "INFORMATION_SECURITY"
+    },
+    {
+      "id": "tpl_08",
+      "title": "Business Continuity Policy",
+      "category": "Policies",
+      "purpose": "This policy establishes how MFSL maintains and recovers critical business services during a disruption and how continuity is integrated with the wider risk framework. It exists so that a cyber event, natural disaster or vendor failure degrades service in a controlled, pre-agreed way rather than an improvised one, and it supports the annual continuity test and the board assurance on resilience.",
+      "instructions": [
+        "Anchor the policy to the Business Impact Analysis and quote the tier, recovery time objective and recovery point objective for at least one critical function.",
+        "Distinguish business continuity from disaster recovery explicitly so that the two documents do not overlap.",
+        "Set the invocation authority, declaration levels and communication templates for a continuity event.",
+        "List the alternative arrangements for each critical function including premises, people, suppliers and processing capacity.",
+        "Specify the test regime with frequency, scope and the level of reporting to the Board.",
+        "State the review triggers, including after any material incident or audit finding."
+      ],
+      "requiredInformation": [
+        "Scope covering branches, digital channels, technology centres, the SOC and critical suppliers",
+        "Critical business function inventory with tiers, maximum tolerable disruption, recovery time and recovery point objectives",
+        "Continuity strategies for premises, systems, people, suppliers and manual fallback",
+        "Invocation authority, declaration levels and escalation criteria",
+        "Communication plan for staff, customers, regulators and media",
+        "Testing programme with frequency, scope, success criteria and reporting line",
+        "Relationship with disaster recovery, crisis management and the wider risk framework",
+        "Review and revision triggers"
+      ],
+      "exampleEntries": [
+        "Tier 1 functions include customer deposits, payments, cash management and regulatory reporting, each with a recovery time objective of 4 hours and a recovery point objective of 15 minutes.",
+        "Alternate processing arrangements include a second region for core banking recovery at the Hyderabad technology centre and contractual continuity commitments with a minimum recovery time of 6 hours in all critical vendor contracts.",
+        "Branch fallback uses pre-printed deposit and withdrawal slips for 180 branches, with a documented cash limit of INR 50,000 per customer per day and immediate reconciliation once systems are restored.",
+        "Testing regime is an annual full technical recovery test of Tier 1 services, twice-yearly branch exercises alternating between paper fallback and alternate-site processing, and an annual board-level tabletop exercise.",
+        "The FY2025-26 tabletop simulated a regional power outage affecting 62 branches; it identified an untested dependency on a single telecom circuit and produced a corrective action owned by the Head of Business Continuity, due 30 September 2026.",
+        "Customer communication uses a pre-approved outage notice, a dedicated helpline and in-app messaging, with a standing script reviewed by the legal function for accuracy of wording on service availability.",
+        "Critical role deputies are named for 34 key positions, and the contact tree is held outside the corporate directory so that it remains reachable if the identity platform is unavailable.",
+        "Vendor continuity is a contract clause for all 41 critical vendors, with exit plans tested for the two most critical relationships annually."
+      ],
+      "ownership": "Head of Business Continuity",
+      "reviewFrequency": "Annual or upon material change",
+      "approvalRequired": "Board Risk Committee",
+      "disclaimer": "This is an illustrative template for education. It is not a compliant business continuity policy for any regulated institution and must be adapted, tested and approved by your own continuity, risk and regulatory functions before use.",
+      "body": "DOCUMENT CONTROL\nPolicy Title: Business Continuity Policy\nPolicy ID: BCP-MFSL-009\nVersion: [2.0]\nEffective Date: [01 April 2026]\nPolicy Owner: [Head of Business Continuity]\nApproved By: [Board Risk Committee]\nNext Review Date: [01 April 2027]\nReference Standards: [ISO 22301:2019, RBI Master Circular on Business Continuity Management System 2017, ISO 31000:2018]\n\n1. PURPOSE\nThis policy establishes how MFSL maintains and recovers critical business services during a disruption, and how continuity is integrated with the wider risk framework. It exists so that a cyber event, a natural disaster or a vendor failure degrades service in a controlled and pre-agreed way rather than in an improvised one, and so that the Board receives credible assurance over resilience.\n\n2. SCOPE\nAll branches, the retail internet banking and mobile channels, the Pune and Hyderabad technology centres, the Security Operations Centre, critical suppliers and the people who operate them.\n\n3. BUSINESS IMPACT ANALYSIS\nCritical business functions are identified through the Business Impact Analysis and classified by tier with maximum tolerable disruption, recovery time objective and recovery point objective. Tier 1 functions, which include customer deposits, payments, cash management and regulatory reporting, carry a recovery time objective of 4 hours and a recovery point objective of 15 minutes. The BIA is refreshed at least annually and after any material change to products, channels or suppliers.\n\n4. CONTINUITY STRATEGATEGIES\n4.1 Alternate processing arrangements are maintained for Tier 1 functions, including a second region for core banking recovery and contractual continuity commitments from critical suppliers.\n4.2 Alternate communication channels are maintained for staff, customers, regulators and the media, including a standing customer helpline script for outage situations.\n4.3 Critical staff are identified, cross-trained and assigned named deputies for each continuity role.\n4.4 Minimum staffing levels for recovery teams, and an employee contact tree maintained outside the corporate directory so that it survives an identity platform outage, are documented in the continuity plan.\n4.5 Manual fallback procedures exist for deposits, withdrawals and cheque clearing for 180 branches, with documented limits and reconciliation controls.\n\n5. PLAN AND INVOCATION\nThe BCP is invoked by the Head of Business Continuity on the advice of the incident commander, and confirmed by the [Chief Operating Officer] where the outage is expected to exceed 60 minutes. Invocation criteria, declaration levels, decision authority and communication templates are held in the plan annexes. Declaration levels are aligned to the severity levels in the Incident Response Policy so that a single incident can trigger both processes.\n\n6. TESTING\n6.1 An annual full-scale technical recovery test of Tier 1 services is performed, including failover of the retail internet banking platform.\n6.2 Branch-level continuity exercises are conducted twice a year, alternating between paper fallback and alternate-site processing.\n6.3 A board-level tabletop exercise is conducted annually with the Board Risk Committee.\n6.4 Test results, lessons and remediation are tracked through the Corrective Action Plan and reported to the Board Risk Committee, with test evidence retained for audit.\n\n7. RELATIONSHIP WITH CRISIS MANAGEMENT AND DISASTER RECOVERY\nBusiness continuity addresses the people, premises, suppliers and process side of continuity. Disaster recovery, owned by the Head of IT, addresses restoration of technology platforms and data, and is invoked on the same criteria. Crisis management handles communications and reputation, and is led by the [Chief Executive Officer].\n\n8. REVIEW\nThe policy and the BCP are tested and reviewed annually, and after any material incident, audit finding, or change to the critical business function inventory. The next scheduled review is [01 April 2027].",
+      "competencyDomain": "BUSINESS_CONTINUITY"
+    }
+  ]
+}

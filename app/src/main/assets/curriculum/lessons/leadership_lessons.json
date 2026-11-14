@@ -1,0 +1,1586 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "leadership.l01",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "GRC Leadership Mindset",
+      "summary": "Develops leadership capability in grc leadership mindset for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in grc leadership mindset",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in grc leadership mindset for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in grc leadership mindset",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for grc leadership mindset are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying GRC Leadership Mindset",
+          "context": "A team must address grc leadership mindset in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: GRC Leadership Mindset",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to grc leadership mindset.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l02",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Stakeholder Management",
+      "summary": "Develops leadership capability in stakeholder management for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in stakeholder management",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in stakeholder management for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in stakeholder management",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for stakeholder management are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Stakeholder Management",
+          "context": "A team must address stakeholder management in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Stakeholder Management",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to stakeholder management.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l03",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Influencing Without Authority",
+      "summary": "Develops leadership capability in influencing without authority for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in influencing without authority",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in influencing without authority for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in influencing without authority",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for influencing without authority are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Influencing Without Authority",
+          "context": "A team must address influencing without authority in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Influencing Without Authority",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to influencing without authority.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l04",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Executive Communication",
+      "summary": "Develops leadership capability in executive communication for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in executive communication",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in executive communication for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in executive communication",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for executive communication are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Executive Communication",
+          "context": "A team must address executive communication in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Executive Communication",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to executive communication.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l05",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Board Reporting Essentials",
+      "summary": "Develops leadership capability in board reporting essentials for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in board reporting essentials",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in board reporting essentials for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in board reporting essentials",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for board reporting essentials are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Board Reporting Essentials",
+          "context": "A team must address board reporting essentials in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Board Reporting Essentials",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to board reporting essentials.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l06",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Building High-Performing Teams",
+      "summary": "Develops leadership capability in building high-performing teams for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in building high-performing teams",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in building high-performing teams for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in building high-performing teams",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for building high-performing teams are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Building High-Performing Teams",
+          "context": "A team must address building high-performing teams in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Building High-Performing Teams",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to building high-performing teams.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l07",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Prioritisation and Decision-Making",
+      "summary": "Develops leadership capability in prioritisation and decision-making for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in prioritisation and decision-making",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in prioritisation and decision-making for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in prioritisation and decision-making",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for prioritisation and decision-making are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Prioritisation and Decision-Making",
+          "context": "A team must address prioritisation and decision-making in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Prioritisation and Decision-Making",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to prioritisation and decision-making.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l08",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Managing Change and Resistance",
+      "summary": "Develops leadership capability in managing change and resistance for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in managing change and resistance",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in managing change and resistance for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in managing change and resistance",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for managing change and resistance are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Managing Change and Resistance",
+          "context": "A team must address managing change and resistance in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Managing Change and Resistance",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to managing change and resistance.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l09",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Budgeting and Resource Justification",
+      "summary": "Develops leadership capability in budgeting and resource justification for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in budgeting and resource justification",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in budgeting and resource justification for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in budgeting and resource justification",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for budgeting and resource justification are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Budgeting and Resource Justification",
+          "context": "A team must address budgeting and resource justification in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Budgeting and Resource Justification",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to budgeting and resource justification.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l10",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Vendor and Partner Leadership",
+      "summary": "Develops leadership capability in vendor and partner leadership for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in vendor and partner leadership",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in vendor and partner leadership for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in vendor and partner leadership",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for vendor and partner leadership are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Vendor and Partner Leadership",
+          "context": "A team must address vendor and partner leadership in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Vendor and Partner Leadership",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to vendor and partner leadership.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l11",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Crisis Leadership",
+      "summary": "Develops leadership capability in crisis leadership for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in crisis leadership",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in crisis leadership for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in crisis leadership",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for crisis leadership are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Crisis Leadership",
+          "context": "A team must address crisis leadership in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Crisis Leadership",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to crisis leadership.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l12",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Culture and Tone from the Top",
+      "summary": "Develops leadership capability in culture and tone from the top for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in culture and tone from the top",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in culture and tone from the top for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in culture and tone from the top",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for culture and tone from the top are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Culture and Tone from the Top",
+          "context": "A team must address culture and tone from the top in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Culture and Tone from the Top",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to culture and tone from the top.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l13",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Metrics and Value Demonstration",
+      "summary": "Develops leadership capability in metrics and value demonstration for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in metrics and value demonstration",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in metrics and value demonstration for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in metrics and value demonstration",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for metrics and value demonstration are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Metrics and Value Demonstration",
+          "context": "A team must address metrics and value demonstration in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Metrics and Value Demonstration",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to metrics and value demonstration.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l14",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Strategic Planning for GRC",
+      "summary": "Develops leadership capability in strategic planning for grc for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in strategic planning for grc",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in strategic planning for grc for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in strategic planning for grc",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for strategic planning for grc are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Strategic Planning for GRC",
+          "context": "A team must address strategic planning for grc in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Strategic Planning for GRC",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to strategic planning for grc.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l15",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Cross-functional Collaboration",
+      "summary": "Develops leadership capability in cross-functional collaboration for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in cross-functional collaboration",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in cross-functional collaboration for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in cross-functional collaboration",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for cross-functional collaboration are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Cross-functional Collaboration",
+          "context": "A team must address cross-functional collaboration in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Cross-functional Collaboration",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to cross-functional collaboration.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l16",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Negotiation and Conflict Resolution",
+      "summary": "Develops leadership capability in negotiation and conflict resolution for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in negotiation and conflict resolution",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in negotiation and conflict resolution for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in negotiation and conflict resolution",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for negotiation and conflict resolution are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Negotiation and Conflict Resolution",
+          "context": "A team must address negotiation and conflict resolution in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Negotiation and Conflict Resolution",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to negotiation and conflict resolution.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l17",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Coaching and Talent Development",
+      "summary": "Develops leadership capability in coaching and talent development for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in coaching and talent development",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in coaching and talent development for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in coaching and talent development",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for coaching and talent development are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Coaching and Talent Development",
+          "context": "A team must address coaching and talent development in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Coaching and Talent Development",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to coaching and talent development.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l18",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Ethical Leadership",
+      "summary": "Develops leadership capability in ethical leadership for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in ethical leadership",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in ethical leadership for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in ethical leadership",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for ethical leadership are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Ethical Leadership",
+          "context": "A team must address ethical leadership in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Ethical Leadership",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to ethical leadership.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l19",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Operating Under Pressure",
+      "summary": "Develops leadership capability in operating under pressure for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in operating under pressure",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in operating under pressure for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in operating under pressure",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for operating under pressure are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Operating Under Pressure",
+          "context": "A team must address operating under pressure in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Operating Under Pressure",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to operating under pressure.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    },
+    {
+      "id": "leadership.l20",
+      "moduleId": "leadership",
+      "topic": "Leadership",
+      "subtopic": "",
+      "title": "Leadership Capstone and Reflection",
+      "summary": "Develops leadership capability in leadership capstone and reflection for GRC professionals.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Apply leadership practices in leadership capstone and reflection",
+        "Communicate effectively with stakeholders",
+        "Drive accountable outcomes"
+      ],
+      "estimatedMinutes": 40,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Develops leadership capability in leadership capstone and reflection for GRC professionals. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Apply leadership practices in leadership capstone and reflection",
+            "Communicate effectively with stakeholders",
+            "Drive accountable outcomes"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for leadership capstone and reflection are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Leadership Capstone and Reflection",
+          "context": "A team must address leadership capstone and reflection in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Leadership Capstone and Reflection",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to leadership capstone and reflection.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "LEADERSHIP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "leadership",
+        "leadership"
+      ]
+    }
+  ]
+}

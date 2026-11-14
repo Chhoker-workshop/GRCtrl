@@ -1,0 +1,480 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "cisa.l09",
+      "moduleId": "cisa",
+      "topic": "CISA",
+      "subtopic": "",
+      "title": "IT Operations, Monitoring and Service Management",
+      "summary": "Covers auditing IT operations, monitoring, job scheduling and service management controls.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Identify key IT operations controls",
+        "Assess monitoring and incident handling evidence",
+        "Evaluate service management practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers auditing IT operations, monitoring, job scheduling and service management controls. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Identify key IT operations controls",
+            "Assess monitoring and incident handling evidence",
+            "Evaluate service management practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for it operations, monitoring and service management are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying IT Operations, Monitoring and Service Management",
+          "context": "A team must address it operations, monitoring and service management in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: IT Operations, Monitoring and Service Management",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to it operations, monitoring and service management.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cisa",
+        "cisa"
+      ]
+    },
+    {
+      "id": "cisa.l10",
+      "moduleId": "cisa",
+      "topic": "CISA",
+      "subtopic": "",
+      "title": "Business Resilience and Disaster Recovery Audit",
+      "summary": "Focuses on auditing resilience, backup, recovery and continuity capabilities.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Evaluate BCP/DRP audit considerations",
+        "Assess recovery objectives and testing",
+        "Identify resilience control gaps"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Focuses on auditing resilience, backup, recovery and continuity capabilities. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Evaluate BCP/DRP audit considerations",
+            "Assess recovery objectives and testing",
+            "Identify resilience control gaps"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for business resilience and disaster recovery audit are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Business Resilience and Disaster Recovery Audit",
+          "context": "A team must address business resilience and disaster recovery audit in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Business Resilience and Disaster Recovery Audit",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to business resilience and disaster recovery audit.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "BUSINESS_CONTINUITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cisa",
+        "cisa"
+      ]
+    },
+    {
+      "id": "cisa.l11",
+      "moduleId": "cisa",
+      "topic": "CISA",
+      "subtopic": "",
+      "title": "Information Asset Protection and Access Audits",
+      "summary": "Addresses auditing protection of information assets, access controls and data handling.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Assess access control effectiveness",
+        "Evaluate data protection controls",
+        "Identify evidence for asset protection"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Addresses auditing protection of information assets, access controls and data handling. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Assess access control effectiveness",
+            "Evaluate data protection controls",
+            "Identify evidence for asset protection"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for information asset protection and access audits are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Information Asset Protection and Access Audits",
+          "context": "A team must address information asset protection and access audits in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Information Asset Protection and Access Audits",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to information asset protection and access audits.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cisa",
+        "cisa"
+      ]
+    },
+    {
+      "id": "cisa.l12",
+      "moduleId": "cisa",
+      "topic": "CISA",
+      "subtopic": "",
+      "title": "Network, Database and Infrastructure Audits",
+      "summary": "Introduces audit considerations for networks, databases and infrastructure components.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Identify common infrastructure audit areas",
+        "Assess configuration and security controls",
+        "Evaluate logging and monitoring evidence"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Introduces audit considerations for networks, databases and infrastructure components. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Identify common infrastructure audit areas",
+            "Assess configuration and security controls",
+            "Evaluate logging and monitoring evidence"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for network, database and infrastructure audits are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Network, Database and Infrastructure Audits",
+          "context": "A team must address network, database and infrastructure audits in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Network, Database and Infrastructure Audits",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to network, database and infrastructure audits.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cisa",
+        "cisa"
+      ]
+    },
+    {
+      "id": "cisa.l13",
+      "moduleId": "cisa",
+      "topic": "CISA",
+      "subtopic": "",
+      "title": "Emerging Technology and Cloud Audit Considerations",
+      "summary": "Explores audit challenges in cloud and emerging technology environments.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Identify cloud audit considerations",
+        "Assess shared responsibility implications",
+        "Evaluate governance over emerging tech"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Explores audit challenges in cloud and emerging technology environments. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Identify cloud audit considerations",
+            "Assess shared responsibility implications",
+            "Evaluate governance over emerging tech"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for emerging technology and cloud audit considerations are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Emerging Technology and Cloud Audit Considerations",
+          "context": "A team must address emerging technology and cloud audit considerations in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Emerging Technology and Cloud Audit Considerations",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to emerging technology and cloud audit considerations.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cisa",
+        "cisa"
+      ]
+    },
+    {
+      "id": "cisa.l14",
+      "moduleId": "cisa",
+      "topic": "CISA",
+      "subtopic": "",
+      "title": "Reporting, Follow-up and Audit Quality",
+      "summary": "Covers audit reporting quality, communication, recommendations and follow-up.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe elements of effective audit reporting",
+        "Explain follow-up and remediation tracking",
+        "Assess audit quality and independence factors"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers audit reporting quality, communication, recommendations and follow-up. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe elements of effective audit reporting",
+            "Explain follow-up and remediation tracking",
+            "Assess audit quality and independence factors"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for reporting, follow-up and audit quality are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Reporting, Follow-up and Audit Quality",
+          "context": "A team must address reporting, follow-up and audit quality in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Reporting, Follow-up and Audit Quality",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to reporting, follow-up and audit quality.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cisa",
+        "cisa"
+      ]
+    }
+  ]
+}

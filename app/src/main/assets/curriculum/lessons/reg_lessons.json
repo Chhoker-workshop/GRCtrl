@@ -1,0 +1,954 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "reg.l01",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Regulatory Landscape Overview",
+      "summary": "Covers regulatory landscape overview in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain regulatory landscape overview",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers regulatory landscape overview in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain regulatory landscape overview",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for regulatory landscape overview are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Regulatory Landscape Overview",
+          "context": "A team must address regulatory landscape overview in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Regulatory Landscape Overview",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to regulatory landscape overview.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l02",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Obligation Identification and Scoping",
+      "summary": "Covers obligation identification and scoping in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain obligation identification and scoping",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers obligation identification and scoping in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain obligation identification and scoping",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for obligation identification and scoping are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Obligation Identification and Scoping",
+          "context": "A team must address obligation identification and scoping in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Obligation Identification and Scoping",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to obligation identification and scoping.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l03",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Policy and Control Alignment",
+      "summary": "Covers policy and control alignment in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain policy and control alignment",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers policy and control alignment in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain policy and control alignment",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for policy and control alignment are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Policy and Control Alignment",
+          "context": "A team must address policy and control alignment in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Policy and Control Alignment",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to policy and control alignment.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l04",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Compliance Monitoring and Testing",
+      "summary": "Covers compliance monitoring and testing in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain compliance monitoring and testing",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers compliance monitoring and testing in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain compliance monitoring and testing",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for compliance monitoring and testing are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Compliance Monitoring and Testing",
+          "context": "A team must address compliance monitoring and testing in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Compliance Monitoring and Testing",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to compliance monitoring and testing.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l05",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Regulatory Reporting Basics",
+      "summary": "Covers regulatory reporting basics in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain regulatory reporting basics",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers regulatory reporting basics in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain regulatory reporting basics",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for regulatory reporting basics are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Regulatory Reporting Basics",
+          "context": "A team must address regulatory reporting basics in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Regulatory Reporting Basics",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to regulatory reporting basics.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l06",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Managing Regulatory Change",
+      "summary": "Covers managing regulatory change in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain managing regulatory change",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers managing regulatory change in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain managing regulatory change",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for managing regulatory change are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Managing Regulatory Change",
+          "context": "A team must address managing regulatory change in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Managing Regulatory Change",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to managing regulatory change.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l07",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Financial Services Regulatory Themes",
+      "summary": "Covers financial services regulatory themes in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain financial services regulatory themes",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers financial services regulatory themes in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain financial services regulatory themes",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for financial services regulatory themes are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Financial Services Regulatory Themes",
+          "context": "A team must address financial services regulatory themes in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Financial Services Regulatory Themes",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to financial services regulatory themes.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l08",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Healthcare and Data Regulation Themes",
+      "summary": "Covers healthcare and data regulation themes in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain healthcare and data regulation themes",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers healthcare and data regulation themes in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain healthcare and data regulation themes",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for healthcare and data regulation themes are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Healthcare and Data Regulation Themes",
+          "context": "A team must address healthcare and data regulation themes in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Healthcare and Data Regulation Themes",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to healthcare and data regulation themes.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l09",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Critical Infrastructure and Resilience Themes",
+      "summary": "Covers critical infrastructure and resilience themes in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain critical infrastructure and resilience themes",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers critical infrastructure and resilience themes in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain critical infrastructure and resilience themes",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for critical infrastructure and resilience themes are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Critical Infrastructure and Resilience Themes",
+          "context": "A team must address critical infrastructure and resilience themes in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Critical Infrastructure and Resilience Themes",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to critical infrastructure and resilience themes.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l10",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Cross-border and Multi-jurisdiction Issues",
+      "summary": "Covers cross-border and multi-jurisdiction issues in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain cross-border and multi-jurisdiction issues",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers cross-border and multi-jurisdiction issues in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain cross-border and multi-jurisdiction issues",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for cross-border and multi-jurisdiction issues are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Cross-border and Multi-jurisdiction Issues",
+          "context": "A team must address cross-border and multi-jurisdiction issues in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Cross-border and Multi-jurisdiction Issues",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to cross-border and multi-jurisdiction issues.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l11",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Working with Regulators and Examinations",
+      "summary": "Covers working with regulators and examinations in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain working with regulators and examinations",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers working with regulators and examinations in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain working with regulators and examinations",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for working with regulators and examinations are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Working with Regulators and Examinations",
+          "context": "A team must address working with regulators and examinations in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Working with Regulators and Examinations",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to working with regulators and examinations.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    },
+    {
+      "id": "reg.l12",
+      "moduleId": "reg",
+      "topic": "Regulatory",
+      "subtopic": "",
+      "title": "Sustaining Compliance Programs",
+      "summary": "Covers sustaining compliance programs in enterprise GRC.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain sustaining compliance programs",
+        "Identify obligations and impacts",
+        "Apply proportionate compliance practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers sustaining compliance programs in enterprise GRC. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain sustaining compliance programs",
+            "Identify obligations and impacts",
+            "Apply proportionate compliance practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for sustaining compliance programs are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Sustaining Compliance Programs",
+          "context": "A team must address sustaining compliance programs in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Sustaining Compliance Programs",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to sustaining compliance programs.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "REGULATORY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "reg",
+        "regulatory"
+      ]
+    }
+  ]
+}

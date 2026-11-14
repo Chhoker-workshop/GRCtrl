@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "tprm.l01",
+      "moduleId": "tprm",
+      "topic": "TPRM",
+      "subtopic": "",
+      "title": "Third-Party Risk Fundamentals",
+      "summary": "Introduces third-party risk, lifecycle and governance considerations.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Define third-party risk",
+        "Describe TPRM lifecycle stages",
+        "Identify key stakeholders and ownership"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Introduces third-party risk, lifecycle and governance considerations. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Define third-party risk",
+            "Describe TPRM lifecycle stages",
+            "Identify key stakeholders and ownership"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for third-party risk fundamentals are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Third-Party Risk Fundamentals",
+          "context": "A team must address third-party risk fundamentals in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Third-Party Risk Fundamentals",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to third-party risk fundamentals.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "THIRD_PARTY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "tprm",
+        "tprm"
+      ]
+    },
+    {
+      "id": "tprm.l02",
+      "moduleId": "tprm",
+      "topic": "TPRM",
+      "subtopic": "",
+      "title": "Due Diligence and Risk Assessment",
+      "summary": "Covers supplier due diligence, tiering and risk assessment methods.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain supplier tiering and scoping",
+        "Assess third-party risks proportionately",
+        "Document due diligence evidence"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers supplier due diligence, tiering and risk assessment methods. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain supplier tiering and scoping",
+            "Assess third-party risks proportionately",
+            "Document due diligence evidence"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for due diligence and risk assessment are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Due Diligence and Risk Assessment",
+          "context": "A team must address due diligence and risk assessment in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Due Diligence and Risk Assessment",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to due diligence and risk assessment.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "THIRD_PARTY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "tprm",
+        "tprm"
+      ]
+    },
+    {
+      "id": "tprm.l03",
+      "moduleId": "tprm",
+      "topic": "TPRM",
+      "subtopic": "",
+      "title": "Contracts, Monitoring and Exit",
+      "summary": "Focuses on contractual controls, ongoing monitoring and exit planning.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Identify key contractual security terms",
+        "Monitor third-party performance and risk",
+        "Plan secure exit and transition"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Focuses on contractual controls, ongoing monitoring and exit planning. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Identify key contractual security terms",
+            "Monitor third-party performance and risk",
+            "Plan secure exit and transition"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for contracts, monitoring and exit are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Contracts, Monitoring and Exit",
+          "context": "A team must address contracts, monitoring and exit in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Contracts, Monitoring and Exit",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to contracts, monitoring and exit.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "THIRD_PARTY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "tprm",
+        "tprm"
+      ]
+    }
+  ]
+}

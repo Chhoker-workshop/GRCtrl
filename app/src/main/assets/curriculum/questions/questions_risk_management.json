@@ -1,0 +1,2056 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "QUESTIONS",
+  "items": [
+    {
+      "id": "q.erm.001",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.002",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.003",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.004",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.005",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.006",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.007",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.008",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.009",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.010",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.011",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.erm.012",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Erm",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Erm, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Erm.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Erm issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Erm as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Erm work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Erm.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Erm"
+      ]
+    },
+    {
+      "id": "q.risk_management.001",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.002",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.003",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.004",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.005",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.006",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.007",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.008",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.009",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.010",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.011",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.012",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.013",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.014",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.015",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.016",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.017",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.018",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.019",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.020",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.021",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.022",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.023",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.024",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.025",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.026",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.027",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.028",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "q.risk_management.029",
+      "domain": "RISK_MANAGEMENT",
+      "topic": "Risk Management",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Risk Management, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Risk Management.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Risk Management issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Risk Management as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Risk Management work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Risk Management.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Risk Management"
+      ]
+    }
+  ]
+}

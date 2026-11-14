@@ -1,0 +1,401 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "fnd.l11",
+      "moduleId": "fnd",
+      "topic": "Risk",
+      "subtopic": "",
+      "title": "Risk Culture and Communication",
+      "summary": "Explores how risk culture, tone and communication influence behaviour and decision-making across the organisation.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe elements of risk culture",
+        "Explain how communication supports risk-aware decisions",
+        "Identify signs of weak risk culture"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Explores how risk culture, tone and communication influence behaviour and decision-making across the organisation. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe elements of risk culture",
+            "Explain how communication supports risk-aware decisions",
+            "Identify signs of weak risk culture"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for risk culture and communication are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Risk Culture and Communication",
+          "context": "A team must address risk culture and communication in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Risk Culture and Communication",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to risk culture and communication.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "fnd",
+        "risk"
+      ]
+    },
+    {
+      "id": "fnd.l12",
+      "moduleId": "fnd",
+      "topic": "Governance",
+      "subtopic": "",
+      "title": "Policy Framework and Governance Artifacts",
+      "summary": "Covers how policies, standards, procedures and records form a coherent governance framework.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Differentiate policy hierarchy elements",
+        "Explain ownership and approval of governance artifacts",
+        "Assess completeness of a policy framework"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers how policies, standards, procedures and records form a coherent governance framework. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Differentiate policy hierarchy elements",
+            "Explain ownership and approval of governance artifacts",
+            "Assess completeness of a policy framework"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for policy framework and governance artifacts are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Policy Framework and Governance Artifacts",
+          "context": "A team must address policy framework and governance artifacts in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Policy Framework and Governance Artifacts",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to policy framework and governance artifacts.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "fnd",
+        "governance"
+      ]
+    },
+    {
+      "id": "fnd.l13",
+      "moduleId": "fnd",
+      "topic": "Compliance",
+      "subtopic": "",
+      "title": "Control Basics and Assurance Concepts",
+      "summary": "Introduces control types, design, operation and the role of assurance in demonstrating effectiveness.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain preventive, detective and corrective controls",
+        "Describe control ownership and evidence",
+        "Distinguish design from operating effectiveness"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Introduces control types, design, operation and the role of assurance in demonstrating effectiveness. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain preventive, detective and corrective controls",
+            "Describe control ownership and evidence",
+            "Distinguish design from operating effectiveness"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for control basics and assurance concepts are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Control Basics and Assurance Concepts",
+          "context": "A team must address control basics and assurance concepts in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Control Basics and Assurance Concepts",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to control basics and assurance concepts.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "COMPLIANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "fnd",
+        "compliance"
+      ]
+    },
+    {
+      "id": "fnd.l14",
+      "moduleId": "fnd",
+      "topic": "Governance",
+      "subtopic": "",
+      "title": "Stakeholders and Governance Committees",
+      "summary": "Examines stakeholder roles, committee structures and escalation paths in GRC governance.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Identify key GRC stakeholders",
+        "Explain committee responsibilities and reporting",
+        "Describe effective escalation and decision rights"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Examines stakeholder roles, committee structures and escalation paths in GRC governance. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Identify key GRC stakeholders",
+            "Explain committee responsibilities and reporting",
+            "Describe effective escalation and decision rights"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for stakeholders and governance committees are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Stakeholders and Governance Committees",
+          "context": "A team must address stakeholders and governance committees in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Stakeholders and Governance Committees",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to stakeholders and governance committees.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "fnd",
+        "governance"
+      ]
+    },
+    {
+      "id": "fnd.l15",
+      "moduleId": "fnd",
+      "topic": "Governance",
+      "subtopic": "",
+      "title": "Ethics, Accountability and Reporting",
+      "summary": "Focuses on ethical conduct, accountability, transparency and reporting in governance arrangements.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain accountability in governance",
+        "Describe ethical considerations in GRC decisions",
+        "Identify elements of effective governance reporting"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Focuses on ethical conduct, accountability, transparency and reporting in governance arrangements. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain accountability in governance",
+            "Describe ethical considerations in GRC decisions",
+            "Identify elements of effective governance reporting"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for ethics, accountability and reporting are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Ethics, Accountability and Reporting",
+          "context": "A team must address ethics, accountability and reporting in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Ethics, Accountability and Reporting",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to ethics, accountability and reporting.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "fnd",
+        "governance"
+      ]
+    }
+  ]
+}

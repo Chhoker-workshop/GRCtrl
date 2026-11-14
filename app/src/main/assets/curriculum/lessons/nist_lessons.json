@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "nist.l01",
+      "moduleId": "nist",
+      "topic": "NIST Frameworks",
+      "subtopic": "Introduction to NIST",
+      "title": "The NIST Toolkit for US and International Security",
+      "summary": "The National Institute of Standards and Technology produces some of the world's most widely used cybersecurity frameworks. This lesson explains what NIST publishes, why organisations use its frameworks, and how its products differ from ISO and other standards.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "List the NIST publications most relevant to enterprise GRC professionals",
+        "Explain the difference between a framework, a standard and a guideline",
+        "Describe the relationship between NIST CSF, NIST RMF, SP 800-53 and NIST SP 800-171",
+        "Explain why an organisation outside the US uses NIST frameworks"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "What NIST is and what it publishes",
+          "body": "The National Institute of Standards and Technology is part of the US Department of Commerce. It is a standards body - it publishes technical standards, guidelines, best practice and frameworks. NIST does not regulate; it informs.",
+          "bullets": [
+            "NIST produces standards (for example FIPS for cryptographic modules)",
+            "NIST produces guidelines (for example SP 800-53 for security controls)",
+            "NIST produces frameworks (for example the Cybersecurity Framework)",
+            "NIST publications are voluntary but widely adopted"
+          ]
+        },
+        {
+          "heading": "Why NIST matters outside the US",
+          "body": "Although NIST is a US federal agency, its publications are used worldwide. The reasons include:",
+          "bullets": [
+            "NIST publications are authoritative and well documented",
+            "Many international standards are influenced by NIST",
+            "US government procurement requires NIST compliance",
+            "The frameworks are practical and risk-based"
+          ]
+        },
+        {
+          "heading": "The Cybersecurity Framework (CSF)",
+          "body": "The NIST Cybersecurity Framework is the most widely known NIST product. It provides a common language for describing cybersecurity risk.",
+          "bullets": [
+            "Five functions: Identify, Protect, Detect, Respond, Recover",
+            "CSF 2.0 added three more functions",
+            "Frameworks are not prescriptive - they are descriptions",
+            "Organisations map their controls to the functions"
+          ]
+        },
+        {
+          "heading": "NIST SP 800-53: Security and Privacy Controls",
+          "body": "NIST Special Publication 800-53 provides a catalogue of security and privacy controls for information systems.",
+          "bullets": [
+            "Over 100 security controls in the catalogue",
+            "Controls are grouped by type: access control, audit, encryption, and more",
+            "Baselines are levels of control - Low, Moderate, High",
+            "The catalogue is the basis of many international control schemes"
+          ]
+        },
+        {
+          "heading": "NIST SP 800-171: Protecting Controlled Unclassified Information",
+          "body": "SP 800-171 is the control set used when organisations handle Controlled Unclassified Information (CUI).",
+          "bullets": [
+            "64 security requirements for CUI",
+            "Used by defence contractors",
+            "Most widely used third-party security assessment",
+            "Controls cover access control, audit, configuration, and more"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Map NIST CSF to ISO 27001",
+        "brief": "Write a table mapping 5 NIST CSF 2.0 functions to the ISO 27001 clauses most relevant to each.",
+        "steps": [
+          "Choose 5 CSF functions",
+          "For each function, identify relevant ISO 27001 clauses",
+          "Document the mapping in a table"
+        ],
+        "deliverable": "A mapping table.",
+        "evaluationCriteria": [
+          "Mapping is logical",
+          "All functions are covered",
+          "Mapping demonstrates understanding of both frameworks"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.nist.001"
+      ],
+      "references": [
+        "NIST CSF 2.0",
+        "NIST SP 800-39",
+        "NIST SP 800-53 Rev. 5",
+        "NIST SP 800-171 Rev. 3"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "nist",
+        "framework",
+        "csf",
+        "iso-comparison"
+      ]
+    },
+    {
+      "id": "nist.l02",
+      "moduleId": "nist",
+      "topic": "NIST Cybersecurity Framework",
+      "subtopic": "CSF 2.0 deep dive",
+      "title": "The NIST Cybersecurity Framework 2.0",
+      "summary": "CSF 2.0 is the most widely used cybersecurity framework in the world. This lesson covers all six functions: Govern, Identify, Protect, Detect, Respond and Recover.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "List the six functions of CSF 2.0 and explain what each does",
+        "Explain organisational profiles, tiers and gaps in CSF context",
+        "Apply CSF 2.0 to a real organisational scenario",
+        "Explain the difference between CSF and NIST SP 800-53"
+      ],
+      "estimatedMinutes": 60,
+      "sections": [
+        {
+          "heading": "What CSF 2.0 is",
+          "body": "The NIST Cybersecurity Framework (CSF) 2.0 provides a common language for describing cybersecurity risk. It is not a standard - it is a description of what good looks like.",
+          "bullets": [
+            "Used by organisations of all sizes worldwide",
+            "Flexible: no mandatory controls",
+            "Built around six functions",
+            "Used for board reporting, strategy and compliance"
+          ]
+        },
+        {
+          "heading": "GOV: Governance",
+          "body": "The Govern function provides the governance framework for the cybersecurity programme.",
+          "bullets": [
+            "Framework policy: written statement of cybersecurity intent",
+            "Organisational context: the environment the organisation operates in",
+            "Roles and responsibilities: who does what",
+            "Cyber risk management: how risk is managed at board level",
+            "Drivers: legal, regulatory, market and risk"
+          ]
+        },
+        {
+          "heading": "ID: Identify",
+          "body": "The Identify function focuses on understanding the organisation's assets and the risks to them.",
+          "bullets": [
+            "Asset management: what do you own?",
+            "Business environment: what is the organisation?",
+            "Governance: who makes decisions?",
+            "Risk assessment: what could go wrong?",
+            "Risk management strategy: what is the appetite?"
+          ]
+        },
+        {
+          "heading": "PR: Protect",
+          "body": "The Protect function describes the safeguards that reduce or remove risks to operations.",
+          "bullets": [
+            "Awareness and training: people are the first line of defence",
+            "Access control: who gets in?",
+            "Data security: protecting information",
+            "Information protection procedures: how data is handled",
+            "Maintenance: keeping systems running",
+            "Protective technology: how technology defends"
+          ]
+        },
+        {
+          "heading": "DE: Detect",
+          "body": "The Detect function describes how the organisation identifies cybersecurity events.",
+          "bullets": [
+            "Anomalies and events: what might hint at an incident?",
+            "Detection processes: how are incidents found?",
+            "Continuous monitoring: what are you looking for?"
+          ]
+        },
+        {
+          "heading": "RS: Respond",
+          "body": "The Respond function describes what the organisation does when an incident occurs.",
+          "bullets": [
+            "Response planning: what happens when?",
+            "Communications: who tells whom?",
+            "Analysis: what has happened?",
+            "Mitigation: what are you doing about it?",
+            "Improvements: what will you do differently?"
+          ]
+        },
+        {
+          "heading": "RC: Recover",
+          "body": "The Recover function describes the organisation's ability to restore capabilities or services impaired during an incident.",
+          "bullets": [
+            "Recovery planning: how will you get back to normal?",
+            "Communications: who tells whom during recovery?",
+            "Improvements: what will you do differently?"
+          ]
+        },
+        {
+          "heading": "Profiles, tiers and gaps",
+          "body": "CSF 2.0 introduces three concepts that make it practical:",
+          "bullets": [
+            "Profiles: a snapshot of your current state and your target state",
+            "Tiers: how mature is your programme? (0-4)",
+            "Gaps: what is missing between where you are and where you want to be?"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Write a short profile for a fictional company: current state, target state, and the top three gaps between them.",
+          "bullets": [
+            "Current state: what do you do today?",
+            "Target state: what do you want to achieve?",
+            "Gaps: what do you need to do to get there?"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "CSF 2.0 Profile for a fictional company",
+        "brief": "Write a profile for a fictional company with 500 employees and internet banking operations.",
+        "steps": [
+          "Describe your current cybersecurity posture",
+          "Define your target state",
+          "List the top three gaps between them"
+        ],
+        "deliverable": "A CSF 2.0 profile document.",
+        "evaluationCriteria": [
+          "Current state is realistic",
+          "Target state is achievable",
+          "Gaps are prioritised"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.nist.002"
+      ],
+      "references": [
+        "NIST CSF 2.0",
+        "NIST SP 800-39"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "nist",
+        "csf",
+        "framework"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "cisa.l01",
+      "moduleId": "cisa",
+      "topic": "IS Audit Process",
+      "subtopic": "Audit fundamentals",
+      "title": "IS Auditing: Purpose, Charter and the Audit Universe",
+      "summary": "This lesson introduces information systems auditing: what it is, why organisations need it, how an audit charter works, and how to build an audit universe.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Define information systems auditing and distinguish it from other assurance activities",
+        "Explain the purpose and contents of an IS audit charter",
+        "Build an audit universe for a fictional organisation",
+        "Explain risk-based audit planning"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "What IS auditing is",
+          "body": "Information systems auditing is the independent examination of an organisation's information systems, processes and controls. It answers: are systems working as intended, are risks managed, and is the organisation compliant?",
+          "bullets": [
+            "Independent: the auditor is not responsible for the area audited",
+            "Systematic: follows a repeatable process",
+            "Evidence-based: conclusions rest on evidence",
+            "Assurance: provides confidence to stakeholders"
+          ]
+        },
+        {
+          "heading": "IS audit vs other assurance",
+          "body": "IS auditing differs from internal audit, external audit and security assessment.",
+          "bullets": [
+            "Internal audit: broader scope, reports to the board",
+            "External audit: financial statements, reports to shareholders",
+            "IS audit: focuses on IT systems and controls",
+            "Security assessment: technical testing, not assurance"
+          ]
+        },
+        {
+          "heading": "The IS audit charter",
+          "body": "The charter is the document that authorises the audit function.",
+          "bullets": [
+            "Purpose: why the audit function exists",
+            "Scope: what systems and processes are covered",
+            "Authority: what the auditor can access",
+            "Reporting line: to whom the auditor reports",
+            "Independence: safeguards against conflicts of interest"
+          ]
+        },
+        {
+          "heading": "Building the audit universe",
+          "body": "The audit universe is the complete list of systems, processes and locations that could be audited.",
+          "bullets": [
+            "Inventory all IT assets",
+            "Identify business processes",
+            "Map systems to processes",
+            "Rank by risk and criticality"
+          ],
+          "table": [
+            [
+              "Audit area",
+              "Risk level",
+              "Last audited",
+              "Next audit"
+            ],
+            [
+              "Core banking system",
+              "High",
+              "6 months ago",
+              "Due"
+            ],
+            [
+              "HR payroll",
+              "Medium",
+              "12 months ago",
+              "Due"
+            ],
+            [
+              "Email system",
+              "Low",
+              "18 months ago",
+              "Not due"
+            ]
+          ]
+        },
+        {
+          "heading": "Risk-based audit planning",
+          "body": "Not everything can be audited every year. Prioritise by risk.",
+          "bullets": [
+            "High-risk systems: audit annually",
+            "Medium-risk systems: audit every 18-24 months",
+            "Low-risk systems: audit every 3 years or on change"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Write a short IS audit charter for a fictional company. Identify 5 audit areas for the audit universe.",
+          "bullets": [
+            "Area 1: Core banking - High risk",
+            "Area 2: Payroll - Medium risk",
+            "Area 3: Email - Low risk"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "IS audit charter and audit universe",
+        "brief": "Write a short IS audit charter for a fictional company and list 5 audit areas.",
+        "steps": [
+          "Draft charter sections (purpose, scope, authority, reporting)",
+          "List 5 audit areas with risk ratings"
+        ],
+        "deliverable": "A charter document and audit universe table.",
+        "evaluationCriteria": [
+          "Charter covers required elements",
+          "Audit areas are business-relevant",
+          "Risk ratings are justified"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.cisa.001"
+      ],
+      "references": [
+        "ISACA CISA Domain 1: Information Systems Auditing Process",
+        "IIA Global Internal Audit Standards"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "cisa",
+        "audit-process",
+        "audit-charter",
+        "audit-universe"
+      ]
+    },
+    {
+      "id": "cisa.l02",
+      "moduleId": "cisa",
+      "topic": "IS Audit Process",
+      "subtopic": "Audit planning and scoping",
+      "title": "Audit Planning: Objectives, Scope and Sampling",
+      "summary": "This lesson covers how to plan an IS audit: setting objectives, defining scope, selecting sampling methodology, and creating an audit plan.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain how to set audit objectives",
+        "Define audit scope and boundaries",
+        "Describe sampling methodology for IS audits",
+        "Create an audit plan for a fictional engagement"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "Setting audit objectives",
+          "body": "Audit objectives define what the audit will achieve.",
+          "bullets": [
+            "Evaluate control effectiveness",
+            "Test compliance with policy",
+            "Verify accuracy of information",
+            "Assess risk management"
+          ]
+        },
+        {
+          "heading": "Defining audit scope",
+          "body": "Scope determines what is in and out of the audit.",
+          "bullets": [
+            "Systems: which applications?",
+            "Locations: which offices?",
+            "Time period: which quarter or year?",
+            "Processes: which business functions?"
+          ]
+        },
+        {
+          "heading": "Sampling methodology",
+          "body": "Auditors cannot test everything. Sampling selects a representative subset.",
+          "bullets": [
+            "Statistical sampling: mathematically valid",
+            "Judgmental sampling: auditor selects based on expertise",
+            "Attribute sampling: tests for presence or absence",
+            "Variable sampling: tests for amounts or values"
+          ],
+          "table": [
+            [
+              "Method",
+              "When to use",
+              "Example"
+            ],
+            [
+              "Attribute",
+              "Testing control operation",
+              "Did 50 changes have approval?"
+            ],
+            [
+              "Variable",
+              "Testing amounts",
+              "What is the average transaction value?"
+            ],
+            [
+              "Judgmental",
+              "Testing high-risk items",
+              "Review all changes to production"
+            ]
+          ]
+        },
+        {
+          "heading": "Creating the audit plan",
+          "body": "The audit plan documents how the audit will be conducted.",
+          "bullets": [
+            "Timeline: when will fieldwork occur?",
+            "Resources: who will perform the audit?",
+            "Deliverables: what will be produced?",
+            "Constraints: what limits the audit?"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Write an audit plan for a payroll system audit. Include objectives, scope, sampling approach and timeline.",
+          "bullets": [
+            "Objective: verify payroll controls",
+            "Scope: payroll system Q1-Q3",
+            "Sample: 30 payroll transactions",
+            "Timeline: 2 weeks fieldwork"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Payroll system audit plan",
+        "brief": "Write an audit plan for a payroll system audit.",
+        "steps": [
+          "Define objectives",
+          "Set scope and boundaries",
+          "Choose sampling methodology",
+          "Create timeline"
+        ],
+        "deliverable": "An audit plan document.",
+        "evaluationCriteria": [
+          "Objectives are clear",
+          "Scope is defined",
+          "Sampling is appropriate",
+          "Timeline is realistic"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.cisa.002"
+      ],
+      "references": [
+        "ISACA CISA Domain 1",
+        "IIA International Standards for the Professional Practice of Internal Auditing"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "cisa",
+        "audit-planning",
+        "sampling",
+        "audit-scope"
+      ]
+    },
+    {
+      "id": "cisa.l03",
+      "moduleId": "cisa",
+      "topic": "IS Audit Process",
+      "subtopic": "IT General Controls",
+      "title": "IT General Controls: Access, Change and Operations",
+      "summary": "IT General Controls (ITGC) are the foundation of IT audit. This lesson covers logical access controls, change management, backup and recovery, and operations controls.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain what ITGC are and why they matter",
+        "Describe logical access control testing",
+        "Describe change management control testing",
+        "Describe backup and recovery control testing"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "What ITGC are",
+          "body": "ITGC are controls that apply to all systems, not just one application. They support application controls.",
+          "bullets": [
+            "Logical access: who can access systems?",
+            "Change management: how are changes approved?",
+            "Operations: how are systems run daily?",
+            "Backup and recovery: can data be restored?"
+          ]
+        },
+        {
+          "heading": "Logical access controls",
+          "body": "Access controls ensure only authorised people can access systems.",
+          "bullets": [
+            "User provisioning: access granted on approval",
+            "Access reviews: periodic review of access",
+            "Privileged access: admin accounts controlled",
+            "Password policy: complexity and rotation"
+          ],
+          "table": [
+            [
+              "Control",
+              "Test",
+              "Evidence"
+            ],
+            [
+              "User provisioning",
+              "Sample new users",
+              "Approval emails"
+            ],
+            [
+              "Access reviews",
+              "Review access lists",
+              "Review meeting minutes"
+            ],
+            [
+              "Privileged access",
+              "Review admin accounts",
+              "Admin account list"
+            ]
+          ]
+        },
+        {
+          "heading": "Change management controls",
+          "body": "Change management ensures changes are authorised and tested.",
+          "bullets": [
+            "Change request: documented request",
+            "Change approval: authorised by appropriate person",
+            "Testing: tested before production",
+            "Implementation: deployed correctly",
+            "Post-implementation review: verified after deployment"
+          ]
+        },
+        {
+          "heading": "Backup and recovery controls",
+          "body": "Backup and recovery ensure data can be restored after loss.",
+          "bullets": [
+            "Regular backups: scheduled and monitored",
+            "Backup verification: tested restores",
+            "Offsite storage: backups stored securely",
+            "Recovery procedures: documented and tested"
+          ]
+        },
+        {
+          "heading": "Operations controls",
+          "body": "Operations controls ensure systems run correctly day to day.",
+          "bullets": [
+            "Job scheduling: batch jobs run on time",
+            "Monitoring: system alerts reviewed",
+            "Incident management: issues logged and resolved",
+            "Capacity planning: resources sufficient"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Write a short ITGC audit programme for a fictional company. Identify 5 controls to test and the evidence to review.",
+          "bullets": [
+            "Control 1: User access reviews - evidence: review minutes",
+            "Control 2: Change approval - evidence: change tickets",
+            "Control 3: Backup verification - evidence: restore logs"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "ITGC audit programme",
+        "brief": "Write an ITGC audit programme for a fictional company.",
+        "steps": [
+          "Identify 5 ITGC controls",
+          "Describe how to test each",
+          "Identify evidence to review"
+        ],
+        "deliverable": "An ITGC audit programme.",
+        "evaluationCriteria": [
+          "Controls are relevant",
+          "Testing approach is clear",
+          "Evidence is appropriate"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.cisa.003"
+      ],
+      "references": [
+        "ISACA CISA Domain 1",
+        "COBIT 2019 DSS05",
+        "ISO/IEC 27001:2022 A.8"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "cisa",
+        "itgc",
+        "access-control",
+        "change-management"
+      ]
+    },
+    {
+      "id": "cisa.l04",
+      "moduleId": "cisa",
+      "topic": "IS Audit Process",
+      "subtopic": "Application Controls",
+      "title": "Application Controls: Input, Processing and Output",
+      "summary": "Application controls are specific to individual applications. This lesson covers input, processing, output and interface controls, and how to test them.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain the difference between ITGC and application controls",
+        "Describe input, processing and output controls",
+        "Describe interface controls",
+        "Explain how to test application controls"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "ITGC vs application controls",
+          "body": "ITGC apply to all systems. Application controls apply to specific applications.",
+          "bullets": [
+            "ITGC: foundation controls",
+            "Application controls: transaction-level controls",
+            "Both are needed for reliable systems"
+          ]
+        },
+        {
+          "heading": "Input controls",
+          "body": "Input controls ensure data entered into the system is valid and complete.",
+          "bullets": [
+            "Validation: check data format and range",
+            "Authorization: check user is authorised",
+            "Completeness: check all required fields",
+            "Accuracy: check data matches source"
+          ]
+        },
+        {
+          "heading": "Processing controls",
+          "body": "Processing controls ensure data is processed correctly.",
+          "bullets": [
+            "Edit checks: validate during processing",
+            "Reconciliation: compare input to output",
+            "Exception reports: flag unusual transactions",
+            "Batch controls: count and sum transactions"
+          ]
+        },
+        {
+          "heading": "Output controls",
+          "body": "Output controls ensure results are accurate and distributed correctly.",
+          "bullets": [
+            "Output review: check results",
+            "Distribution: send to authorised recipients",
+            "Retention: keep output for required period",
+            "Security: protect sensitive output"
+          ]
+        },
+        {
+          "heading": "Interface controls",
+          "body": "Interface controls ensure data transferred between systems is accurate and complete.",
+          "bullets": [
+            "Interface logging: record all transfers",
+            "Error handling: handle failed transfers",
+            "Reconciliation: confirm both systems agree",
+            "Security: protect data in transit"
+          ]
+        },
+        {
+          "heading": "Testing application controls",
+          "body": "Application controls are tested by walking through transactions.",
+          "bullets": [
+            "Walkthrough: trace a transaction end-to-end",
+            "Test data: use sample transactions",
+            "Parallel testing: run old and new systems together",
+            "User interviews: ask users about their experience"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Design application controls for a fictional online banking transfer function.",
+          "bullets": [
+            "Input: validate account numbers and amounts",
+            "Processing: check sufficient funds",
+            "Output: send confirmation to customer",
+            "Interface: reconcile with core banking system"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Application controls for online banking",
+        "brief": "Design application controls for an online banking transfer.",
+        "steps": [
+          "Identify input controls",
+          "Identify processing controls",
+          "Identify output controls",
+          "Identify interface controls"
+        ],
+        "deliverable": "An application control design document.",
+        "evaluationCriteria": [
+          "Controls cover all transaction stages",
+          "Controls are specific to banking",
+          "Controls are testable"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.cisa.004"
+      ],
+      "references": [
+        "ISACA CISA Domain 1",
+        "COBIT 2019 DSS04",
+        "ISO/IEC 27001:2022 A.8"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "cisa",
+        "application-controls",
+        "input-processing-output"
+      ]
+    },
+    {
+      "id": "cisa.l05",
+      "moduleId": "cisa",
+      "topic": "IS Audit Process",
+      "subtopic": "Evidence collection and testing",
+      "title": "Audit Evidence: Collection, Testing and Workpapers",
+      "summary": "This lesson covers evidence collection, testing procedures, sampling, and audit workpapers — the core of how an IS auditor proves findings.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain what audit evidence is and what makes it reliable",
+        "Describe evidence collection techniques",
+        "Explain how to test controls using evidence",
+        "Document findings in audit workpapers"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "What audit evidence is",
+          "body": "Audit evidence is the information the auditor uses to support findings and conclusions. It must be sufficient, reliable, relevant and useful.",
+          "bullets": [
+            "Sufficient: enough evidence to support the conclusion",
+            "Reliable: trustworthy and verifiable",
+            "Relevant: relates to the audit objective",
+            "Useful: helps management understand the issue"
+          ]
+        },
+        {
+          "heading": "Types of evidence",
+          "body": "Different types of evidence have different reliability.",
+          "bullets": [
+            "Physical evidence: tangible items observed",
+            "Documentary evidence: documents and records",
+            "Testimonial evidence: statements from people",
+            "Analytical evidence: comparisons and calculations"
+          ],
+          "table": [
+            [
+              "Evidence type",
+              "Example",
+              "Reliability"
+            ],
+            [
+              "Physical",
+              "Observing server room locks",
+              "High"
+            ],
+            [
+              "Documentary",
+              "Reviewing change tickets",
+              "High"
+            ],
+            [
+              "Testimonial",
+              "Interview with admin",
+              "Medium"
+            ],
+            [
+              "Analytical",
+              "Comparing transaction logs",
+              "High"
+            ]
+          ]
+        },
+        {
+          "heading": "Evidence collection techniques",
+          "body": "Auditors collect evidence through inspection, observation, inquiry and re-performance.",
+          "bullets": [
+            "Inspection: examining documents and records",
+            "Observation: watching processes in operation",
+            "Inquiry: asking people questions",
+            "Re-performance: repeating a process yourself"
+          ]
+        },
+        {
+          "heading": "Testing controls",
+          "body": "Controls are tested by selecting a sample and checking each item for compliance.",
+          "bullets": [
+            "Select sample: use sampling methodology",
+            "Test each item: check for compliance",
+            "Record results: document what passed and failed",
+            "Evaluate: determine if the control operates effectively"
+          ]
+        },
+        {
+          "heading": "Audit workpapers",
+          "body": "Workpapers are the auditor's record of what was done, what was found, and what it means.",
+          "bullets": [
+            "Objective: what was being tested",
+            "Scope: what was included",
+            "Procedure: what steps were taken",
+            "Result: what was found",
+            "Conclusion: what it means"
+          ],
+          "table": [
+            [
+              "Workpaper element",
+              "Example"
+            ],
+            [
+              "Objective",
+              "Test user access provisioning"
+            ],
+            [
+              "Scope",
+              "All new users in Q1"
+            ],
+            [
+              "Procedure",
+              "Review 25 user onboarding tickets"
+            ],
+            [
+              "Result",
+              "3 tickets missing manager approval"
+            ],
+            [
+              "Conclusion",
+              "Control not operating effectively"
+            ]
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Write an evidence collection plan for a payroll system audit. Identify 3 evidence types, how to collect each, and what you expect to find.",
+          "bullets": [
+            "Evidence 1: Payroll change tickets - review for approval",
+            "Evidence 2: Payroll register - verify calculations",
+            "Evidence 3: User access list - verify authorized users"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Evidence collection plan",
+        "brief": "Write an evidence collection plan for a payroll system audit.",
+        "steps": [
+          "Identify evidence types",
+          "Describe collection method",
+          "State expected findings"
+        ],
+        "deliverable": "An evidence collection plan.",
+        "evaluationCriteria": [
+          "Evidence types are relevant",
+          "Collection method is clear",
+          "Expected findings are logical"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.cisa.005"
+      ],
+      "references": [
+        "ISACA CISA Domain 1",
+        "IIA International Standards"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "cisa",
+        "audit-evidence",
+        "workpapers",
+        "control-testing"
+      ]
+    },
+    {
+      "id": "cisa.l06",
+      "moduleId": "cisa",
+      "topic": "IS Operations and Business Resilience",
+      "subtopic": "IT operations and system management",
+      "title": "IT Operations: System Management and Problem Management",
+      "summary": "This lesson covers IT operations controls: job scheduling, system monitoring, problem management, capacity management and system performance.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain IT operations controls and their audit focus",
+        "Describe job scheduling and system monitoring",
+        "Describe problem and incident management",
+        "Explain capacity management and performance monitoring"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "IT operations controls",
+          "body": "IT operations controls ensure systems run reliably day to day. Auditors test these to confirm systems are stable, available and well-managed.",
+          "bullets": [
+            "Job scheduling: automated jobs run as planned",
+            "System monitoring: alerts detected and acted on",
+            "Problem management: root causes identified and fixed",
+            "Capacity management: resources meet demand"
+          ]
+        },
+        {
+          "heading": "Job scheduling",
+          "body": "Scheduled jobs (batch processing, backups, reports) must run on time and complete successfully.",
+          "bullets": [
+            "Schedule documented: when each job runs",
+            "Completion verified: jobs finish successfully",
+            "Exceptions handled: failures are logged and resolved",
+            "Changes controlled: schedule changes are approved"
+          ]
+        },
+        {
+          "heading": "System monitoring",
+          "body": "Monitoring detects issues before they become incidents.",
+          "bullets": [
+            "Alerts configured: thresholds set for key metrics",
+            "Alerts reviewed: someone watches the alerts",
+            "Escalation: issues are escalated when needed",
+            "Logs retained: monitoring data is kept for review"
+          ]
+        },
+        {
+          "heading": "Problem and incident management",
+          "body": "Incidents are unplanned disruptions. Problems are root causes behind repeated incidents.",
+          "bullets": [
+            "Incident logged: every disruption recorded",
+            "Incident resolved: service restored",
+            "Problem investigated: root cause identified",
+            "Problem fixed: permanent solution implemented"
+          ],
+          "table": [
+            [
+              "Aspect",
+              "Incident",
+              "Problem"
+            ],
+            [
+              "Definition",
+              "Unplanned service disruption",
+              "Root cause of incidents"
+            ],
+            [
+              "Goal",
+              "Restore service quickly",
+              "Prevent recurrence"
+            ],
+            [
+              "Example",
+              "Server down",
+              "Faulty hardware"
+            ]
+          ]
+        },
+        {
+          "heading": "Capacity management",
+          "body": "Capacity management ensures IT resources meet current and future demand.",
+          "bullets": [
+            "Demand forecast: what will be needed?",
+            "Capacity monitoring: are resources sufficient?",
+            "Performance tuning: optimise existing resources",
+            "Planning: procure resources before they are needed"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Write an IT operations audit checklist for a fictional data centre. Include job scheduling, monitoring, problem management and capacity management.",
+          "bullets": [
+            "Check: backup jobs complete nightly",
+            "Check: critical alerts are reviewed daily",
+            "Check: incidents have root cause analysis",
+            "Check: capacity forecast covers 12 months"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "IT operations audit checklist",
+        "brief": "Write an IT operations audit checklist for a data centre.",
+        "steps": [
+          "Identify control areas",
+          "Write checklist items",
+          "Describe evidence to review"
+        ],
+        "deliverable": "An IT operations audit checklist.",
+        "evaluationCriteria": [
+          "All four control areas covered",
+          "Checklist items are specific",
+          "Evidence is appropriate"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.cisa.006"
+      ],
+      "references": [
+        "ISACA CISA Domain 4",
+        "ITIL Service Operations"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "cisa",
+        "it-operations",
+        "problem-management",
+        "capacity-management"
+      ]
+    },
+    {
+      "id": "cisa.l07",
+      "moduleId": "cisa",
+      "topic": "IS Operations and Business Resilience",
+      "subtopic": "Business resilience and BCP/DR",
+      "title": "Business Continuity and Disaster Recovery Auditing",
+      "summary": "This lesson covers BCP/DR auditing: BIA, RTO/RPO, recovery strategies, testing and the difference between business continuity and disaster recovery.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain the difference between business continuity and disaster recovery",
+        "Describe BIA, RTO, RPO and MTPD",
+        "Explain recovery strategies (hot/warm/cold sites)",
+        "Describe BCP/DR testing approaches"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "BCP vs DRP",
+          "body": "Business Continuity Planning (BCP) keeps the business running during a disruption. Disaster Recovery Planning (DRP) restores IT systems after a disaster.",
+          "bullets": [
+            "BCP: business-focused, keeps operations running",
+            "DRP: IT-focused, restores systems and data",
+            "BCP includes DRP as a component",
+            "Both are tested regularly"
+          ]
+        },
+        {
+          "heading": "BIA fundamentals",
+          "body": "Business Impact Analysis identifies critical functions and the impact of losing them over time.",
+          "bullets": [
+            "Critical functions: what must keep running?",
+            "Impact timeline: what happens after 4 hours, 24 hours, 1 week?",
+            "Dependencies: systems, people, suppliers"
+          ],
+          "table": [
+            [
+              "Function",
+              "Impact at 4 hrs",
+              "Impact at 24 hrs",
+              "RTO"
+            ],
+            [
+              "Online banking",
+              "Customers cannot transact",
+              "Revenue loss, regulatory breach",
+              "4 hours"
+            ],
+            [
+              "Payroll",
+              "Staff cannot be paid",
+              "Staff dissatisfaction, legal risk",
+              "5 days"
+            ],
+            [
+              "Email",
+              "Communication delayed",
+              "Business disruption",
+              "8 hours"
+            ]
+          ]
+        },
+        {
+          "heading": "RTO, RPO, MTPD",
+          "body": "Key continuity metrics.",
+          "bullets": [
+            "RTO: Recovery Time Objective - maximum acceptable downtime",
+            "RPO: Recovery Point Objective - maximum acceptable data loss",
+            "MTPD: Maximum Tolerable Period of Disruption - absolute limit"
+          ],
+          "table": [
+            [
+              "Metric",
+              "Meaning",
+              "Example"
+            ],
+            [
+              "RTO",
+              "How fast to recover",
+              "4 hours"
+            ],
+            [
+              "RPO",
+              "How much data to lose",
+              "1 hour"
+            ],
+            [
+              "MTPD",
+              "Maximum downtime",
+              "24 hours"
+            ]
+          ]
+        },
+        {
+          "heading": "Recovery strategies",
+          "body": "Strategies for restoring operations after disruption.",
+          "bullets": [
+            "Hot site: fully operational, ready immediately",
+            "Warm site: partially equipped, needs setup",
+            "Cold site: empty space, needs full build-out",
+            "Cloud: failover to cloud infrastructure",
+            "Reciprocal: mutual aid agreement"
+          ]
+        },
+        {
+          "heading": "BCP/DR testing",
+          "body": "Plans must be tested to prove they work.",
+          "bullets": [
+            "Tabletop exercise: discussion-based test",
+            "Structured walkthrough: step-through of procedures",
+            "Simulation: simulated disruption",
+            "Full interruption: actual system shutdown test"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Design a BCP/DR test plan for a fictional company. Include scope, scenarios, participants and success criteria.",
+          "bullets": [
+            "Test 1: Tabletop - ransomware scenario",
+            "Test 2: Walkthrough - failover to backup",
+            "Test 3: Full interruption - power outage simulation"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "BCP/DR test plan",
+        "brief": "Design a BCP/DR test plan for a fictional company.",
+        "steps": [
+          "Define test scope",
+          "Select test scenarios",
+          "Identify participants",
+          "Set success criteria"
+        ],
+        "deliverable": "A BCP/DR test plan document.",
+        "evaluationCriteria": [
+          "Scope is clear",
+          "Scenarios are realistic",
+          "Success criteria are measurable"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.cisa.007"
+      ],
+      "references": [
+        "ISACA CISA Domain 4",
+        "ISO 22301",
+        "NIST SP 800-34 Rev. 1"
+      ],
+      "competencyDomain": "BUSINESS_CONTINUITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "cisa",
+        "bcp-drp",
+        "bia",
+        "rto-rpo",
+        "disaster-recovery"
+      ]
+    },
+    {
+      "id": "cisa.l08",
+      "moduleId": "cisa",
+      "topic": "Protection of Information Assets",
+      "subtopic": "Logical access and cryptography",
+      "title": "Logical Access Controls and Cryptographic Governance",
+      "summary": "This lesson covers logical access controls: identification, authentication, authorisation, and cryptographic governance — how encryption keys are managed and audited.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain logical access controls: identification, authentication, authorisation",
+        "Describe authentication factors and multi-factor authentication",
+        "Explain cryptographic governance: key management, encryption standards",
+        "Describe how to audit access and cryptography controls"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "Logical access controls",
+          "body": "Logical access controls govern who can access systems and data, and what they can do.",
+          "bullets": [
+            "Identification: who claims to be?",
+            "Authentication: prove who you are",
+            "Authorisation: what are you allowed to do?",
+            "Accountability: what did you do?"
+          ]
+        },
+        {
+          "heading": "Authentication factors",
+          "body": "Something you know, something you have, something you are.",
+          "bullets": [
+            "Something you know: password, PIN",
+            "Something you have: token, smart card, phone",
+            "Something you are: fingerprint, face, iris",
+            "MFA: combine two or more factors"
+          ]
+        },
+        {
+          "heading": "Access provisioning and review",
+          "body": "Access must be granted on approval and reviewed periodically.",
+          "bullets": [
+            "Provisioning: access granted based on role",
+            "Review: periodic access reviews",
+            "Deprovisioning: access removed when no longer needed",
+            "Privileged access: admin accounts tightly controlled"
+          ]
+        },
+        {
+          "heading": "Cryptographic governance",
+          "body": "Cryptography protects data confidentiality and integrity. Governance ensures keys are managed properly.",
+          "bullets": [
+            "Encryption standards: AES, RSA, ECC",
+            "Key management: generation, storage, rotation, destruction",
+            "Key custodian: who is responsible for keys?",
+            "Key rotation: keys changed on schedule"
+          ],
+          "table": [
+            [
+              "Control",
+              "Audit test",
+              "Evidence"
+            ],
+            [
+              "Key generation",
+              "Verify keys generated securely",
+              "Key generation logs"
+            ],
+            [
+              "Key storage",
+              "Verify keys stored in HSM or vault",
+              "Key storage configuration"
+            ],
+            [
+              "Key rotation",
+              "Verify keys rotated on schedule",
+              "Key rotation records"
+            ],
+            [
+              "Key destruction",
+              "Verify keys destroyed when no longer needed",
+              "Destruction certificates"
+            ]
+          ]
+        },
+        {
+          "heading": "Auditing access controls",
+          "body": "Auditors test access controls by sampling user accounts and reviewing access logs.",
+          "bullets": [
+            "Sample user accounts: verify access is appropriate",
+            "Review access logs: look for suspicious activity",
+            "Test terminated users: access removed promptly",
+            "Review privileged accounts: additional controls"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Design an access control policy for a fictional company. Include identification, authentication, authorisation and accountability.",
+          "bullets": [
+            "Identification: user ID required for all systems",
+            "Authentication: MFA for remote access",
+            "Authorisation: role-based access control",
+            "Accountability: all actions logged"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Access control policy",
+        "brief": "Design an access control policy for a fictional company.",
+        "steps": [
+          "Define identification requirements",
+          "Define authentication requirements",
+          "Define authorisation model",
+          "Define accountability measures"
+        ],
+        "deliverable": "An access control policy document.",
+        "evaluationCriteria": [
+          "All four areas covered",
+          "Policy is practical",
+          "MFA is required where appropriate"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.cisa.008"
+      ],
+      "references": [
+        "ISACA CISA Domain 5",
+        "NIST SP 800-63",
+        "ISO/IEC 27001:2022 A.8"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "cisa",
+        "access-control",
+        "authentication",
+        "cryptography"
+      ]
+    }
+  ]
+}

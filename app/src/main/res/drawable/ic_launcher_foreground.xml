@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Vanguard shield -->
+    <path
+        android:pathData="M54,22 L82,33 L82,57 C82,75 70,87.5 54,93 C38,87.5 26,75 26,57 L26,33 Z"
+        android:strokeColor="#D4AF60"
+        android:strokeWidth="3.2"
+        android:fillColor="#00000000" />
+
+    <!-- Three lines of defence -->
+    <path
+        android:pathData="M41,49 L41,64"
+        android:strokeColor="#5CA3E8"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,49 L54,64"
+        android:strokeColor="#D4AF60"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M67,49 L67,64"
+        android:strokeColor="#5CA3E8"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round" />
+
+    <!-- Chevron / check above the lines -->
+    <path
+        android:pathData="M42,39 L51,46 L66,32"
+        android:strokeColor="#E6CB92"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

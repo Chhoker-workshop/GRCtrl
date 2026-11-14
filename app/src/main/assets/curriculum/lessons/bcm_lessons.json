@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "bcm.l01",
+      "moduleId": "bcm",
+      "topic": "BCM",
+      "subtopic": "",
+      "title": "Business Continuity Foundations",
+      "summary": "Introduces business continuity concepts, objectives and governance.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain business continuity purpose",
+        "Identify governance and roles",
+        "Relate continuity to risk and impact"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Introduces business continuity concepts, objectives and governance. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain business continuity purpose",
+            "Identify governance and roles",
+            "Relate continuity to risk and impact"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for business continuity foundations are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Business Continuity Foundations",
+          "context": "A team must address business continuity foundations in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Business Continuity Foundations",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to business continuity foundations.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "BUSINESS_CONTINUITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "bcm",
+        "bcm"
+      ]
+    },
+    {
+      "id": "bcm.l02",
+      "moduleId": "bcm",
+      "topic": "BCM",
+      "subtopic": "",
+      "title": "Business Impact Analysis Essentials",
+      "summary": "Covers identifying critical processes, impacts and recovery priorities.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe BIA purpose and inputs",
+        "Identify critical activities and dependencies",
+        "Define recovery priorities"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers identifying critical processes, impacts and recovery priorities. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe BIA purpose and inputs",
+            "Identify critical activities and dependencies",
+            "Define recovery priorities"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for business impact analysis essentials are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Business Impact Analysis Essentials",
+          "context": "A team must address business impact analysis essentials in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Business Impact Analysis Essentials",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to business impact analysis essentials.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "BUSINESS_CONTINUITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "bcm",
+        "bcm"
+      ]
+    },
+    {
+      "id": "bcm.l03",
+      "moduleId": "bcm",
+      "topic": "BCM",
+      "subtopic": "",
+      "title": "Continuity Strategies and Plans",
+      "summary": "Focuses on continuity strategies, plan development and maintenance.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Compare continuity strategy options",
+        "Outline continuity plan components",
+        "Maintain and improve plans"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Focuses on continuity strategies, plan development and maintenance. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Compare continuity strategy options",
+            "Outline continuity plan components",
+            "Maintain and improve plans"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for continuity strategies and plans are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Continuity Strategies and Plans",
+          "context": "A team must address continuity strategies and plans in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Continuity Strategies and Plans",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to continuity strategies and plans.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "BUSINESS_CONTINUITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "bcm",
+        "bcm"
+      ]
+    }
+  ]
+}

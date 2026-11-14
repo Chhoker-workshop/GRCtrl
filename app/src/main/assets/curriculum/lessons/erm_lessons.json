@@ -1,0 +1,1485 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "erm.l01",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Introduction",
+      "title": "What Enterprise Risk Management Is and Why It Matters",
+      "summary": "Enterprise risk management is the framework that helps organisations understand and manage risk across the whole business. This lesson explains why ERM is essential, how it differs from traditional risk management, and how it connects to GRC.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Define enterprise risk management and distinguish it from traditional risk management",
+        "Explain the relationship between risk management, GRC and governance",
+        "Describe the key concepts of enterprise risk: risk appetite, inherent risk, residual risk",
+        "Describe the role of the GRC professional in enterprise risk management"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "The problem with traditional risk management",
+          "body": "Traditional risk management tends to be siloed. Security teams assess security risks, finance teams assess financial risks, HR teams assess people risks, and so on. Each team works in its own silo, produces its own risk register, and reports to its own manager.",
+          "bullets": [
+            "Siloed risk: each department manages its own risks",
+            "No enterprise view: no one sees the whole picture",
+            "Reactive: risks are addressed after they happen",
+            "Inconsistent: different departments use different criteria"
+          ]
+        },
+        {
+          "heading": "What ERM is",
+          "body": "Enterprise risk management (ERM) is a holistic approach to managing risk across the whole organisation. It is not a department; it is a way of thinking about risk.",
+          "bullets": [
+            "Enterprise: risk is managed across the whole organisation",
+            "Holistic: all risks are considered together",
+            "Strategic: risk is linked to business objectives",
+            "Proactive: risks are identified and managed before they happen"
+          ]
+        },
+        {
+          "heading": "Why ERM matters",
+          "body": "Organisations face risks that cross traditional boundaries. A cybersecurity breach affects finance, legal, operations, and the board. A supply chain failure affects production, sales, and customers.",
+          "bullets": [
+            "Cyber risk: a breach can bankrupt a company",
+            "Operational risk: a factory closure stops revenue",
+            "Strategic risk: a market change destroys a business model",
+            "Regulatory risk: a missed deadline brings sanctions"
+          ]
+        },
+        {
+          "heading": "GRC is the umbrella",
+          "body": "GRC (Governance, Risk, and Compliance) is the umbrella under which ERM sits. GRC provides the framework for managing risk, ensuring compliance, and governing the organisation.",
+          "bullets": [
+            "Governance: how the organisation is directed and controlled",
+            "Risk: how risks are identified, assessed and managed",
+            "Compliance: how the organisation meets its obligations"
+          ]
+        },
+        {
+          "heading": "The risk management framework",
+          "body": "Most ERM frameworks follow a similar cycle: identify, analyse, evaluate, treat, monitor, communicate.",
+          "bullets": [
+            "Identify: what risks exist?",
+            "Analyse: how likely and how bad?",
+            "Evaluate: are they acceptable?",
+            "Treat: what will you do?",
+            "Monitor: are they changing?",
+            "Communicate: who needs to know?"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "The key concepts of ERM distinguish it from traditional risk management.",
+          "bullets": [
+            "Risk appetite: how much risk is acceptable?",
+            "Inherent risk: the risk before controls",
+            "Residual risk: the risk after controls",
+            "Risk owner: who is accountable?",
+            "Risk tolerance: the amount of risk you can accept"
+          ]
+        },
+        {
+          "heading": "The GRC professional's role",
+          "body": "The GRC professional's role in ERM is to connect risk management with governance and compliance. They ensure that risk management is strategic, not just operational.",
+          "bullets": [
+            "Connect risk with strategy: ensure risk management supports business objectives",
+            "Connect risk with compliance: ensure regulatory obligations are met",
+            "Connect risk with the board: ensure the board understands the risk",
+            "Connect risk with controls: ensure controls are effective and efficient"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Write a short paragraph describing the risk management approach you believe a fictional company should take. Identify 5 risks and their treatment.",
+          "bullets": [
+            "Risk 1: Cybersecurity breach - treat with controls",
+            "Risk 2: Supply chain disruption - transfer with insurance",
+            "Risk 3: Key personnel loss - accept with succession planning",
+            "Risk 4: Regulatory change - treat with compliance review",
+            "Risk 5: Market change - escalate to the board"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Risk appetite statement",
+        "brief": "Write a risk appetite statement for a fictional company. Identify 3 risks and state your appetite for each.",
+        "steps": [
+          "Write a risk appetite statement for the company",
+          "Identify 3 business-relevant risks",
+          "State your appetite for each risk (high, medium, low)"
+        ],
+        "deliverable": "A risk appetite statement.",
+        "evaluationCriteria": [
+          "Appetite is realistic",
+          "Risks are business-relevant",
+          "Appetite statements are clear"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.erm.001"
+      ],
+      "references": [
+        "ISO 31000:2018",
+        "COSO ERM (2017)"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "risk-management",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "erm.l02",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "ERM frameworks",
+      "title": "ISO 31000 and COSO ERM: The Two Leading ERM Frameworks",
+      "summary": "ISO 31000 and COSO ERM are the two most widely used enterprise risk management frameworks. This lesson compares them, explains their key concepts, and shows how to apply each.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain the structure and philosophy of ISO 31000",
+        "Explain the structure and philosophy of COSO ERM",
+        "Compare ISO 31000 and COSO ERM",
+        "Apply ISO 31000 to a practical risk management scenario"
+      ],
+      "estimatedMinutes": 60,
+      "sections": [
+        {
+          "heading": "ISO 31000",
+          "body": "ISO 31000 is the international standard for risk management. It provides the principles, a framework and guidelines for managing risk.",
+          "bullets": [
+            "Principles: the foundation of good risk management",
+            "Framework: the structure for building a risk management system",
+            "Guidelines: practical guidance on applying the framework",
+            "Independent of the organisation's activities"
+          ]
+        },
+        {
+          "heading": "ISO 31000 principles",
+          "body": "The principles are the foundation of ISO 31000. They describe what good risk management looks like.",
+          "bullets": [
+            "Structured and comprehensive: the framework covers the whole organisation",
+            "Tailored: risk management is adapted to the organisation",
+            "Includes human and cultural factors: people matter",
+            "Embedded: risk management is part of decision-making",
+            "Continuously improving: risk management gets better over time"
+          ]
+        },
+        {
+          "heading": "ISO 31000 framework",
+          "body": "The framework consists of three components: principles, framework and processes.",
+          "bullets": [
+            "Principles: the foundation",
+            "Framework: the structure",
+            "Processes: what you do - communication, design, implementation, monitoring, review, improvement"
+          ]
+        },
+        {
+          "heading": "ISO 31000 processes",
+          "body": "The processes in ISO 31000 are: communication and consultation, establishing the context, risk assessment, and monitoring and review.",
+          "bullets": [
+            "Communication and consultation: talking to stakeholders",
+            "Establishing the context: understanding the situation",
+            "Risk assessment: identifying, analysing and evaluating risk",
+            "Monitoring and review: keeping the risk management current"
+          ]
+        },
+        {
+          "heading": "COSO ERM",
+          "body": "COSO ERM is the Committee of Sponsoring Organizations of the Treadway Commission's Enterprise Risk Management framework. It is widely used in the US and internationally.",
+          "bullets": [
+            "8 components: governance and culture, strategy and objective-setting, performance, review and revision, information and communication, risk assessment, risk response, control activities",
+            "Integrates strategy, risk, and performance",
+            "Focused on the enterprise level"
+          ]
+        },
+        {
+          "heading": "COSO ERM in practice",
+          "body": "COSO ERM is structured around eight components. It is practical and widely used.",
+          "bullets": [
+            "Governance: the board and management establish the tone",
+            "Strategy: objectives are aligned with risk appetite",
+            "Performance: risks are understood and assessed",
+            "Review: the risk management system is reviewed",
+            "Information: data is provided for decisions",
+            "Risk assessment: risks are identified and analysed",
+            "Risk response: responses to risks are determined",
+            "Control activities: controls are implemented"
+          ]
+        },
+        {
+          "heading": "Comparison",
+          "body": "Both frameworks have strengths and weaknesses. They are often used together.",
+          "bullets": [
+            "ISO 31000 is principles-based",
+            "COSO ERM is more prescriptive",
+            "ISO 31000 is easier to adapt",
+            "COSO ERM is more detailed",
+            "Both can be used together"
+          ],
+          "table": [
+            [
+              "Aspect",
+              "ISO 31000",
+              "COSO ERM"
+            ],
+            [
+              "Philosophy",
+              "Principles-based",
+              "Process-based"
+            ],
+            [
+              "Structure",
+              "Framework",
+              "Eight components"
+            ],
+            [
+              "Strength",
+              "Flexible",
+              "Detailed"
+            ],
+            [
+              "Best for",
+              "Adapting to context",
+              "Standardised reporting"
+            ]
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Write a short comparison of ISO 31000 and COSO ERM for a fictional company. Identify which one you would choose and why.",
+          "bullets": [
+            "This company is a small IT services firm (ISO is better)",
+            "This company is a large bank with complex regulatory requirements (COSO is better)"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Compare ISO 31000 and COSO ERM",
+        "brief": "Write a comparison of ISO 31000 and COSO ERM for a fictional company, and identify your preferred choice.",
+        "steps": [
+          "Compare the two frameworks",
+          "Identify the company's preferences",
+          "Document your preferred choice"
+        ],
+        "deliverable": "A short comparison document.",
+        "evaluationCriteria": [
+          "Both frameworks are described accurately",
+          "Comparison is fair",
+          "Choice is justified"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.erm.002"
+      ],
+      "references": [
+        "ISO 31000:2018",
+        "COSO ERM (2017)"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "iso-31000",
+        "coso",
+        "framework"
+      ]
+    },
+    {
+      "id": "erm.l03",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Risk identification and classification",
+      "title": "Risk Identification: Finding the Risks Before They Find You",
+      "summary": "Risk identification is the foundation of enterprise risk management. This lesson covers the tools and techniques for identifying risks across the enterprise.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "List the common sources of enterprise risk",
+        "Apply a risk identification workshop format",
+        "Categorise risks using a consistent taxonomy",
+        "Document risks in a format that feeds the risk register"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "Why risk identification matters",
+          "body": "Most risk management failures begin with poorly identified risks. If you do not know what could go wrong, you cannot prepare for it.",
+          "bullets": [
+            "Unidentified risks are unmanaged risks",
+            "Risks that are not documented cannot be prioritised",
+            "Risks that are not communicated cannot be managed"
+          ]
+        },
+        {
+          "heading": "Sources of risk",
+          "body": "Risks come from many sources across the enterprise.",
+          "bullets": [
+            "Strategic: market changes, competitive threats",
+            "Operational: process failures, people issues",
+            "Financial: currency changes, credit risk",
+            "Compliance: regulatory changes, legal actions",
+            "Technology: system failures, cyber attacks",
+            "Environmental: natural disasters, climate",
+            "Reputation: social media, brand damage",
+            "Supply chain: supplier failure, disruption"
+          ]
+        },
+        {
+          "heading": "Risk identification techniques",
+          "body": "A variety of techniques can be used to find risks.",
+          "bullets": [
+            "Brainstorming: get the group's ideas",
+            "Interviews: ask key people",
+            "Checklists: use proven risk lists",
+            "SWOT: strengths, weaknesses, opportunities, threats",
+            "Scenario analysis: what if things go wrong?",
+            "Cause-and-effect analysis: why does this happen?"
+          ]
+        },
+        {
+          "heading": "Building a risk taxonomy",
+          "body": "A risk taxonomy is a common way of classifying risks, so that risks from different departments can be compared.",
+          "bullets": [
+            "Categories: strategic, operational, financial, compliance",
+            "Sub-categories: business continuity, information security, people, etc.",
+            "Taxonomy should reflect the organisation's context"
+          ]
+        },
+        {
+          "heading": "Risk identification workshop",
+          "body": "A risk identification workshop brings together people from different departments to identify risks.",
+          "bullets": [
+            "Prepare: understand the context, select participants",
+            "Run: facilitate the identification session",
+            "Document: record risks in a standard format",
+            "Review: check the output before it goes to the risk register"
+          ]
+        },
+        {
+          "heading": "Risk identification in practice",
+          "body": "A risk register is the output of the risk identification process. It records each risk, its owner and its status.",
+          "bullets": [
+            "Risk ID: unique identifier",
+            "Risk description: what could go wrong?",
+            "Category: what type of risk?",
+            "Likelihood: how likely?",
+            "Impact: how bad?",
+            "Current controls: what are you doing?",
+            "Risk owner: who is accountable?"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Run a risk identification exercise for a fictional company. Identify at least 10 risks and document them in a risk register format.",
+          "bullets": [
+            "Category: Operational - key staff leaving",
+            "Category: Compliance - new regulation",
+            "Category: Financial - currency change",
+            "Category: Strategic - competitor launch",
+            "Category: Technology - system failure"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Risk identification workshop",
+        "brief": "Run a risk identification exercise for a fictional company. Identify at least 10 risks and document them.",
+        "steps": [
+          "Select the department or risk domain",
+          "Run a brainstorming session",
+          "Document all risks identified",
+          "Classify each risk"
+        ],
+        "deliverable": "A risk register with at least 10 risks.",
+        "evaluationCriteria": [
+          "Risks are business-relevant",
+          "Categories are consistent",
+          "Risks are documented clearly"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.erm.003"
+      ],
+      "references": [
+        "ISO 31000:2018",
+        "ISO/IEC 27005:2022"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "risk-identification",
+        "risk-taxonomy"
+      ]
+    },
+    {
+      "id": "erm.l04",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Risk analysis and scoring",
+      "title": "Risk Analysis: Likelihood, Impact and Scoring",
+      "summary": "Risk analysis is the process of estimating the likelihood and impact of a risk. This lesson covers scoring methods, risk matrices and how to interpret them.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain the difference between likelihood and impact",
+        "Describe common scoring scales for likelihood and impact",
+        "Apply a 5x5 risk matrix to assess risks",
+        "Interpret risk ratings and determine treatment priorities"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "What risk analysis is",
+          "body": "Risk analysis determines the level of risk. It involves two steps: estimating likelihood and estimating impact.",
+          "bullets": [
+            "Likelihood: how likely is the risk to happen?",
+            "Impact: how bad would it be if it happened?"
+          ]
+        },
+        {
+          "heading": "Likelihood",
+          "body": "Likelihood is the probability of a risk occurring in a given time period.",
+          "bullets": [
+            "The probability of occurrence",
+            "Expressed as a score or percentage",
+            "Should be based on data where possible",
+            "Should be consistent across the organisation"
+          ]
+        },
+        {
+          "heading": "Impact",
+          "body": "Impact is the consequence of the risk occurring.",
+          "bullets": [
+            "Financial: direct and indirect costs",
+            "Reputational: brand and trust",
+            "Operational: disruption, downtime",
+            "Legal: fines, penalties",
+            "Safety: harm to people"
+          ]
+        },
+        {
+          "heading": "Scoring scales",
+          "body": "A scoring scale is used to convert likelihood and impact into numbers.",
+          "bullets": [
+            "5-point scale: 1 (very unlikely) to 5 (almost certain)",
+            "Alternatively use qualitative descriptors",
+            "Impact scale: 1 (negligible) to 5 (catastrophic)"
+          ]
+        },
+        {
+          "heading": "Risk matrix",
+          "body": "The risk matrix combines likelihood and impact into a risk rating.",
+          "bullets": [
+            "5x5 matrix: 5 likelihoods x 5 impacts = 25 cells",
+            "Each cell has a risk rating",
+            "Ratings can be Low, Medium, High, Extreme",
+            "The matrix is used to prioritise risks"
+          ]
+        },
+        {
+          "heading": "Risk ratings",
+          "body": "Risk ratings determine how you respond to risks.",
+          "bullets": [
+            "Low: no immediate action required",
+            "Medium: action required within agreed timeframe",
+            "High: action required urgently, escalate to management",
+            "Extreme: immediate action required, urgent escalation"
+          ]
+        },
+        {
+          "heading": "Consistency",
+          "body": "Consistency in scoring is critical for comparing risks.",
+          "bullets": [
+            "Define what each score means",
+            "Train the scorers",
+            "Review the scoring process",
+            "Use the same scale across the organisation"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Score 5 risks for a fictional company using a 5x5 matrix. Calculate the risk rating for each.",
+          "bullets": [
+            "Risk 1: Customer data breach - likelihood 4, impact 5",
+            "Risk 2: Key staff leaving - likelihood 3, impact 4",
+            "Risk 3: Ransomware attack - likelihood 5, impact 5"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Risk scoring exercise",
+        "brief": "Score 5 risks for a fictional company using a 5x5 matrix and calculate risk ratings.",
+        "steps": [
+          "Choose 5 risks to score",
+          "Assign likelihood scores",
+          "Assign impact scores",
+          "Calculate risk ratings"
+        ],
+        "deliverable": "A risk scoring table.",
+        "evaluationCriteria": [
+          "Scoring is consistent",
+          "Risk ratings are correct",
+          "Priorities are clear"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.erm.004"
+      ],
+      "references": [
+        "ISO 31000:2018",
+        "NIST SP 800-30 Rev. 1"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "risk-scoring",
+        "risk-matrix"
+      ]
+    },
+    {
+      "id": "erm.l05",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Risk treatment and evaluation",
+      "title": "Risk Treatment: Accept, Treat, Avoid, Transfer or Escalate",
+      "summary": "Once risks are identified and scored, the organisation must decide what to do about them. This lesson covers risk treatment options and how to evaluate their effectiveness.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain the four risk treatment options: accept, treat, avoid, transfer",
+        "Describe when each treatment option is appropriate",
+        "Write a risk treatment plan",
+        "Explain how to evaluate the effectiveness of risk treatments"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "The risk treatment decision",
+          "body": "Once a risk is assessed, the organisation must decide what to do about it. The four treatment options are: accept, treat, avoid and transfer.",
+          "bullets": [
+            "Accept: the risk is within risk appetite",
+            "Treat: apply controls to reduce the risk",
+            "Avoid: change the plan to remove the risk",
+            "Transfer: share the risk with another party"
+          ]
+        },
+        {
+          "heading": "Accept",
+          "body": "Accepting a risk means acknowledging it and continuing with business as usual.",
+          "bullets": [
+            "No action needed",
+            "Risks accepted are documented",
+            "Accepted risks are reviewed",
+            "Acceptance requires management approval"
+          ]
+        },
+        {
+          "heading": "Treat",
+          "body": "Treating a risk means applying controls to reduce its likelihood or impact.",
+          "bullets": [
+            "Apply controls to reduce likelihood or impact",
+            "Controls are implemented",
+            "Effectiveness is verified",
+            "Controls are reviewed"
+          ]
+        },
+        {
+          "heading": "Avoid",
+          "body": "Avoiding a risk means changing the plan to remove the risk.",
+          "bullets": [
+            "Avoiding is the most powerful option",
+            "It is not always possible",
+            "Avoiding can be expensive",
+            "Avoiding may not be feasible"
+          ]
+        },
+        {
+          "heading": "Transfer",
+          "body": "Transferring a risk means sharing it with another party.",
+          "bullets": [
+            "Insurance: transfer financial risk",
+            "Contract: transfer responsibility",
+            "Outsourcing: transfer operational risk",
+            "Joint venture: share strategic risk"
+          ]
+        },
+        {
+          "heading": "Risk treatment plan",
+          "body": "A risk treatment plan records what will be done about each risk.",
+          "bullets": [
+            "Risk ID: unique identifier",
+            "Treatment: what will you do?",
+            "Owner: who is accountable?",
+            "Target date: when will it be done?",
+            "Status: how is it going?"
+          ]
+        },
+        {
+          "heading": "Evaluating treatment effectiveness",
+          "body": "After controls are applied, the organisation must evaluate whether they are working.",
+          "bullets": [
+            "Review: has the risk been reduced?",
+            "Measure: are the controls working?",
+            "Reassess: is the risk still acceptable?",
+            "Adjust: do you need to change direction?"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "For a fictional company, write a risk treatment plan for 5 risks. Include treatment, owner, target date and expected outcome.",
+          "bullets": [
+            "Risk 1: Customer data breach - treat with controls",
+            "Risk 2: Ransomware - avoid and treat",
+            "Risk 3: Supply chain disruption - transfer with insurance",
+            "Risk 4: Key person departure - avoid with succession planning"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Risk treatment plan",
+        "brief": "Write a risk treatment plan for a fictional company covering 5 risks.",
+        "steps": [
+          "Identify 5 risks",
+          "Choose a treatment for each",
+          "Assign an owner",
+          "Set a target date"
+        ],
+        "deliverable": "A risk treatment plan.",
+        "evaluationCriteria": [
+          "Treatments are appropriate",
+          "Owners are named",
+          "Plan is achievable"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.erm.005"
+      ],
+      "references": [
+        "ISO 31000:2018",
+        "COSO ERM (2017)"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "risk-treatment",
+        "treatment-plan"
+      ]
+    },
+    {
+      "id": "erm.l06",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "The risk register",
+      "title": "The Enterprise Risk Register: Your Single Source of Truth",
+      "summary": "The risk register is the central document of enterprise risk management. This lesson covers its structure, how to maintain it, and how to use it for decision-making.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain the structure and purpose of the risk register",
+        "Build a risk register from a set of risks",
+        "Explain how the risk register is used for prioritisation",
+        "Describe how the risk register is used in reporting"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "What the risk register is",
+          "body": "The risk register is the single document that records all the risks facing the organisation, their status, and the actions being taken.",
+          "bullets": [
+            "Central repository: one place for all risks",
+            "Living document: updated regularly",
+            "Accountability: each risk has an owner",
+            "Prioritisation: risks are ranked by severity"
+          ]
+        },
+        {
+          "heading": "Structure of the risk register",
+          "body": "A risk register should contain enough information to manage the risk, but not so much that it becomes a burden.",
+          "bullets": [
+            "Risk ID: unique identifier",
+            "Risk description: what could go wrong?",
+            "Category: what type of risk?",
+            "Likelihood: how likely?",
+            "Impact: how bad?",
+            "Risk rating: what is the priority?",
+            "Current controls: what are you doing?",
+            "Risk owner: who is accountable?",
+            "Target date: when is it done?"
+          ]
+        },
+        {
+          "heading": "Using the risk register",
+          "body": "The risk register is used for several purposes.",
+          "bullets": [
+            "Prioritisation: which risks need attention first?",
+            "Reporting: how are risks reported?",
+            "Decision-making: what actions are needed?",
+            "Communication: how are risks communicated?"
+          ]
+        },
+        {
+          "heading": "Risk register maintenance",
+          "body": "The risk register is a living document. It must be kept up to date.",
+          "bullets": [
+            "Review: regular review cycles",
+            "Update: update as risks change",
+            "Archive: close old risks, update new ones",
+            "Disseminate: share with stakeholders"
+          ]
+        },
+        {
+          "heading": "Reporting from the risk register",
+          "body": "The risk register provides the data for risk reporting.",
+          "bullets": [
+            "Dashboard: at a glance view",
+            "Trend analysis: are risks getting better or worse?",
+            "Summary: high-level view for the board",
+            "Detail: operational view for risk owners"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Build a risk register for a fictional company. Include at least 5 risks with all the standard fields.",
+          "bullets": [
+            "Risk 1: Customer data breach - High risk, treat",
+            "Risk 2: Ransomware - Extreme risk, treat heavily",
+            "Risk 3: Key staff loss - Medium risk, accept with monitoring"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Risk register build",
+        "brief": "Build a risk register for a fictional company with at least 5 risks.",
+        "steps": [
+          "Identify 5 risks",
+          "Add a description and category",
+          "Assign likelihood and impact",
+          "Record the risk owner and target date"
+        ],
+        "deliverable": "A risk register document.",
+        "evaluationCriteria": [
+          "Risks are business-relevant",
+          "All fields are populated",
+          "Risk ratings are consistent"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.erm.006"
+      ],
+      "references": [
+        "ISO 31000:2018",
+        "COSO ERM (2017)"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "risk-register",
+        "risk-management"
+      ]
+    },
+    {
+      "id": "erm.l07",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Key Risk Indicators and dashboards",
+      "title": "KRI, KPIs and Dashboards: Measuring Risk in the Enterprise",
+      "summary": "Key risk indicators (KRIs) and key performance indicators (KPIs) provide the metrics that tell you whether your risk management is working. This lesson explains how to design and use them.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain the difference between KPIs and KRIs",
+        "Design KRIs for a fictional company",
+        "Describe how to interpret and act on KRIs",
+        "Describe how risk dashboards are used by boards and management"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "KPIs vs KRIs",
+          "body": "KPIs and KRIs are different. They measure different things.",
+          "bullets": [
+            "KPIs: are we achieving our objectives?",
+            "KRIs: is our risk management working?",
+            "KPIs: performance metrics",
+            "KRIs: risk metrics"
+          ]
+        },
+        {
+          "heading": "What makes a good KRI",
+          "body": "A good KRI is measurable, relevant, and leads to action.",
+          "bullets": [
+            "Specific: clear definition",
+            "Measurable: data is available",
+            "Timely: data is fresh",
+            "Actionable: you can do something",
+            "Accountable: someone owns it"
+          ]
+        },
+        {
+          "heading": "Designing KRIs",
+          "body": "Designing KRIs is the process of identifying the metrics your organisation needs.",
+          "bullets": [
+            "Identify the major risks",
+            "Determine what would indicate the risk is increasing",
+            "Set thresholds and response triggers",
+            "Assign owners and review cycles"
+          ]
+        },
+        {
+          "heading": "Responding to KRIs",
+          "body": "A KRI without action is just data. You must do something with it.",
+          "bullets": [
+            "Review: regular KRI reviews",
+            "Escalate: concerns are escalated",
+            "Act: actions are taken",
+            "Learn: lessons are captured"
+          ]
+        },
+        {
+          "heading": "Risk dashboards",
+          "body": "Risk dashboards present KRI and KPI data in a visual format for boards and management.",
+          "bullets": [
+            "Executive view: high-level risk picture",
+            "Operational view: detailed risk data",
+            "Trend view: how are risks changing?",
+            "Heatmap: where are the hotspots?"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Design 5 KRIs for a fictional company. Include the definition, threshold, owner, and response trigger.",
+          "bullets": [
+            "KRI 1: Security incidents per quarter",
+            "KRI 2: % of critical systems backed up",
+            "KRI 3: % of employees trained on security"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Design KRIs for a fictional company",
+        "brief": "Design 5 KRIs for a fictional company. Include definition, threshold, owner, and response trigger.",
+        "steps": [
+          "Identify the company's key risks",
+          "Design 5 KRIs",
+          "Set thresholds and triggers",
+          "Assign owners"
+        ],
+        "deliverable": "A KRI design document.",
+        "evaluationCriteria": [
+          "KRIs are measurable",
+          "Thresholds are clear",
+          "Owners are named"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.erm.007"
+      ],
+      "references": [
+        "ISO 31000:2018",
+        "COSO ERM (2017)"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "kris",
+        "dashboards",
+        "risk-metrics"
+      ]
+    },
+    {
+      "id": "erm.l08",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Emerging risks",
+      "title": "Emerging Risks: Cyber, AI, Geopolitics and the Uncertain Future",
+      "summary": "Emerging risks are risks that are not yet fully understood or established. This lesson covers how to identify and manage emerging risks including cyber, AI, climate and geopolitical risk.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain what an emerging risk is and how it differs from a known risk",
+        "Identify emerging risks relevant to 2026 (cyber, AI, climate, geopolitical)",
+        "Apply horizon scanning to identify emerging risks",
+        "Describe how to manage risk without historical data"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "What is an emerging risk?",
+          "body": "Emerging risks are risks that are not yet fully understood or established. They may be new, or they may be existing risks that are changing rapidly.",
+          "bullets": [
+            "New: never seen before",
+            "Changing: existing risks changing fast",
+            "Uncertain: impact is unknown",
+            "Unpredictable: hard to anticipate"
+          ]
+        },
+        {
+          "heading": "Cyber risk is always emerging",
+          "body": "Cyber threats change constantly. What was emerging five years ago is now common.",
+          "bullets": [
+            "Ransomware is increasingly targeted and disruptive",
+            "Supply chain attacks attacking through suppliers",
+            "AI-augmented attacks using AI to find vulnerabilities",
+            "Cloud security gaps from misconfiguration"
+          ]
+        },
+        {
+          "heading": "AI risk is emerging",
+          "body": "Artificial intelligence introduces new risk categories.",
+          "bullets": [
+            "AI model risk: models producing biased or incorrect outputs",
+            "Data leakage: sensitive data fed into AI systems",
+            "Shadow AI: using AI without governance",
+            "AI third-party risk: AI vendors may be unvetted"
+          ]
+        },
+        {
+          "heading": "Climate and geopolitical risk",
+          "body": "Climate and geopolitical risks are becoming more prominent.",
+          "bullets": [
+            "Climate: physical risks (floods, heat) and transition risks (regulation, market)",
+            "Geopolitical: war, sanctions, supply chain disruption",
+            "Regulatory: new laws impacting technology and data"
+          ]
+        },
+        {
+          "heading": "Horizon scanning",
+          "body": "Horizon scanning is the process of looking for risks before they become mainstream.",
+          "bullets": [
+            "Get the signals: media, research, conversations",
+            "Filter the noise: what matters?",
+            "Assess: could this become a risk?",
+            "Act: is there anything to do?"
+          ]
+        },
+        {
+          "heading": "Managing unknown risks",
+          "body": "Without historical data, you cannot use standard risk assessment techniques. You must use judgement.",
+          "bullets": [
+            "Scenario planning: what if?",
+            "Pre-mortems: imagine the failure before it happens",
+            "Robustness: build systems that can absorb shocks",
+            "Agility: respond quickly to change"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Write a short risk horizon scan for a fictional company covering the next 12 months. Identify 5 emerging risks.",
+          "bullets": [
+            "Risk 1: AI regulatory change",
+            "Risk 2: Supply chain disruption",
+            "Risk 3: Cyber attack using AI"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Horizon scan for emerging risks",
+        "brief": "Write a short risk horizon scan covering the next 12 months for a fictional company.",
+        "steps": [
+          "Identify 5 emerging risks",
+          "Assess each risk's likelihood",
+          "Identify possible responses"
+        ],
+        "deliverable": "A horizon scan document.",
+        "evaluationCriteria": [
+          "Risks are current and relevant",
+          "Analysis is evidence-based",
+          "Responses are actionable"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.erm.008"
+      ],
+      "references": [
+        "ISO 31000:2018",
+        "NIST AI RMF (AI 100-1)"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "emerging-risks",
+        "cyber",
+        "ai-risk"
+      ]
+    },
+    {
+      "id": "erm.l09",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Risk governance",
+      "title": "Risk Governance: Who Owns Risk and How Decisions Are Made",
+      "summary": "Risk governance is about who decides, who is accountable, and how risk decisions are made. This lesson covers governance structures, board reporting, and the relationship between management and the board.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe the roles and responsibilities in risk governance",
+        "Explain how risk decisions are made at board level",
+        "Design a risk governance framework for a fictional organisation",
+        "Describe how risk reporting should be structured for different audiences"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "Risk governance structure",
+          "body": "Risk governance is the framework of roles and responsibilities for risk management.",
+          "bullets": [
+            "Board: ultimate accountability for risk",
+            "Management: strategic risk decisions",
+            "Risk ownership: operational ownership of risks",
+            "Audit: independent assurance"
+          ]
+        },
+        {
+          "heading": "The board's role",
+          "body": "The board provides ultimate accountability for risk.",
+          "bullets": [
+            "Takes ownership of enterprise risk",
+            "Approves risk appetite",
+            "Receives regular risk reporting",
+            "Challenges management decisions"
+          ]
+        },
+        {
+          "heading": "Management's role",
+          "body": "Management implements the risk framework.",
+          "bullets": [
+            "Implements the risk management framework",
+            "Assigns risk owners",
+            "Monitors risks and reports to the board",
+            "Decides on risk responses within risk appetite"
+          ]
+        },
+        {
+          "heading": "Risk appetite",
+          "body": "Risk appetite is the amount of risk an organisation is willing to accept.",
+          "bullets": [
+            "Risk appetite statement: what risks can you take?",
+            "Risk tolerance: specific limits on risk",
+            "Risk threshold: the trigger for escalation"
+          ]
+        },
+        {
+          "heading": "Board reporting",
+          "body": "Risk reporting must match the board's needs.",
+          "bullets": [
+            "Clear and concise: not too detailed",
+            "Risk-focused: not activity-focused",
+            "Actionable: decisions are clear",
+            "Timely: reporting is current"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Design a risk governance structure for a fictional company. Include board roles, management roles, and risk owner responsibilities.",
+          "bullets": [
+            "Board: risk appetite approved, regular reporting",
+            "Management: framework implemented, risks monitored",
+            "Risk owners: operational ownership, reporting"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Design a risk governance framework",
+        "brief": "Design a risk governance structure for a fictional company.",
+        "steps": [
+          "Define board roles",
+          "Define management roles",
+          "Define risk owner responsibilities"
+        ],
+        "deliverable": "A risk governance framework document.",
+        "evaluationCriteria": [
+          "Roles are clearly defined",
+          "Chain of accountability is clear",
+          "Decision rights are specified"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.erm.009"
+      ],
+      "references": [
+        "ISO 31000:2018",
+        "COSO ERM (2017)"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "risk-governance",
+        "board-reporting"
+      ]
+    },
+    {
+      "id": "erm.l10",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Risk quantification",
+      "title": "Risk Quantification: FAIR, ALE and Cyber Risk Expressions",
+      "summary": "Risk quantification puts numbers on risk so that boards and management can make decisions. This lesson covers FAIR fundamentals, Annualized Loss Expectancy, and how to express cyber risk in business terms.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain the difference between qualitative and quantitative risk assessment",
+        "Describe the FAIR risk analysis fundamentals",
+        "Calculate Annualized Loss Expectancy (ALE)",
+        "Express cyber risk in financial terms for executive reporting"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "Qualitative vs quantitative",
+          "body": "Qualitative risk assessment uses words (Low, Medium, High). Quantitative risk assessment uses numbers. Both have their place.",
+          "bullets": [
+            "Qualitative: fast, simple, subjective",
+            "Quantitative: precise, data-driven, defensible",
+            "Many organisations start qualitative and move to quantitative"
+          ]
+        },
+        {
+          "heading": "FAIR fundamentals",
+          "body": "FAIR (Factor Analysis of Information Risk) is the international standard for quantitative information risk analysis.",
+          "bullets": [
+            "Loss event frequency: how often will loss occur?",
+            "Loss magnitude: how much will it cost?",
+            "Primary loss: direct cost to the organisation",
+            "Secondary loss: cost to others affected"
+          ]
+        },
+        {
+          "heading": "ALE calculation",
+          "body": "Annualized Loss Expectancy (ALE) = Single Loss Expectancy (SLE) × Annualized Rate of Occurrence (ARO).",
+          "bullets": [
+            "SLE: cost of one loss event",
+            "ARO: how often per year",
+            "ALE: expected annual cost"
+          ],
+          "callout": "ALE helps you decide whether a control is worth its cost."
+        },
+        {
+          "heading": "Expressing cyber risk in financial terms",
+          "body": "Boards understand money, not technical risk ratings. Express cyber risk in dollars, rupees, pounds or euros.",
+          "bullets": [
+            "Translate technical risk to financial impact",
+            "Show the cost of inaction",
+            "Compare control cost to expected loss"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Calculate ALE for three risks for a fictional company.",
+          "bullets": [
+            "Risk 1: Data breach - SLE: $500,000, ARO: 0.1, ALE: $50,000",
+            "Risk 2: System downtime - SLE: $100,000, ARO: 2, ALE: $200,000",
+            "Risk 3: Insider theft - SLE: $200,000, ARO: 0.5, ALE: $100,000"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "ALE calculation exercise",
+        "brief": "Calculate ALE for three risks for a fictional company.",
+        "steps": [
+          "Identify three risks",
+          "Estimate SLE for each",
+          "Estimate ARO for each",
+          "Calculate ALE"
+        ],
+        "deliverable": "An ALE calculation table.",
+        "evaluationCriteria": [
+          "SLE is realistic",
+          "ARO is justified",
+          "ALE calculation is correct"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.erm.010"
+      ],
+      "references": [
+        "FAIR risk analysis fundamentals",
+        "NIST SP 800-30 Rev. 1"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "risk-quantification",
+        "fair",
+        "ale"
+      ]
+    },
+    {
+      "id": "erm.l11",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Third-party risk",
+      "title": "Third-Party Risk Management in the Enterprise",
+      "summary": "Third-party risk is the risk that comes from your suppliers, vendors and partners. This lesson covers vendor onboarding, due diligence, risk scoring and continuous monitoring.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain why third-party risk matters to the enterprise",
+        "Describe vendor classification and due diligence",
+        "Apply vendor risk scoring",
+        "Design right-to-audit clauses and SLAs"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "Why third-party risk matters",
+          "body": "Organisations do not operate alone. Suppliers, vendors, cloud providers and partners all access data and systems. A failure at a vendor can become a failure at your organisation.",
+          "bullets": [
+            "Supply chain disruption",
+            "Data breaches via vendors",
+            "Regulatory responsibility for vendor failures",
+            "Concentration risk"
+          ]
+        },
+        {
+          "heading": "Vendor classification",
+          "body": "Not all vendors are equal. Classify vendors by their access to data and systems.",
+          "bullets": [
+            "Critical: access to customer data or critical systems",
+            "High: access to internal systems",
+            "Medium: limited access",
+            "Low: minimal access"
+          ]
+        },
+        {
+          "heading": "Due diligence",
+          "body": "Before onboarding a vendor, perform due diligence.",
+          "bullets": [
+            "Security questionnaires",
+            "Certification evidence (ISO 27001, SOC 2)",
+            "Reference checks",
+            "Financial stability",
+            "Business continuity plans"
+          ]
+        },
+        {
+          "heading": "Vendor risk scoring",
+          "body": "Score each vendor to prioritise oversight.",
+          "bullets": [
+            "Likelihood of vendor failure",
+            "Impact on your organisation",
+            "Vendor control maturity",
+            "Overall risk rating"
+          ]
+        },
+        {
+          "heading": "Contractual protections",
+          "body": "Contracts are your primary tool for managing vendor risk.",
+          "bullets": [
+            "Security clauses in SLAs",
+            "Right-to-audit clauses",
+            "Breach notification requirements",
+            "Data protection addenda",
+            "Exit management clauses"
+          ]
+        },
+        {
+          "heading": "Continuous monitoring",
+          "body": "Vendor risk changes over time. Monitor continuously.",
+          "bullets": [
+            "Periodic reassessment",
+            "Security rating services",
+            "Incident notifications",
+            "Performance reviews"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Classify 5 vendors for a fictional company and assign risk ratings.",
+          "bullets": [
+            "Vendor 1: Cloud provider - Critical, High risk",
+            "Vendor 2: Payroll processor - High, High risk",
+            "Vendor 3: Office supplies - Low, Low risk"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Vendor classification and risk scoring",
+        "brief": "Classify 5 vendors for a fictional company and assign risk ratings.",
+        "steps": [
+          "Identify 5 vendors",
+          "Classify each vendor",
+          "Score each vendor risk",
+          "Recommend oversight level"
+        ],
+        "deliverable": "A vendor risk scoring table.",
+        "evaluationCriteria": [
+          "Classification is logical",
+          "Scoring is consistent",
+          "Oversight recommendations are appropriate"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [
+        "q.erm.011"
+      ],
+      "references": [
+        "ISO/IEC 27001:2022 Clause A.5.19",
+        "NIST SP 800-161 Rev. 1"
+      ],
+      "competencyDomain": "THIRD_PARTY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "third-party-risk",
+        "vendor-risk",
+        "supply-chain"
+      ]
+    },
+    {
+      "id": "erm.l12",
+      "moduleId": "erm",
+      "topic": "Enterprise Risk Management",
+      "subtopic": "Business continuity risk",
+      "title": "Business Continuity Risk and the BIA",
+      "summary": "Business continuity risk is the risk that your organisation cannot operate after a disruption. This lesson covers BIA, RTO, RPO, MTPD and continuity strategies.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Explain BIA, RTO, RPO and MTPD",
+        "Describe business continuity strategies",
+        "Explain the relationship between ERM and business continuity",
+        "Build a simple BIA for a fictional organisation"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "What is business continuity risk?",
+          "body": "Business continuity risk is the risk that a disruption prevents your organisation from delivering products or services.",
+          "bullets": [
+            "Natural disasters",
+            "Cyber attacks",
+            "Supply chain failure",
+            "Key staff loss",
+            "Premises loss"
+          ]
+        },
+        {
+          "heading": "BIA fundamentals",
+          "body": "Business Impact Analysis (BIA) identifies critical business functions and the impact of losing them.",
+          "bullets": [
+            "Critical functions: what must keep running?",
+            "Impact over time: what happens after 1 hour, 4 hours, 24 hours?",
+            "Dependencies: what systems, people and suppliers support each function?"
+          ]
+        },
+        {
+          "heading": "RTO, RPO and MTPD",
+          "body": "These are the key metrics of business continuity.",
+          "bullets": [
+            "RTO: Recovery Time Objective - how quickly must you recover?",
+            "RPO: Recovery Point Objective - how much data can you lose?",
+            "MTPD: Maximum Tolerable Period of Disruption - how long can you be down?"
+          ],
+          "table": [
+            [
+              "Metric",
+              "Definition",
+              "Example"
+            ],
+            [
+              "RTO",
+              "Recovery time objective",
+              "4 hours for customer banking"
+            ],
+            [
+              "RPO",
+              "Recovery point objective",
+              "1 hour of transaction data"
+            ],
+            [
+              "MTPD",
+              "Maximum tolerable disruption",
+              "24 hours for any function"
+            ]
+          ]
+        },
+        {
+          "heading": "Continuity strategies",
+          "body": "Strategies for keeping the organisation running.",
+          "bullets": [
+            "Hot site: fully operational backup site",
+            "Warm site: partially equipped backup site",
+            "Cold site: empty space with infrastructure",
+            "Reciprocal agreement: mutual aid with another organisation",
+            "Cloud: failover to cloud infrastructure"
+          ]
+        },
+        {
+          "heading": "ERM and business continuity",
+          "body": "Business continuity is part of ERM. Continuity risks are enterprise risks.",
+          "bullets": [
+            "BIA informs risk assessment",
+            "Continuity plans are risk treatments",
+            "Testing validates controls",
+            "BCP is part of the risk register"
+          ]
+        },
+        {
+          "heading": "Practical exercise",
+          "body": "Build a simple BIA for a fictional company with 3 critical functions.",
+          "bullets": [
+            "Function 1: Online banking - RTO: 4 hours, RPO: 1 hour",
+            "Function 2: Payroll - RTO: 24 hours, RPO: 24 hours",
+            "Function 3: Customer support - RTO: 8 hours, RPO: 4 hours"
+          ]
+        }
+      ],
+      "practicalExercise": {
+        "title": "Simple BIA for a fictional company",
+        "brief": "Build a BIA for a fictional company with 3 critical functions.",
+        "steps": [
+          "Identify 3 critical business functions",
+          "Determine RTO and RPO for each",
+          "Identify dependencies",
+          "Recommend continuity strategies"
+        ],
+        "deliverable": "A BIA document.",
+        "evaluationCriteria": [
+          "Functions are critical",
+          "RTO/RPO are realistic",
+          "Dependencies are identified"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [
+        "q.erm.012"
+      ],
+      "references": [
+        "ISO 22301",
+        "NIST SP 800-34 Rev. 1"
+      ],
+      "competencyDomain": "BUSINESS_CONTINUITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-02-01",
+      "tags": [
+        "erm",
+        "business-continuity",
+        "bia",
+        "rto-rpo"
+      ]
+    }
+  ]
+}

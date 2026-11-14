@@ -1,0 +1,652 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "CONTROLS",
+  "items": [
+    {
+      "id": "ctl_a_7_1",
+      "controlId": "A.7.1",
+      "title": "Physical security perimeters",
+      "category": "PHYSICAL",
+      "objective": "Defines and uses security perimeters to protect areas that contain information and other associated assets.",
+      "whyItExists": "Physical perimeters establish boundaries that deter, detect and delay unauthorised physical access. Clearly defined zones help apply appropriate controls based on sensitivity and risk.",
+      "riskAddressed": "Unauthorised physical entry to areas containing sensitive information or critical assets.",
+      "implementationGuidance": "Identify areas requiring protection and define physical security perimeters such as walls, controlled gates, reception points or fenced boundaries. Implement barriers, signage and access controls appropriate to the risk, and ensure perimeters are maintained and monitored. Review perimeter design when facilities, layouts or threat conditions change.",
+      "responsibleDepartment": "Facilities / Physical Security",
+      "evidenceExamples": [
+        "Site security plans and perimeter definitions",
+        "Physical barrier and access control evidence",
+        "Inspection and maintenance records",
+        "Zone classification documentation"
+      ],
+      "auditTesting": "Inspect facility plans and selected areas to confirm perimeters are defined, implemented and maintained. Verify controls match the sensitivity of assets within protected zones.",
+      "commonGaps": [
+        "Perimeters poorly defined or undocumented",
+        "Weak or damaged barriers",
+        "Public and sensitive areas not adequately separated",
+        "Changes to layout not reflected in security design"
+      ],
+      "interviewQuestions": [
+        "How are physical security zones defined at this site?",
+        "What prevents unauthorised entry to sensitive areas?",
+        "How often are perimeter controls inspected?"
+      ],
+      "scenario": "A data processing area was separated from general office space with badge-controlled doors and clear signage, reducing casual access and supporting monitoring of authorised entry.",
+      "relatedControls": [
+        "A.7.2",
+        "A.7.3",
+        "A.7.4"
+      ],
+      "keywords": [
+        "physical perimeter",
+        "facility security",
+        "barriers",
+        "zones"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-06",
+        "nist_800_53": "PE-3",
+        "iso_27001": "A.7.1"
+      }
+    },
+    {
+      "id": "ctl_a_7_2",
+      "controlId": "A.7.2",
+      "title": "Physical entry",
+      "category": "PHYSICAL",
+      "objective": "Protects secure areas with appropriate entry controls and access points to ensure only authorised personnel are allowed access.",
+      "whyItExists": "Controlling physical entry prevents unauthorised individuals from reaching sensitive systems, records and equipment. Effective entry controls also support accountability through logging and monitoring.",
+      "riskAddressed": "Unauthorised access to secure areas leading to theft, tampering or disclosure of information.",
+      "implementationGuidance": "Implement entry controls such as badges, keys, biometrics, visitor registration and escorted access based on area sensitivity. Grant access according to authorisation, review access rights regularly, and log entry where appropriate. Manage lost credentials promptly and ensure entry points, including emergency exits, are secured and monitored without compromising safety.",
+      "responsibleDepartment": "Facilities / Physical Security / HR",
+      "evidenceExamples": [
+        "Access control lists and authorisation records",
+        "Entry logs or access system reports",
+        "Visitor logs and escort procedures",
+        "Lost credential handling records"
+      ],
+      "auditTesting": "Review entry controls for secure areas and sample access grants, visitor records and logs. Confirm access is authorised, reviewed and revoked when no longer needed.",
+      "commonGaps": [
+        "Access rights not reviewed or revoked",
+        "Visitors unescorted in sensitive areas",
+        "Tailgating risks not addressed",
+        "Entry logs not monitored"
+      ],
+      "interviewQuestions": [
+        "Who is authorised to enter this secure area and how is that managed?",
+        "How are visitors controlled and recorded?",
+        "What happens when an access badge is lost?"
+      ],
+      "scenario": "Visitor badges, sign-in records and escort requirements were enforced at a server room entrance, providing accountability and reducing unauthorised access risk.",
+      "relatedControls": [
+        "A.7.1",
+        "A.7.3",
+        "A.5.18"
+      ],
+      "keywords": [
+        "physical entry",
+        "access control",
+        "visitors",
+        "badges"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-06",
+        "nist_800_53": "PE-3",
+        "iso_27001": "A.7.2"
+      }
+    },
+    {
+      "id": "ctl_a_7_3",
+      "controlId": "A.7.3",
+      "title": "Securing offices, rooms and facilities",
+      "category": "PHYSICAL",
+      "objective": "Designs and implements physical security for offices, rooms and facilities to protect information and assets.",
+      "whyItExists": "Different spaces present different risks based on the information processed and equipment housed. Appropriate physical protections reduce opportunities for theft, damage and unauthorised observation or access.",
+      "riskAddressed": "Compromise of information or assets due to inadequately secured workspaces and facilities.",
+      "implementationGuidance": "Assess physical risks for offices, meeting rooms, server rooms and other facilities, and apply controls such as secure doors, locks, alarms, surveillance and restricted access where appropriate. Position sensitive equipment and displays to reduce unauthorised viewing, secure unattended areas, and maintain controls through inspections and incident reporting.",
+      "responsibleDepartment": "Facilities / Physical Security",
+      "evidenceExamples": [
+        "Facility risk assessments",
+        "Physical security control inventories",
+        "Inspection and maintenance records",
+        "Incident reports related to facility security"
+      ],
+      "auditTesting": "Inspect selected facilities and confirm physical protections align with assessed risks. Verify maintenance, monitoring and response arrangements are in place.",
+      "commonGaps": [
+        "Sensitive areas left unlocked or unattended",
+        "No risk-based differentiation between spaces",
+        "Security equipment not maintained",
+        "Screens or documents visible to unauthorised people"
+      ],
+      "interviewQuestions": [
+        "How are sensitive rooms secured when unoccupied?",
+        "What physical controls protect this facility?",
+        "How are facility security issues reported and fixed?"
+      ],
+      "scenario": "A meeting room used for confidential discussions was fitted with privacy measures and access restrictions, and staff were instructed to clear whiteboards and documents after use.",
+      "relatedControls": [
+        "A.7.1",
+        "A.7.2",
+        "A.7.5"
+      ],
+      "keywords": [
+        "offices",
+        "facilities",
+        "physical protection",
+        "rooms"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-06",
+        "nist_800_53": "PE-3",
+        "iso_27001": "A.7.3"
+      }
+    },
+    {
+      "id": "ctl_a_7_4",
+      "controlId": "A.7.4",
+      "title": "Physical security monitoring",
+      "category": "PHYSICAL",
+      "objective": "Monitors premises continuously or as appropriate for unauthorised physical access or suspicious activity.",
+      "whyItExists": "Monitoring helps detect and respond to physical security incidents promptly. Without monitoring, unauthorised access or tampering may go unnoticed until damage or loss occurs.",
+      "riskAddressed": "Undetected physical intrusion, tampering or suspicious activity affecting information and assets.",
+      "implementationGuidance": "Implement monitoring controls proportionate to risk, such as CCTV, alarms, guard patrols, access log review and intrusion detection systems. Define monitoring coverage, retention, alerting and response procedures, and ensure monitoring respects legal and privacy requirements. Test systems regularly and review alerts or logs to identify and act on anomalies.",
+      "responsibleDepartment": "Facilities / Physical Security / Security Operations",
+      "evidenceExamples": [
+        "Monitoring system configurations and coverage plans",
+        "Alert and response procedures",
+        "Log or footage retention settings",
+        "Test and maintenance records"
+      ],
+      "auditTesting": "Review monitoring arrangements for sensitive areas and confirm coverage, alerting, response and retention are appropriate. Sample alerts or logs to verify they are reviewed and acted upon.",
+      "commonGaps": [
+        "Cameras or alarms not covering critical areas",
+        "Alerts generated but not reviewed",
+        "Monitoring records retained too briefly or without protection",
+        "Systems not tested or maintained"
+      ],
+      "interviewQuestions": [
+        "What areas are physically monitored and why?",
+        "How are monitoring alerts handled?",
+        "How long are access logs or footage retained?"
+      ],
+      "scenario": "After repeated after-hours door alarms, monitoring procedures were updated to require immediate verification and documented response, helping identify a faulty door sensor and improve incident handling.",
+      "relatedControls": [
+        "A.7.1",
+        "A.7.2",
+        "A.8.16"
+      ],
+      "keywords": [
+        "physical monitoring",
+        "cctv",
+        "alarms",
+        "intrusion detection"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "DE.CM-02",
+        "nist_800_53": "PE-6",
+        "iso_27001": "A.7.4"
+      }
+    },
+    {
+      "id": "ctl_a_7_5",
+      "controlId": "A.7.5",
+      "title": "Protecting against physical and environmental threats",
+      "category": "PHYSICAL",
+      "objective": "Designs and implements protection against physical and environmental threats such as natural disasters and other intentional or unintentional physical events.",
+      "whyItExists": "Facilities and infrastructure can be affected by fire, flood, power issues, temperature extremes and other hazards. Protective measures reduce likelihood and impact of damage to information processing facilities.",
+      "riskAddressed": "Damage or disruption to assets and information caused by physical or environmental hazards.",
+      "implementationGuidance": "Identify relevant physical and environmental threats based on location and facility design, and implement appropriate protections such as fire detection and suppression, climate control, water leak detection, surge protection and resilient power. Maintain equipment, test protective systems and coordinate with business continuity planning. Review controls when facilities or environmental risks change.",
+      "responsibleDepartment": "Facilities / IT Operations",
+      "evidenceExamples": [
+        "Environmental risk assessments",
+        "Fire, power and climate control maintenance records",
+        "Facility protection system test results",
+        "Business continuity coordination evidence"
+      ],
+      "auditTesting": "Inspect facilities and review maintenance and test records for environmental protections. Confirm controls address identified threats and issues are remediated.",
+      "commonGaps": [
+        "Environmental risks not assessed for location",
+        "Protective systems not tested or maintained",
+        "Single points of failure for power or cooling",
+        "No coordination with continuity plans"
+      ],
+      "interviewQuestions": [
+        "What environmental threats are relevant to this site?",
+        "How are fire suppression and power protections tested?",
+        "What happens if cooling or power fails?"
+      ],
+      "scenario": "A server room added temperature monitoring and tested backup power after identifying heat and outage risks, preventing equipment damage during a subsequent power interruption.",
+      "relatedControls": [
+        "A.7.8",
+        "A.7.11",
+        "A.5.29"
+      ],
+      "keywords": [
+        "environmental threats",
+        "fire",
+        "flood",
+        "power",
+        "climate"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-02",
+        "nist_800_53": "PE-13",
+        "iso_27001": "A.7.5"
+      }
+    },
+    {
+      "id": "ctl_a_7_6",
+      "controlId": "A.7.6",
+      "title": "Working in secure areas",
+      "category": "PHYSICAL",
+      "objective": "Designs and applies security measures for working in secure areas to reduce risks to information and assets.",
+      "whyItExists": "Even authorised personnel can introduce risk in secure areas through unsafe practices, unescorted visitors or uncontrolled equipment. Clear working rules support consistent protection.",
+      "riskAddressed": "Accidental or deliberate compromise of sensitive assets within secure areas.",
+      "implementationGuidance": "Define procedures for working in secure areas, including supervision, visitor escorting, restrictions on photography and recording, handling of sensitive materials and emergency actions. Communicate rules to authorised personnel and enforce them through access controls and monitoring. Review procedures when secure area use or risks change.",
+      "responsibleDepartment": "Facilities / Physical Security / Area Owners",
+      "evidenceExamples": [
+        "Secure area working procedures",
+        "Authorisation and training records",
+        "Visitor escort logs",
+        "Monitoring or inspection records"
+      ],
+      "auditTesting": "Review secure area procedures and observe or sample evidence of compliance. Confirm authorised personnel understand rules and exceptions are controlled.",
+      "commonGaps": [
+        "Rules not documented or communicated",
+        "Visitors or contractors unsupervised",
+        "Recording devices used without control",
+        "Procedures not enforced"
+      ],
+      "interviewQuestions": [
+        "What rules apply when working in this secure area?",
+        "How are contractors supervised?",
+        "Are photography or personal devices restricted?"
+      ],
+      "scenario": "In a network operations room, staff followed documented procedures for escorting vendors and prohibiting unauthorised devices, reducing risk of tampering and inadvertent disclosure.",
+      "relatedControls": [
+        "A.7.2",
+        "A.7.3",
+        "A.7.4"
+      ],
+      "keywords": [
+        "secure areas",
+        "working procedures",
+        "escort",
+        "supervision"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-06",
+        "nist_800_53": "PE-3",
+        "iso_27001": "A.7.6"
+      }
+    },
+    {
+      "id": "ctl_a_7_7",
+      "controlId": "A.7.7",
+      "title": "Clear desk and clear screen",
+      "category": "PHYSICAL",
+      "objective": "Defines and enforces clear desk rules for papers and removable storage media and clear screen rules for information processing facilities.",
+      "whyItExists": "Sensitive information left visible or unattended can be accessed, copied or stolen by unauthorised individuals. Clear desk and screen practices reduce exposure in offices, meeting rooms and remote environments.",
+      "riskAddressed": "Unauthorised disclosure of information through unattended documents, media or unlocked screens.",
+      "implementationGuidance": "Establish clear desk and clear screen requirements appropriate to the environment, including locking screens when unattended, securing documents and removable media, using privacy filters where needed and clearing printers and meeting spaces. Provide secure storage, communicate expectations and reinforce through awareness and periodic checks. Apply controls in offices, shared spaces and remote work settings.",
+      "responsibleDepartment": "All Personnel / Facilities / Information Security",
+      "evidenceExamples": [
+        "Clear desk and screen policy",
+        "Awareness materials and reminders",
+        "Secure storage availability evidence",
+        "Spot check or audit results"
+      ],
+      "auditTesting": "Observe work areas or review assessment results to confirm sensitive information is not left exposed. Verify screen locking and secure storage practices are understood and followed.",
+      "commonGaps": [
+        "Unattended unlocked screens",
+        "Sensitive documents left on desks or printers",
+        "No secure storage available",
+        "Rules not applied in shared or remote spaces"
+      ],
+      "interviewQuestions": [
+        "What is expected when leaving a workstation unattended?",
+        "How are sensitive papers stored outside working hours?",
+        "Are clear desk checks performed?"
+      ],
+      "scenario": "Regular workspace reminders and automatic screen lock settings reduced instances of unattended unlocked laptops and exposed documents in shared office areas.",
+      "relatedControls": [
+        "A.5.12",
+        "A.6.7",
+        "A.8.1"
+      ],
+      "keywords": [
+        "clear desk",
+        "clear screen",
+        "unattended workstation",
+        "physical privacy"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-06",
+        "nist_800_53": "MP-4",
+        "iso_27001": "A.7.7"
+      }
+    },
+    {
+      "id": "ctl_a_7_8",
+      "controlId": "A.7.8",
+      "title": "Equipment siting and protection",
+      "category": "PHYSICAL",
+      "objective": "Ensures equipment is sited securely and protected to reduce risks from environmental threats, hazards and unauthorised access.",
+      "whyItExists": "Improperly sited equipment is more vulnerable to damage, theft, overheating, water leaks and interference. Appropriate siting and protection support availability, integrity and confidentiality of information processing.",
+      "riskAddressed": "Equipment damage, service disruption or unauthorised access caused by poor siting or inadequate protection.",
+      "implementationGuidance": "Site equipment in locations that minimise exposure to physical and environmental risks, unauthorised access and interference. Provide protective measures such as secure racks, ventilation, power protection, physical barriers and environmental monitoring where appropriate. Control eating, drinking and storage of hazardous materials near equipment, and review siting when facilities or equipment change.",
+      "responsibleDepartment": "Facilities / IT Operations",
+      "evidenceExamples": [
+        "Equipment location and layout records",
+        "Environmental and physical protection evidence",
+        "Maintenance and inspection records",
+        "Risk assessments for equipment areas"
+      ],
+      "auditTesting": "Inspect equipment locations and verify protections are appropriate for identified risks. Confirm maintenance, environmental controls and access restrictions are effective.",
+      "commonGaps": [
+        "Critical equipment placed in exposed or public areas",
+        "Inadequate ventilation or power protection",
+        "No protection from water, heat or tampering",
+        "Siting not reviewed after changes"
+      ],
+      "interviewQuestions": [
+        "Why is this equipment located here and what protections are in place?",
+        "How are environmental risks to equipment managed?",
+        "What controls prevent unauthorised physical interaction?"
+      ],
+      "scenario": "Network equipment was moved from an open corridor into a secured, ventilated room with restricted access, reducing risk of accidental damage and tampering.",
+      "relatedControls": [
+        "A.7.5",
+        "A.7.11",
+        "A.7.12"
+      ],
+      "keywords": [
+        "equipment siting",
+        "protection",
+        "environmental controls",
+        "physical security"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-02",
+        "nist_800_53": "PE-18",
+        "iso_27001": "A.7.8"
+      }
+    },
+    {
+      "id": "ctl_a_7_9",
+      "controlId": "A.7.9",
+      "title": "Security of assets off-premises",
+      "category": "PHYSICAL",
+      "objective": "Protects off-site assets to prevent loss, damage, theft or compromise when assets are outside the organisation’s premises.",
+      "whyItExists": "Devices and assets used or stored off-premises face increased risks from theft, loss and uncontrolled environments. Controls must extend beyond office locations to maintain protection.",
+      "riskAddressed": "Loss or compromise of information and assets taken off-site.",
+      "implementationGuidance": "Identify assets permitted off-premises and apply protections such as encryption, authentication, tracking, secure storage and insurance where appropriate. Define user responsibilities for handling, transport and reporting loss or theft. Avoid leaving assets unattended in insecure locations and review approvals for long-term off-site use.",
+      "responsibleDepartment": "Asset Owners / IT / Information Security",
+      "evidenceExamples": [
+        "Off-premises asset register or approvals",
+        "Mobile device protection configurations",
+        "User guidance and acknowledgements",
+        "Loss/theft incident records"
+      ],
+      "auditTesting": "Sample off-site assets and confirm required protections, authorisations and user responsibilities are in place. Verify loss or theft reporting and response procedures operate.",
+      "commonGaps": [
+        "No record of assets taken off-site",
+        "Unencrypted portable devices",
+        "Users unaware of handling responsibilities",
+        "Lost devices not reported promptly"
+      ],
+      "interviewQuestions": [
+        "What assets are allowed off-premises and under what conditions?",
+        "How are off-site devices protected if lost or stolen?",
+        "How quickly must loss be reported?"
+      ],
+      "scenario": "Laptops issued for travel were encrypted and required MFA, and staff were instructed to report loss immediately, enabling rapid remote wipe after a device was stolen.",
+      "relatedControls": [
+        "A.5.9",
+        "A.6.7",
+        "A.8.1"
+      ],
+      "keywords": [
+        "off-premises assets",
+        "mobile devices",
+        "theft",
+        "loss"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-06",
+        "nist_800_53": "PE-17",
+        "iso_27001": "A.7.9"
+      }
+    },
+    {
+      "id": "ctl_a_7_10",
+      "controlId": "A.7.10",
+      "title": "Storage media",
+      "category": "PHYSICAL",
+      "objective": "Manages storage media through its lifecycle to prevent unauthorised disclosure, modification, removal or destruction of information.",
+      "whyItExists": "Storage media can contain sensitive information and may be portable, reusable or easily misplaced. Lifecycle controls are needed from acquisition and use to transport, reuse and disposal.",
+      "riskAddressed": "Information leakage, loss or corruption due to unmanaged storage media.",
+      "implementationGuidance": "Define procedures for handling storage media, including classification, labelling where appropriate, secure storage, authorised access, transport, reuse and disposal. Encrypt sensitive data on removable or portable media, maintain inventories for critical media, and sanitise or destroy media before reuse or disposal according to sensitivity. Control use of removable media where risk warrants.",
+      "responsibleDepartment": "IT Operations / Information Security",
+      "evidenceExamples": [
+        "Media handling procedures",
+        "Removable media inventory or control records",
+        "Encryption and sanitisation evidence",
+        "Disposal or destruction certificates"
+      ],
+      "auditTesting": "Review media handling controls and sample media types to confirm protection, tracking and sanitisation/disposal are appropriate. Verify removable media use is controlled where required.",
+      "commonGaps": [
+        "Uncontrolled use of USB drives or portable media",
+        "Sensitive media stored insecurely",
+        "Media reused or disposed without sanitisation",
+        "No inventory for critical backup media"
+      ],
+      "interviewQuestions": [
+        "How is removable media controlled and protected?",
+        "What happens to media before reuse or disposal?",
+        "How are backup tapes or drives tracked?"
+      ],
+      "scenario": "An organisation restricted USB use to approved encrypted devices and required documented sanitisation before reuse, reducing risk of data leakage from portable media.",
+      "relatedControls": [
+        "A.5.12",
+        "A.7.14",
+        "A.8.10"
+      ],
+      "keywords": [
+        "storage media",
+        "removable media",
+        "sanitisation",
+        "disposal"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-01",
+        "nist_800_53": "MP-6",
+        "iso_27001": "A.7.10"
+      }
+    },
+    {
+      "id": "ctl_a_7_11",
+      "controlId": "A.7.11",
+      "title": "Supporting utilities",
+      "category": "PHYSICAL",
+      "objective": "Protects information processing facilities from failures or disruptions in supporting utilities such as power, water, telecommunications and cooling.",
+      "whyItExists": "Critical systems depend on utilities. Interruptions or instability can cause outages, equipment damage or data loss, so resilience and protection measures are necessary.",
+      "riskAddressed": "Service disruption or asset damage due to utility failure or instability.",
+      "implementationGuidance": "Identify utility dependencies for critical facilities and implement protections such as uninterruptible power supplies, backup generators, redundant connections, surge protection and environmental controls. Monitor utility performance, maintain equipment, test failover arrangements and plan for prolonged outages in coordination with continuity plans.",
+      "responsibleDepartment": "Facilities / IT Operations",
+      "evidenceExamples": [
+        "Utility dependency assessments",
+        "UPS/generator maintenance and test records",
+        "Redundant connectivity documentation",
+        "Utility incident and response records"
+      ],
+      "auditTesting": "Review critical facilities and confirm utility protections and redundancy align with availability requirements. Verify maintenance and testing are performed and issues addressed.",
+      "commonGaps": [
+        "Single points of failure for power or connectivity",
+        "Backup power not tested",
+        "No monitoring of utility conditions",
+        "Utility dependencies not documented"
+      ],
+      "interviewQuestions": [
+        "What utility failures could affect this facility?",
+        "How often are backup power systems tested?",
+        "Are critical services supported by redundant connections?"
+      ],
+      "scenario": "Regular generator load tests and UPS maintenance ensured a data room remained operational during a local power outage, preventing unplanned downtime.",
+      "relatedControls": [
+        "A.7.5",
+        "A.7.8",
+        "A.5.30"
+      ],
+      "keywords": [
+        "utilities",
+        "power",
+        "ups",
+        "generator",
+        "resilience"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-02",
+        "nist_800_53": "PE-11",
+        "iso_27001": "A.7.11"
+      }
+    },
+    {
+      "id": "ctl_a_7_12",
+      "controlId": "A.7.12",
+      "title": "Cabling security",
+      "category": "PHYSICAL",
+      "objective": "Protects power, telecommunications and data cabling from interception, interference or damage.",
+      "whyItExists": "Cables carry critical services and sensitive information. Exposed or poorly managed cabling can be accidentally damaged, deliberately tampered with or used for unauthorised interception.",
+      "riskAddressed": "Service disruption or information compromise through damaged, intercepted or interfered cabling.",
+      "implementationGuidance": "Route and protect cabling appropriately using conduits, secure trays, locked cabinets and controlled access to wiring closets and patch panels. Separate power and communications cabling where appropriate, label and document cabling, and inspect for wear, unauthorised connections or tampering. Control access to network infrastructure areas and manage changes through documented processes.",
+      "responsibleDepartment": "Facilities / Network Operations",
+      "evidenceExamples": [
+        "Cabling diagrams and labelling records",
+        "Physical access controls for wiring areas",
+        "Inspection and maintenance records",
+        "Change records for cabling or patching"
+      ],
+      "auditTesting": "Inspect cabling routes, wiring closets and patch panels to confirm physical protection, access control and documentation. Verify unauthorised connections or damage risks are managed.",
+      "commonGaps": [
+        "Wiring closets unlocked or shared",
+        "Cables exposed in public areas",
+        "Poor labelling and documentation",
+        "No inspection for tampering or damage"
+      ],
+      "interviewQuestions": [
+        "Who can access network cabling and patch panels?",
+        "How is cabling protected from damage or interception?",
+        "Are cabling changes documented?"
+      ],
+      "scenario": "Locking communications cabinets and restricting access to network rooms reduced risk of unauthorised patching and accidental disconnection of critical services.",
+      "relatedControls": [
+        "A.7.2",
+        "A.7.8",
+        "A.8.20"
+      ],
+      "keywords": [
+        "cabling",
+        "network infrastructure",
+        "wiring closet",
+        "physical protection"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-02",
+        "nist_800_53": "PE-4",
+        "iso_27001": "A.7.12"
+      }
+    },
+    {
+      "id": "ctl_a_7_13",
+      "controlId": "A.7.13",
+      "title": "Equipment maintenance",
+      "category": "PHYSICAL",
+      "objective": "Ensures equipment is maintained correctly to ensure availability, integrity and confidentiality of information.",
+      "whyItExists": "Poorly maintained equipment is more likely to fail, perform insecurely or require emergency repairs that bypass controls. Regular maintenance supports reliable and secure operation.",
+      "riskAddressed": "Equipment failure, security weakness or service disruption due to inadequate maintenance.",
+      "implementationGuidance": "Establish maintenance schedules and procedures for information processing equipment in line with manufacturer recommendations and business requirements. Use authorised personnel, supervise external maintenance, record maintenance activities and verify equipment is secure and operational after service. Manage remote maintenance securely and ensure sensitive information is protected during repairs.",
+      "responsibleDepartment": "IT Operations / Facilities",
+      "evidenceExamples": [
+        "Maintenance schedules and logs",
+        "Vendor maintenance contracts and authorisations",
+        "Service reports and post-maintenance checks",
+        "Remote maintenance access records"
+      ],
+      "auditTesting": "Review maintenance records for critical equipment and confirm work was authorised, performed by qualified parties and documented. Verify security controls were maintained during and after maintenance.",
+      "commonGaps": [
+        "Maintenance not scheduled or documented",
+        "External technicians unsupervised",
+        "No verification after maintenance",
+        "Remote maintenance access uncontrolled"
+      ],
+      "interviewQuestions": [
+        "How is critical equipment maintenance planned and recorded?",
+        "How are third-party maintenance providers controlled?",
+        "What checks occur after maintenance is completed?"
+      ],
+      "scenario": "Documented maintenance visits for server room cooling systems included supervision, service records and post-maintenance checks, helping prevent unexpected outages.",
+      "relatedControls": [
+        "A.7.8",
+        "A.7.14",
+        "A.5.22"
+      ],
+      "keywords": [
+        "maintenance",
+        "service",
+        "equipment reliability",
+        "vendor maintenance"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.MA-01",
+        "nist_800_53": "MA-2",
+        "iso_27001": "A.7.13"
+      }
+    },
+    {
+      "id": "ctl_a_7_14",
+      "controlId": "A.7.14",
+      "title": "Secure disposal or re-use of equipment",
+      "category": "PHYSICAL",
+      "objective": "Ensures items of equipment containing storage media are verified to ensure sensitive data and licensed software have been removed or securely overwritten prior to disposal or re-use.",
+      "whyItExists": "Equipment may retain data after deletion or decommissioning. Without secure sanitisation or destruction, discarded or reassigned equipment can expose sensitive information.",
+      "riskAddressed": "Disclosure of sensitive information through disposed, sold, returned or re-used equipment.",
+      "implementationGuidance": "Define procedures for disposal, re-use, resale or return of equipment containing storage media. Identify data-bearing components, apply appropriate sanitisation, cryptographic erase or physical destruction based on sensitivity and feasibility, and verify completion. Maintain records such as certificates of destruction, track chain of custody and ensure licensed software and configurations are removed before transfer.",
+      "responsibleDepartment": "IT Asset Management / IT Operations / Information Security",
+      "evidenceExamples": [
+        "Asset disposal and sanitisation procedures",
+        "Sanitisation or destruction records/certificates",
+        "Chain-of-custody documentation",
+        "Asset register updates showing disposal/reuse"
+      ],
+      "auditTesting": "Sample disposed or re-used equipment and confirm data was securely removed or destroyed, records retained and asset inventory updated. Verify third-party disposal providers are controlled where used.",
+      "commonGaps": [
+        "Equipment disposed without sanitisation",
+        "No verification or certificate of destruction",
+        "Data-bearing components overlooked",
+        "Asset records not updated after disposal"
+      ],
+      "interviewQuestions": [
+        "How do you ensure data is removed before equipment is reused or discarded?",
+        "What records prove secure destruction or sanitisation?",
+        "How are third-party disposal vendors managed?"
+      ],
+      "scenario": "Before decommissioning laptops, an organisation performed verified disk sanitisation, recorded serial numbers and obtained destruction certificates for failed drives, preventing data recovery from retired devices.",
+      "relatedControls": [
+        "A.7.10",
+        "A.5.11",
+        "A.8.10"
+      ],
+      "keywords": [
+        "disposal",
+        "sanitisation",
+        "reuse",
+        "data destruction"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-01",
+        "nist_800_53": "MP-6",
+        "iso_27001": "A.7.14"
+      }
+    }
+  ]
+}

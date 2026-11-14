@@ -1,0 +1,559 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "isms.l09",
+      "moduleId": "isms",
+      "topic": "ISMS",
+      "subtopic": "",
+      "title": "Operational Planning and Control",
+      "summary": "Addresses planning and controlling ISMS processes to meet security objectives and manage changes.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain operational planning for ISMS",
+        "Identify controls for planned changes",
+        "Describe criteria for process control"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Addresses planning and controlling ISMS processes to meet security objectives and manage changes. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain operational planning for ISMS",
+            "Identify controls for planned changes",
+            "Describe criteria for process control"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for operational planning and control are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Operational Planning and Control",
+          "context": "A team must address operational planning and control in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Operational Planning and Control",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to operational planning and control.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "COMPLIANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "isms",
+        "isms"
+      ]
+    },
+    {
+      "id": "isms.l10",
+      "moduleId": "isms",
+      "topic": "ISMS",
+      "subtopic": "",
+      "title": "Performance Evaluation and Metrics",
+      "summary": "Covers monitoring, measurement, analysis and evaluation of ISMS performance.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Define meaningful ISMS metrics",
+        "Explain monitoring and measurement requirements",
+        "Interpret performance results for improvement"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers monitoring, measurement, analysis and evaluation of ISMS performance. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Define meaningful ISMS metrics",
+            "Explain monitoring and measurement requirements",
+            "Interpret performance results for improvement"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for performance evaluation and metrics are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Performance Evaluation and Metrics",
+          "context": "A team must address performance evaluation and metrics in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Performance Evaluation and Metrics",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to performance evaluation and metrics.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "COMPLIANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "isms",
+        "isms"
+      ]
+    },
+    {
+      "id": "isms.l11",
+      "moduleId": "isms",
+      "topic": "ISMS",
+      "subtopic": "",
+      "title": "Internal Audit Programme",
+      "summary": "Explains how to plan, conduct and report internal ISMS audits objectively.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe internal audit programme elements",
+        "Explain auditor independence and evidence",
+        "Interpret audit findings and follow-up"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Explains how to plan, conduct and report internal ISMS audits objectively. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe internal audit programme elements",
+            "Explain auditor independence and evidence",
+            "Interpret audit findings and follow-up"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for internal audit programme are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Internal Audit Programme",
+          "context": "A team must address internal audit programme in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Internal Audit Programme",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to internal audit programme.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "AUDIT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "isms",
+        "isms"
+      ]
+    },
+    {
+      "id": "isms.l12",
+      "moduleId": "isms",
+      "topic": "ISMS",
+      "subtopic": "",
+      "title": "Management Review",
+      "summary": "Covers inputs, outputs and decisions in management review of the ISMS.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Identify required management review inputs",
+        "Explain outputs and action tracking",
+        "Assess effectiveness of management review"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers inputs, outputs and decisions in management review of the ISMS. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Identify required management review inputs",
+            "Explain outputs and action tracking",
+            "Assess effectiveness of management review"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for management review are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Management Review",
+          "context": "A team must address management review in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Management Review",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to management review.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "isms",
+        "isms"
+      ]
+    },
+    {
+      "id": "isms.l13",
+      "moduleId": "isms",
+      "topic": "ISMS",
+      "subtopic": "",
+      "title": "Nonconformity and Corrective Action",
+      "summary": "Focuses on handling nonconformities, root cause analysis and corrective actions.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Define nonconformity and corrective action",
+        "Explain root cause analysis basics",
+        "Track corrective actions to effectiveness"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Focuses on handling nonconformities, root cause analysis and corrective actions. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Define nonconformity and corrective action",
+            "Explain root cause analysis basics",
+            "Track corrective actions to effectiveness"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for nonconformity and corrective action are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Nonconformity and Corrective Action",
+          "context": "A team must address nonconformity and corrective action in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Nonconformity and Corrective Action",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to nonconformity and corrective action.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "COMPLIANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "isms",
+        "isms"
+      ]
+    },
+    {
+      "id": "isms.l14",
+      "moduleId": "isms",
+      "topic": "ISMS",
+      "subtopic": "",
+      "title": "Continual Improvement of the ISMS",
+      "summary": "Explores continual improvement methods and integrating lessons into the ISMS.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain continual improvement in ISMS context",
+        "Identify improvement opportunities from data",
+        "Plan and prioritise improvements"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Explores continual improvement methods and integrating lessons into the ISMS. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain continual improvement in ISMS context",
+            "Identify improvement opportunities from data",
+            "Plan and prioritise improvements"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for continual improvement of the isms are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Continual Improvement of the ISMS",
+          "context": "A team must address continual improvement of the isms in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Continual Improvement of the ISMS",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to continual improvement of the isms.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "COMPLIANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "isms",
+        "isms"
+      ]
+    },
+    {
+      "id": "isms.l15",
+      "moduleId": "isms",
+      "topic": "ISMS",
+      "subtopic": "",
+      "title": "Certification Readiness and Audit Preparation",
+      "summary": "Prepares learners for certification stages, evidence readiness and auditor interactions.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe Stage 1 and Stage 2 expectations",
+        "Prepare evidence and personnel for audits",
+        "Address common certification readiness gaps"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Prepares learners for certification stages, evidence readiness and auditor interactions. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe Stage 1 and Stage 2 expectations",
+            "Prepare evidence and personnel for audits",
+            "Address common certification readiness gaps"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for certification readiness and audit preparation are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Certification Readiness and Audit Preparation",
+          "context": "A team must address certification readiness and audit preparation in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Certification Readiness and Audit Preparation",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to certification readiness and audit preparation.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "COMPLIANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "isms",
+        "isms"
+      ]
+    }
+  ]
+}

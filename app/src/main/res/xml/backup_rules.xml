@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+      Progress, notes and assessment history are backed up so a learner does not
+      lose work when changing device. Exported files are transient artefacts and
+      are deliberately excluded.
+    -->
+    <include domain="database" path="grc_vanguard.db" />
+    <include domain="sharedpref" path="grc_vanguard_settings.xml" />
+    <exclude domain="file" path="exports/" />
+</full-backup-content>

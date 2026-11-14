@@ -1,0 +1,559 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "nist.l03",
+      "moduleId": "nist",
+      "topic": "NIST",
+      "subtopic": "",
+      "title": "NIST SP 800-53 Control Families Overview",
+      "summary": "Introduces SP 800-53 control families, baselines and tailoring concepts.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe structure of SP 800-53 controls",
+        "Explain baselines and tailoring",
+        "Relate controls to risk management"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Introduces SP 800-53 control families, baselines and tailoring concepts. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe structure of SP 800-53 controls",
+            "Explain baselines and tailoring",
+            "Relate controls to risk management"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for nist sp 800-53 control families overview are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying NIST SP 800-53 Control Families Overview",
+          "context": "A team must address nist sp 800-53 control families overview in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: NIST SP 800-53 Control Families Overview",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to nist sp 800-53 control families overview.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "nist",
+        "nist"
+      ]
+    },
+    {
+      "id": "nist.l04",
+      "moduleId": "nist",
+      "topic": "NIST",
+      "subtopic": "",
+      "title": "NIST Risk Management Framework (RMF)",
+      "summary": "Walks through RMF steps for managing information system risk.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Outline RMF steps and outcomes",
+        "Explain roles in RMF activities",
+        "Apply RMF thinking to system lifecycle"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Walks through RMF steps for managing information system risk. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Outline RMF steps and outcomes",
+            "Explain roles in RMF activities",
+            "Apply RMF thinking to system lifecycle"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for nist risk management framework (rmf) are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying NIST Risk Management Framework (RMF)",
+          "context": "A team must address nist risk management framework (rmf) in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: NIST Risk Management Framework (RMF)",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to nist risk management framework (rmf).",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "nist",
+        "nist"
+      ]
+    },
+    {
+      "id": "nist.l05",
+      "moduleId": "nist",
+      "topic": "NIST",
+      "subtopic": "",
+      "title": "NIST SP 800-30 Risk Assessment",
+      "summary": "Covers risk assessment process, threat/vulnerability analysis and likelihood/impact.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe risk assessment steps",
+        "Identify threat sources and events",
+        "Communicate risk assessment results"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers risk assessment process, threat/vulnerability analysis and likelihood/impact. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe risk assessment steps",
+            "Identify threat sources and events",
+            "Communicate risk assessment results"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for nist sp 800-30 risk assessment are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying NIST SP 800-30 Risk Assessment",
+          "context": "A team must address nist sp 800-30 risk assessment in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: NIST SP 800-30 Risk Assessment",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to nist sp 800-30 risk assessment.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "nist",
+        "nist"
+      ]
+    },
+    {
+      "id": "nist.l06",
+      "moduleId": "nist",
+      "topic": "NIST",
+      "subtopic": "",
+      "title": "NIST Incident Response and Contingency Planning",
+      "summary": "Introduces incident response and contingency planning concepts from NIST guidance.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain incident handling lifecycle",
+        "Describe contingency planning elements",
+        "Identify readiness and recovery considerations"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Introduces incident response and contingency planning concepts from NIST guidance. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain incident handling lifecycle",
+            "Describe contingency planning elements",
+            "Identify readiness and recovery considerations"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for nist incident response and contingency planning are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying NIST Incident Response and Contingency Planning",
+          "context": "A team must address nist incident response and contingency planning in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: NIST Incident Response and Contingency Planning",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to nist incident response and contingency planning.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "BUSINESS_CONTINUITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "nist",
+        "nist"
+      ]
+    },
+    {
+      "id": "nist.l07",
+      "moduleId": "nist",
+      "topic": "NIST",
+      "subtopic": "",
+      "title": "Zero Trust and Secure Architecture Concepts",
+      "summary": "Explores zero trust principles and secure architecture considerations.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe zero trust core principles",
+        "Identify architectural implications",
+        "Assess trust assumptions in systems"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Explores zero trust principles and secure architecture considerations. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe zero trust core principles",
+            "Identify architectural implications",
+            "Assess trust assumptions in systems"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for zero trust and secure architecture concepts are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Zero Trust and Secure Architecture Concepts",
+          "context": "A team must address zero trust and secure architecture concepts in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Zero Trust and Secure Architecture Concepts",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to zero trust and secure architecture concepts.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "nist",
+        "nist"
+      ]
+    },
+    {
+      "id": "nist.l08",
+      "moduleId": "nist",
+      "topic": "NIST",
+      "subtopic": "",
+      "title": "NIST Privacy Framework and AI RMF Basics",
+      "summary": "Introduces privacy risk management and AI risk management concepts from NIST frameworks.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain privacy risk management concepts",
+        "Describe AI RMF purpose and core ideas",
+        "Relate privacy and AI risks to governance"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Introduces privacy risk management and AI risk management concepts from NIST frameworks. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain privacy risk management concepts",
+            "Describe AI RMF purpose and core ideas",
+            "Relate privacy and AI risks to governance"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for nist privacy framework and ai rmf basics are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying NIST Privacy Framework and AI RMF Basics",
+          "context": "A team must address nist privacy framework and ai rmf basics in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: NIST Privacy Framework and AI RMF Basics",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to nist privacy framework and ai rmf basics.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "PRIVACY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "nist",
+        "nist"
+      ]
+    },
+    {
+      "id": "nist.l09",
+      "moduleId": "nist",
+      "topic": "NIST",
+      "subtopic": "",
+      "title": "CSF Profiles, Tiers and Gap Assessment",
+      "summary": "Applies CSF profiles and tiers to assess gaps and prioritise improvements.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe CSF profiles and tiers",
+        "Perform a basic gap assessment",
+        "Prioritise improvement actions"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Applies CSF profiles and tiers to assess gaps and prioritise improvements. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Describe CSF profiles and tiers",
+            "Perform a basic gap assessment",
+            "Prioritise improvement actions"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for csf profiles, tiers and gap assessment are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying CSF Profiles, Tiers and Gap Assessment",
+          "context": "A team must address csf profiles, tiers and gap assessment in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: CSF Profiles, Tiers and Gap Assessment",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to csf profiles, tiers and gap assessment.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "nist",
+        "nist"
+      ]
+    }
+  ]
+}

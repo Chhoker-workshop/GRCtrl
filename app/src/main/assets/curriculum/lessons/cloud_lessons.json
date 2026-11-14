@@ -1,0 +1,559 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "cloud.l01",
+      "moduleId": "cloud",
+      "topic": "Cloud",
+      "subtopic": "",
+      "title": "Cloud Security Fundamentals",
+      "summary": "Covers cloud security fundamentals in cloud environments.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain key concepts of cloud security fundamentals",
+        "Identify risks and controls",
+        "Apply governance and evidence practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers cloud security fundamentals in cloud environments. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain key concepts of cloud security fundamentals",
+            "Identify risks and controls",
+            "Apply governance and evidence practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for cloud security fundamentals are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Cloud Security Fundamentals",
+          "context": "A team must address cloud security fundamentals in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Cloud Security Fundamentals",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to cloud security fundamentals.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cloud",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cloud.l02",
+      "moduleId": "cloud",
+      "topic": "Cloud",
+      "subtopic": "",
+      "title": "Cloud Governance and Shared Responsibility",
+      "summary": "Covers cloud governance and shared responsibility in cloud environments.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain key concepts of cloud governance and shared responsibility",
+        "Identify risks and controls",
+        "Apply governance and evidence practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers cloud governance and shared responsibility in cloud environments. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain key concepts of cloud governance and shared responsibility",
+            "Identify risks and controls",
+            "Apply governance and evidence practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for cloud governance and shared responsibility are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Cloud Governance and Shared Responsibility",
+          "context": "A team must address cloud governance and shared responsibility in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Cloud Governance and Shared Responsibility",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to cloud governance and shared responsibility.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cloud",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cloud.l03",
+      "moduleId": "cloud",
+      "topic": "Cloud",
+      "subtopic": "",
+      "title": "Cloud Identity and Access",
+      "summary": "Covers cloud identity and access in cloud environments.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain key concepts of cloud identity and access",
+        "Identify risks and controls",
+        "Apply governance and evidence practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers cloud identity and access in cloud environments. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain key concepts of cloud identity and access",
+            "Identify risks and controls",
+            "Apply governance and evidence practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for cloud identity and access are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Cloud Identity and Access",
+          "context": "A team must address cloud identity and access in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Cloud Identity and Access",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to cloud identity and access.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cloud",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cloud.l04",
+      "moduleId": "cloud",
+      "topic": "Cloud",
+      "subtopic": "",
+      "title": "Cloud Data Protection",
+      "summary": "Covers cloud data protection in cloud environments.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain key concepts of cloud data protection",
+        "Identify risks and controls",
+        "Apply governance and evidence practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers cloud data protection in cloud environments. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain key concepts of cloud data protection",
+            "Identify risks and controls",
+            "Apply governance and evidence practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for cloud data protection are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Cloud Data Protection",
+          "context": "A team must address cloud data protection in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Cloud Data Protection",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to cloud data protection.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cloud",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cloud.l05",
+      "moduleId": "cloud",
+      "topic": "Cloud",
+      "subtopic": "",
+      "title": "Cloud Network and Workload Security",
+      "summary": "Covers cloud network and workload security in cloud environments.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain key concepts of cloud network and workload security",
+        "Identify risks and controls",
+        "Apply governance and evidence practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers cloud network and workload security in cloud environments. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain key concepts of cloud network and workload security",
+            "Identify risks and controls",
+            "Apply governance and evidence practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for cloud network and workload security are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Cloud Network and Workload Security",
+          "context": "A team must address cloud network and workload security in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Cloud Network and Workload Security",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to cloud network and workload security.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cloud",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cloud.l06",
+      "moduleId": "cloud",
+      "topic": "Cloud",
+      "subtopic": "",
+      "title": "Cloud Monitoring and Incident Response",
+      "summary": "Covers cloud monitoring and incident response in cloud environments.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain key concepts of cloud monitoring and incident response",
+        "Identify risks and controls",
+        "Apply governance and evidence practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers cloud monitoring and incident response in cloud environments. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain key concepts of cloud monitoring and incident response",
+            "Identify risks and controls",
+            "Apply governance and evidence practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for cloud monitoring and incident response are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Cloud Monitoring and Incident Response",
+          "context": "A team must address cloud monitoring and incident response in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Cloud Monitoring and Incident Response",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to cloud monitoring and incident response.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cloud",
+        "cloud"
+      ]
+    },
+    {
+      "id": "cloud.l07",
+      "moduleId": "cloud",
+      "topic": "Cloud",
+      "subtopic": "",
+      "title": "Cloud Compliance and Resilience",
+      "summary": "Covers cloud compliance and resilience in cloud environments.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain key concepts of cloud compliance and resilience",
+        "Identify risks and controls",
+        "Apply governance and evidence practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers cloud compliance and resilience in cloud environments. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain key concepts of cloud compliance and resilience",
+            "Identify risks and controls",
+            "Apply governance and evidence practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for cloud compliance and resilience are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Cloud Compliance and Resilience",
+          "context": "A team must address cloud compliance and resilience in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Cloud Compliance and Resilience",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to cloud compliance and resilience.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "INFORMATION_SECURITY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "cloud",
+        "cloud"
+      ]
+    }
+  ]
+}

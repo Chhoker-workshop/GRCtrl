@@ -1,0 +1,908 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "cism.l01",
+      "moduleId": "cism",
+      "topic": "CISM Programme Orientation",
+      "subtopic": "Domain structure and the CISO mandate",
+      "title": "CISM Domain Structure and the CISO's Mandate",
+      "summary": "How the CISM domains fit together, what each one actually asks of a security leader, and what the CISO is genuinely accountable for when the board asks them to certify the organisation's risk position.",
+      "difficulty": "BEGINNER",
+      "objectives": [
+        "Describe the four CISM domains and the published weighting of each domain",
+        "Explain the CISO mandate in terms of decision rights, advice and assurance rather than tools",
+        "Distinguish governance, risk management, programme development and operations management",
+        "Position your current role against the domain structure and identify the gap to close"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "What CISM Actually Certifies",
+          "body": "CISM is a management certification, not a technical one. ISACA's framing is consistent across the certification family: the exam tests whether you can govern, direct and control information security as a business function. A candidate who can configure a firewall perfectly but cannot get a business unit to fund a control has not demonstrated the competence the certification is designed to attest.\n\nThe practical consequence is that the syllabus is organised around the lifecycle of an information security function inside a business: why it exists, how it is governed, how risk is identified and treated, how the programme is built and funded, and how it operates day to day. Every domain maps onto a set of decisions that a security leader either makes, influences, or escalates. If you cannot name the decision attached to a topic, you have not yet learned the topic in the sense the exam and the job require.\n\nA second consequence, and one that surprises candidates coming from a technical background, is that the domain structure is deliberately manager-shaped. The domains cover strategy, risk, programme, operations, incident response, continuity and business alignment. They do not cover the mechanics of exploit development, reverse engineering or tool configuration. You can be an excellent security engineer and a poor CISM candidate, and equally you can be a mediocre engineer and an excellent CISO, because the two roles answer to different questions.",
+          "bullets": [
+            "CISM tests governance judgement: can you make and defend decisions about information security in a business context",
+            "Technical depth is assumed to be delegated to specialists; the exam asks whether you direct them well",
+            "Domain boundaries matter because real jobs do not respect them - you will be assessed on reasoning across domains",
+            "The certification is vendor-neutral and sits alongside CISA, CRISC and CGEIT in ISACA's family"
+          ]
+        },
+        {
+          "heading": "The Four Domains and Their Published Weightings",
+          "body": "The published CISM exam outline divides the body of knowledge into four domains. In the outline ISACA published for the current version of the exam, the weightings were Information Security Governance at 25 per cent, Information Risk Management at 20 per cent, Information Security Program Development and Management at 25 per cent, and Information Security Operations Management at 20 per cent. Treat those numbers as indicative of emphasis rather than as fixed truth: ISACA revises the outline periodically, and you should check the current candidate handbook before you plan study time.\n\nWhat the numbers actually tell you is where the exam believes the marginal difficulty sits. Governance and programme development carry the heaviest weight because both are about making many people do things consistently over years without authority over most of them. Risk management is weighted for the judgement calls around assessment, treatment and acceptance. Operations carries a lower weight not because it is unimportant but because it is the domain where candidate experience most often substitutes for study.\n\nThis module teaches the four domains in the order they appear in the syllabus, with Domain 1 spread across three lessons, Domain 2 across two, Domain 3 across three and Domain 4 across three. Where a domain's practice has been reshaped by regulation - for example the way Indian CERT-In directions and RBI expectations have hardened security governance requirements since 2018 - we cover both the certification framing and the working reality.",
+          "table": [
+            ["Domain", "Published weight", "Core question it answers"],
+            ["Information Security Governance", "25%", "Who decides, under what authority, and how is the decision evidenced?"],
+            ["Information Risk Management", "20%", "What could go wrong, how much does it matter, and what do we do about it?"],
+            ["Information Security Program Development and Management", "25%", "How do we build, fund, resource and improve the programme?"],
+            ["Information Security Operations Management", "20%", "How do we run the programme day to day, including incidents and continuity?"]
+          ],
+          "callout": "Check the current ISACA exam outline and candidate handbook before you commit a study plan. Syllabi and weightings are revised, and this module is written to the structure as published at the time of writing rather than to a frozen document."
+        },
+        {
+          "heading": "The CISO Mandate: From Technical Authority to Enterprise Advisor",
+          "body": "The single most useful reframe for a new security leader is that the CISO owns a decision right, not a tool estate. A CISO who cannot make a decision that changes how the business spends money, accepts risk, or ships a product has not secured the mandate, regardless of how good the technical estate looks. Mandate has four components that you should be able to articulate for any organisation.\n\nFirst, authority: a defined scope covering the assets, systems and data the organisation relies on, and a documented right to be consulted on changes that affect them. Second, position: a reporting line that preserves objectivity. A CISO reporting into the head of the business unit whose risks they assess cannot set risk appetite for that unit. Third, resources: a budget, a headcount and a mandate to allocate both across the portfolio rather than reactively. Fourth, standing: the right to raise an issue to the board without routing it through the person whose budget it affects.\n\nNotice what is not in that list. It is not the CISO's job to make every risk acceptable, and it is not the CISO's job to prevent every incident. The professional position is that the CISO provides the information and options for informed risk decisions by accountable business owners, and is accountable for the security of the environment in which those decisions are taken. When an incident occurs, the question that matters is whether the decision was informed and whether the treatment matched the recorded appetite. That is the standard of professional practice, and it is what you will be assessed against in Domain 4.",
+          "bullets": [
+            "Authority: written scope of the systems, data and locations you cover",
+            "Position: reporting line that keeps you independent of the risk owners",
+            "Resources: a budget and the ability to allocate it across the portfolio",
+            "Standing: direct, unfiltered access to the board risk committee",
+            "Accountability: for the security environment and the advice, not for outcomes the business controls"
+          ]
+        },
+        {
+          "heading": "How the Domains Interlock",
+          "body": "Most real work crosses domain boundaries, which is why the exam asks for judgement rather than recall and why real job interviews probe how you handle the seams. A single worked example will show you the seams better than any diagram.\n\nA bank launches a mobile lending product in six months. Domain 1 is engaged first: what is the security strategy for digital origination, which committee approves the risk acceptance if fraud losses exceed appetite, and does the existing policy framework even cover third-party origination risk. Domain 2 then assesses the risk: what is the fraud exposure, what is the impact of a data breach on the lending book, and what control set brings residual risk within tolerance. Domain 3 builds the programme: does the current team have the capacity, what does the tooling cost, who supplies the continuous monitoring. Domain 4 runs it: who watches the dashboards, who is on call, what happens when the mobile app has a critical defect in production, and how the incident feeds the next strategy revision.\n\nNotice the loop at the end. Domain 4's operational data - fraud rates, false positive rates, incident volumes, control exceptions - is the raw material for Domain 1's next strategy cycle. Mature security functions make that loop explicit by reporting the same metrics at the board risk committee that the operations team sees every morning. Weak functions run a governance cycle annually that bears no relationship to what happened last Tuesday.",
+          "bullets": [
+            "Governance sets the direction and the decision rights",
+            "Risk management translates direction into quantified, owned risk positions",
+            "Programme management turns treatment plans into funded, staffed, evidenced work",
+            "Operations management produces the evidence that the other three domains need",
+            "The cycle repeats: operational data must flow back into strategy, or the strategy is fiction"
+          ]
+        },
+        {
+          "heading": "Common Misunderstandings",
+          "body": "Four misconceptions account for most of the avoidable failures in CISM candidates and newly promoted CISOs. The first is that governance means writing policy. It does not. A policy nobody has operationalised and cannot be evidenced is a liability, because it creates a documented obligation with no control behind it, and an auditor will find it.\n\nThe second is that risk management is a scoring exercise. Risk work is communication and decision support. If the register does not lead to a decision by an accountable owner, it is administration.\n\nThe third is that programme development is project delivery. Delivering a project on time and inside budget says nothing about whether the capability is repeatable, evidenced, or adequately staffed for the next year.\n\nThe fourth is that operations means keeping the lights on. Operations is where the organisation finds out whether the design was right. A security function that has never had to respond to a real incident at three in the morning has a theory, not a capability.",
+          "callout": "If you can only remember one thing from this lesson: the CISO's job is to make security decisions well, document them, and keep the evidence. Everything else in the syllabus is a way of doing that."
+        }
+      ],
+      "examples": [
+        {
+          "title": "A newly appointed CISO inheriting a loosely defined mandate",
+          "context": "You join a mid-sized retail bank with 1,800 employees as its first CISO. There is a security operations team of nine reporting to the Head of IT. Policies exist but were last reviewed four years ago. Your position in the org chart is Head of IT Security, which means your manager also owns the infrastructure budget and the uptime targets you are measured against. The board has never received a security report.",
+          "outcome": "A good outcome is a documented mandate covering scope, decisions, resources and board access, agreed with the CEO and the board chair, with an independence mechanism that lets you raise issues about IT-owned systems. The first deliverable is not a tool; it is a one-page mandate statement approved at board level, plus an agreement on how and when the board will hear from you.",
+          "sector": "Banking"
+        },
+        {
+          "title": "From solo operator to enterprise function in manufacturing",
+          "context": "Your organisation makes industrial equipment in three plants and sells to hospitals. You were hired as IT manager and you now also cover security because the company cannot afford a CISO. IT, OT and a new e-commerce channel all depend on you. Leadership wants a single vendor to quote an all-in security service and wants you to sign off on it.",
+          "outcome": "A good outcome is that you do not accept a single-vendor answer by default. You build a risk-scoped view first: which plants have safety implications, which contracts require security commitments from you, which suppliers already hold security obligations, and what the customer base implies. You then evaluate vendors against that scope and documented requirements, and you tell leadership explicitly which risks you are accepting under a fixed budget. You also make the case, in writing, for the minimum separation of duties the role requires.",
+          "sector": "Manufacturing"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Map your organisation against the four CISM domains",
+        "brief": "You will produce a one-page gap assessment of an organisation you know well - yours, or one described below - against each of the four CISM domains, ending with a ranked list of the three gaps you would raise with the executive team first.",
+        "steps": [
+          "Write a two-sentence description of the organisation: its sector, size, business model, and the two or three assets whose loss or compromise would most damage the business.",
+          "For each of the four CISM domains, list what already exists (documents, committees, systems, named roles) and what the domain would require but you cannot evidence. Be concrete: a policy name, a meeting, a report, a person.",
+          "For Domain 1 only, write a draft mandate statement for the security leader covering scope, decision rights, resources and board access, and mark which of the four elements is currently absent.",
+          "Mark each gap as blocked by mandate, blocked by money, blocked by people or blocked by will. This distinction changes who you need to persuade.",
+          "Rank all gaps against a single criterion - exposure to loss of the critical assets you named in step one - and select your top three. Write one sentence per gap explaining the consequence of leaving it open for the next twelve months."
+        ],
+        "deliverable": "A one-page gap map with the four domains as headings, an evidence list and a gap list under each, plus a ranked top-three list with consequence statements.",
+        "evaluationCriteria": [
+          "Every gap cites concrete evidence - a named document, meeting, system or role - rather than describing an abstraction",
+          "The mandate statement is complete on scope, decision rights, resources and board access, and honestly identifies what is missing",
+          "Gaps are distinguished by their blocker, and the argument for each top-three item is tied to loss of the identified critical assets",
+          "The document is readable by an executive who has no security background, with no unexplained jargon"
+        ],
+        "estimatedMinutes": 40
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "ISACA CISM Candidate Handbook and Exam Outline, current edition - verify the latest published domain structure and weightings",
+        "ISACA Code of Professional Ethics as applied to CISM holders",
+        "NIST Cybersecurity Framework 2.0 (2024)",
+        "ISO/IEC 27001:2022 Clauses 4 to 10",
+        "COSO Enterprise Risk Management - Integrating with Strategy and Performance (2017)"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-01-15",
+      "tags": ["CISM", "CISO", "governance", "ISACA", "leadership"]
+    },
+    {
+      "id": "cism.l02",
+      "moduleId": "cism",
+      "topic": "Information Security Governance",
+      "subtopic": "Strategy, policy and governance committees",
+      "title": "CISM Domain 1 - Information Security Governance",
+      "summary": "How to build a security strategy that survives board scrutiny, design a tiered and testable policy architecture, and run governance committees that make and record real decisions.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Distinguish governance, management and operations and apply that distinction to security",
+        "Design a security strategy that ties to business objectives and carries a costed roadmap",
+        "Construct a tiered policy architecture with version control, owners and review triggers",
+        "Run a governance committee that produces documented decisions with named owners and dates"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "Governance Is a Decision Right, Not a Document",
+          "body": "The most expensive mistake in information security governance is the belief that producing a policy creates governance. It does not. A policy is a record of a decision that someone with authority already made. Governance is the machinery that produces those decisions and holds people to them. If your organisation has forty policy documents and a security steering committee that has met twice in three years, you have documentation without governance.\n\nGovernance in the security context has three working parts. The first is the decision framework: who is authorised to accept risk, approve exceptions, sign off on major changes, and set tolerance. The second is the assurance mechanism: how the executive team and the board learn that the decisions are being made and honoured, including the ones that go against the recommendation of the security function. The third is escalation: what happens when a business owner will not accept the treatment you advise, or a regulator, auditor or customer asks a question you cannot answer.\n\nTest your governance with a simple test. Ask a business owner to describe, in their own words, the level of disruption their team would accept for a planned change to a customer-facing system. If the answer is vague, you do not have governance - you have a policy that nobody internalised. Governance that works shows up in behaviour before it shows up in documentation.",
+          "bullets": [
+            "Governance decides; management executes; operations delivers day to day",
+            "The test of a governance mechanism is whether a real decision was made, recorded and honoured",
+            "Escalation paths are part of governance, not an afterthought - define them before the first conflict"
+          ]
+        },
+        {
+          "heading": "Building a Security Strategy That Survives Board Scrutiny",
+          "body": "A security strategy is not a technology plan and it is not a list of controls. Its job is to state where the organisation chooses to take risk, where it refuses to, and how it will know whether the choice was sound. The structure that survives a board is simple: business context, objectives, principles, measurable outcomes, and a costed roadmap with dates.\n\nStart with the business context in the business's own language. If you open with a maturity model score, the board stops listening. Open with what the organisation does, which assets are irreplaceable, what would hurt the business most if they were unavailable or disclosed, and which regulators and customers constrain the choices. Then state three to five security objectives phrased as outcomes the board cares about - for example, no unplanned customer-facing outage caused by information security exceeding four hours per quarter, and every material incident reported to the board within twenty-four hours of confirmation.\n\nThe roadmap is where most strategies fail credibility. A strategy with no costed roadmap is a wish list, and it will be funded last in a tight budget cycle. Pair each objective with the initiatives that deliver it, a first-year cost, a named accountable executive, and a dependency on the business - because almost every meaningful security control requires the business to change something, whether that is a process, a contract or a behaviour. A roadmap with no business dependency column is usually a security wish list disguised as a plan.",
+          "table": [
+            ["Strategy element", "Common failure", "Test that catches it"],
+            ["Business context", "Opens with technology, not business", "Could a non-executive read it and name the business risk?"],
+            ["Objectives", "Vague verbs such as improve or strengthen", "Is every objective measurable with a number and a date?"],
+            ["Principles", "Abstract values nobody can refuse", "Could a business owner use it to reject an exception?"],
+            ["Roadmap", "No cost, no owner, no dependencies", "Does every initiative have a cost, an owner and a business dependency?"]
+          ],
+          "callout": "A board approves a strategy when they can see which decisions it will let them make better. If your strategy only describes what security will do, it is an operating plan and belongs one level down."
+        },
+        {
+          "heading": "The Policy Architecture: Tiered, Versioned and Testable",
+          "body": "Most organisations have a policy document problem in both directions at once: too many near-duplicate policies with contradictory requirements, and no policy at all in the areas where the business is actually exposed. The fix is architecture, not volume. A workable structure is three tiers.\n\nTier one is the information security policy approved by the board - one document, a page or two, setting intent, scope, roles and the commitments the organisation makes. Tier two is the policy set, organised by theme, each owned by a named executive and each containing the requirements that other functions can comply with. Tier three is the standards, procedures and guidelines that say how the requirements are met in practice.\n\nEvery policy needs six attributes to be worth the paper it is on: an owner who can be held to it, an approval body, a version and an effective date, a review cadence, a documented exception process, and a statement of what happens when it is breached. That last one is the one most often missing, and it is the one that makes a policy real - consequences named in advance are enforceable; consequences discovered afterwards are negotiable.\n\nVersion control is not administrative tidiness. It determines whether you can prove what applied on the day of the incident. Keep superseded versions, keep an approval trail, and record which version was in force on any given date. Review triggers matter more than the calendar: a policy should be reopened when there is a regulatory change, a major incident, a significant business change, an audit finding, or a change in the threat landscape - not merely because three years elapsed.",
+          "bullets": [
+            "Tier 1: board-approved information security policy - intent, scope, roles, commitments",
+            "Tier 2: thematic policy set - owned by executives, containing requirements other functions can comply with",
+            "Tier 3: standards, procedures and guidelines - how the requirements are met",
+            "Mandatory attributes: owner, approver, version, effective date, review cadence, exception route, breach consequence",
+            "Review on trigger events as well as on a calendar; keep superseded versions for evidential purposes"
+          ]
+        },
+        {
+          "heading": "Governance Committees: Mandate, Cadence and Paper",
+          "body": "A security governance committee is a decision forum. If it only receives updates, it is a status meeting and should be renamed and shortened. The design of the committee determines what the organisation can actually decide, and the three things that determine it are the mandate, the membership and the cadence.\n\nThe mandate should list the decisions reserved to the committee: approving or recommending risk acceptance above a defined threshold, approving exceptions to policy, approving material changes to the security architecture, approving the security programme plan and budget, and confirming risk closure. Membership should be the business owners who can make those decisions - not their deputies unless the deputies hold the same authority. A committee of information security staff is a working group wearing a committee's clothes.\n\nCadence should match the decision frequency. A monthly governance committee for a large regulated organisation, quarterly for a mid-sized one, and monthly for a small one are all defensible. What is not defensible is a quarterly committee receiving monthly data, because the committee then discusses stale exceptions and no longer holds the pulse.\n\nPaper discipline is what separates a committee that governs from one that performs. Every agenda item should have a decision owner, a decision requested, and a recommended position from the security function. Every minute should record the decision, the conditions attached, the accountable owner and a due date, and should list carried-forward items with their age. If the same item has been carried three times, that is not a tracking issue; it is evidence that the committee lacks the authority to resolve it, and the right response is to escalate the mandate rather than to keep deferring.",
+          "table": [
+            ["Committee element", "Purpose", "Failure mode to avoid"],
+            ["Mandate", "Name the decisions reserved to the committee", "A mandate written as topics to discuss rather than decisions to take"],
+            ["Membership", "Ensure decision-makers are present", "Delegates without decision authority"],
+            ["Cadence", "Match decision frequency", "Quarterly committee receiving monthly data"],
+            ["Paper", "One decision per item, with owner and date", "Minutes that record discussion but no decision"]
+          ]
+        },
+        {
+          "heading": "Where Governance Fails in Practice",
+          "body": "Governance failures cluster into recognisable patterns, and recognising them is a large part of the professional value a CISO adds.\n\nThe first pattern is the compliance recital: the committee receives assurance reports from every regulatory obligation and spends its time tracking them rather than making decisions about risk. The remedy is a unified obligation register with one owner per obligation and a single severity view, so the committee can compare a PCI obligation with an internal control gap on the same page.\n\nThe second is the exception treadmill: business owners routinely request exceptions and the committee approves them as a formality. The remedy is to require a treatment plan, an expiry date and a named compensating control for every exception, and to publish the total number and value of open exceptions as a metric.\n\nThe third is the risk-acceptance vacuum: nobody wants to sign. The remedy is to make acceptance a positive, bounded act - accept subject to a named control, accept for a stated period, accept with a defined consequence - rather than a refusal to decide. An unsigned acceptance is not a risk-free position; it is an unowned one.\n\nThe fourth is the strategy that is never revisited. The remedy is to schedule a formal strategy review each year against the assumptions it was built on, and to require that the assumptions be written down. If the assumption was that the organisation has one cloud provider and it now has three, the strategy was not wrong when written, but it is wrong now.",
+          "callout": "Governance maturity is measured by the quality of decisions made under pressure, not by the volume of documentation produced when things are calm."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Building the first security governance committee in a listed manufacturer",
+          "context": "A listed industrial manufacturer has ISO 27001 certification, a security manager, and an audit committee that has never received a technology risk paper. The CFO asks what the new committee will cost in meeting time across eleven directors. The security manager wants to include the plant managers, the CTO, and the head of legal.",
+          "outcome": "A good outcome is a committee with a one-page mandate, six members who can actually approve exceptions and accept risk, a quarterly cadence with monthly exception reporting delegated to the security manager, and a standard pack of five papers: risk position, exception register, incident and continuity summary, programme delivery and budget, and forward look. Directors get a single consolidated pack rather than twelve regulatory recitals.",
+          "sector": "Manufacturing"
+        },
+        {
+          "title": "Policy sprawl in a fast-growing IT services firm",
+          "context": "Your organisation grew from 40 to 400 people in three years. You inherited 63 policy and procedure documents, several of which contradict each other on retention, remote work and encryption. Nobody knows which version applies. A customer audit has just asked to see your encryption policy and you cannot say for certain what it currently requires.",
+          "outcome": "A good outcome is a documented three-tier architecture with the contradictions resolved by decision, not by deleting the inconvenient document, and a supersession record that shows what was retired and when. The immediate deliverable is an evidence pack that lets you hand the auditor the current encryption policy with its approval date and owner, plus a plan to retire the duplicates on a defined schedule.",
+          "sector": "IT Services"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Draft a security strategy and governance mandate for a fictional bank",
+        "brief": "You are the incoming CISO of a mid-sized cooperative bank with 60 branches, 300 employees and a legacy core banking platform. The board has asked for a security strategy and a governance structure by the end of the quarter.",
+        "steps": [
+          "Write a one-paragraph business context covering the business model, the three assets whose loss would hurt the bank most, and the three external constraints you can identify (regulatory, customer, contractual).",
+          "Draft five security objectives as measurable outcomes. Each must contain a number, a measurement source and a target date, and at least two must be about risk reduction rather than about tool deployment.",
+          "Draft a costed twelve-month roadmap with four to six initiatives. For each, state cost band, accountable executive, dependency on a business unit, and the strategy objective it serves.",
+          "Write a one-page governance mandate naming the decisions reserved to the security governance committee, its membership by role, its cadence, and the standard reporting pack.",
+          "Add a paragraph on your own mandate: scope, decision rights, resources and board access, plus one sentence on how you will handle the situation where a business owner refuses your recommended treatment."
+        ],
+        "deliverable": "A strategy pack of three to four pages covering business context, objectives, roadmap, governance mandate and your own mandate statement.",
+        "evaluationCriteria": [
+          "Objectives are measurable, dated and include at least two that describe a business risk outcome rather than an activity",
+          "Every roadmap initiative has a cost band, a named accountable role and at least one business dependency",
+          "The governance mandate lists decisions, not topics, and the membership can actually take those decisions",
+          "The strategy contains no technology named as an objective; technology appears only as the means of delivery",
+          "The mandate statement is specific enough that a reader could hold you to it"
+        ],
+        "estimatedMinutes": 50
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "ISACA CISM Domain 1 Information Security Governance study materials, current edition",
+        "NIST Cybersecurity Framework 2.0 - Govern function (GV)",
+        "ISO/IEC 27001:2022 Clause 5.1 to 5.3 and Annex A.5.1 to A.5.2",
+        "ISO/IEC 38500:2012 Governance of IT for the Organisation",
+        "IT Governance Institute - COBIT 2019 Framework Governance and Management Objectives"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-01-15",
+      "tags": ["CISM", "governance", "policy", "strategy", "committees"]
+    },
+    {
+      "id": "cism.l03",
+      "moduleId": "cism",
+      "topic": "Information Security Governance",
+      "subtopic": "Roles, responsibilities and awareness",
+      "title": "CISM Domain 1 - Roles, Responsibilities and Security Awareness Programmes",
+      "summary": "How to assign ownership without taking it away from the business, apply the three lines model to security, design segregation of duties that actually survives exceptions, and build an awareness programme judged by behaviour rather than completion rates.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Build a role and responsibility matrix that places ownership with accountable business owners",
+        "Apply the three lines model to information security and explain the independence requirement",
+        "Design segregation of duties and access management rules that hold under business pressure",
+        "Design and measure a security awareness programme using behavioural outcomes"
+      ],
+      "estimatedMinutes": 50,
+      "sections": [
+        {
+          "heading": "The Role Stack: Who Owns What",
+          "body": "Security accountability fails in a predictable way when organisations try to make the security function responsible for outcomes that other people control. Nobody in the CISO's team can decide whether a bank releases a product with a known fraud exposure, whether a hospital schedules surgery, or whether a telecom operator activates a network element with an unreviewed configuration. Those decisions belong to the accountable business owner, and a governance model that pretends otherwise will either fail the audit or, worse, pass the audit while the risk stays unowned.\n\nThe role stack that works in practice has four levels. The board and its risk committee own the risk appetite and confirm that the framework is operating. The executive team owns the risk decisions within that appetite, and each executive is accountable for the risks of their own function. The security function owns the framework, the advice, the monitoring, and the escalation - but not the business decisions. Individual process and system owners own the design and operation of their controls, and are the ones who can say what is realistic in their context.\n\nThe critical discipline is that ownership of a risk sits with the person who has the authority to change the exposure. If the risk is created by a business process, the business owns it. If the risk is created by an inability to control a technical mechanism, the security function owns the mechanism and advises on the process. Write this down in a responsibility matrix that names roles, not individuals, and that explicitly states who is accountable for each risk category. Publish it, and revisit it whenever the organisation restructures.",
+          "bullets": [
+            "Board and risk committee: set appetite, confirm the framework is operating",
+            "Executive team: make risk decisions within appetite, each accountable for their function's risks",
+            "Security function: build the framework, advise, monitor, escalate - not the business decision",
+            "Control and process owners: design and operate their own controls in their own context",
+            "Rule of thumb: the party with authority to change the exposure owns the risk"
+          ]
+        },
+        {
+          "heading": "Three Lines Applied to Information Security",
+          "body": "The three lines model, published by the IIA, separates roles that are often muddled in organisations: the first line owns and manages the risk, the second line oversees risk and compliance across the organisation, and the third line provides independent assurance. Applied to security, it produces an important clarification that many organisations have never articulated.\n\nBusiness process and system owners sit in the first line. They operate the controls, manage the risk in their process, and are accountable for the effectiveness of the controls they run. The security function sits in the second line - with an important caveat that is the subject of the next section - providing framework, policy, independent monitoring, testing and escalation. Internal audit sits in the third line and is independent of everything else, reporting to the audit committee rather than to the CISO.\n\nThe caveat matters because many organisations place the security function in the first line by accident: the security operations team configures the firewalls, runs the backups, patches the servers and administers the identity platform. That is first-line work. Doing it while also claiming to provide independent assurance over the same environment is a structural contradiction, and an experienced auditor will find it. The practical resolution depends on scale. In a large organisation, separate the operation of controls from the oversight of them: a team that deploys identity controls should not be the team that reports on identity control effectiveness. In a small organisation, you may not be able to split the roles, and you should say so explicitly rather than pretending the separation exists.",
+          "table": [
+            ["Line", "Security example", "Reporting", "Key risk if blurred"],
+            ["First line", "Operating firewalls, running the SIEM log pipeline, administering identities, patching", "Business and IT operational management", "Owners stop feeling accountable for their own risk"],
+            ["Second line", "Framework, policy, independent testing, risk register, metrics, escalation", "Executive or board risk committee", "Oversight becomes self-review and loses credibility"],
+            ["Third line", "Internal audit providing independent assurance", "Audit committee / board", "Assurance is not independent and cannot be relied upon"]
+          ]
+        },
+        {
+          "heading": "Segregation of Duties and the Access Request Problem",
+          "body": "Segregation of duties is the oldest and most frequently violated control in information security, because the pressure it creates is always commercial and immediate, while the harm it prevents is hypothetical and future. A ticket to add a contractor to the payment release system is delayed by three days, the vendor complains, and someone senior tells the security team to make an exception. Three months later the exception has become the default and the control has effectively been retired.\n\nA workable design separates three things: the request, the approval, and the technical execution. In a healthy model the business owner approves access based on a documented role, security or an automated rule executes it against the role, and a separate periodic review confirms that entitlements still match the role. Where the organisation is too small to separate roles entirely, compensating controls are used, and they must be named: for example, a second-person authorisation on a payment release, with the authorisation and the execution both logged and reviewed monthly.\n\nThe access request process itself is where the governance actually lives. What matters is not the ticket system but the decision rules: what constitutes a valid business justification, who may approve which entitlements, what standard evidence is required, how long an approval remains valid, and what happens to entitlements when the role changes. Define a small set of entitlements that carry elevated risk - privileged access, financial transaction capability, bulk data export, production change approval, audit log amendment - and route each through a named authority. Publish the count and age of open privileged access requests as a metric, because a growing queue is a leading indicator of informal workarounds.",
+          "bullets": [
+            "Separate request, approval and execution; where impossible, name the compensating control",
+            "Define elevated-entitlement categories and a named approver authority for each",
+            "Set approval validity: entitlements expire when the role changes, not when the system does",
+            "Monitor privileged access request age and volume as an informal-workaround indicator",
+            "Log both approval and execution for compensating controls, and review them on a fixed cadence"
+          ]
+        },
+        {
+          "heading": "Security Awareness as a Measured Programme",
+          "body": "Most awareness programmes measure completion, and completion is close to worthless as a risk indicator. A phishing simulation with a 30 per cent click rate and 100 per cent course completion tells you that the training is being consumed and the behaviour is unchanged. If the programme is going to be funded and defended, it must be measured in behaviour, and behaviour has to be tied to specific, few, high-cost actions.\n\nStart by identifying the specific actions that cause the most harm in your organisation. For a bank, that is credential entry into a lookalike domain, payment-detail changes requested by email, and USB insertion. For a hospital, it is sharing credentials at a workstation and clicking unexpected attachments containing patient data. For a telecom operator, it is credential reuse on network management interfaces and disabling of logging for troubleshooting convenience. Awareness content that does not name the organisation's specific dangerous actions is generic and mostly forgotten.\n\nDesign for segmented audiences. The general workforce needs short, repeated, scenario-based content matched to the few actions that matter for them. Staff in higher-risk roles - developers, help desk, finance, privileged administrators - need additional, role-specific content and target-specific simulation. Managers need a different message entirely: how to spot a compromised report from their own team, and what to do in the first ten minutes.\n\nFinally, design the measurement. Useful metrics include simulation failure rates by segment, time to report a simulated event, the proportion of privileged users who have completed simulated privilege-escalation tests, and the rate at which reported events are converted into teaching cases. A rising report rate with a falling failure rate is the signature of a programme that is working, because reporting is a behaviour that only grows if people trust that reporting will not be punished.",
+          "table": [
+            ["Metric", "What it tells you", "Why it is more useful than completion"],
+            ["Simulation failure rate by segment", "Whether the behaviour changed for the targeted audience", "Completion can be 100% with unchanged behaviour"],
+            ["Time to first report", "Whether people believe reporting is safe and useful", "Low reporting usually signals fear of blame"],
+            ["Conversion of reports into teaching cases", "Whether reporting is being used", "Creates the virtuous cycle of visible improvement"],
+            ["Privileged user failure rate", "Residual risk in the highest-impact population", "Privileged compromise is the dominant breach path in many sectors"]
+          ],
+          "callout": "Design the awareness programme around the organisation's specific dangerous actions, not around the framework's training requirements. The regulatory requirement is the floor, not the design."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Segregation of duties under pressure in a payments business",
+          "context": "Your payments platform processes supplier payouts. The operations team can both add beneficiary accounts and release payments. A new business line needs urgent onboarding and the operations manager asks for a three-month blanket approval to let one analyst handle both, on the grounds that the volume is too high for the current two-person model.",
+          "outcome": "A good outcome is a decision that reduces the exception rather than granting it: a capacity fix (cross-training, temporary staff, a batch review step) combined with a short, tightly scoped and logged exception covering only the named analyst, only the new business line, only for 30 days, with retrospective review. The quarterly exception report should show the exception ageing, and it should be reported to the governance committee as a business capacity risk, not as a security exception.",
+          "sector": "Banking"
+        },
+        {
+          "title": "Awareness measurement in a government health service",
+          "context": "Your organisation employs 9,000 staff across 12 hospitals and a shared services centre. Mandatory annual training completion is 99 per cent. Internal audit has observed that two of three data breaches over the past year began with a user clicking a link and entering credentials, and the awareness manager has been asked to reduce click rates by 30 per cent.",
+          "outcome": "A good outcome replaces the completion metric with a behaviour metric and narrows the target population: simulated phishing with scenarios drawn from real local threats, segmented by department, with the three highest-risk departments - emergency, radiology and administration - receiving tailored content on patient-record access. The programme reports simulation failure rate and time-to-report by department to the board risk committee, alongside a case study each quarter showing what was fixed after a report.",
+          "sector": "Government"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Build a role matrix and an awareness measurement plan",
+        "brief": "You will produce two artefacts for a fictional organisation: a role and responsibility matrix for information security, and an awareness measurement plan with behavioural metrics.",
+        "steps": [
+          "Choose an organisation (bank, hospital, telco, manufacturer or software firm) and list its six to eight principal risk categories, for example data breach, unauthorised payment, service outage, third-party failure, insider misuse and regulatory breach.",
+          "For each risk category, assign a first-line owner, a second-line function and a third-line assurance provider. Write one sentence justifying each assignment, especially where the natural owner and the risk creator differ.",
+          "Identify three segregation-of-duties conflicts you can foresee and describe, for each, the compensating control you would require and the metric that would reveal the compensating control failing.",
+          "Design an awareness programme for this organisation: name the three specific dangerous actions, define three audience segments and state the message for each.",
+          "Write five metrics with their definitions, data sources, collection frequency, target thresholds and the board-level question each metric answers. Replace any completion metric with a behavioural one and note the substitution."
+        ],
+        "deliverable": "A role and responsibility matrix with justifications, three segregation-of-duties designs with compensating controls, and a one-page awareness measurement plan with five behavioural metrics.",
+        "evaluationCriteria": [
+          "Every risk category has an owner with the authority to change the exposure, and the justification says why",
+          "Compensating controls are specific enough to be implemented and auditable, not generic statements such as increased monitoring",
+          "Each awareness segment maps to named dangerous actions rather than generic awareness themes",
+          "Each metric has a threshold and an explicit board-level question it answers",
+          "No metric can be satisfied by an administrative action alone"
+        ],
+        "estimatedMinutes": 45
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "IIA - The IIA's Three Lines Model (2019 update)",
+        "ISACA CISM Domain 1 study materials, current edition",
+        "NIST SP 800-50 Rev. 1 - Building a Cybersecurity and Privacy Learning Program (2024)",
+        "ISO/IEC 27001:2022 Clause 7.2 and Annex A.6.3, A.6.6",
+        "NIST Cybersecurity Framework 2.0 - Govern (GV) and Protect (PR) functions"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-01-15",
+      "tags": ["CISM", "roles", "segregation of duties", "awareness", "three lines"]
+    },
+    {
+      "id": "cism.l04",
+      "moduleId": "cism",
+      "topic": "Information Risk Management",
+      "subtopic": "Security risk lifecycle and treatment",
+      "title": "CISM Domain 1 - Risk Management and the Security Risk Lifecycle",
+      "summary": "How a security risk moves from identification through analysis and treatment to a defensible acceptance, and how the security risk register becomes the primary instrument of the risk conversation with the business.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Describe an end-to-end information security risk lifecycle with named entry and exit criteria",
+        "Distinguish inherent, residual and acceptable risk and connect each to a governance decision",
+        "Design a risk acceptance that is bounded, evidenced and owned by an accountable business executive",
+        "Operate a security risk register that is decision-grade rather than a document repository"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "The Risk Lifecycle in Security Terms",
+          "body": "The security risk lifecycle is the discipline of moving a risk from an unexamined state to a managed state and keeping it there as conditions change. The stages are familiar from ISO 31000, but security-specific practice adds important detail to each one.\n\nIdentification is continuous, not annual. Sources include threat intelligence, vulnerability scanning, penetration test findings, incident retrospectives, third-party assessments, audit findings, regulatory notifications, employee reports, loss data, and the risk workshops. Most organisations over-rely on two of these and then wonder why their register does not reflect reality.\n\nAnalysis converts an identified issue into a position. For a technical vulnerability this means exploitation likelihood in your specific environment, business impact if exploited, and the effectiveness of existing controls. Analysis is where the biggest quality differences appear: two organisations facing the same CVE will assign different likelihood because one has no internet-facing instance and the other has forty thousand instances reachable from a flat network.\n\nEvaluation asks whether the position is inside appetite and tolerance, and who is able to decide. Treatment sets the response. Monitoring watches for the conditions that would change the position. And critically, at each stage there must be a named owner and a date, because a risk without an owner is an unowned risk regardless of where in the lifecycle it sits.",
+          "bullets": [
+            "Identification: continuous, multi-source - threat intel, scanning, testing, incidents, third parties, audits, loss data",
+            "Analysis: environment-specific likelihood and impact, not vendor severity scores",
+            "Evaluation: is the position within appetite, and who has authority to decide?",
+            "Treatment: avoid, mitigate, transfer, accept or escalate, with a costed plan and owner",
+            "Monitoring: the conditions that would change the position, tracked as indicators"
+          ]
+        },
+        {
+          "heading": "Inherent, Residual and Acceptable Risk",
+          "body": "Three states of risk must be kept distinct in every register, report and conversation, because most security argument at the board fails because these are conflated.\n\nInherent risk is the exposure in the absence of controls - what would happen if every control that currently exists were removed. It is a property of the business activity and the environment, not of the organisation's maturity. Residual risk is the exposure that remains after the controls that are actually operating and effective have done their work. Acceptable risk is a governance conclusion: residual risk that sits inside the stated appetite and tolerance for that risk category and has been accepted by an authorised owner.\n\nThe operational implication is that residual risk must be based on evidence of control effectiveness, not on the existence of a control. An organisation that has a written procedure for privileged access review but has not run a review in eleven months has the inherent risk of privileged compromise, not a reduced one. This is the single most common error in security risk registers and it systematically understates exposure.\n\nReporting should present all three. A board that sees only residual scores believes the organisation is safer than it is. A board that sees only inherent scores believes nothing is being done. The instructive presentation shows inherent, the controls relied upon, the evidence of their effectiveness, the resulting residual, and the gap to appetite.",
+          "table": [
+            ["Risk state", "Definition", "Common error"],
+            ["Inherent risk", "Exposure with no controls applied - a property of the activity and environment", "Treated as the current position, which overstates the organisation's maturity"],
+            ["Residual risk", "Exposure after controls that are operating and effective", "Computed from documented controls rather than evidenced effectiveness"],
+            ["Acceptable risk", "Residual risk within appetite, accepted by an authorised owner", "Assumed by default because nobody objected at the time"]
+          ],
+          "callout": "If you cannot evidence that a control operated during the period you are reporting on, you have the inherent risk number, not the residual one. Say so in the report."
+        },
+        {
+          "heading": "Risk Acceptance with Consequences",
+          "body": "Risk acceptance is the mechanism by which an organisation stops pretending a risk is not real and starts managing it consciously. Done well it is a positive, bounded, documented act. Done badly it is a signature on a spreadsheet that nobody reads for two years.\n\nA defensible acceptance has eight components. The risk statement in plain language, with the exposure quantified as far as it can be. The specific scenario or scenarios it covers. The controls that remain in place and the evidence they are working. The acceptance rationale - why the organisation prefers this exposure to the alternatives. The approver, named, with their role demonstrating authority for this risk category and this value. The expiry date, because most acceptances should be reviewed within a year and some much sooner. The consequence - what will actually happen if this materialises, stated plainly, because this is what converts an abstract acceptance into a genuine informed decision. And the review trigger, the event that forces the acceptance back to the committee before expiry.\n\nThe consequence field is what most organisations omit and it is the most valuable. When a risk owner writes that the consequence of accepting unauthenticated access to the customer portal would be regulatory penalty, reputational damage and notification of 400,000 data subjects, the approval becomes real. Without it, acceptance is a formality.\n\nSeparately, distinguish risk acceptance from risk deferral. Deferral - we will deal with it next quarter - is not acceptance, and it should be tracked in a different view with a different ageing measure. Any risk that has been deferred beyond a quarter with no treatment progress is an escalation candidate.",
+          "bullets": [
+            "Eight components: statement, scenario, remaining controls, rationale, named approver, expiry, consequence, review trigger",
+            "State the consequence in plain numbers - who is affected, what is lost, what is notified",
+            "Acceptance is a governance act with a named authority, not a default outcome of silence",
+            "Track deferrals separately with ageing; anything overdue is an escalation candidate"
+          ]
+        },
+        {
+          "heading": "Operating a Decision-Grade Risk Register",
+          "body": "Most security risk registers are repositories that nobody uses to make decisions. The test of a decision-grade register is simple: can you walk into the governance committee and answer, from the register alone, what the organisation's top security exposures are, who owns each, what was decided about them, and when the decision expires?\n\nA decision-grade register has seven attributes per entry. A unique identifier and title written in plain business language. The business context - what process, system or customer set is affected. The inherent and residual position with the analysis assumptions stated. The treatment, owner and due date. The linked controls with evidence references. The decision history, including who accepted what and when. And the next review date with the trigger that will bring it forward.\n\nTwo operational habits separate registers that work from registers that gather dust. First, link the register to treatment work: each accepted or mitigated risk points at a ticket, a project or a control test, so that the register and the programme cannot drift apart. Second, require the register to be the single source for the executive report - no parallel spreadsheets, no separate risk summaries - so that the number the board sees is the number the team manages.\n\nQuality checks you should run quarterly: how many entries have not been reviewed in 90 days, how many have an expired acceptance with no re-decision, how many have a treatment owner who has left, and how many are duplicates of each other under different names. Deduplication is worth attention because register inflation creates the illusion of coverage while actually reducing clarity about what matters.",
+          "table": [
+            ["Register attribute", "Purpose"],
+            ["Identifier and plain-language title", "Referencable and understandable by non-specialists"],
+            ["Business context", "Connects the risk to an activity the business recognises"],
+            ["Inherent and residual with assumptions", "Makes the analysis auditable and challengeable"],
+            ["Treatment, owner, due date", "Converts a description into a commitment"],
+            ["Linked controls and evidence references", "Connects the register to what is actually operating"],
+            ["Decision history and expiry", "Prevents silent rollover of old acceptances"]
+          ]
+        },
+        {
+          "heading": "The CISO's Position in Enterprise Risk",
+          "body": "Security risks do not exist in isolation from the enterprise risk universe. They sit inside a portfolio of operational, financial, regulatory, people and third-party risks, competing for the same capital and the same executive attention. A CISO who presents security risks in a separate register, reviewed in a separate meeting, with a separate appetite, ends up negotiating from a weak position and occasionally accepting risk that the enterprise risk view already excludes.\n\nThe constructive approach is to use a consistent taxonomy and scoring method across domains, so that a security exposure and an operational disruption can be compared honestly. Where that is not possible - and it often is not, because different functions own different methods - at least agree the interfaces: which risks are dependencies of which, which share a common cause, and which share a common treatment. A common cause analysis is especially valuable in cyber: a single identity provider compromise or a single cloud region failure will generate risks that appear in multiple registers, and only a portfolio view catches the correlated exposure.\n\nYour seat at the enterprise risk table is earned by contribution, not title. What you bring that a generalist risk manager does not is a detailed understanding of how the technical estate produces or fails to produce the control, and a realistic view of what security treatment can achieve. Deliver that in the enterprise forum and you will be asked for input on non-security risk decisions that carry cyber consequences - a new payment channel, a cloud migration, an acquisition. That is where the CISO's influence is actually won.",
+          "bullets": [
+            "Use a shared taxonomy and scoring method across domains wherever possible",
+            "Where methods differ, map dependencies and common causes explicitly",
+            "Correlated exposures appear in multiple registers and only a portfolio view finds them",
+            "Earn the enterprise table through the quality of contribution, not through title"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Unsigned acceptances across a healthcare group",
+          "context": "Your hospital group has 11 residual risks above tolerance. Nine of them were accepted by a department head in 2021 with no expiry and no stated consequence. The CISO has just been asked to present the register to the board risk committee and the CFO has asked whether the group could take insurance against them instead.",
+          "outcome": "A good outcome is a triage that separates the nine legacy acceptances from the two current ones: each legacy acceptance is reopened, re-quantified in light of the current threat picture, given a consequence statement and an expiry, and either re-accepted by an executive with authority or converted into a funded treatment. On insurance, the honest answer is that cyber insurance typically transfers financial loss and incident response costs but not the regulatory, contractual and reputational consequences, so the answer to the CFO is that insurance is a partial treatment layered on top of a managed position, not a substitute for one.",
+          "sector": "Healthcare"
+        },
+        {
+          "title": "Correlated risk across two registers",
+          "context": "In a telecom operator, the enterprise risk register carries an 'extended outage in core network' risk owned by network engineering, and the security register carries an 'unauthorised access to network management interfaces' risk owned by your team. Both are rated amber. The annual board report presents them in separate sections and the total exposure looks manageable.",
+          "outcome": "A good outcome surfaces the correlation in the portfolio view: the security exposure is one of the credible causes of the operational one. You bring this to the joint forum, propose treating the management-interface exposure as a driver of the operational risk, and the combined treatment (privileged access monitoring, out-of-band management, configuration assurance) is funded on the strength of the operational impact rather than the security score alone.",
+          "sector": "Telecom"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Run a security risk lifecycle on a real scenario",
+        "brief": "You will take a realistic security exposure through the full lifecycle and produce the artefacts a governance committee would expect to see.",
+        "steps": [
+          "Choose an exposure that is plausible for your organisation - for example credential stuffing against a customer portal, an unpatched internet-facing service, a third-party processor with production access, or an over-privileged service account.",
+          "Write the risk statement in plain business language, naming the affected asset, the business process and the potential consequence, and state the inherent risk position with your assumptions.",
+          "List the controls you would rely on to reduce exposure. For each, state how you would test whether it actually operated during the last 90 days, and note any control you cannot evidence - treat that as no control for scoring.",
+          "Compute the residual position and compare it to a stated appetite for that risk category. Decide the treatment, and name the owner, the cost band and the due date.",
+          "Draft a one-page risk acceptance memo containing all eight components, including a consequence statement in plain numbers, or draft a treatment proposal if you decided not to accept. Then write the three-sentence summary you would read aloud to the committee."
+        ],
+        "deliverable": "A lifecycle pack: risk statement, control effectiveness assessment, residual calculation, treatment decision with owner and date, and either an acceptance memo with all eight components or a treatment proposal.",
+        "evaluationCriteria": [
+          "Residual risk is derived from evidenced control effectiveness, and any control that could not be evidenced is explicitly treated as absent",
+          "Assumptions behind likelihood and impact are stated and are specific to the actual environment",
+          "The treatment decision names an owner, a cost band and a date, and is consistent with the stated appetite",
+          "The acceptance memo contains all eight components, including a consequence statement expressed in plain numbers",
+          "The spoken summary is under two minutes and would satisfy a non-technical director without jargon"
+        ],
+        "estimatedMinutes": 50
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "ISACA CISM Domain 1 and Domain 2 study materials, current edition",
+        "ISO 31000:2018 Clauses 6 to 8",
+        "NIST SP 800-39 - Enterprise Risk Management and Cybersecurity Risk Management",
+        "COSO ERM 2017 - Risk Appetite and Tolerance in practice",
+        "CRISC - Risk Management Framework, ISACA"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-01-15",
+      "tags": ["CISM", "risk lifecycle", "risk acceptance", "risk register", "appetite"]
+    },
+    {
+      "id": "cism.l05",
+      "moduleId": "cism",
+      "topic": "Information Risk Management",
+      "subtopic": "Assessment methodology, threat intelligence and vulnerability governance",
+      "title": "CISM Domain 2 - Information Risk Management",
+      "summary": "How to run an information risk assessment that produces a defensible position, turn threat intelligence into decisions rather than feeds, and govern vulnerability management as a risk process rather than a patching treadmill.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Select and apply a risk assessment methodology appropriate to scope, regulatory context and available data",
+        "Distinguish qualitative, quantitative and hybrid assessment approaches and justify the choice",
+        "Convert threat intelligence into prioritised, owned decisions through an intelligence cycle",
+        "Govern vulnerability management as a risk treatment process with severity, context and evidence"
+      ],
+      "estimatedMinutes": 60,
+      "sections": [
+        {
+          "heading": "What an Information Risk Assessment Is For",
+          "body": "An information risk assessment answers three questions for a defined scope: what could go wrong, what would it cost if it did, and what should be done about it. Everything else in Domain 2 is a technique for answering those questions better. The scope is not a formality. An assessment of 'the organisation' is not an assessment; an assessment of the internet-facing retail banking estate supporting a 2.4 million customer base during the October to January peak is an assessment, and it produces findings that can be compared to appetite and funded.\n\nThree failure modes are worth naming because they account for most poor assessments. The first is the technology inventory as the scope: scanning every server and calling it an assessment. That produces a vulnerability list, not a risk position. The second is treating the assessment as a point-in-time event with a report at the end. The third is the assessment that ends with a rating and no decision, so nothing changes and the next cycle starts from zero.\n\nA modern assessment is also continuous in character. The assessment baseline can be refreshed continuously from detection data, control testing and third-party assessments, with a formal full assessment at a defined cadence. The governance question is not whether you re-scanned but whether any given risk position can be defended as current on the day it is asked about.",
+          "bullets": [
+            "Scope must be stated as business context: services, customers, data, dependencies, and the period covered",
+            "An assessment that ends in a rating rather than a decision is not finished",
+            "Refresh continuously, assess formally at a defined cadence, and be able to date any stated position",
+            "Assessment output is a set of risk positions with owners, treatments and decisions requested"
+          ]
+        },
+        {
+          "heading": "Methodologies: Qualitative, Quantitative and Hybrid",
+          "body": "The methodological choice is a business decision with consequences, not a technical preference. Three approaches dominate practice.\n\nQualitative assessment uses ordered scales for likelihood and impact and produces a rating. It is fast, cheap, understandable by every audience, and the standard approach for most programmes. Its weakness is that the scale anchors differ between assessors, so a 'high likelihood' in a banking assessment and a 'high likelihood' in a telecom assessment may not mean the same thing, and it cannot support financial decisions.\n\nQuantitative assessment estimates the range of possible loss with an explicit model, most commonly a factor or Monte Carlo approach on a loss distribution. It supports comparison against financial appetite, insurance and capital decisions. Its weakness is data demand and false precision: a modelled figure derived from a single incident will convey confidence it has not earned.\n\nHybrid approaches are the pragmatic norm in mature programmes. Quantify where the data supports it - typically the top exposures and the scenarios with loss history - and use qualitative assessment elsewhere, with the two calibrated against each other so the rating scale remains meaningful. The governance discipline is to document the calibration: when you say a risk is 'high' on the qualitative scale, what range of loss does that correspond to?\n\nWhichever you choose, three practices separate professional assessment from amateur assessment. Document the assumptions - threat sources, control strengths, exposure - so the result can be challenged. Use the organisation's own evidence, not vendor severity scores, for exposure. And record what would change the assessment, so the next refresh is incremental rather than a restart.",
+          "table": [
+            ["Approach", "Use when", "Strength", "Weakness"],
+            ["Qualitative", "Breadth of coverage, fast decisions, mixed audiences", "Fast, cheap, explainable to a board", "Scale anchoring drift, no financial comparability"],
+            ["Quantitative", "Top exposures, insurance and capital decisions, large loss events", "Supports financial appetite and cost-benefit", "Data hungry, false precision if inputs are weak"],
+            ["Hybrid", "Mature programmes with a mix of exposures", "Calibrated, defensible across the portfolio", "Requires discipline in maintaining the calibration bridge"]
+          ],
+          "callout": "Never let a vendor severity rating enter your register unadjusted. A CVSS 9.8 on an isolated, unexposed appliance and a CVSS 6.5 on an internet-facing authenticated gateway are very different business exposures."
+        },
+        {
+          "heading": "The Intelligence Cycle: From Feed to Decision",
+          "body": "Most organisations have far more threat intelligence than they use. They buy feeds, subscribe to bulletins, receive advisories and then experience a strange sense that none of it changed anything. The reason is that they treat intelligence as a product rather than as a cycle with a decision output.\n\nThe cycle has six stages. Requirements: what decisions do you actually need to be better at? Collection: what sources give you that? Processing: turning raw indicators into a usable form. Analysis: interpreting them in the context of your estate and business. Dissemination: getting the right thing to the right person at the right time. And feedback: did the intelligence change a decision, and if not, why not.\n\nRequirements are the stage most organisations skip, and skipping it is why feeds go unread. The CISO's job is to articulate the handful of decisions intelligence improves: which vulnerabilities to treat first, whether a specific actor is likely to target this sector, whether a compensating control is needed for a specific business process, whether a new detection should be deployed, and whether the threat profile changes the assumptions in an existing assessment.\n\nFor each of those, define the requirement in terms of a latency target and a trigger. A good specification looks like this: when a new vulnerability with a vendor severity of 9 or above is confirmed to affect an internet-facing asset, produce a prioritised treatment instruction within 48 hours, with the environment-specific exploitation likelihood and an owner. That is intelligence with a contract. A generic advisory with a PDF attached is a commodity.\n\nContext is what makes threat intelligence valuable and it is entirely internal. Knowing that a credential-stuffing campaign is targeting retail banking means little until you know which of your assets use the same credential store, whether your customer password policy supports the observed patterns, whether your multi-factor deployment covers the affected channel, and how your detections would show it. Build that asset and control context or the intelligence stays abstract.",
+          "bullets": [
+            "Requirements first: name the decisions intelligence must improve and the latency target for each",
+            "Collection follows requirements - do not buy feeds because they are available",
+            "Processing and analysis depend on internal context: asset exposure, control estate, identity landscape",
+            "Dissemination is a design problem - who acts, within what time, with what instruction",
+            "Feedback: measure how many intelligence products resulted in a decision, and retire the ones that never do"
+          ]
+        },
+        {
+          "heading": "Governing Vulnerability Management",
+          "body": "Vulnerability management is the most mature, most metric-driven and most poorly governed security process in most organisations. The metrics exist - mean time to remediate, patch compliance percentage, number of criticals open - and they measure the wrong thing: closure speed, not risk reduction.\n\nThe governance shift is from severity-based prioritisation to risk-based prioritisation, and it requires three inputs. Exposure: is the asset reachable by an untrusted party, from where, and does it sit on a path to something valuable? Business criticality: what does this asset do for revenue, customers, safety or regulatory obligation? Threat activity: are there known actors actively exploiting this class of vulnerability, and does your threat intelligence say your sector is targeted?\n\nCombine these into a prioritisation rule that the organisation can defend. For example: internet-facing, business-critical assets with a confirmed exploited vulnerability go into an emergency change window with a 24-hour target; internet-facing assets with exploited vulnerabilities go to 7 days; all internet-facing criticals to 30 days; internal crown jewels to 30 days; the remainder to the standard maintenance cycle. Publish the rule, and let business owners see it, because the rule is what determines whose work is interrupted.\n\nTwo supporting practices matter as much as the rule. First, a vulnerability exception process with named expiry, compensating controls and an owner - the same discipline as risk acceptance, because an unpatched critical with a compensating control is a treatment, not a gap. Second, evidence: the board should see the number of assets outside their remediation target, the total count by tier, the age of the oldest exception, and the coverage of the rule. Do not report a patch compliance percentage without also reporting the count of unpatched internet-facing crown jewels, because the percentage hides exactly the thing you care about.",
+          "table": [
+            ["Element", "Weak approach", "Strong approach"],
+            ["Prioritisation", "Vendor severity score alone", "Exposure plus business criticality plus active exploitation"],
+            ["Targets", "One target for all criticals", "Tiered targets by exposure and criticality, published"],
+            ["Exceptions", "Informal deferral", "Named owner, compensating control, expiry, reviewed at committee"],
+            ["Reporting", "Patch compliance percentage", "Counts and ageing by tier, plus coverage of the published rule"]
+          ],
+          "callout": "Speed of patching is a means. The governance question is whether the residual exposure is acceptable, and that requires knowing what is still exposed, not what percentage was closed."
+        },
+        {
+          "heading": "Linking Assessment to Treatment Decisions",
+          "body": "The value of an assessment is realised only when it produces decisions. Design your outputs so that every finding ends in one of four requests: accept with owner and expiry, treat with funded plan and date, defer with a stated condition and a short deadline, or escalate to the executive or board because it breaches appetite or exceeds the security function's authority.\n\nThat last category is the one organisations underuse. A sound assessment routinely finds exposures that no single business owner will accept, because the treatment is expensive and the benefit is shared. The correct response is escalation with a decision framework already prepared - options, costs, risks of each option, and a recommendation - not a warning that leaves the committee without a decision to make.\n\nTwo final disciplines close the loop. Traceability: every treatment should point back to the finding that generated it, so that a later audit can follow the chain from a stated risk to a control to evidence. And re-assessment: define in advance when a treatment is considered effective and how you will test it. A treatment that is never verified is an assumption, and assumptions accumulate quietly until the next incident.",
+          "bullets": [
+            "Every finding ends in one of four requests: accept, treat, defer, escalate",
+            "Escalate with a decision pack - options, costs, risks and a recommendation - never a bare warning",
+            "Maintain traceability from finding to treatment to evidence",
+            "Define effectiveness criteria and verification method for each treatment at the point of approval"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Threat intelligence that changed a control decision",
+          "context": "A regional bank subscribes to a commercial threat feed. Six months after subscribing, the CISO asks what decisions the feed has improved and gets a list of advisories. Meanwhile, a physical intrusion at a branch last year led to a credential compromise. The bank's active directory holds a large number of accounts with service-desk-style passwords, and the feed has twice reported credential-stuffing campaigns against retail banking credentials.",
+          "outcome": "A good outcome reframes the requirement: the decisions the feed must improve are vulnerability and access prioritisation, credential policy, and detection coverage. The bank maps its feed alerts onto its own asset and identity context, discovers the exposed account population, and uses active-exploitation intelligence to justify a funded privileged and service-account password remediation ahead of the standard cycle. The feed's value is then measured in decisions changed, not advisories received.",
+          "sector": "Banking"
+        },
+        {
+          "title": "Replacing a patch compliance metric in a healthcare group",
+          "context": "Your group's IT function reports 96 per cent patch compliance to the board. The compliance figure is dominated by thousands of workstations. The CISO notes that the group's eleven public-facing services and its imaging systems have patch timelines of up to 180 days because they sit in a change freeze. A regulator has recently asked about the risk position on clinical system availability.",
+          "outcome": "A good outcome replaces the single percentage with a tiered model: exposure-based targets for internet-facing and clinical systems, a published prioritisation rule, an exception process with compensating controls such as enhanced monitoring and network segmentation for clinical systems, and a board metric reporting counts and ageing by tier. The narrative changes from a high compliance number that hides exposure to a specific statement about the residual position on clinical availability, which is what the regulator actually asked.",
+          "sector": "Healthcare"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Design an information risk assessment and a threat intelligence requirement",
+        "brief": "You will produce two artefacts: the scope, method and output specification for an information risk assessment, and a threat intelligence requirement specification that names the decisions it improves.",
+        "steps": [
+          "Define the assessment scope as business context. State the services, customer sets, data classifications, third-party dependencies, geographies and time window covered, and list what is explicitly out of scope with a reason for each exclusion.",
+          "Choose a methodology - qualitative, quantitative or hybrid - and justify the choice in two sentences against the scope, the data you actually have, and the decisions the output must support.",
+          "Write the output specification: the fields each finding must contain, the decision each finding must request, the evidence sources you will use, and the cadence of refresh.",
+          "Write a threat intelligence requirement specification with three to four requirements. Each must name the decision improved, the trigger condition, the required latency, the format, and the internal context that must accompany it.",
+          "Design the vulnerability prioritisation rule for this organisation as a short table of tiers with exposure criteria, criticality criteria, exploitation criteria, target remediation windows, and the exception handling route."
+        ],
+        "deliverable": "A four-part pack: assessment scope and methodology, output specification, threat intelligence requirement specification, and a tiered vulnerability prioritisation rule.",
+        "evaluationCriteria": [
+          "Scope is expressed in business terms with explicit exclusions and reasons",
+          "Methodology choice is justified against data availability and the decisions required, not chosen by habit",
+          "Each output specification field serves a downstream decision rather than a reporting need",
+          "Each intelligence requirement names a trigger, a latency and the internal context needed to act",
+          "The prioritisation rule is publishable to business owners and produces different treatment for different exposure profiles"
+        ],
+        "estimatedMinutes": 55
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "ISACA CISM Domain 2 Information Risk Management study materials, current edition",
+        "NIST SP 800-30 Rev. 1 - Guide for Conducting Risk Assessments",
+        "NIST Cybersecurity Framework 2.0 - Identify (ID) function",
+        "FIRST - Common Vulnerability Scoring System (CVSS) v3.1 and CVSS v4.0",
+        "MITRE ATT&CK - Enterprise matrix and data sources"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-01-15",
+      "tags": ["CISM", "risk assessment", "threat intelligence", "vulnerability management"]
+    },
+    {
+      "id": "cism.l06",
+      "moduleId": "cism",
+      "topic": "Information Risk Management",
+      "subtopic": "Monitoring, indicators and reporting",
+      "title": "CISM Domain 2 - Risk Monitoring, Key Risk Indicators and Reporting",
+      "summary": "How to design an indicator set that predicts rather than reports, monitor risk against appetite in operational time, and present security risk to executives and boards in a form that changes decisions.",
+      "difficulty": "ADVANCED",
+      "objectives": [
+        "Distinguish lagging measures, leading indicators and predictive indicators and design a balanced set",
+        "Build key risk indicators with thresholds, owners and defined breach actions",
+        "Operate a monitoring cadence that detects drift before it becomes an incident",
+        "Construct an executive and board reporting pack that is decision-oriented rather than activity-oriented"
+      ],
+      "estimatedMinutes": 60,
+      "sections": [
+        {
+          "heading": "Three Kinds of Measurement",
+          "body": "Organisations that measure security badly usually mix three different kinds of measurement and then wonder why the numbers do not tell them anything. Separating them is the first discipline.\n\nLagging measures describe what has already happened: number of incidents, number of breaches, number of failed controls, volume of alerts. They are accurate, easy to collect and largely useless for preventing anything, because by the time they move the outcome is already determined. They belong in post-incident review and assurance, not in a leading indicator set.\n\nLeading indicators describe the state of the environment and are correlated with future outcomes: proportion of internet-facing assets inside their remediation tier, percentage of privileged accounts with phishing-resistant multi-factor, age of the oldest unclosed exception, fraction of critical vendors with a current assessment, percentage of the workforce on the current endpoint baseline. They move before incidents, and they are actionable because someone owns the activity that improves them.\n\nPredictive indicators attempt to forecast - exploiting a weak signal of signal quality and requiring model discipline, frequent recalibration and a tolerance for false positives. Most organisations attempt these too early. The pragmatic sequencing is to establish a trustworthy leading indicator set first, because a leading indicator that nobody believes is worse than no indicator at all: it discredits the entire reporting pack.\n\nThe design principle for a balanced set is coverage: every risk category in the register should have at least one leading indicator, and every indicator should map to a named risk. An indicator that maps to no risk is activity measurement. An activity measurement is legitimate - but it belongs in a programme delivery report, not mixed into a risk report where it dilutes the signal.",
+          "table": [
+            ["Type", "Describes", "Example", "Use"],
+            ["Lagging", "What has already occurred", "Confirmed incidents, control failures", "Assurance, review, trend analysis"],
+            ["Leading", "The state of the environment now", "Remediation tier compliance, MFA coverage on privileged access", "Preventive action and drift detection"],
+            ["Predictive", "Likely future state", "Model-based exposure forecasts", "Advanced programmes with recalibration discipline"]
+          ]
+        },
+        {
+          "heading": "Designing Key Risk Indicators That Predict",
+          "body": "A key risk indicator has seven attributes. It measures a specific condition that materially affects a named risk. It has a defined source, collection method and frequency, so two people would compute it the same way. It has a baseline - what normal looks like - and thresholds at which it becomes amber and red. It has a named owner who can act on it, distinct from the person who collects the data. It has a defined action on breach: what happens operationally when it goes amber, and what happens at board level when it goes red. And it has a defined interpretation, so that a red reading means the same thing to everyone.\n\nThat last pair - the action on breach and the interpretation - is what separates a real indicator from a decorative one. Most indicator sets fail on the action column. A metric that crosses a threshold and generates a meeting request is a control, not an indicator. A real indicator specifies: when this reading is amber, the owner will do X within Y days; when it is red, it is escalated to Z within 24 hours with a treatment proposal.\n\nBuild the set from the risk register, not from what data happens to be available. Start with the top risks by residual position, add the risks with the most severe consequences, add a small number of coverage indicators for each remaining category, and then cap the total. A board pack with more than about fifteen metrics cannot be discussed; it is read. Reserve one page for the narrative that explains movement and one for the decisions requested.\n\nTwo practical cautions. First, beware composite metrics that hide their components - a single resilience score that aggregates availability, recovery and capacity will move for reasons the board cannot interpret. Second, watch for metrics that improve because the measurement changed. When a new data source arrives and a metric jumps, the first question is whether the environment changed or the measurement did.",
+          "bullets": [
+            "Seven attributes: risk linkage, defined source, frequency, baseline, thresholds, owner, and action on breach",
+            "The action on breach is the difference between an indicator and a control",
+            "Build from the risk register, then cap the total; a board cannot discuss fifteen metrics, only read them",
+            "Separate risk indicators from programme delivery metrics into different reports",
+            "When a metric moves, ask whether the environment changed or the measurement changed"
+          ]
+        },
+        {
+          "heading": "Monitoring in Operational Time",
+          "body": "Governance cycles quarterly; risk moves daily. The monitoring layer exists to detect drift between the two. A quarterly governance committee that sees only quarterly data will always be reporting on a position that has already changed.\n\nThe monitoring design has three tiers. The detection tier is continuous and automated: technical control monitoring, configuration drift detection, identity and entitlement analytics, vulnerability and patch telemetry, external exposure monitoring, and third-party risk signals. Its output is a feed, not a report. The interpretation tier is human and periodic - daily or weekly triage by the monitoring team, who decide what is a true signal, what is a control failure, and what is a business event that needs a business owner involved. The decision tier is where the owner decides to act.\n\nThe most valuable part of the monitoring tier is trend and threshold detection, not event detection. A single alert about a privileged account is a control failure. A steady upward drift in the number of external assets, or a pattern of exceptions past their expiry, is a risk signal that gives you weeks of lead time. Build the monitoring so it can see direction, not just state.\n\nDesign the escalation path with the same care as the detection. Define what happens when a critical control fails during business hours, out of hours, during a change freeze, and during a major incident. During an incident, the temptation is to suspend monitoring and exception enforcement; the disciplined alternative is to record suspensions explicitly, with an expiry and an owner, so that you know what was not checked. The exception log created during a crisis is a frequent source of later findings in audits.",
+          "table": [
+            ["Tier", "Cadence", "Owner", "Output"],
+            ["Detection", "Continuous, automated", "Monitoring engineering", "Signal and feed"],
+            ["Interpretation", "Daily to weekly", "Monitoring and triage team", "Assessed events, control failures, business escalations"],
+            ["Decision", "Per event, with defined thresholds", "Accountable business owner with security advice", "Treatment, acceptance with expiry, or escalation"]
+          ],
+          "callout": "Never suspend monitoring during a crisis without recording it. The suspension log is exactly what an auditor or a regulator will ask for eighteen months later."
+        },
+        {
+          "heading": "Reporting to Executives and Boards",
+          "body": "Board reporting for security risk has one job: to enable better decisions about risk and investment. Everything in the pack should either inform a decision or be moved to an appendix.\n\nThe standard executive pack has five layers. Position: one page showing where each risk category stands against appetite, with movement since last period and the reason for the movement. Concentration: which exposures are driving the aggregate position, and whether they are correlated. Decisions: a numbered list of decisions requested, each with options, cost, recommendation, the accountable owner and the date by which a decision is needed. Trends: the leading indicator movement and what it predicts. Incidents and continuity: what happened, what was learned, what changed as a result.\n\nThe two mistakes that destroy credibility are volatility and vagueness. Volatility - metrics that swing wildly between periods because of a change in collection method - teaches the board to ignore the pack. Vagueness - trends described as improving without a baseline or a threshold - is worse, because it is unfalsifiable. Fix both by showing the baseline, the measurement definition, and the threshold on the same page as the number.\n\nAlso know your audience's decision rights. A board needs risk, appetite conformity, trend, material incidents and investment requests. An executive committee needs the same information plus operational specifics and any cross-functional conflict. A regulator needs scope, method, results, exceptions and remedial plans. Building one pack for all three is the classic failure, and each audience will read the same pages and each will find something missing.",
+          "bullets": [
+            "Five layers: position, concentration, decisions requested, trends, incidents and continuity",
+            "Decisions requested must be numbered with options, cost, recommendation and a deadline",
+            "Show baseline, measurement definition and threshold next to every number",
+            "One number, one meaning - if two teams compute a metric differently, fix it before the board sees it",
+            "Build separate packs for board, executive and regulator"
+          ]
+        },
+        {
+          "yield": "n/a",
+          "heading": "Making Reporting Change Decisions",
+          "body": "The test of a reporting pack is behavioural: after the meeting, did anything happen differently? You can measure this. Track the number of decisions requested versus decisions taken, the median age of open decisions, and the proportion of accepted risk treatments that were actually implemented on time. If decisions requested routinely exceed decisions taken, the pack is being used for reassurance rather than governance.\n\nThere is a direct link between reporting quality and security budget outcomes. Organisations whose boards see a clear risk position with quantified options tend to fund remediation as part of business planning. Organisations whose boards see activity metrics - number of alerts, number of tools deployed, number of policies published - tend to fund nothing until something breaks, because no evidence of the problem has been presented.\n\nA final, and often underrated, discipline: report bad news early and plainly. A CISO who surfaces a control failure with a credible plan and a recovery date is building credibility with the board for the next difficult conversation. A CISO who discloses a problem six months late, once it has become an incident, is spending credibility that will be needed then. The register and indicator set exist to make early disclosure possible, which is really the point of the whole Domain 2 discipline.",
+          "bullets": [
+            "Measure the pack by decisions taken, not decisions reported",
+            "Track ageing of open decisions as a governance health metric",
+            "Activity metrics invite no funding; risk position with quantified options invites funding",
+            "Early, plain disclosure of bad news preserves the credibility needed for later escalation"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Replacing an activity pack with a decision pack",
+          "context": "Your board pack for security has eleven slides: alerts processed, tools deployed, policies published, awareness completion, vulnerabilities found and fixed, patch compliance, projects delivered. The board chair has asked a question in the last two meetings that you cannot answer from the pack: what is our biggest security exposure right now and what are we doing about it.",
+          "outcome": "A good outcome is a rebuild into the five-layer structure: a one-page position against appetite, a concentration view showing the two exposures driving the aggregate, a numbered list of decisions requested with options and costs, a leading indicator trend, and an incident and continuity summary. The activity metrics move to an appendix available on request. The chair's question becomes answerable in one sentence from the position page.",
+          "sector": "Banking"
+        },
+        {
+          "title": "Leading indicators in a telecom network",
+          "context": "Your organisation operates a national telecom network with over 40,000 network elements. The board receives an availability metric that has been green for three years. Meanwhile, the number of elements running unpatched vendor firmware above the 180-day threshold has grown from 40 to 3,100, and the telemetry agent coverage on those elements is 61 per cent. None of this appears in the board pack because availability has not yet moved.",
+          "outcome": "A good outcome adds two leading indicators - firmware remediation tier compliance and telemetry agent coverage - with amber and red thresholds, and reframes the narrative: the reason availability is currently green is partly that coverage is incomplete, so the absence of signal is being treated as the absence of events. The board decision requested is funding for the telemetry rollout, explicitly linked to the risk of undetected compromise.",
+          "sector": "Telecom"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Build an indicator set and a board reporting pack for your organisation",
+        "brief": "You will produce an indicator specification and the outline of a board pack, built from a risk register for a fictional organisation.",
+        "steps": [
+          "Write a risk register for the organisation with ten to twelve entries across at least five categories, each with a named owner and a stated appetite or tolerance.",
+          "Select the top five risks by residual position and design one leading indicator for each. For each indicator, write the definition, the data source, the collection frequency, the baseline, the amber and red thresholds, the owner, and the action on breach.",
+          "Add two coverage indicators for the remaining categories and one counter-indicator for a risk you might be tempted to over-report. Explain what each counter-indicator defends against.",
+          "Design the monitoring tiers: detection, interpretation and decision. State what is automated, what is human, and the escalation path out of hours and during a change freeze.",
+          "Draft the board pack outline across the five layers, with a full specification of the decision-request page: for two decisions, write the options, the cost, the recommendation, the accountable owner and the deadline. Then write the one-sentence answer you would give to the chair asking what your biggest exposure is."
+        ],
+        "deliverable": "An indicator specification table with seven attributes per indicator, a monitoring tier design with escalation rules, and a board pack outline with two fully specified decision requests.",
+        "evaluationCriteria": [
+          "Every indicator links to a named risk and has a baseline, thresholds, owner and a specific action on breach",
+          "At least one counter-indicator is included with a stated purpose, showing awareness of gaming and metric distortion",
+          "Monitoring tiers distinguish automated detection from human interpretation, with an out-of-hours and change-freeze path",
+          "Decision requests are specified with options, cost, recommendation, owner and deadline",
+          "The one-sentence position statement is specific, quantified and defensible without a supporting slide"
+        ],
+        "estimatedMinutes": 55
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "ISACA CISM Domain 2 study materials, current edition",
+        "NIST Cybersecurity Framework 2.0 - Govern (GV.3), Identify (ID) and Respond (RS) functions",
+        "ISO/IEC 27004:2018 - Information security management - Measurement",
+        "ISO 31000:2018 Clause 9 - Performance evaluation",
+        "COSO ERM 2017 - Risk monitoring and reporting"
+      ],
+      "competencyDomain": "RISK_MANAGEMENT",
+      "version": "1.0.0",
+      "lastReviewed": "2026-01-15",
+      "tags": ["CISM", "KRI", "metrics", "monitoring", "board reporting"]
+    },
+    {
+      "id": "cism.l07",
+      "moduleId": "cism",
+      "topic": "Security Programme Development",
+      "subtopic": "Building and running the programme",
+      "title": "CISM Domain 3 - Information Security Program Development and Management",
+      "summary": "How to scope an information security programme, design a roadmap that survives budget cycles, implement it without business disruption, and run the assurance activities that prove it works.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Scope a security programme against business objectives and risk, not against tool categories",
+        "Build a multi-year roadmap with business case, dependencies and funding model",
+        "Manage programme delivery with governance, dependencies and change control",
+        "Design assurance activities - monitoring, testing, audits - that produce evidence"
+      ],
+      "estimatedMinutes": 60,
+      "sections": [
+        {
+          "heading": "Programme Scope and Structure",
+          "body": "A security programme is the coordinated set of activities that reduces the organisation's information risk to within appetite. Before you can manage it, you must be able to state its scope in a sentence and defend the boundary.\n\nScope has three dimensions. The asset scope: what is covered - business units, systems, data, locations, cloud services, third parties, people. The risk scope: which risk categories the programme is designed to influence - confidentiality, integrity, availability, privacy, fraud, regulatory, third-party. And the geographic and regulatory scope, which in a multinational organisation is rarely one jurisdiction and almost never one set of obligations.\n\nThe most common scoping failure is scope-by-ownership rather than scope-by-risk. If security is responsible only for the corporate data centre and each business unit runs its own security with its own standards, the enterprise has no coherent risk position, and incidents will exploit the seams between units. The countermeasure is a defined set of non-negotiable enterprise controls - a small number of controls that apply everywhere - with implementation owned locally and assurance provided centrally.\n\nThe second common failure is programme-as-tool-collection. A programme described as 'SIEM plus EDR plus DLP plus a GRC platform' has no objectives. The same tools, applied against named objectives and with defined measures of effectiveness, become a programme. Always write the objective before the capability: 'detect unauthorised access to the payment authorisation system within 15 minutes of the event, in a way the operations team can act on at 3am'.\n\nThe third is under-scoping the human dimension. Programme design that treats people as an audience for training rather than as control participants will always be weaker than the risk requires.",
+          "bullets": [
+            "Scope on three dimensions: assets, risk categories, jurisdictions",
+            "Define a small set of non-negotiable enterprise controls with local implementation and central assurance",
+            "State objectives before capabilities; a tool collection is not a programme",
+            "Include the human dimension as control participants, not just as a training audience",
+            "Document what is explicitly out of scope and the risk acceptance that covers it"
+          ]
+        },
+        {
+          "heading": "The Roadmap and Business Case",
+          "body": "A roadmap is a sequencing argument: given limited resources and many valid improvements, this order maximises risk reduction over the horizon. Its credibility rests on three things a security leader must get right.\n\nFirst, the traceability. Every initiative must connect to a named risk or a named regulatory or contractual obligation, and through it to a business objective. If a reviewer asks 'which risk does this reduce?', and the answer is 'it is good practice', the initiative has no place in the funded programme. This traceability is also what makes the programme auditable: an auditor can follow risk to treatment to evidence to objective in one chain.\n\nSecond, the sequencing logic, which is where judgement shows. Dependencies must be explicit - you cannot roll out a data-loss prevention capability before the data classification that tells you what to protect, and you cannot govern third-party access before you know who your third parties are. Many stalled programmes are stalled because the ordering was wrong and nobody said so.\n\nThird, the cost and capacity realism. A roadmap that assumes twenty initiatives delivered in parallel by a team of eight is not a roadmap, it is a wish. Establish the realistic delivery capacity - people, budget, third-party support - and show the plan against it. If the plan needs 240 per cent of capacity, that is a legitimate finding: the plan tells the board the organisation must either fund more, reduce scope, or accept the residual risk, and it is far better to say that in month two than in month eighteen.",
+          "table": [
+            ["Roadmap element", "Common failure", "What good looks like"],
+            ["Traceability", "Initiatives justified as good practice", "Each initiative names a risk or obligation it addresses"],
+            ["Sequencing", "Dependencies discovered mid-delivery", "Explicit dependency map with critical path identified"],
+            ["Capacity realism", "Plan assumes parallel delivery of everything", "Plan compared against real capacity; gap surfaced early"]
+          ],
+          "callout": "A roadmap that exceeds capacity by a factor of two is not a planning error - it is an unpriced risk decision that you should be presenting to the board explicitly."
+        },
+        {
+          "heading": "Delivery and Change Control in Security",
+          "body": "Security delivery has three management characteristics that differ from ordinary IT projects, and a CISO who forgets them will struggle to hold a delivery schedule.\n\nSecurity work is change-heavy and therefore conflict-heavy. Every meaningful improvement asks a business unit to do something differently - change a process, restrict an access path, deploy an agent, accept a slower release. Anticipate the organisational cost of each change and treat it as part of the estimate. The deployment that takes two weeks of engineering and three months of change negotiation is a six-week project, and the schedule should say so.\n\nSecurity work has long tail latency. Some controls are quick to deploy and slow to prove. A detection capability deployed in June may not produce reliable signal for two quarters while tuning proceeds. Set expectation with stakeholders that effectiveness evidence arrives later than deployment evidence, and report them separately: deployed, in tuning, evidenced. Conflating them produces a slide that is technically true and practically misleading.\n\nAnd security work rarely finishes. Monitoring, testing, patching and awareness are continuous services, not projects. Structure them as services with service levels, capacity plans and named owners from the start, and keep the projects for the change. When a permanent service is treated as a project, it is closed when the project ends and the risk returns.\n\nPractical delivery governance that works: a programme steering group monthly with decision rights on scope and priority; a RAID log (risks, assumptions, issues, dependencies) reviewed at the same forum with named owners; and a change control board for programme scope changes with a documented impact assessment. Scope changes in security programmes are rarely technical - they are usually driven by business priority, which is exactly why they need a forum that can weigh them.",
+          "bullets": [
+            "Security delivery is change-heavy; budget for organisational change, not just engineering",
+            "Separate deployed, in tuning and evidenced - effectiveness evidence lags deployment",
+            "Treat monitoring, testing, patching and awareness as services with owners and service levels",
+            "Stand up a programme steering group, a RAID log with named owners, and scope change control"
+          ]
+        },
+        {
+          "heading": "Assurance: Monitoring, Testing and Audit",
+          "body": "The programme creates the capability; assurance determines whether the capability actually works. In practice there are three assurance activities with different scopes, and confusing them wastes considerable effort.\n\nMonitoring is continuous and covers control operation - is the control running, is it producing signals, are exceptions occurring. Testing is periodic and covers control design and, in a sample, operating effectiveness - does the control, if executed as designed, achieve the objective. Audit is periodic and independent, covering whether the framework is fit for purpose and whether management assertions are supported. A fourth activity, red teaming or adversary simulation, tests the whole system rather than a control, and is best deployed to find the seams between controls.\n\nA mature programme runs all four and knows the difference between them. A frequent organisational error is substituting testing for monitoring - running a quarterly test of a control that should be monitored continuously, and discovering a months-old failure that a daily check would have caught. Another is running monitoring in place of testing - collecting thousands of metrics and never validating that any of them would reveal a real failure.\n\nAssurance must produce evidence that survives the person who produced it. Define an evidence standard: what artefact, produced by what activity, at what frequency, retained for how long, and independently reproducible. Auditors are not looking for screenshots of green dashboards; they are looking for evidence that the control operated for the period, on the population, with exceptions recorded and followed up.\n\nStructure the assurance calendar so it is proportionate to risk. Critical controls - those supporting a material transaction, a regulated obligation or a severe consequence - get continuous monitoring and periodic independent testing. Lower-consequence controls get periodic sampling. Publish the calendar, with the rationale for the tiering, so that stakeholders can see why some things are tested more than others.",
+          "table": [
+            ["Activity", "Frequency", "Question answered", "Typical owner"],
+            ["Monitoring", "Continuous to daily", "Is the control operating and producing signals?", "Operations"],
+            ["Testing", "Periodic", "Would the control work as designed on the population?", "Assurance team"],
+            ["Audit", "Periodic and independent", "Is the framework fit for purpose and are assertions supported?", "Internal audit"],
+            ["Adversary simulation", "Periodic", "Do controls work together against a realistic attacker?", "Specialist team"]
+          ],
+          "callout": "Auditors do not want evidence that something was green. They want evidence that a control operated over a period, on a population, with exceptions recorded and followed through."
+        }
+      ],
+      "examples": [
+        {
+          "title": "Sequencing a data protection capability",
+          "context": "Your organisation has purchased a data loss prevention platform and the board has approved a three-year data protection programme. The DLP project is in the first quarter, and the classification project is scheduled for year two because the CISO's successor prioritised tooling.",
+          "outcome": "A good outcome re-sequences: classification of the top data sets is moved into year one because without it the DLP rules will be written blind, producing both false positives that train users to bypass the tool and missed coverage of the data that actually matters. The revised roadmap states the dependency explicitly, which makes the change defensible, and the DLP phase is defined as piloted on classified data rather than deployed across the estate.",
+          "sector": "Manufacturing"
+        },
+        {
+          "title": "Assurance calendar for a bank",
+          "context": "A bank has 240 controls mapped to 18 regulatory and internal requirements. Assurance is currently a single annual external audit plus ad hoc requests from examiners, and each request takes three weeks of manual evidence gathering. Internal audit has flagged that key controls are not monitored between audits.",
+          "outcome": "A good outcome builds a tiered assurance calendar: continuous monitoring for the controls underpinning payment authorisation, privileged access and data masking; periodic independent testing for the next tier; and annual internal audit for the remainder. A reusable evidence repository, indexed by control and by period, replaces ad hoc gathering, cutting examiner response time from weeks to days. The calendar and the tiering rationale are published to the risk committee.",
+          "sector": "Banking"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Design and defend a security programme roadmap",
+        "brief": "You will produce a scoped programme with a costed, sequenced roadmap and an assurance calendar, built for an organisation of your choice.",
+        "steps": [
+          "Write the programme scope in one sentence covering assets, risk categories and jurisdictions, followed by an explicit out-of-scope statement with the risk acceptance covering each exclusion.",
+          "Define five to seven non-negotiable enterprise controls that apply everywhere, with a one-line statement of what each achieves and who implements it locally.",
+          "Build a twelve-month roadmap of six to eight initiatives. For each: the risk or obligation addressed, the business objective it serves, dependencies, cost band, the accountable business executive, and the evidence that will show it worked.",
+          "Check the plan against realistic capacity. State your team's capacity in person-months and the plan's demand, compute the ratio, and write the sentence you would use with the executive team if the ratio is above one.",
+          "Design an assurance calendar with three tiers. For each activity state the frequency, the population covered, the artefact produced, the retention period and who consumes it."
+        ],
+        "deliverable": "A programme design pack: scope statement, enterprise control set, costed and sequenced roadmap, capacity analysis, and a tiered assurance calendar.",
+        "evaluationCriteria": [
+          "Scope exclusions are explicit and each is covered by a stated risk acceptance",
+          "Every roadmap initiative traces to a named risk or obligation and a business objective, with dependencies identified",
+          "The capacity analysis is arithmetic that is actually shown, and the response to an over-committed plan is a decision, not an apology",
+          "The assurance calendar distinguishes monitoring, testing and audit, with populations and retention stated",
+          "Evidence types are reusable artefacts rather than screenshots of dashboards"
+        ],
+        "estimatedMinutes": 60
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "ISACA CISM Domain 3 Information Security Program Development and Management study materials, current edition",
+        "NIST Cybersecurity Framework 2.0 - Protect (PR) and Govern (GV) functions",
+        "ISO/IEC 27001:2022 Clause 6.1 and Annex A.5.1, A.5.35",
+        "IT Governance Institute - COBIT 2019 Framework Management Objectives",
+        "IIA - The IIA's Three Lines Model"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-01-15",
+      "tags": ["CISM", "programme management", "roadmap", "assurance"]
+    },
+    {
+      "id": "cism.l08",
+      "moduleId": "cism",
+      "topic": "Security Programme Development",
+      "subtopic": "Metrics, maturity and benchmarking",
+      "title": "CISM Domain 3 - Security Metrics, Maturity and Benchmarking",
+      "summary": "How to build a metric set that measures the programme rather than the tooling, assess maturity honestly, and use benchmarking without letting it distort your risk priorities.",
+      "difficulty": "ADVANCED",
+      "objectives": [
+        "Design a metric architecture spanning outcomes, capability, control performance and programme delivery",
+        "Apply a maturity model as a diagnostic with a baseline, and use its limits honestly",
+        "Use external benchmarks and assessments for calibration without benchmarking to a wrong peer group",
+        "Construct a maturity improvement roadmap with sequenced, evidence-backed steps"
+      ],
+      "estimatedMinutes": 55,
+      "sections": [
+        {
+          "heading": "A Metric Architecture, Not a Metric List",
+          "body": "A metric list is easy to produce and hard to act on. The purpose of a metric architecture is to make sure every number you report answers a question that someone will actually act on, and that the numbers together tell one coherent story.\n\nFour levels do that work well. Outcome metrics describe the risk position achieved: incidents by severity, material loss, time to detect, time to contain, proportion of critical processes with a tested and current recovery plan. These are what the board cares about, and they are the hardest to attribute to your programme because many other things influence them.\n\nCapability metrics describe the strength of the underlying capability: coverage of the asset estate by monitoring, percentage of privileged accounts with phishing-resistant multi-factor, percentage of third parties with current assessments, time to onboard and offboard. These are leading and within your control.\n\nControl performance metrics describe how individual controls are performing: pass rate by control family, exception rate, mean time to remediate exceptions, coverage of control testing. These are the operational engine room and belong to the programme management view.\n\nProgramme delivery metrics describe whether the programme itself is being delivered: initiatives delivered on time, budget variance, capacity utilisation, dependency closure. These are essential internally and rarely interesting to the board.\n\nThe discipline that makes the architecture work is that each metric must sit on one level only, and each level must have a small number of metrics. A slide that mixes an outcome with a delivery metric makes it impossible to interpret. When you find yourself unable to explain what a red metric means in terms of risk, the metric is in the wrong place.",
+          "table": [
+            ["Level", "Describes", "Example", "Audience"],
+            ["Outcome", "Risk position achieved", "Material incidents, mean time to contain, tested recovery coverage", "Board and executives"],
+            ["Capability", "Strength of underlying capability", "Monitoring coverage, MFA on privileged access, third-party assessment currency", "Executives and programme"],
+            ["Control performance", "How controls are performing", "Control pass rate, exception rate, exception ageing", "Programme and owners"],
+            ["Programme delivery", "Whether the programme is being delivered", "On-time delivery, budget variance, capacity utilisation", "Programme management"]
+          ]
+        },
+        {
+          "heading": "Maturity Models Used Honestly",
+          "body": "Maturity models - CMM, C2M2, the NIST Cybersecurity Framework tiers, or the published CISM skills maturity model - describe stages of organisational capability. They are useful when they answer a specific question and harmful when they become a score to display.\n\nThe productive use of a maturity model is diagnostic. It identifies which capability gaps are blocking progress and lets you sequence improvement in the right order. An organisation at 'initial' on incident response and 'managed' on vulnerability management should not invest in a next-generation detection platform; it should invest in the incident response process, because detection without response capability produces alerts and no outcomes. Maturity assessment is a sequencing tool.\n\nThe harmful use is as a comparative score. Maturity levels are ordinal, not interval - the difference between level 1 and level 2 is not the same magnitude as the difference between level 4 and level 5. Scoring them numerically and averaging produces a number with no defensible meaning. And the levels are defined against internal capability, so an organisation with a legitimate, well-designed lightweight model can score lower than one with an over-engineered programme.\n\nAssess honestly against the model's descriptors, quote the descriptor for each level you award, and record the evidence that justifies it. Write down the specific gaps that block the next level, because a maturity result with no named blocker is useless. And be careful about who sees the result: maturity levels are helpful internally and among peers, and are almost never helpful to a regulator or a customer, who want evidence of specific obligations met rather than a self-assessed stage label.",
+          "bullets": [
+            "Use maturity as a sequencing diagnostic, not as a score to display",
+            "Levels are ordinal - never average them into a numeric score",
+            "Quote the descriptor and record the evidence for every level awarded",
+            "Name the specific gap blocking the next level; a maturity result without a blocker is useless",
+            "Maturity labels are for internal and peer use, not for regulators or customers"
+          ]
+        },
+        {
+          "heading": "Benchmarking Without Distortion",
+          "body": "Benchmarking answers the question: are we doing something that looks unusual for organisations like us? It is a sanity check on your own assumptions, and it is useful for exactly three purposes - calibrating ambition, identifying practices worth adopting, and anticipating what regulators or customers will expect.\n\nThe risk is benchmarking to the wrong peer group and then optimising for the benchmark. Peer groups must match on sector, size, regulatory regime, customer base, technology footprint and threat profile. A bank benchmarked against a global retail conglomerate will mislead you on almost everything. A 40-person fintech benchmarked against global systemically important banks will make you think your controls are inadequate when they are proportionate.\n\nBenchmarking against vendor surveys is even more treacherous, because the respondents are self-selected and usually include the vendor's own customers with an interest in a favourable answer. Use such surveys as a source of hypotheses, never as a conclusion.\n\nThere is a legitimate and rigorous alternative: benchmark against your own history and against your own commitments. Track your own leading indicators over time. Where you have made commitments - regulatory commitments, contractual security commitments to customers, published policies, certification scope - benchmark your actual performance against those. This is the most defensible comparison available, because you cannot argue with your own commitments.\n\nWhen you do use an external benchmark, ask three questions: who was in the sample, how was the data collected, and what would have to be true for the result to be wrong? If the third question has no sensible answer, the benchmark is decoration.",
+          "bullets": [
+            "Match peer groups on sector, size, regime, customer base and threat profile",
+            "Treat vendor surveys as hypothesis generators, not conclusions - sampling is self-selected",
+            "Benchmark against your own commitments and your own trend; that comparison cannot be argued with",
+            "Ask who was sampled, how data was collected, and what would have to be true for the result to be wrong"
+          ]
+        },
+        {
+          "heading": "From Assessment to Improvement Roadmap",
+          "body": "Maturity work is only worth doing if it produces a sequenced improvement plan with owners, and if the sequence is defensible. A good improvement sequence follows three rules.\n\nFix the foundations before the sophisticated capabilities. Process and accountability gaps - no incident process, no owner for identity, no asset inventory - multiply the effectiveness of everything else. Building detection on top of an unidentified estate produces blind spots you cannot even count. Foundations are unglamorous and always first in a defensible plan.\n\nThen prioritise by risk reduction per unit of effort, not by maturity level gained. Some moves are cheap and high impact - centralised logging for a business unit that currently has none, or a quarterly privileged access review - and should precede expensive platform investments that deliver the same outcome marginally better.\n\nFinally, sequence for evidence continuity. If you are going to certify, do not build a programme that cannot produce continuous evidence, because certification assessments and customer audits will arrive before the programme matures and you will need the evidence anyway. Design the evidence model from the start: what artefact, at what frequency, retained how long.\n\nPresent the roadmap with the maturity baseline shown honestly, including the low scores. A plan that starts from an honest '2 out of 5 in incident response' is credible; a plan that claims '4 out of 5 overall' and asks for budget is not, and experienced boards discount the whole proposal. Present the target state, the gap, the sequence, the cost and the date - and the next level's blocker for each capability. That format tells a board exactly what it is approving.",
+          "bullets": [
+            "Sequence: foundations before sophisticated capability",
+            "Prioritise by risk reduction per unit of effort, not by maturity points gained",
+            "Design the evidence model from the start so certification and customer audits are supported",
+            "Present the honest baseline; overstating maturity destroys credibility with the board",
+            "For each capability, name the specific blocker to the next level"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "A metric set that stopped helping",
+          "context": "Your bank's board pack contains 34 metrics. Two have been red for six consecutive quarters with no action. The chief risk officer asks why the security team publishes metrics that nobody acts on, and suggests cutting the pack to five. Other functions have noticed and now volunteer to present their own metrics instead.",
+          "outcome": "A good outcome uses the challenge as an opportunity to rebuild the architecture: twenty-eight metrics are dropped because they had no owner, no threshold or no link to a decision; the two reds are converted into named issues with owners and treatment dates; the pack is restructured into outcome, capability and control performance, each with a small number of metrics; and each metric carries its threshold and the action on breach. The reply to the chief risk officer is that the problem was not the number of metrics but the absence of owners and thresholds.",
+          "sector": "Banking"
+        },
+        {
+          "title": "Maturity gap in a software services firm",
+          "context": "A 600-person software services firm has assessed itself against a five-level capability model and scored 4 on vulnerability management, 3 on identity and access, and 1 on incident response. The executive sponsor wants to fund a next-generation security operations centre to reach level 4 across the board in one year.",
+          "outcome": "A good outcome is a sequenced plan that resists the pressure: fix incident response first, because at level 1 the organisation has no way to learn from its failures, and everything else depends on that learning loop; then identity and access, where the maturity gap reflects a real weakness; and only then consider extending the monitoring operations, scoped to what the improved response process can actually consume. The plan shows the blocker for each level and a realistic 24-month sequence with cost.",
+          "sector": "IT Services"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Build a metric architecture, a maturity baseline and an improvement sequence",
+        "brief": "You will produce a metric architecture, a justified maturity baseline and a sequenced improvement roadmap for a fictional organisation.",
+        "steps": [
+          "Select an organisation and identify its top ten risks. For each, decide which metric level would evidence progress: outcome, capability, control performance or programme delivery.",
+          "Build the metric set: no more than six outcome metrics, eight capability metrics, and unlimited control performance metrics, with each metric given a definition, source, frequency, baseline, thresholds, owner and action on breach.",
+          "Identify three of your metrics that are probably capable of being gamed, or that will improve because the measurement changed rather than the risk. For each, describe the distortion and add a counter-indicator.",
+          "Select a maturity model appropriate to the sector and explain why, then assess four capabilities against the model's descriptors. Quote the descriptor for each level awarded and name the evidence that justifies it.",
+          "For each capability, name the specific blocker to the next level, and sequence the improvements with a defensible rule (foundations first, then risk reduction per unit of effort). State what you would not fund yet, and why."
+        ],
+        "deliverable": "A metric architecture table with full metric definitions, three distortion analyses with counter-indicators, a maturity baseline for four capabilities with quoted descriptors and evidence, and a sequenced 24-month improvement plan including what you decline to fund.",
+        "evaluationCriteria": [
+          "Metrics are placed on exactly one level each and each metric has an owner, thresholds and an action on breach",
+          "The distortion analysis identifies a plausible gaming or measurement-change route and a genuine counter-indicator",
+          "Maturity levels are justified by quoted descriptors and named evidence, not asserted",
+          "The improvement sequence shows its ordering rule, and at least one low-maturity foundation is addressed before any advanced capability investment",
+          "The plan explicitly states what is not being funded yet and the reason"
+        ],
+        "estimatedMinutes": 50
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "ISACA CISM Domain 3 study materials, current edition",
+        "NIST Cybersecurity Framework 2.0 - tiers and profiles",
+        "CISA - Cybersecurity Capability Maturity Model (C2M2)",
+        "ISO/IEC 27001:2022 Clause 4 and Clause 9 - performance evaluation",
+        "CMMI - Capability Maturity Model Integration, Systems Security version"
+      ],
+      "competencyDomain": "GOVERNANCE",
+      "version": "1.0.0",
+      "lastReviewed": "2026-01-15",
+      "tags": ["CISM", "metrics", "maturity", "benchmarking"]
+    }
+  ]
+}

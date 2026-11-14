@@ -1,0 +1,406 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "QUESTIONS",
+  "items": [
+    {
+      "id": "q.third_party.001",
+      "domain": "THIRD_PARTY",
+      "topic": "Third Party",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Third Party, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Third Party.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Third Party issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Third Party as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Third Party work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Third Party.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Third Party"
+      ]
+    },
+    {
+      "id": "q.third_party.002",
+      "domain": "THIRD_PARTY",
+      "topic": "Third Party",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Third Party, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Third Party.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Third Party issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Third Party as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Third Party work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Third Party.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Third Party"
+      ]
+    },
+    {
+      "id": "q.third_party.003",
+      "domain": "THIRD_PARTY",
+      "topic": "Third Party",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Third Party, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Third Party.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Third Party issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Third Party as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Third Party work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Third Party.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Third Party"
+      ]
+    },
+    {
+      "id": "q.third_party.004",
+      "domain": "THIRD_PARTY",
+      "topic": "Third Party",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Third Party, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Third Party.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Third Party issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Third Party as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Third Party work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Third Party.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Third Party"
+      ]
+    },
+    {
+      "id": "q.third_party.005",
+      "domain": "THIRD_PARTY",
+      "topic": "Third Party",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Third Party, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Third Party.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Third Party issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Third Party as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Third Party work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Third Party.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Third Party"
+      ]
+    },
+    {
+      "id": "q.third_party.006",
+      "domain": "THIRD_PARTY",
+      "topic": "Third Party",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Third Party, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Third Party.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Third Party issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Third Party as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Third Party work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Third Party.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Third Party"
+      ]
+    },
+    {
+      "id": "q.third_party.007",
+      "domain": "THIRD_PARTY",
+      "topic": "Third Party",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Third Party, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Third Party.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Third Party issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Third Party as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Third Party work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Third Party.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Third Party"
+      ]
+    },
+    {
+      "id": "q.third_party.008",
+      "domain": "THIRD_PARTY",
+      "topic": "Third Party",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Third Party, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Third Party.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Third Party issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Third Party as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Third Party work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Third Party.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Third Party"
+      ]
+    }
+  ]
+}

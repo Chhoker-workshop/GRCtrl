@@ -1,0 +1,39 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# IDE/tool caches
+.kilo/
+.kotlin/
+.pytest_cache/
+
+# Local logs
+build_output.log
+# Android/Gradle build outputs
+**/build/
+/app/build/
+*.apk
+*.aab
+*.ap_
+*.dm
+
+# Local logs/temp
+gradle_short.txt
+test_output.txt
+build_output.log
+
+# Scratch/temp scripts
+_tmp_*.py
+create_*.py
+qb_*.py
+update_*.py
+inspect.ps1
+dirlist.json
+tree_output.txt

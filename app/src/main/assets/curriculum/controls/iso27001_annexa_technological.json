@@ -1,0 +1,1570 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "CONTROLS",
+  "items": [
+    {
+      "id": "ctl_a_8_1",
+      "controlId": "A.8.1",
+      "title": "User endpoint devices",
+      "category": "TECHNOLOGICAL",
+      "objective": "Protects information stored on, processed by or accessible via user endpoint devices.",
+      "whyItExists": "Endpoints such as laptops, mobiles and tablets are common targets for loss, theft and malware. Securing them reduces risk to data and access credentials used outside controlled environments.",
+      "riskAddressed": "Compromise or loss of information through insecure, lost or unmanaged endpoint devices.",
+      "implementationGuidance": "Define requirements for endpoint devices including configuration baselines, encryption, authentication, malware protection, patching, screen locking and secure remote access. Manage devices through approved enrollment and inventory processes, restrict local administrative privileges where feasible, and apply controls for BYOD if permitted. Monitor compliance and respond to lost, stolen or compromised devices with remote wipe or access revocation procedures.",
+      "responsibleDepartment": "IT / Endpoint Management / Information Security",
+      "evidenceExamples": [
+        "Endpoint security policy and configuration baselines",
+        "Device inventory and enrollment records",
+        "Encryption and endpoint protection status reports",
+        "Lost/stolen device response records"
+      ],
+      "auditTesting": "Sample endpoint devices and verify required protections are enabled and managed. Confirm inventory is maintained and response actions occur for lost or non-compliant devices.",
+      "commonGaps": [
+        "Unmanaged or unencrypted devices",
+        "Delayed patching and outdated protection",
+        "BYOD without defined controls",
+        "No process for lost or stolen devices"
+      ],
+      "interviewQuestions": [
+        "How are user devices enrolled and monitored?",
+        "What protections are mandatory on laptops and mobiles?",
+        "How do you respond to a lost endpoint device?"
+      ],
+      "scenario": "All corporate laptops were enrolled in device management with full-disk encryption and automatic screen lock, enabling remote wipe when a device was reported missing.",
+      "relatedControls": [
+        "A.6.7",
+        "A.7.9",
+        "A.8.7"
+      ],
+      "keywords": [
+        "endpoint",
+        "laptop",
+        "mobile device",
+        "device management"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-01",
+        "nist_800_53": "AC-19",
+        "iso_27001": "A.8.1"
+      }
+    },
+    {
+      "id": "ctl_a_8_2",
+      "controlId": "A.8.2",
+      "title": "Privileged access rights",
+      "category": "TECHNOLOGICAL",
+      "objective": "Restricts and manages privileged access rights to reduce risk from misuse or compromise of elevated permissions.",
+      "whyItExists": "Privileged accounts can bypass controls, access sensitive data and change system configurations. Tight management limits impact of errors and attacks targeting high-value credentials.",
+      "riskAddressed": "Unauthorised or excessive privileged access leading to system compromise, data breach or control bypass.",
+      "implementationGuidance": "Identify privileged roles and accounts, grant elevated rights only when justified and approved, and apply least privilege and time-limited access where possible. Use separate accounts for administrative activities, strong authentication, logging and monitoring of privileged actions. Review privileged access regularly, remove unnecessary rights promptly and protect credentials through secure storage and rotation.",
+      "responsibleDepartment": "Identity and Access Management / IT Security",
+      "evidenceExamples": [
+        "Privileged access inventory and approvals",
+        "Access review records",
+        "Privileged activity logs and monitoring reports",
+        "Credential management evidence"
+      ],
+      "auditTesting": "Review privileged accounts and sample approvals, usage and reviews. Confirm separation from standard accounts, strong authentication and timely removal of unnecessary rights.",
+      "commonGaps": [
+        "Shared administrator accounts",
+        "Permanent privileged access without review",
+        "No monitoring of privileged actions",
+        "Privileged credentials stored insecurely"
+      ],
+      "interviewQuestions": [
+        "Who approves and reviews privileged access?",
+        "Are administrators using separate accounts?",
+        "How are privileged activities logged and monitored?"
+      ],
+      "scenario": "Administrators were issued separate named accounts with MFA and quarterly access reviews, reducing standing privilege and improving accountability for system changes.",
+      "relatedControls": [
+        "A.5.15",
+        "A.5.18",
+        "A.8.5"
+      ],
+      "keywords": [
+        "privileged access",
+        "admin rights",
+        "least privilege",
+        "pam"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-05",
+        "nist_800_53": "AC-6",
+        "iso_27001": "A.8.2"
+      }
+    },
+    {
+      "id": "ctl_a_8_3",
+      "controlId": "A.8.3",
+      "title": "Information access restriction",
+      "category": "TECHNOLOGICAL",
+      "objective": "Restricts access to information and associated assets in accordance with access control policy and business requirements.",
+      "whyItExists": "Not all users require access to all information. Restricting access based on need reduces exposure from accidental disclosure, misuse and compromised accounts.",
+      "riskAddressed": "Unauthorised access to information due to excessive or poorly controlled permissions.",
+      "implementationGuidance": "Implement access restrictions using roles, groups, attributes or other mechanisms aligned to classification and business need. Configure applications, databases, file stores and cloud services to enforce authorisation rules, prevent direct bypass where feasible and log access to sensitive information. Review permissions periodically and adjust when roles or data sensitivity change.",
+      "responsibleDepartment": "Information Owners / IT / IAM",
+      "evidenceExamples": [
+        "Access control configurations and role definitions",
+        "Authorisation matrices",
+        "Access review records",
+        "Sensitive data access logs"
+      ],
+      "auditTesting": "Sample systems containing sensitive information and verify access is restricted to authorised users. Confirm permissions are reviewed and changes follow approved processes.",
+      "commonGaps": [
+        "Broad group permissions",
+        "Access not aligned to roles or classification",
+        "Permissions not reviewed after role changes",
+        "Sensitive repositories accessible by default"
+      ],
+      "interviewQuestions": [
+        "How is access to sensitive information determined?",
+        "How often are permissions reviewed?",
+        "Can users access data outside their business need?"
+      ],
+      "scenario": "A shared drive containing HR records was reorganised with role-based groups and quarterly reviews, removing unnecessary access for staff outside the HR function.",
+      "relatedControls": [
+        "A.5.12",
+        "A.5.15",
+        "A.5.18"
+      ],
+      "keywords": [
+        "access restriction",
+        "authorisation",
+        "least privilege",
+        "need to know"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-05",
+        "nist_800_53": "AC-3",
+        "iso_27001": "A.8.3"
+      }
+    },
+    {
+      "id": "ctl_a_8_4",
+      "controlId": "A.8.4",
+      "title": "Access to source code",
+      "category": "TECHNOLOGICAL",
+      "objective": "Manages read and write access to source code, development tools and software libraries to prevent unauthorised changes or disclosure.",
+      "whyItExists": "Source code and build components are valuable intellectual property and can introduce security weaknesses if modified improperly. Controlled access protects integrity and confidentiality of software assets.",
+      "riskAddressed": "Unauthorised disclosure or malicious modification of source code and development artefacts.",
+      "implementationGuidance": "Restrict repository and development environment access based on roles, using least privilege and strong authentication. Separate duties where appropriate, protect branches and release pipelines, log changes and reviews, and control access to third-party libraries and secrets used in development. Remove access promptly when no longer needed and monitor for anomalous repository activity.",
+      "responsibleDepartment": "Engineering / DevOps / Information Security",
+      "evidenceExamples": [
+        "Repository access control settings",
+        "Branch protection and code review records",
+        "Developer access review evidence",
+        "Audit logs for source code changes"
+      ],
+      "auditTesting": "Review source code repositories and pipelines to confirm access is authorised, changes are reviewed and logs retained. Sample user access for appropriateness and timely removal.",
+      "commonGaps": [
+        "Excessive write access to repositories",
+        "No branch protection or code review",
+        "Former developers retaining access",
+        "Secrets stored in code repositories"
+      ],
+      "interviewQuestions": [
+        "Who can modify production code and how are changes reviewed?",
+        "How is developer access reviewed?",
+        "How are secrets protected in repositories?"
+      ],
+      "scenario": "Branch protection rules requiring peer review and restricted merge permissions reduced risk of unauthorised or unreviewed changes to critical application code.",
+      "relatedControls": [
+        "A.5.18",
+        "A.8.25",
+        "A.8.32"
+      ],
+      "keywords": [
+        "source code",
+        "repositories",
+        "code access",
+        "secure development"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-06",
+        "nist_800_53": "CM-5",
+        "iso_27001": "A.8.4"
+      }
+    },
+    {
+      "id": "ctl_a_8_5",
+      "controlId": "A.8.5",
+      "title": "Secure authentication",
+      "category": "TECHNOLOGICAL",
+      "objective": "Implements secure authentication technologies and procedures based on information access restrictions and topic-specific policy.",
+      "whyItExists": "Authentication verifies identity before granting access. Weak authentication enables account takeover, unauthorised access and lateral movement.",
+      "riskAddressed": "Compromise of accounts and systems due to weak or poorly managed authentication mechanisms.",
+      "implementationGuidance": "Select authentication methods commensurate with risk, using MFA or stronger mechanisms for sensitive systems, remote access and privileged users. Enforce secure password practices where passwords are used, protect authentication data in transit and at rest, limit failed attempts, and manage session controls. Support secure credential recovery and monitor for suspicious authentication activity.",
+      "responsibleDepartment": "Identity and Access Management / IT Security",
+      "evidenceExamples": [
+        "Authentication standards and configurations",
+        "MFA coverage reports",
+        "Account lockout and session settings",
+        "Authentication monitoring alerts"
+      ],
+      "auditTesting": "Review authentication configurations for key systems and verify controls align with policy and risk. Sample accounts to confirm required factors and secure recovery processes are in place.",
+      "commonGaps": [
+        "Single-factor access for sensitive systems",
+        "Weak password or recovery processes",
+        "MFA not enforced consistently",
+        "Authentication logs not monitored"
+      ],
+      "interviewQuestions": [
+        "Where is MFA required and how is coverage tracked?",
+        "How are authentication failures and anomalies detected?",
+        "How are credentials recovered securely?"
+      ],
+      "scenario": "Enforcing MFA for remote access and administrative accounts significantly reduced successful login attempts using stolen passwords.",
+      "relatedControls": [
+        "A.5.17",
+        "A.8.2",
+        "A.8.15"
+      ],
+      "keywords": [
+        "authentication",
+        "mfa",
+        "login security",
+        "identity verification"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-03",
+        "nist_800_53": "IA-2",
+        "iso_27001": "A.8.5"
+      }
+    },
+    {
+      "id": "ctl_a_8_6",
+      "controlId": "A.8.6",
+      "title": "Capacity management",
+      "category": "TECHNOLOGICAL",
+      "objective": "Monitors and adjusts the use of resources to meet current and expected capacity requirements.",
+      "whyItExists": "Insufficient capacity can degrade performance or cause outages, while unmanaged growth can create security and cost issues. Capacity planning supports availability and reliable service delivery.",
+      "riskAddressed": "Service disruption or degraded performance due to inadequate capacity planning and monitoring.",
+      "implementationGuidance": "Identify capacity requirements for systems, networks, storage and cloud resources based on business needs and growth expectations. Monitor utilisation and performance, set thresholds and alerts, and scale or optimise resources proactively. Include capacity considerations in change management, procurement and continuity planning, and review trends regularly.",
+      "responsibleDepartment": "IT Operations / Infrastructure / Cloud Teams",
+      "evidenceExamples": [
+        "Capacity monitoring dashboards and reports",
+        "Threshold and alert configurations",
+        "Capacity planning and forecast records",
+        "Scaling or upgrade change records"
+      ],
+      "auditTesting": "Review monitoring and planning for critical services to confirm capacity is tracked, thresholds defined and actions taken before constraints impact availability.",
+      "commonGaps": [
+        "No monitoring of key resource utilisation",
+        "Reactive scaling after outages",
+        "Capacity not considered in changes",
+        "Cloud spend or quotas unmanaged"
+      ],
+      "interviewQuestions": [
+        "How do you monitor capacity for critical systems?",
+        "What triggers scaling or capacity upgrades?",
+        "How are future capacity needs forecast?"
+      ],
+      "scenario": "Trend analysis showed storage nearing limits on a logging platform; proactive expansion prevented log loss and maintained monitoring capability.",
+      "relatedControls": [
+        "A.8.14",
+        "A.8.16",
+        "A.5.30"
+      ],
+      "keywords": [
+        "capacity",
+        "performance",
+        "scalability",
+        "resource monitoring"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-04",
+        "nist_800_53": "SC-5",
+        "iso_27001": "A.8.6"
+      }
+    },
+    {
+      "id": "ctl_a_8_7",
+      "controlId": "A.8.7",
+      "title": "Protection against malware",
+      "category": "TECHNOLOGICAL",
+      "objective": "Implements protection against malware and supports appropriate user awareness.",
+      "whyItExists": "Malware can disrupt operations, steal data and enable further compromise. Layered technical controls and user awareness reduce likelihood and impact of infection.",
+      "riskAddressed": "Malware infection leading to data loss, system compromise or service disruption.",
+      "implementationGuidance": "Deploy anti-malware or endpoint detection controls appropriate to platforms, keep signatures and engines updated, and configure scanning, blocking and alerting. Harden systems, restrict unauthorised software, filter malicious content and monitor for indicators of compromise. Educate users on safe behaviour and ensure incidents are reported and handled promptly.",
+      "responsibleDepartment": "IT Security / Endpoint Management",
+      "evidenceExamples": [
+        "Malware protection configurations and coverage reports",
+        "Update and scan status evidence",
+        "Detection alerts and response records",
+        "User awareness materials"
+      ],
+      "auditTesting": "Verify malware protection is deployed and current on sampled endpoints and servers. Review detection, alerting and response processes for effectiveness.",
+      "commonGaps": [
+        "Protection not installed or outdated on some systems",
+        "Alerts not monitored or investigated",
+        "Users able to run untrusted software freely",
+        "No response process for detections"
+      ],
+      "interviewQuestions": [
+        "How do you confirm malware protection coverage and updates?",
+        "What happens when malware is detected?",
+        "How are users made aware of malware risks?"
+      ],
+      "scenario": "Centralised endpoint protection alerted on a malicious attachment execution, allowing isolation of the device and prevention of further spread.",
+      "relatedControls": [
+        "A.6.3",
+        "A.8.1",
+        "A.8.16"
+      ],
+      "keywords": [
+        "malware",
+        "antivirus",
+        "edr",
+        "endpoint protection"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "DE.CM-09",
+        "nist_800_53": "SI-3",
+        "iso_27001": "A.8.7"
+      }
+    },
+    {
+      "id": "ctl_a_8_8",
+      "controlId": "A.8.8",
+      "title": "Management of technical vulnerabilities",
+      "category": "TECHNOLOGICAL",
+      "objective": "Identifies, evaluates and addresses technical vulnerabilities to reduce exposure to exploitation.",
+      "whyItExists": "Unpatched or misconfigured systems can be exploited by attackers. Timely vulnerability management reduces the window of exposure and supports secure operations.",
+      "riskAddressed": "Exploitation of known vulnerabilities resulting in compromise, data breach or service disruption.",
+      "implementationGuidance": "Maintain an inventory of assets and software, obtain vulnerability information from relevant sources, scan or assess systems regularly and evaluate findings based on risk and exposure. Define remediation timelines, apply patches or mitigations, verify fixes and track exceptions with compensating controls. Coordinate vulnerability management with change, configuration and incident processes.",
+      "responsibleDepartment": "IT Security / IT Operations",
+      "evidenceExamples": [
+        "Vulnerability scan and assessment reports",
+        "Remediation and patch tracking records",
+        "Risk-based prioritisation criteria",
+        "Exception and compensating control records"
+      ],
+      "auditTesting": "Review vulnerability management processes and sample findings to confirm timely assessment, remediation or approved exception handling. Verify critical vulnerabilities are addressed promptly.",
+      "commonGaps": [
+        "Incomplete asset coverage",
+        "Findings not prioritised by risk",
+        "Slow remediation with no tracking",
+        "Exceptions undocumented or unreviewed"
+      ],
+      "interviewQuestions": [
+        "How often are systems scanned for vulnerabilities?",
+        "How do you prioritise and track remediation?",
+        "How are vulnerability exceptions managed?"
+      ],
+      "scenario": "A critical server vulnerability was identified by scanning, prioritised based on exposure, patched within the defined SLA and verified by rescanning.",
+      "relatedControls": [
+        "A.8.9",
+        "A.8.19",
+        "A.8.32"
+      ],
+      "keywords": [
+        "vulnerability management",
+        "patching",
+        "scanning",
+        "remediation"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "ID.RA-01",
+        "nist_800_53": "RA-5",
+        "iso_27001": "A.8.8"
+      }
+    },
+    {
+      "id": "ctl_a_8_9",
+      "controlId": "A.8.9",
+      "title": "Configuration management",
+      "category": "TECHNOLOGICAL",
+      "objective": "Ensures hardware, software, services and networks are established, documented, implemented, monitored and reviewed with secure configurations.",
+      "whyItExists": "Default or inconsistent configurations often include unnecessary services, weak settings and vulnerabilities. Configuration management establishes secure baselines and controls drift over time.",
+      "riskAddressed": "Security weaknesses or instability caused by insecure, undocumented or inconsistent configurations.",
+      "implementationGuidance": "Define secure configuration baselines for systems, applications, network devices and cloud services based on risk and vendor or industry guidance. Document configurations, automate deployment where possible, monitor for drift and remediate deviations. Control configuration changes through approved processes, maintain records and review baselines periodically or when threats and technologies change.",
+      "responsibleDepartment": "IT Operations / Security Engineering",
+      "evidenceExamples": [
+        "Configuration baselines and standards",
+        "Configuration monitoring or drift reports",
+        "Change records for configuration updates",
+        "Exception records with compensating controls"
+      ],
+      "auditTesting": "Sample systems and compare actual configurations to approved baselines. Verify deviations are detected, authorised or remediated and documentation is current.",
+      "commonGaps": [
+        "Default settings left unchanged",
+        "Configuration drift not monitored",
+        "Baselines undocumented or outdated",
+        "Exceptions not tracked"
+      ],
+      "interviewQuestions": [
+        "What secure baseline applies to this system?",
+        "How do you detect and remediate configuration drift?",
+        "How are configuration exceptions approved?"
+      ],
+      "scenario": "Automated compliance checks flagged servers missing required hardening settings, enabling teams to remediate drift before it became exploitable.",
+      "relatedControls": [
+        "A.8.8",
+        "A.8.19",
+        "A.8.32"
+      ],
+      "keywords": [
+        "configuration management",
+        "hardening",
+        "baseline",
+        "drift"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-01",
+        "nist_800_53": "CM-2",
+        "iso_27001": "A.8.9"
+      }
+    },
+    {
+      "id": "ctl_a_8_10",
+      "controlId": "A.8.10",
+      "title": "Information deletion",
+      "category": "TECHNOLOGICAL",
+      "objective": "Deletes information stored in systems, devices or other storage media when no longer required to reduce exposure and meet obligations.",
+      "whyItExists": "Retaining information longer than necessary increases breach impact, storage cost and compliance risk. Secure deletion ensures data is removed appropriately when retention requirements no longer apply.",
+      "riskAddressed": "Unauthorised disclosure or non-compliance due to retention of information beyond business or legal need.",
+      "implementationGuidance": "Define deletion requirements based on classification, retention schedules and legal obligations. Implement processes to delete data from applications, backups, logs, endpoints and cloud services as appropriate, considering technical limitations. Verify deletion where feasible, document actions for sensitive or regulated data and include supplier-managed data in deletion requirements.",
+      "responsibleDepartment": "Data Owners / IT / Privacy / Legal",
+      "evidenceExamples": [
+        "Retention and deletion procedures",
+        "Deletion logs or certificates where applicable",
+        "Cloud and supplier deletion requirements",
+        "Records of deletion verification for key data"
+      ],
+      "auditTesting": "Review retention schedules and sample data sets or systems to confirm deletion occurs when required. Verify procedures cover backups, archives and third-party services.",
+      "commonGaps": [
+        "No defined deletion process",
+        "Data kept indefinitely without justification",
+        "Backups and copies not considered",
+        "Supplier deletion obligations unclear"
+      ],
+      "interviewQuestions": [
+        "How do you determine when information should be deleted?",
+        "How is deletion handled in backups and cloud services?",
+        "Can you evidence deletion of sensitive data?"
+      ],
+      "scenario": "When a project ended, associated personal data was deleted from production systems and scheduled for removal from backups according to the retention policy, reducing unnecessary exposure.",
+      "relatedControls": [
+        "A.5.33",
+        "A.5.34",
+        "A.7.14"
+      ],
+      "keywords": [
+        "data deletion",
+        "retention",
+        "disposal",
+        "erasure"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-01",
+        "nist_800_53": "SI-12",
+        "iso_27001": "A.8.10"
+      }
+    },
+    {
+      "id": "ctl_a_8_11",
+      "controlId": "A.8.11",
+      "title": "Data masking",
+      "category": "TECHNOLOGICAL",
+      "objective": "Uses data masking in accordance with access control policy, business requirements and applicable legislation to limit exposure of sensitive data.",
+      "whyItExists": "Not all users or environments need access to real sensitive data. Masking reduces risk in testing, analytics, support and training by limiting visibility while preserving utility where possible.",
+      "riskAddressed": "Unnecessary exposure of sensitive data in non-production or lower-trust contexts.",
+      "implementationGuidance": "Identify scenarios requiring masked data, such as development, testing, analytics or support, and select appropriate techniques like redaction, tokenisation, substitution or anonymisation consistent with requirements. Apply masking before data leaves protected environments, control access to unmasked data, and validate that masked data cannot be easily re-identified where that is the objective. Integrate masking into data provisioning processes.",
+      "responsibleDepartment": "Data Owners / Security / Engineering",
+      "evidenceExamples": [
+        "Data masking standards and procedures",
+        "Masked dataset provisioning records",
+        "Access controls for unmasked data",
+        "Validation or testing evidence"
+      ],
+      "auditTesting": "Sample non-production or shared datasets containing sensitive information and verify masking is applied appropriately. Confirm access to original data is restricted and processes are followed.",
+      "commonGaps": [
+        "Production data copied to test without masking",
+        "Masking inconsistent or reversible",
+        "No approval for access to unmasked data",
+        "Sensitive fields overlooked"
+      ],
+      "interviewQuestions": [
+        "When is data masking required?",
+        "How do you provide developers with realistic but protected data?",
+        "Who can access unmasked sensitive data?"
+      ],
+      "scenario": "A development team used tokenised customer records in testing instead of production copies, enabling realistic testing without exposing actual personal identifiers.",
+      "relatedControls": [
+        "A.5.12",
+        "A.5.34",
+        "A.8.12"
+      ],
+      "keywords": [
+        "data masking",
+        "tokenisation",
+        "anonymisation",
+        "test data"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-01",
+        "nist_800_53": "SC-12",
+        "iso_27001": "A.8.11"
+      }
+    },
+    {
+      "id": "ctl_a_8_12",
+      "controlId": "A.8.12",
+      "title": "Data leakage prevention",
+      "category": "TECHNOLOGICAL",
+      "objective": "Applies data leakage prevention measures to detect and prevent unauthorised disclosure or extraction of information.",
+      "whyItExists": "Sensitive data can leave the organisation through email, cloud uploads, removable media, APIs or user actions. Data leakage prevention controls help identify and reduce inappropriate transfers.",
+      "riskAddressed": "Loss or unauthorised disclosure of sensitive information through monitored or unmonitored channels.",
+      "implementationGuidance": "Identify sensitive data types and exfiltration channels, then implement proportionate controls such as content inspection, classification-aware policies, endpoint controls, network monitoring and cloud access restrictions. Define response actions for alerts, tune rules to reduce false positives and integrate with incident management. Educate users on approved transfer methods and review policies as business processes and data flows change.",
+      "responsibleDepartment": "Information Security / Data Protection / IT",
+      "evidenceExamples": [
+        "DLP policies and scope documentation",
+        "Alert and incident response records",
+        "Data flow and channel assessments",
+        "Policy tuning and review evidence"
+      ],
+      "auditTesting": "Review DLP coverage for key data types and channels. Sample alerts to confirm they are triaged, investigated and acted upon, and verify policies align with classification and business needs.",
+      "commonGaps": [
+        "DLP limited to one channel",
+        "High volumes of alerts ignored",
+        "Sensitive data types not identified",
+        "Controls block business without approved alternatives"
+      ],
+      "interviewQuestions": [
+        "What data and channels are covered by leakage prevention controls?",
+        "How are DLP alerts handled?",
+        "How do you balance prevention with business needs?"
+      ],
+      "scenario": "DLP policies detected attempts to upload customer lists to unauthorised personal cloud storage and prompted users to use an approved secure transfer method.",
+      "relatedControls": [
+        "A.5.12",
+        "A.5.14",
+        "A.8.11"
+      ],
+      "keywords": [
+        "data leakage prevention",
+        "dlp",
+        "exfiltration",
+        "data loss"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-01",
+        "nist_800_53": "AC-4",
+        "iso_27001": "A.8.12"
+      }
+    },
+    {
+      "id": "ctl_a_8_13",
+      "controlId": "A.8.13",
+      "title": "Information backup",
+      "category": "TECHNOLOGICAL",
+      "objective": "Maintains and tests backup copies of information, software and systems in accordance with agreed backup policy.",
+      "whyItExists": "Backups enable recovery from accidental deletion, corruption, ransomware, hardware failure and disasters. Without reliable backups and testing, recovery objectives may not be achievable.",
+      "riskAddressed": "Loss of information or prolonged downtime due to unavailable, incomplete or unusable backups.",
+      "implementationGuidance": "Define backup scope, frequency, retention, storage and protection based on business impact and recovery objectives. Implement automated backups where possible, protect backups from unauthorised access and tampering, including ransomware-resilient measures, and store copies appropriately. Test restoration regularly, document results and remediate failures or gaps promptly.",
+      "responsibleDepartment": "IT Operations / Business Continuity",
+      "evidenceExamples": [
+        "Backup policy and schedules",
+        "Backup success/failure reports",
+        "Restoration test records",
+        "Backup access and protection evidence"
+      ],
+      "auditTesting": "Review backup configurations and reports for critical systems. Verify restoration tests are performed, successful and issues are addressed; confirm backups are protected from compromise.",
+      "commonGaps": [
+        "Backups not tested",
+        "Critical systems excluded from scope",
+        "Backup credentials or repositories unprotected",
+        "Failures not monitored or resolved"
+      ],
+      "interviewQuestions": [
+        "How do you know backups for critical systems are successful?",
+        "When was the last restoration test performed?",
+        "How are backups protected from ransomware?"
+      ],
+      "scenario": "A routine restoration test identified missing application configuration data in backups, allowing the team to update scope before a real recovery was needed.",
+      "relatedControls": [
+        "A.5.30",
+        "A.7.5",
+        "A.8.14"
+      ],
+      "keywords": [
+        "backup",
+        "restore",
+        "recovery",
+        "resilience"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-11",
+        "nist_800_53": "CP-9",
+        "iso_27001": "A.8.13"
+      }
+    },
+    {
+      "id": "ctl_a_8_14",
+      "controlId": "A.8.14",
+      "title": "Redundancy of information processing facilities",
+      "category": "TECHNOLOGICAL",
+      "objective": "Implements information processing facilities with redundancy sufficient to meet availability requirements.",
+      "whyItExists": "Single points of failure can cause outages when components fail. Appropriate redundancy improves resilience and supports continuity of critical services.",
+      "riskAddressed": "Service unavailability due to lack of redundancy in systems, networks or supporting infrastructure.",
+      "implementationGuidance": "Identify availability requirements for critical services and assess single points of failure across applications, data, networks, power and hosting. Implement redundancy such as clustered systems, replicated data, multiple availability zones or alternate connectivity where justified by risk and cost. Test failover, monitor redundant components and ensure operational procedures support resilient operation.",
+      "responsibleDepartment": "IT Architecture / IT Operations",
+      "evidenceExamples": [
+        "Availability requirements and architecture diagrams",
+        "Redundancy and failover configurations",
+        "Failover test results",
+        "Monitoring evidence for redundant components"
+      ],
+      "auditTesting": "Review critical services and confirm redundancy aligns with availability objectives. Verify failover has been tested and dependencies are considered.",
+      "commonGaps": [
+        "Redundant components exist but failover untested",
+        "Hidden single points of failure",
+        "Dependencies not covered by redundancy",
+        "No monitoring of standby capacity"
+      ],
+      "interviewQuestions": [
+        "What availability level is required for this service?",
+        "How is redundancy implemented and tested?",
+        "What single points of failure remain?"
+      ],
+      "scenario": "A critical application used load-balanced servers across zones and periodic failover tests, allowing continued service during a single host failure.",
+      "relatedControls": [
+        "A.5.30",
+        "A.7.11",
+        "A.8.13"
+      ],
+      "keywords": [
+        "redundancy",
+        "high availability",
+        "failover",
+        "resilience"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-04",
+        "nist_800_53": "CP-6",
+        "iso_27001": "A.8.14"
+      }
+    },
+    {
+      "id": "ctl_a_8_15",
+      "controlId": "A.8.15",
+      "title": "Logging",
+      "category": "TECHNOLOGICAL",
+      "objective": "Produces, stores, protects and analyses logs that record activities, exceptions, faults and other relevant events.",
+      "whyItExists": "Logs provide visibility for detecting incidents, investigating issues and demonstrating accountability. Without adequate logging, malicious or erroneous activity may go unnoticed and evidence may be unavailable.",
+      "riskAddressed": "Inability to detect, investigate or evidence security-relevant events due to insufficient or unprotected logging.",
+      "implementationGuidance": "Define logging requirements based on risk, including systems, applications, authentication, privileged actions and network events to capture. Ensure logs include sufficient detail and time synchronisation, protect them from unauthorised access and alteration, and retain them according to operational and legal needs. Centralise and monitor logs where appropriate, and review alerts or anomalies regularly.",
+      "responsibleDepartment": "Security Operations / IT Operations",
+      "evidenceExamples": [
+        "Logging standards and configurations",
+        "Log retention and protection settings",
+        "SIEM or log review evidence",
+        "Time synchronisation configuration"
+      ],
+      "auditTesting": "Sample key systems and confirm required events are logged, protected, retained and reviewed. Verify time sources are consistent and logs support investigation needs.",
+      "commonGaps": [
+        "Critical systems not logging security events",
+        "Logs stored locally and easily altered",
+        "Retention too short for investigations",
+        "Logs collected but not reviewed"
+      ],
+      "interviewQuestions": [
+        "Which events are logged for critical systems?",
+        "How are logs protected from tampering?",
+        "Who reviews security-relevant logs and how often?"
+      ],
+      "scenario": "Centralised logging of administrative actions and authentication events enabled rapid investigation of a suspicious login and identification of affected accounts.",
+      "relatedControls": [
+        "A.8.16",
+        "A.5.25",
+        "A.8.17"
+      ],
+      "keywords": [
+        "logging",
+        "audit logs",
+        "monitoring",
+        "event records"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "DE.CM-09",
+        "nist_800_53": "AU-2",
+        "iso_27001": "A.8.15"
+      }
+    },
+    {
+      "id": "ctl_a_8_16",
+      "controlId": "A.8.16",
+      "title": "Monitoring activities",
+      "category": "TECHNOLOGICAL",
+      "objective": "Monitors networks, systems and applications for anomalous behaviour and takes appropriate action to evaluate potential information security incidents.",
+      "whyItExists": "Continuous or risk-based monitoring helps detect threats, misuse and failures that preventive controls may miss. Timely evaluation of anomalies supports rapid response.",
+      "riskAddressed": "Delayed detection of attacks, misuse or system failures due to insufficient monitoring and response.",
+      "implementationGuidance": "Define monitoring objectives, data sources and use cases based on risk, including network traffic, endpoint telemetry, authentication, application behaviour and cloud activity. Implement alerting, triage and escalation processes, tune detections to reduce noise and ensure skilled personnel review and respond. Integrate monitoring with incident management and improve coverage based on lessons learned and threat intelligence.",
+      "responsibleDepartment": "Security Operations / IT Operations",
+      "evidenceExamples": [
+        "Monitoring scope and use case documentation",
+        "Alert dashboards and triage records",
+        "Escalation and response procedures",
+        "Tuning and coverage review evidence"
+      ],
+      "auditTesting": "Review monitoring coverage for critical assets and sample alerts to confirm timely triage, escalation and response. Verify monitoring is adjusted based on incidents and changes.",
+      "commonGaps": [
+        "Limited visibility into critical systems or cloud services",
+        "Alerts not triaged or escalated",
+        "No defined response to anomalies",
+        "Monitoring not updated after incidents"
+      ],
+      "interviewQuestions": [
+        "What anomalous activities are monitored in this environment?",
+        "How are alerts prioritised and escalated?",
+        "How do you improve monitoring over time?"
+      ],
+      "scenario": "Monitoring detected unusual outbound traffic from a workstation; triage confirmed malware activity and triggered containment before sensitive data was exfiltrated.",
+      "relatedControls": [
+        "A.8.15",
+        "A.5.25",
+        "A.5.26"
+      ],
+      "keywords": [
+        "monitoring",
+        "siem",
+        "anomaly detection",
+        "security operations"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "DE.CM-01",
+        "nist_800_53": "SI-4",
+        "iso_27001": "A.8.16"
+      }
+    },
+    {
+      "id": "ctl_a_8_17",
+      "controlId": "A.8.17",
+      "title": "Clock synchronisation",
+      "category": "TECHNOLOGICAL",
+      "objective": "Synchronises clocks of information processing systems to approved time sources to support accurate logging and event correlation.",
+      "whyItExists": "Accurate timestamps are essential for correlating events across systems, investigating incidents and meeting evidential or compliance needs. Unsynchronised clocks can obscure timelines and hinder response.",
+      "riskAddressed": "Inaccurate or inconsistent event timelines that impair monitoring, investigation and forensic analysis.",
+      "implementationGuidance": "Identify approved time sources and configure systems, network devices, applications and security tools to synchronise time consistently. Monitor for drift or failures, protect time configuration from unauthorised changes and include time synchronisation in build baselines and operational checks. Ensure cloud and hybrid environments use reliable and consistent time sources.",
+      "responsibleDepartment": "IT Operations / Security Engineering",
+      "evidenceExamples": [
+        "Time synchronisation standards and configurations",
+        "NTP/time service monitoring records",
+        "System build baseline settings",
+        "Exception records for unsynchronised systems"
+      ],
+      "auditTesting": "Sample systems and security tools to confirm time synchronisation is configured and operating correctly. Verify drift or failures are detected and addressed.",
+      "commonGaps": [
+        "Systems using inconsistent or local time sources",
+        "Time drift not monitored",
+        "Security tools not synchronised",
+        "Unauthorised changes to time settings"
+      ],
+      "interviewQuestions": [
+        "What time source do systems use?",
+        "How do you detect clock drift?",
+        "Are logs across systems time-aligned for investigations?"
+      ],
+      "scenario": "Consistent NTP configuration across servers and security tools allowed responders to correlate authentication and network logs accurately during an incident investigation.",
+      "relatedControls": [
+        "A.8.15",
+        "A.8.16",
+        "A.8.9"
+      ],
+      "keywords": [
+        "clock synchronisation",
+        "ntp",
+        "time source",
+        "timestamps"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-04",
+        "nist_800_53": "AU-8",
+        "iso_27001": "A.8.17"
+      }
+    },
+    {
+      "id": "ctl_a_8_18",
+      "controlId": "A.8.18",
+      "title": "Use of privileged utility programs",
+      "category": "TECHNOLOGICAL",
+      "objective": "Restricts and tightly controls the use of utility programs capable of overriding system and application controls.",
+      "whyItExists": "Powerful utilities can bypass security controls, access sensitive data or alter system behaviour. Uncontrolled use increases risk of misuse, error and malware activity.",
+      "riskAddressed": "Unauthorised or unsafe use of powerful utilities leading to control bypass, system compromise or data exposure.",
+      "implementationGuidance": "Identify utility programs with elevated capabilities, restrict their availability to authorised users, and control installation and execution through technical measures where possible. Require approvals for use in production, log and monitor activity, and remove or disable unnecessary utilities. Include utility controls in hardening baselines and privileged access management.",
+      "responsibleDepartment": "IT Operations / Security Engineering",
+      "evidenceExamples": [
+        "Inventory of privileged utilities and restrictions",
+        "Access approvals for utility use",
+        "Execution logs and monitoring evidence",
+        "Hardening baseline configurations"
+      ],
+      "auditTesting": "Review systems for presence and control of privileged utilities. Sample usage logs and approvals to confirm access is restricted and monitored.",
+      "commonGaps": [
+        "Utilities available to all users",
+        "No logging of utility use",
+        "Unauthorised tools installed on production systems",
+        "Hardening baselines not enforced"
+      ],
+      "interviewQuestions": [
+        "Which utilities are considered privileged in this environment?",
+        "Who can use them and how is use approved?",
+        "How is utility activity monitored?"
+      ],
+      "scenario": "Restricting disk imaging and debugging tools to authorised administrators and logging their use reduced risk of unauthorised data access on production servers.",
+      "relatedControls": [
+        "A.8.2",
+        "A.8.9",
+        "A.8.15"
+      ],
+      "keywords": [
+        "privileged utilities",
+        "system tools",
+        "control bypass",
+        "restricted execution"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-05",
+        "nist_800_53": "AC-6",
+        "iso_27001": "A.8.18"
+      }
+    },
+    {
+      "id": "ctl_a_8_19",
+      "controlId": "A.8.19",
+      "title": "Installation of software on operational systems",
+      "category": "TECHNOLOGICAL",
+      "objective": "Implements procedures and measures to securely manage software installation on operational systems.",
+      "whyItExists": "Unauthorised or uncontrolled software installation can introduce malware, vulnerabilities, licensing issues and instability. Managed installation supports secure and reliable operations.",
+      "riskAddressed": "Compromise or disruption of operational systems due to unauthorised or insecure software installation.",
+      "implementationGuidance": "Define approval and change processes for installing software on operational systems, restricting installation rights to authorised personnel. Use trusted sources, verify integrity where possible, test compatibility and security impact, and maintain records of installed software. Apply application control or allowlisting where appropriate and remove unauthorised or unsupported software promptly.",
+      "responsibleDepartment": "IT Operations / Change Management",
+      "evidenceExamples": [
+        "Software installation procedures",
+        "Change and approval records",
+        "Installed software inventories",
+        "Application control or allowlisting configurations"
+      ],
+      "auditTesting": "Sample operational systems and verify installed software is authorised, documented and obtained from trusted sources. Confirm installation rights and controls are enforced.",
+      "commonGaps": [
+        "Users able to install unapproved software",
+        "No record of installed applications",
+        "Software installed without change approval",
+        "Unsupported or untrusted software present"
+      ],
+      "interviewQuestions": [
+        "Who can install software on operational systems?",
+        "How are software sources validated?",
+        "How do you detect unauthorised installations?"
+      ],
+      "scenario": "A change-controlled deployment process and restricted local admin rights prevented unapproved applications from being installed on production servers.",
+      "relatedControls": [
+        "A.8.8",
+        "A.8.9",
+        "A.8.32"
+      ],
+      "keywords": [
+        "software installation",
+        "change control",
+        "application control",
+        "operational systems"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-05",
+        "nist_800_53": "CM-7",
+        "iso_27001": "A.8.19"
+      }
+    },
+    {
+      "id": "ctl_a_8_20",
+      "controlId": "A.8.20",
+      "title": "Networks security",
+      "category": "TECHNOLOGICAL",
+      "objective": "Secures, manages and controls networks and network devices to protect information in systems and applications.",
+      "whyItExists": "Networks connect systems and users, making them a common path for attacks and data movement. Secure network design and management reduce exposure and support detection of threats.",
+      "riskAddressed": "Network compromise, unauthorised access or interception of information due to weak network security controls.",
+      "implementationGuidance": "Design and implement network security controls such as segmentation, secure configurations, access controls, filtering, encryption for sensitive traffic and protection of network management interfaces. Document network architecture, manage changes, monitor network activity and restrict administrative access to network devices. Review rules and configurations regularly to remove unnecessary exposure.",
+      "responsibleDepartment": "Network Engineering / Security",
+      "evidenceExamples": [
+        "Network diagrams and segmentation documentation",
+        "Firewall/router/switch configurations",
+        "Network access and admin control records",
+        "Monitoring and review evidence"
+      ],
+      "auditTesting": "Review network architecture and sampled device configurations to confirm secure design, segmentation and controlled access. Verify rules are reviewed and monitoring is in place.",
+      "commonGaps": [
+        "Flat networks without segmentation",
+        "Overly permissive firewall rules",
+        "Unsecured management interfaces",
+        "Network documentation outdated"
+      ],
+      "interviewQuestions": [
+        "How is the network segmented to protect critical systems?",
+        "How are network device configurations managed and reviewed?",
+        "How is network traffic monitored for threats?"
+      ],
+      "scenario": "Segmenting production, user and management networks and restricting administrative access to network devices limited lateral movement opportunities during a security test.",
+      "relatedControls": [
+        "A.7.12",
+        "A.8.21",
+        "A.8.22"
+      ],
+      "keywords": [
+        "network security",
+        "segmentation",
+        "firewalls",
+        "network devices"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-01",
+        "nist_800_53": "SC-7",
+        "iso_27001": "A.8.20"
+      }
+    },
+    {
+      "id": "ctl_a_8_21",
+      "controlId": "A.8.21",
+      "title": "Security of network services",
+      "category": "TECHNOLOGICAL",
+      "objective": "Identifies, implements and monitors security requirements for network services to protect information in networks.",
+      "whyItExists": "Organisations rely on internal and third-party network services. If security capabilities, service levels and responsibilities are unclear, services may expose systems to unauthorised access or disruption.",
+      "riskAddressed": "Compromise or unavailability of network services due to undefined or unmet security requirements.",
+      "implementationGuidance": "Identify network services used, including provider-managed services, and define security requirements such as authentication, encryption, filtering, availability, logging and incident support. Include requirements in agreements and configurations, monitor service performance and security, and review services when architecture or providers change. Ensure responsibilities between provider and organisation are understood.",
+      "responsibleDepartment": "Network Engineering / Procurement / Security",
+      "evidenceExamples": [
+        "Network service inventory and requirements",
+        "Service agreements or configuration records",
+        "Monitoring and performance reports",
+        "Service review records"
+      ],
+      "auditTesting": "Review critical network services and confirm security requirements are defined, implemented and monitored. Verify provider responsibilities and assurance are addressed where applicable.",
+      "commonGaps": [
+        "Network service security requirements undocumented",
+        "Provider responsibilities unclear",
+        "No monitoring of service security or availability",
+        "Services not reviewed after changes"
+      ],
+      "interviewQuestions": [
+        "What security requirements apply to key network services?",
+        "How are third-party network services monitored?",
+        "Who is responsible for securing this service?"
+      ],
+      "scenario": "Security requirements for a managed WAN service were documented in the contract, including encryption and incident notification, and reviewed during quarterly service meetings.",
+      "relatedControls": [
+        "A.8.20",
+        "A.5.20",
+        "A.5.22"
+      ],
+      "keywords": [
+        "network services",
+        "service security",
+        "provider requirements",
+        "monitoring"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-01",
+        "nist_800_53": "SC-7",
+        "iso_27001": "A.8.21"
+      }
+    },
+    {
+      "id": "ctl_a_8_22",
+      "controlId": "A.8.22",
+      "title": "Segregation of networks",
+      "category": "TECHNOLOGICAL",
+      "objective": "Segregates groups of information services, users and information systems in networks based on security requirements.",
+      "whyItExists": "Network segregation limits the spread of attacks and reduces access between systems with different trust levels. Flat networks increase impact when one component is compromised.",
+      "riskAddressed": "Unauthorised lateral movement or access between systems due to insufficient network separation.",
+      "implementationGuidance": "Define network zones based on sensitivity, function and trust, such as user, server, management, development and production segments. Implement controls between zones using firewalls, access control lists, virtual networks or micro-segmentation, and restrict traffic to required flows. Review segmentation rules and monitor for unauthorised connections or changes.",
+      "responsibleDepartment": "Network Engineering / Security Architecture",
+      "evidenceExamples": [
+        "Network segmentation diagrams",
+        "Firewall or ACL rules between zones",
+        "Traffic flow documentation",
+        "Review and monitoring evidence"
+      ],
+      "auditTesting": "Review network architecture and sampled rules to confirm segmentation aligns with security requirements. Verify only necessary traffic is permitted between zones and rules are reviewed.",
+      "commonGaps": [
+        "Flat network design",
+        "Overly broad inter-zone access",
+        "Management networks accessible from user zones",
+        "Segmentation not updated after changes"
+      ],
+      "interviewQuestions": [
+        "How are critical systems separated from user networks?",
+        "What traffic is allowed between network zones?",
+        "How are segmentation rules reviewed?"
+      ],
+      "scenario": "Separating production databases from user workstations and restricting access paths limited potential lateral movement from a compromised endpoint.",
+      "relatedControls": [
+        "A.8.20",
+        "A.8.21",
+        "A.8.23"
+      ],
+      "keywords": [
+        "network segregation",
+        "segmentation",
+        "zones",
+        "lateral movement"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-01",
+        "nist_800_53": "SC-7",
+        "iso_27001": "A.8.22"
+      }
+    },
+    {
+      "id": "ctl_a_8_23",
+      "controlId": "A.8.23",
+      "title": "Web filtering",
+      "category": "TECHNOLOGICAL",
+      "objective": "Manages access to external websites to reduce exposure to malicious content and enforce acceptable use requirements.",
+      "whyItExists": "Web browsing can expose users to malware, phishing and inappropriate or risky sites. Filtering helps block or warn about harmful destinations and supports policy enforcement.",
+      "riskAddressed": "Compromise or policy violations resulting from access to malicious or unauthorised websites.",
+      "implementationGuidance": "Implement web filtering controls appropriate to risk, such as category-based blocking, reputation services, DNS filtering or secure web gateways. Define policies for blocked, warned and allowed categories, provide exceptions through approved processes and monitor logs for suspicious activity. Combine filtering with user awareness and endpoint protection, and review policies as threats and business needs evolve.",
+      "responsibleDepartment": "IT Security / Network Operations",
+      "evidenceExamples": [
+        "Web filtering policies and configurations",
+        "Exception approvals",
+        "Filtering logs and alert reports",
+        "Policy review records"
+      ],
+      "auditTesting": "Review web filtering coverage and configurations for relevant users and devices. Sample blocked events and exceptions to confirm controls operate and exceptions are justified.",
+      "commonGaps": [
+        "No filtering for high-risk categories",
+        "Exceptions granted without review",
+        "Remote users not covered",
+        "Logs not monitored"
+      ],
+      "interviewQuestions": [
+        "How is web access filtered for malicious sites?",
+        "How are exceptions requested and approved?",
+        "Does filtering apply to remote or mobile users?"
+      ],
+      "scenario": "Web filtering blocked access to newly registered malicious domains, preventing users from reaching a phishing site linked in an email campaign.",
+      "relatedControls": [
+        "A.8.7",
+        "A.6.3",
+        "A.8.16"
+      ],
+      "keywords": [
+        "web filtering",
+        "url filtering",
+        "malicious websites",
+        "secure browsing"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.IR-01",
+        "nist_800_53": "SC-7",
+        "iso_27001": "A.8.23"
+      }
+    },
+    {
+      "id": "ctl_a_8_24",
+      "controlId": "A.8.24",
+      "title": "Use of cryptography",
+      "category": "TECHNOLOGICAL",
+      "objective": "Defines and implements rules for the effective use of cryptography, including cryptographic key management, to protect information.",
+      "whyItExists": "Cryptography protects confidentiality, integrity and authenticity when implemented correctly. Poor algorithm choices, weak key management or inconsistent use can undermine protection.",
+      "riskAddressed": "Exposure or tampering of sensitive information due to weak, incorrect or unmanaged cryptographic controls.",
+      "implementationGuidance": "Establish cryptographic standards specifying approved algorithms, protocols, key lengths and use cases for data at rest, in transit and where applicable in use. Implement secure key generation, storage, distribution, rotation, revocation and destruction processes. Manage certificates and cryptographic libraries, monitor for deprecated algorithms and update standards as technology and threats evolve.",
+      "responsibleDepartment": "Security Architecture / IT Operations",
+      "evidenceExamples": [
+        "Cryptographic standards and procedures",
+        "Key and certificate management records",
+        "Configuration evidence for encryption in transit/at rest",
+        "Reviews of deprecated algorithms"
+      ],
+      "auditTesting": "Review cryptographic standards and sample implementations to confirm approved methods and key management practices are used. Verify deprecated protocols or weak configurations are identified and remediated.",
+      "commonGaps": [
+        "Weak or deprecated algorithms in use",
+        "Keys stored insecurely or not rotated",
+        "No inventory of certificates or keys",
+        "Encryption applied inconsistently"
+      ],
+      "interviewQuestions": [
+        "What cryptographic standards are approved for this environment?",
+        "How are keys and certificates managed?",
+        "How do you identify and replace deprecated cryptography?"
+      ],
+      "scenario": "An organisation replaced deprecated TLS configurations and implemented certificate lifecycle management, reducing risk of interception and service outages from expired certificates.",
+      "relatedControls": [
+        "A.5.14",
+        "A.8.11",
+        "A.8.9"
+      ],
+      "keywords": [
+        "cryptography",
+        "encryption",
+        "key management",
+        "certificates"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-02",
+        "nist_800_53": "SC-13",
+        "iso_27001": "A.8.24"
+      }
+    },
+    {
+      "id": "ctl_a_8_25",
+      "controlId": "A.8.25",
+      "title": "Secure development life cycle",
+      "category": "TECHNOLOGICAL",
+      "objective": "Establishes and applies rules for the secure development of software and systems.",
+      "whyItExists": "Security issues introduced during development can be costly and difficult to fix later. Integrating security throughout the development life cycle reduces vulnerabilities and improves resilience.",
+      "riskAddressed": "Vulnerabilities in software and systems caused by inadequate security practices during development.",
+      "implementationGuidance": "Define a secure development life cycle that integrates security requirements, threat modelling, secure coding practices, reviews, testing and approval gates into planning, design, implementation, testing and deployment. Assign roles and responsibilities, provide developer training and tools, and ensure security considerations apply to in-house, outsourced and component-based development. Review and improve practices based on findings and incidents.",
+      "responsibleDepartment": "Engineering / Application Security / Product Management",
+      "evidenceExamples": [
+        "Secure SDLC policy and standards",
+        "Security requirements and design review records",
+        "Developer training records",
+        "Release approval and testing evidence"
+      ],
+      "auditTesting": "Review development processes and sample projects to confirm security activities are integrated across the life cycle. Verify findings are addressed before release and practices are consistently applied.",
+      "commonGaps": [
+        "Security considered only at end of development",
+        "No defined security requirements or reviews",
+        "Developers lack secure coding training",
+        "Third-party components not assessed"
+      ],
+      "interviewQuestions": [
+        "How are security requirements defined for new development?",
+        "What security checks occur before release?",
+        "How do you handle security findings during development?"
+      ],
+      "scenario": "A development team added threat modelling and security testing to sprint activities, identifying and fixing design issues earlier than in previous release cycles.",
+      "relatedControls": [
+        "A.8.4",
+        "A.8.26",
+        "A.8.29"
+      ],
+      "keywords": [
+        "secure sdlc",
+        "secure development",
+        "software security",
+        "application security"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-06",
+        "nist_800_53": "SA-3",
+        "iso_27001": "A.8.25"
+      }
+    },
+    {
+      "id": "ctl_a_8_26",
+      "controlId": "A.8.26",
+      "title": "Application security requirements",
+      "category": "TECHNOLOGICAL",
+      "objective": "Identifies, specifies and approves information security requirements when developing or acquiring applications.",
+      "whyItExists": "Applications must meet security needs relevant to the data they handle and the threats they face. Defining requirements early ensures security is built in and can be verified.",
+      "riskAddressed": "Applications deployed without necessary security controls, leading to vulnerabilities or non-compliance.",
+      "implementationGuidance": "Determine application security requirements based on business purpose, data classification, regulatory obligations, threat context and architecture. Document requirements for authentication, authorisation, logging, input validation, cryptography, privacy and resilience as applicable, and include them in development, procurement and acceptance criteria. Review and approve requirements with relevant stakeholders and verify implementation through testing.",
+      "responsibleDepartment": "Product Owners / Engineering / Security",
+      "evidenceExamples": [
+        "Application security requirement specifications",
+        "Risk assessments and approval records",
+        "Procurement or contract security requirements",
+        "Verification and test evidence"
+      ],
+      "auditTesting": "Sample applications and confirm security requirements were defined, approved and tested. Verify requirements reflect data sensitivity and applicable obligations.",
+      "commonGaps": [
+        "Generic or missing security requirements",
+        "Requirements not tested or verified",
+        "Acquired applications lack security criteria",
+        "Privacy and logging needs overlooked"
+      ],
+      "interviewQuestions": [
+        "How are security requirements defined for this application?",
+        "Who approves them and how are they verified?",
+        "How do requirements change when application scope changes?"
+      ],
+      "scenario": "For a new customer portal, the team specified MFA, audit logging and input validation requirements during design and verified them in acceptance testing before launch.",
+      "relatedControls": [
+        "A.8.25",
+        "A.8.27",
+        "A.8.29"
+      ],
+      "keywords": [
+        "application security",
+        "security requirements",
+        "secure design",
+        "acceptance criteria"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-06",
+        "nist_800_53": "SA-4",
+        "iso_27001": "A.8.26"
+      }
+    },
+    {
+      "id": "ctl_a_8_27",
+      "controlId": "A.8.27",
+      "title": "Secure system architecture and engineering principles",
+      "category": "TECHNOLOGICAL",
+      "objective": "Establishes, documents, maintains and applies principles for secure system architecture and engineering.",
+      "whyItExists": "Secure architecture principles guide consistent design decisions that reduce attack surface, limit impact of compromise and support resilience. Without principles, security may be applied inconsistently across systems.",
+      "riskAddressed": "Insecure system designs that are difficult to protect, maintain or recover.",
+      "implementationGuidance": "Define and document secure architecture and engineering principles such as least privilege, defence in depth, segregation, secure defaults, fail-safe behaviour and minimisation of attack surface. Apply principles to new designs, major changes and technology standards, and review architectures for adherence. Train architects and engineers, and update principles as technologies and threats evolve.",
+      "responsibleDepartment": "Security Architecture / Engineering",
+      "evidenceExamples": [
+        "Secure architecture principles and standards",
+        "Architecture review records",
+        "Reference designs and patterns",
+        "Training or guidance materials"
+      ],
+      "auditTesting": "Review architecture standards and sample system designs to confirm principles are applied and deviations are justified and approved. Verify reviews occur for significant changes.",
+      "commonGaps": [
+        "No documented architecture principles",
+        "Design reviews not performed",
+        "Inconsistent security patterns across systems",
+        "Legacy designs not reassessed"
+      ],
+      "interviewQuestions": [
+        "What secure design principles guide new systems?",
+        "How are architecture designs reviewed for security?",
+        "How are exceptions to principles handled?"
+      ],
+      "scenario": "Architecture reviews required segmentation and least privilege for a new service, preventing direct access from public components to sensitive internal data stores.",
+      "relatedControls": [
+        "A.8.22",
+        "A.8.25",
+        "A.8.26"
+      ],
+      "keywords": [
+        "secure architecture",
+        "engineering principles",
+        "design review",
+        "defence in depth"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-06",
+        "nist_800_53": "SA-8",
+        "iso_27001": "A.8.27"
+      }
+    },
+    {
+      "id": "ctl_a_8_28",
+      "controlId": "A.8.28",
+      "title": "Secure coding",
+      "category": "TECHNOLOGICAL",
+      "objective": "Applies secure coding principles to software development to prevent common vulnerabilities.",
+      "whyItExists": "Coding errors can introduce vulnerabilities such as injection, authentication flaws and insecure data handling. Secure coding practices reduce defects and improve software quality.",
+      "riskAddressed": "Software vulnerabilities caused by insecure coding practices.",
+      "implementationGuidance": "Adopt secure coding standards and guidelines appropriate to languages and frameworks, and train developers on common risks and mitigations. Use code reviews, static analysis, dependency checks and peer feedback to identify issues early. Manage secrets securely, validate inputs, handle errors safely and address findings before release. Continuously improve standards based on observed defects and threats.",
+      "responsibleDepartment": "Engineering / Application Security",
+      "evidenceExamples": [
+        "Secure coding standards and guidelines",
+        "Code review and static analysis results",
+        "Developer training records",
+        "Defect tracking and remediation evidence"
+      ],
+      "auditTesting": "Review coding standards and sample development artefacts to confirm secure practices are applied. Verify tools and reviews identify issues and remediation occurs.",
+      "commonGaps": [
+        "No secure coding standards",
+        "Automated analysis not used or ignored",
+        "Developers untrained on common vulnerabilities",
+        "Security findings deferred without risk assessment"
+      ],
+      "interviewQuestions": [
+        "What secure coding standards do developers follow?",
+        "How are code changes reviewed for security?",
+        "How are coding vulnerabilities tracked and fixed?"
+      ],
+      "scenario": "Static analysis in the CI pipeline flagged injection risks during development, allowing developers to remediate issues before deployment to production.",
+      "relatedControls": [
+        "A.8.25",
+        "A.8.29",
+        "A.8.8"
+      ],
+      "keywords": [
+        "secure coding",
+        "code review",
+        "static analysis",
+        "software vulnerabilities"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-06",
+        "nist_800_53": "SA-11",
+        "iso_27001": "A.8.28"
+      }
+    },
+    {
+      "id": "ctl_a_8_29",
+      "controlId": "A.8.29",
+      "title": "Security testing in development and acceptance",
+      "category": "TECHNOLOGICAL",
+      "objective": "Defines and implements security testing processes in the development life cycle and before acceptance.",
+      "whyItExists": "Testing verifies that security requirements and controls work as intended. Without security testing, vulnerabilities and misconfigurations may be released into production.",
+      "riskAddressed": "Deployment of systems with untested or unresolved security weaknesses.",
+      "implementationGuidance": "Plan security testing appropriate to system risk, including code analysis, dependency scanning, configuration checks, functional security tests, penetration testing or other assessments as relevant. Perform testing during development and prior to acceptance or release, track findings to remediation and define acceptance criteria. Ensure test environments and data are protected and retest fixes where necessary.",
+      "responsibleDepartment": "Engineering / QA / Security",
+      "evidenceExamples": [
+        "Security test plans and results",
+        "Vulnerability and finding trackers",
+        "Acceptance criteria and sign-off records",
+        "Retest evidence for remediated issues"
+      ],
+      "auditTesting": "Sample projects and confirm security testing was planned, executed and reviewed before release. Verify significant findings were remediated or accepted with documented rationale.",
+      "commonGaps": [
+        "No security testing before release",
+        "Findings not tracked or retested",
+        "Test coverage not aligned to risk",
+        "Acceptance based only on functional tests"
+      ],
+      "interviewQuestions": [
+        "What security tests are performed before this system is accepted?",
+        "How are security findings handled prior to release?",
+        "Who approves acceptance when residual issues remain?"
+      ],
+      "scenario": "Pre-release testing identified excessive permissions in an API; remediation and retesting were completed before the application was approved for production use.",
+      "relatedControls": [
+        "A.8.25",
+        "A.8.26",
+        "A.8.31"
+      ],
+      "keywords": [
+        "security testing",
+        "acceptance testing",
+        "penetration testing",
+        "verification"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-06",
+        "nist_800_53": "SA-11",
+        "iso_27001": "A.8.29"
+      }
+    },
+    {
+      "id": "ctl_a_8_30",
+      "controlId": "A.8.30",
+      "title": "Outsourced development",
+      "category": "TECHNOLOGICAL",
+      "objective": "Directs, monitors and reviews activities related to outsourced system development.",
+      "whyItExists": "Outsourced development introduces reliance on external parties for secure design, coding and delivery. Clear requirements and oversight are needed to ensure security expectations are met.",
+      "riskAddressed": "Security weaknesses or loss of control in systems developed by external parties.",
+      "implementationGuidance": "Define security requirements, deliverables, acceptance criteria and intellectual property terms for outsourced development. Assess supplier capability, require secure development practices, and maintain oversight through reviews, testing, progress reporting and right-to-audit or assurance where appropriate. Control access to environments and data, manage changes and verify outputs before acceptance and deployment.",
+      "responsibleDepartment": "Procurement / Engineering / Security",
+      "evidenceExamples": [
+        "Outsourced development contracts and requirements",
+        "Supplier assessments and review records",
+        "Access and environment control evidence",
+        "Acceptance testing and review results"
+      ],
+      "auditTesting": "Review outsourced development arrangements and confirm security requirements, oversight and acceptance controls are in place. Sample deliverables for evidence of review and testing.",
+      "commonGaps": [
+        "Security requirements not included in contracts",
+        "Limited visibility into supplier practices",
+        "Supplier access not controlled",
+        "Deliverables accepted without security review"
+      ],
+      "interviewQuestions": [
+        "How are security expectations communicated to outsourced developers?",
+        "What oversight and testing are performed on supplier deliverables?",
+        "How is supplier access to systems and data controlled?"
+      ],
+      "scenario": "An outsourced mobile app project included secure coding requirements, milestone security reviews and penetration testing before acceptance, identifying issues prior to release.",
+      "relatedControls": [
+        "A.5.20",
+        "A.8.25",
+        "A.8.29"
+      ],
+      "keywords": [
+        "outsourced development",
+        "supplier oversight",
+        "secure delivery",
+        "third-party development"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.SC-07",
+        "nist_800_53": "SA-9",
+        "iso_27001": "A.8.30"
+      }
+    },
+    {
+      "id": "ctl_a_8_31",
+      "controlId": "A.8.31",
+      "title": "Separation of development, test and production environments",
+      "category": "TECHNOLOGICAL",
+      "objective": "Separates and secures development, testing and production environments to reduce risks to operational systems.",
+      "whyItExists": "Mixing environments can lead to unauthorised changes, accidental disruption, exposure of production data or introduction of untested code. Separation supports controlled deployment and data protection.",
+      "riskAddressed": "Compromise or disruption of production systems due to inadequate separation from development or test activities.",
+      "implementationGuidance": "Establish separate environments for development, testing and production with appropriate access controls, network segregation and configuration management. Restrict movement of code and data between environments through controlled deployment processes, use masked or synthetic data in non-production where possible, and prevent developers from having uncontrolled access to production. Monitor and review environment boundaries regularly.",
+      "responsibleDepartment": "Engineering / IT Operations / Security",
+      "evidenceExamples": [
+        "Environment architecture and segregation evidence",
+        "Access control lists by environment",
+        "Deployment pipeline and change records",
+        "Test data handling procedures"
+      ],
+      "auditTesting": "Review environment design and sampled access to confirm separation is enforced. Verify deployments follow controlled processes and production data is protected in non-production environments.",
+      "commonGaps": [
+        "Shared accounts or access across environments",
+        "Production data copied to test without protection",
+        "Direct developer access to production",
+        "Weak controls over deployment paths"
+      ],
+      "interviewQuestions": [
+        "How are development, test and production environments separated?",
+        "Who can access production systems and data?",
+        "How is code promoted between environments?"
+      ],
+      "scenario": "Using segregated environments and CI/CD pipelines with approvals ensured only tested and reviewed changes were deployed to production systems.",
+      "relatedControls": [
+        "A.8.22",
+        "A.8.25",
+        "A.8.33"
+      ],
+      "keywords": [
+        "environment separation",
+        "dev test prod",
+        "deployment control",
+        "segregation"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-06",
+        "nist_800_53": "CM-5",
+        "iso_27001": "A.8.31"
+      }
+    },
+    {
+      "id": "ctl_a_8_32",
+      "controlId": "A.8.32",
+      "title": "Change management",
+      "category": "TECHNOLOGICAL",
+      "objective": "Subjects changes to information processing facilities and information systems to change management procedures.",
+      "whyItExists": "Uncontrolled changes can introduce vulnerabilities, outages and configuration errors. A structured change process ensures changes are assessed, approved, tested and documented.",
+      "riskAddressed": "Service disruption or security weaknesses caused by unauthorised or poorly managed changes.",
+      "implementationGuidance": "Define change management procedures covering request, impact and risk assessment, approval, testing, implementation, rollback and documentation. Classify changes by type and urgency, ensure emergency changes are reviewed retrospectively, and maintain records. Coordinate security, operations and business stakeholders for significant changes and verify outcomes after implementation.",
+      "responsibleDepartment": "IT Operations / Change Management / Security",
+      "evidenceExamples": [
+        "Change management policy and records",
+        "Risk assessments and approvals",
+        "Test and rollback plans",
+        "Post-implementation review evidence"
+      ],
+      "auditTesting": "Sample changes, including normal and emergency changes, to confirm they followed required steps and were documented. Verify security impact was considered and unauthorised changes are detected.",
+      "commonGaps": [
+        "Changes implemented without approval",
+        "Inadequate testing or rollback planning",
+        "Emergency changes not reviewed retrospectively",
+        "Poor documentation of changes"
+      ],
+      "interviewQuestions": [
+        "How are changes requested, approved and recorded?",
+        "How do you handle emergency changes?",
+        "How is security impact assessed before implementation?"
+      ],
+      "scenario": "A formal change process required testing and approval before a firewall rule update, preventing an unintended exposure that was identified during review.",
+      "relatedControls": [
+        "A.8.9",
+        "A.8.19",
+        "A.5.37"
+      ],
+      "keywords": [
+        "change management",
+        "change control",
+        "approval",
+        "rollback"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-01",
+        "nist_800_53": "CM-3",
+        "iso_27001": "A.8.32"
+      }
+    },
+    {
+      "id": "ctl_a_8_33",
+      "controlId": "A.8.33",
+      "title": "Test information",
+      "category": "TECHNOLOGICAL",
+      "objective": "Selects and manages test information appropriately to protect its confidentiality and integrity.",
+      "whyItExists": "Test activities may use sensitive or production-like data. Improper handling of test information can expose confidential data or produce unreliable results.",
+      "riskAddressed": "Disclosure or misuse of sensitive information used in testing, or compromised test integrity.",
+      "implementationGuidance": "Identify test information requirements and prefer synthetic or masked data where possible. When production data must be used, obtain approvals, apply protection controls, restrict access, log use and remove data after testing. Secure test environments, control copies and ensure test results and artefacts are handled according to classification and retention requirements.",
+      "responsibleDepartment": "QA / Engineering / Data Owners",
+      "evidenceExamples": [
+        "Test data management procedures",
+        "Approvals for use of production data in testing",
+        "Masking or anonymisation evidence",
+        "Test environment access controls"
+      ],
+      "auditTesting": "Review test data practices and sample test activities to confirm sensitive information is protected, appropriately selected and removed when no longer needed.",
+      "commonGaps": [
+        "Production data copied to test without controls",
+        "Test data retained indefinitely",
+        "Broad access to sensitive test datasets",
+        "No approval for using real data"
+      ],
+      "interviewQuestions": [
+        "How is test data selected and protected?",
+        "Is production data used in testing and under what controls?",
+        "How is test data removed after use?"
+      ],
+      "scenario": "A QA team generated synthetic datasets for performance testing and restricted access to a masked subset when limited real-world patterns were required, reducing exposure of customer data.",
+      "relatedControls": [
+        "A.8.11",
+        "A.8.31",
+        "A.5.12"
+      ],
+      "keywords": [
+        "test data",
+        "test information",
+        "synthetic data",
+        "non-production data"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-01",
+        "nist_800_53": "SA-3",
+        "iso_27001": "A.8.33"
+      }
+    },
+    {
+      "id": "ctl_a_8_34",
+      "controlId": "A.8.34",
+      "title": "Protection of information systems during audit testing",
+      "category": "TECHNOLOGICAL",
+      "objective": "Plans and agrees audit tests and other assurance activities involving assessment of operational systems to minimise impact on information systems and business processes.",
+      "whyItExists": "Audit and assurance activities can affect system performance, availability or integrity if not planned carefully. Coordination ensures necessary testing occurs without unnecessary disruption or risk.",
+      "riskAddressed": "Operational disruption, unintended changes or data exposure caused by poorly planned audit or assurance testing.",
+      "implementationGuidance": "Plan audit and assurance activities in advance with system owners, defining scope, timing, methods, access, tools and safeguards. Use read-only or least-privilege access where possible, schedule potentially disruptive tests appropriately, monitor activities and agree communication and escalation paths. Document approvals, findings and any issues, and restore systems to normal state after testing.",
+      "responsibleDepartment": "Internal Audit / IT Operations / System Owners",
+      "evidenceExamples": [
+        "Audit test plans and approvals",
+        "Access records for auditors/testers",
+        "Rules of engagement and schedules",
+        "Post-test reports and issue logs"
+      ],
+      "auditTesting": "Review audit or assurance activities on operational systems and confirm scope, timing and safeguards were agreed. Verify access was controlled and any impacts were managed and documented.",
+      "commonGaps": [
+        "Testing performed without owner approval",
+        "Excessive auditor access",
+        "Disruptive tests run during critical periods",
+        "No agreed safeguards or rollback plans"
+      ],
+      "interviewQuestions": [
+        "How are audit tests on production systems planned and approved?",
+        "What safeguards limit impact during testing?",
+        "How is auditor access controlled and removed?"
+      ],
+      "scenario": "Before a penetration test on a live service, stakeholders agreed scope, timing and emergency contacts; controlled access and monitoring allowed testing with minimal business impact.",
+      "relatedControls": [
+        "A.5.35",
+        "A.5.18",
+        "A.8.15"
+      ],
+      "keywords": [
+        "audit testing",
+        "assurance activities",
+        "operational systems",
+        "testing safeguards"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "ID.IM-01",
+        "nist_800_53": "CA-2",
+        "iso_27001": "A.8.34"
+      }
+    }
+  ]
+}

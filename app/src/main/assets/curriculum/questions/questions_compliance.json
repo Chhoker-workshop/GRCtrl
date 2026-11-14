@@ -1,0 +1,1256 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "QUESTIONS",
+  "items": [
+    {
+      "id": "q.compliance.001",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.002",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.003",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.004",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.005",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.006",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.007",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.008",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.009",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.010",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.011",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.012",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.013",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.014",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.015",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.compliance.016",
+      "domain": "COMPLIANCE",
+      "topic": "Compliance",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Compliance, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Compliance.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Compliance issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Compliance as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Compliance work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Compliance.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "id": "q.isms.001",
+      "domain": "COMPLIANCE",
+      "topic": "Isms",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Isms, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Isms.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Isms issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Isms as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Isms work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Isms.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Isms"
+      ]
+    },
+    {
+      "id": "q.isms.002",
+      "domain": "COMPLIANCE",
+      "topic": "Isms",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Isms, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Isms.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Isms issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Isms as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Isms work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Isms.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Isms"
+      ]
+    },
+    {
+      "id": "q.isms.003",
+      "domain": "COMPLIANCE",
+      "topic": "Isms",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Isms, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Isms.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Isms issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Isms as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Isms work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Isms.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Isms"
+      ]
+    },
+    {
+      "id": "q.isms.004",
+      "domain": "COMPLIANCE",
+      "topic": "Isms",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Isms, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Isms.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Isms issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Isms as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Isms work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Isms.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Isms"
+      ]
+    },
+    {
+      "id": "q.isms.005",
+      "domain": "COMPLIANCE",
+      "topic": "Isms",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Isms, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Isms.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Isms issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Isms as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Isms work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Isms.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Isms"
+      ]
+    },
+    {
+      "id": "q.isms.006",
+      "domain": "COMPLIANCE",
+      "topic": "Isms",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Isms, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Isms.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Isms issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Isms as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Isms work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Isms.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Isms"
+      ]
+    },
+    {
+      "id": "q.isms.007",
+      "domain": "COMPLIANCE",
+      "topic": "Isms",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Isms, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Isms.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Isms issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Isms as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Isms work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Isms.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Isms"
+      ]
+    },
+    {
+      "id": "q.isms.008",
+      "domain": "COMPLIANCE",
+      "topic": "Isms",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Isms, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Isms.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Isms issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Isms as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Isms work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Isms.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Isms"
+      ]
+    },
+    {
+      "id": "q.isms.009",
+      "domain": "COMPLIANCE",
+      "topic": "Isms",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Isms, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Isms.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Isms issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Isms as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Isms work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Isms.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Isms"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1791 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "CONTROLS",
+  "items": [
+    {
+      "id": "ctl_a_5_1",
+      "controlId": "A.5.1",
+      "title": "Policies for information security",
+      "category": "ORGANIZATIONAL",
+      "objective": "Establishes a management-approved, communicated and maintained set of rules that direct the organisation's approach to protecting information. The policy set gives every employee, contractor and third party a single written baseline of what is expected and who is empowered to decide.",
+      "whyItExists": "Most information security failures trace back to an undefined expectation rather than an exotic exploit. Without an agreed policy, decisions on encryption, retention, remote work and acceptable use get made ad hoc by whoever is closest to the problem, and inconsistent obligations accumulate across business units and countries. A policy converts individual judgement calls into a governed organisational norm that can be applied consistently, enforced fairly and audited defensibly.",
+      "riskAddressed": "Ad hoc decision-making that leaves information assets exposed, and contradictory obligations that expose the organisation to regulatory findings and contractual disputes.",
+      "implementationGuidance": "Build a three-tier architecture: a one or two page top-level information security policy stating objectives, board oversight and the CISO's authority; topic policies covering access control, asset management, incident response, acceptable use, remote working, supplier security and data classification; and short numbered operating procedures beneath each topic policy. Route the top-level policy through the board or risk committee for formal approval and name a single owner accountable for the next review. Publish everything in an intranet or governance tool where each document carries a version number, approval date and next-review date. Set a default cycle of twelve months for the top-level policy and three years for topic policies, and trigger event-driven reviews after any major incident, new regulation, new business line or acquisition. Build an exception route as formally as the policy itself, requiring a named risk owner, a compensating measure and an expiry date for every deviation. Finally, run a short acknowledgement campaign each time the top-level policy is reissued so adoption is evidenced rather than assumed.",
+      "responsibleDepartment": "GRC / Information Security",
+      "evidenceExamples": [
+        "Board-approved top-level information security policy showing version and approval dates",
+        "Policy register listing every topic policy with owner, version and next review date",
+        "Exception register showing risk owner, compensating control and expiry for each deviation",
+        "Acknowledgement records for the current policy version with completion percentages by business unit",
+        "Sample exception approval emails with business justification and CISO sign-off"
+      ],
+      "auditTesting": "The auditor reviews the policy set and traces it back to the ISMS scope, sampling four to six topic policies against the risk register and against obligations from the Statement of Applicability. The auditor confirms that approvals are genuine by matching approval dates to board or committee minutes and by interviewing the policy owner. The auditor tests the review cycle by checking whether any policy has exceeded its next-review date and asks how an exception was handled in the last twelve months. A finding is raised where policies exist but do not reflect the actual technical environment, where exceptions are undocumented, or where approval cannot be traced to an accountable management body.",
+      "commonGaps": [
+        "A policy document exists but no route to approve, log or expire exceptions",
+        "Policy text is copied from a template and never reconciled with how the organisation actually operates",
+        "Only the top-level policy is reviewed; topic policies and procedures go stale for years",
+        "Applies to headquarters staff only, with nothing covering branches, contractors or cloud estates"
+      ],
+      "interviewQuestions": [
+        "Who approves the information security policy and how often is it re-approved?",
+        "Show me the last exception to policy that was granted and how it was closed out.",
+        "How do you know every employee has read the current policy version?"
+      ],
+      "scenario": "A retail bank with 900 branches and two data centres had a policy portfolio that existed only as PDFs on a shared drive. During a regulatory review the auditor sampled the remote working policy and found it still referred to dial-up VPN and a two-factor token that had been retired three years earlier. The bank rebuilt the policy hierarchy on a governance platform with named owners, and introduced a mandatory impact assessment whenever a new system or regulation landed, so the remote working policy was rewritten within six weeks and the branch estate was brought into scope.",
+      "relatedControls": [
+        "A.5.2",
+        "A.5.31",
+        "A.5.36",
+        "A.5.37"
+      ],
+      "keywords": [
+        "policy",
+        "governance",
+        "rules",
+        "approval",
+        "standard operating procedure"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.PO-01",
+        "nist_800_53": "PS-1",
+        "cis_controls": "CIS 2.1",
+        "pci_dss_4_0_1": "Req 12.10.1",
+        "soc_2": "CC5.3"
+      }
+    },
+    {
+      "id": "ctl_a_5_2",
+      "controlId": "A.5.2",
+      "title": "Roles and responsibilities",
+      "category": "ORGANIZATIONAL",
+      "objective": "Defines and communicates who owns information security, who operates the controls, who makes risk acceptance decisions and who audits the result. It removes ambiguity about authority so that security decisions are made quickly by people with the mandate to make them.",
+      "whyItExists": "Security decisions stall when nobody knows whose call it is, and the default is that nobody decides. In the absence of defined roles, the CISO ends up approving routine access requests personally, business owners quietly bypass controls to meet deadlines, and nobody is accountable when a control fails. Defining roles is what lets the organisation delegate routine work upward to control owners while reserving escalation and risk acceptance for management.",
+      "riskAddressed": "Unowned security responsibilities that let control failures pass unnoticed and leave risk decisions taken by people without the authority to accept them.",
+      "implementationGuidance": "Produce a role-based responsibility matrix (RACI) for the ISMS that names a function rather than an individual for every control, so it survives reorganisations. Anchor it to a three-tier model: the board or risk committee sets risk appetite and receives assurance; the CISO owns the security management system and is accountable for outcomes; operating roles own specific control families such as access management, vulnerability management, incident response, physical security and supplier assurance. Map every Annex A control to exactly one accountable owner and at least one responsible operator, and publish that mapping where the ISMS team can query it. Fold security accountabilities into job descriptions and performance objectives so they carry weight rather than sitting in a matrix nobody reads. Pair the matrix with a defined escalation path showing who acts when a control owner does not respond within a service level, and re-baseline it whenever the organisation chart changes materially.",
+      "responsibleDepartment": "GRC / Information Security",
+      "evidenceExamples": [
+        "Information security responsibility matrix showing control owner and operator per control family",
+        "Board or risk committee terms of reference delegating oversight and risk acceptance",
+        "CISO role description with delegated authority and reporting line to the board",
+        "Job descriptions for control owners showing security accountabilities",
+        "Mapping of every Annex A control to an accountable function"
+      ],
+      "auditTesting": "The auditor takes three controls and traces each from the Statement of Applicability to a named owner, then interviews that owner and the person who performs the activity day to day. The auditor checks that delegation is documented, testing whether the person approving access actually holds the authority described. A finding is raised where no owner can be named, where the same person owns and audits the same control, or where the stated escalation path does not match the documented practice.",
+      "commonGaps": [
+        "Roles described generically as IT or management without naming a function or decision right",
+        "The CISO owns everything on paper while control owners do the work with no mandate",
+        "Responsibility matrix never updated after a merger or reorganisation",
+        "Risk acceptance rights are undefined so acceptances are given by whoever replies fastest"
+      ],
+      "interviewQuestions": [
+        "Who in your team can approve a risk acceptance and what evidence is left behind?",
+        "Which control would you be personally accountable for if it failed?",
+        "Who acts as security owner when the business unit has no dedicated security resource?"
+      ],
+      "scenario": "A hospital network had a CISO who personally approved every firewall rule change, creating a two-week backlog and a single point of failure. A role matrix was created that delegated network change approval to a named service owner with the CISO retaining escalation, and it was wired into the change management workflow so approval followed a documented authority table. Within a quarter the backlog was cleared and the CISO's time moved onto supplier assurance and the annual risk assessment.",
+      "relatedControls": [
+        "A.5.3",
+        "A.5.4",
+        "A.5.35",
+        "A.5.37"
+      ],
+      "keywords": [
+        "roles",
+        "responsibilities",
+        "raci",
+        "accountability",
+        "ownership"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.RR-02",
+        "nist_800_53": "PS-2",
+        "cis_controls": "CIS 5.1",
+        "soc_2": "CC3.2"
+      }
+    },
+    {
+      "id": "ctl_a_5_3",
+      "controlId": "A.5.3",
+      "title": "Segregation of duties",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures that critical activities are split across different individuals so that no single person can both execute and authorise an action. It limits the damage that one compromised or dishonest account can cause and makes collusion necessary to defeat a control.",
+      "whyItExists": "Control environments fail quietly when one person can request, approve and apply an entitlement or a payment. In that arrangement there is no meaningful checkpoint, so errors go unnoticed and deliberate misuse leaves no trace in the workflow. Segregation of duties is what converts an approval step from a rubber stamp into a genuine independent check, and it is especially important where privileged access exists because that access can bypass every other technical safeguard.",
+      "riskAddressed": "Unauthorised change, fraud or error in privileged processes that a single individual could complete end to end without independent detection.",
+      "implementationGuidance": "Identify the activities where a single actor could cause material loss or undetected change, typically entitlement approval, financial payment, production deployment, key management and audit configuration. Map each activity to the roles that must not be combined, and encode the split in the systems that enforce it rather than in a document. Use access workflows with two distinct human identities, and enforce a personal rather than shared credential for the approving step so that attribution survives staff turnover. Where segregation cannot be achieved because the team is too small, apply compensating measures: independent post-implementation review, four-eyes administration by a separate team, or a recurring detective control with documented management review. Maintain a register of approved conflicts and approved compensating measures with an expiry date, and reconcile it quarterly against actual entitlements so the register reflects reality rather than intent.",
+      "responsibleDepartment": "GRC / Information Security",
+      "evidenceExamples": [
+        "SoD conflict register listing role combinations and the compensating control for each approved conflict",
+        "System access workflow configuration showing separate requester and approver identities",
+        "Quarterly entitlement reconciliation comparing the conflict register to live access",
+        "Sample approval records showing two distinct named individuals",
+        "Independent post-implementation review reports for approved segregation conflicts"
+      ],
+      "auditTesting": "The auditor selects three to five high-risk processes and reperforms the access test, retrieving live entitlements for a sample of users in both the requesting and approving populations and looking for overlap. Where conflicts exist, the auditor checks that a documented compensating control with a current review date operates and produces findings. A finding is raised where a single identity can both request and approve, where a shared team account defeats attribution, or where the conflict register has drifted from actual entitlements.",
+      "commonGaps": [
+        "SoD defined in a policy document but not enforced by the systems that perform the workflow",
+        "Shared or generic administrator accounts allow attribution to be lost entirely",
+        "Compensating controls recorded but never actually performed",
+        "Conflict register covers the core bank but not subsidiaries, cloud tenants or subsidiaries' own access"
+      ],
+      "interviewQuestions": [
+        "Which processes in your area cannot be completed by one person, and how is that enforced technically?",
+        "Tell me about the last time you had to approve a segregation of duties exception.",
+        "How do you know the approver is genuinely different from the requester?"
+      ],
+      "scenario": "A telecommunications operator found that its service activation process allowed a single back-office team to both provision a circuit and credit the customer account, so a compromised shared account could quietly redirect traffic and hide the revenue. The operator split the workflow into a request role and a provisioning role with separate credentials, and for the eight genuinely unavoidable conflicts in night-shift operations it instituted a next-day independent audit of a sampled percentage of activations reviewed by the risk function.",
+      "relatedControls": [
+        "A.5.2",
+        "A.5.15",
+        "A.5.18",
+        "A.8.2"
+      ],
+      "keywords": [
+        "segregation of duties",
+        "sod",
+        "separation",
+        "dual control",
+        "conflict"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.RR-02",
+        "nist_800_53": "AC-5",
+        "cis_controls": "CIS 6.2",
+        "soc_2": "CC6.3"
+      }
+    },
+    {
+      "id": "ctl_a_5_4",
+      "controlId": "A.5.4",
+      "title": "Management responsibilities",
+      "category": "ORGANIZATIONAL",
+      "objective": "Requires managers at every level to apply information security in their own area of responsibility as a routine part of operational management. It places security obligations inside the line management chain rather than in a specialist team that cannot see everything.",
+      "whyItExists": "Central security teams have visibility of their estate but not of the business decisions that create risk. A procurement manager signing a contract with a new cloud provider, or a plant manager allowing a contractor to work unsupervised on the shop floor, each make decisions that materially change the risk profile without ever consulting a specialist. Making management accountable for security in their own area is what converts security from a central approval gate into a distributed operating discipline.",
+      "riskAddressed": "Business decisions taken without security consideration, leaving unmanaged exposure in areas that central security functions never see.",
+      "implementationGuidance": "Translate the organisation's security policy into a short set of obligations that a line manager can actually perform, such as completing local risk assessments, approving access for their team, confirming contractor supervision, and reporting suspected security events the same day. Build these obligations into the management cadence: agenda items at team meetings, a section in the monthly business unit review pack, and a quarterly self-assessment returned to the ISMS team. Give line managers a simple escalation route and a service desk for asking questions, because a process that only works for people who already understand security excludes exactly the managers who need it most. Track completion centrally by business unit so the security team can see where obligations are being met, and report exceptions rather than perfect compliance to the executive, since a visible exception with a plan is more useful than a hidden one. Reinforce the behaviour through performance objectives and internal communication that names good practice, not just failures.",
+      "responsibleDepartment": "Line Management / Business Unit Leadership",
+      "evidenceExamples": [
+        "Local information security obligations issued to line managers with completion status",
+        "Quarterly manager self-assessment returns with named accountable executives",
+        "Sample monthly business unit review packs showing the standing security agenda item",
+        "Delegated local risk assessment reports from a business unit",
+        "Performance objectives referencing security duties for a sample of managers"
+      ],
+      "auditTesting": "The auditor selects three business units of differing size and requests evidence of local manager activity, then interviews the relevant executives and one or two line managers below them. The auditor tests whether the manager could describe their security obligations without being prompted and whether they had completed the most recent cycle. A finding is raised where managers cannot articulate their duties, where self-assessments are returned only by security-aligned teams, or where the central function is performing local duties that line management should own.",
+      "commonGaps": [
+        "Responsibility stops at the central security team with no obligations written for line managers",
+        "Self-assessments are completed by the security team on behalf of the business",
+        "Contractors and outsourced operations have no named management owner",
+        "New managers are never onboarded into the security obligations"
+      ],
+      "interviewQuestions": [
+        "What are your personal information security responsibilities for your team?",
+        "Describe the last local risk decision you made and who supported it.",
+        "How do you escalate something you believe is a security problem in your area?"
+      ],
+      "scenario": "A national government department had a capable central security team but weak local ownership, so regional offices installed unapproved cloud file sharing and local printers accumulated sensitive case files. The department issued every manager with a one-page set of local obligations, made the return of a quarterly self-assessment a performance item, and gave regional managers a direct escalation channel into the security office. Within two quarters two unmanaged file stores had been identified and shut down through local management rather than a central sweep.",
+      "relatedControls": [
+        "A.5.2",
+        "A.5.8",
+        "A.5.15",
+        "A.5.36"
+      ],
+      "keywords": [
+        "line management",
+        "accountability",
+        "local ownership",
+        "self assessment",
+        "escalation"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.RR-02",
+        "nist_800_53": "AC-6",
+        "cis_controls": "CIS 5.1",
+        "soc_2": "CC1.4"
+      }
+    },
+    {
+      "id": "ctl_a_5_5",
+      "controlId": "A.5.5",
+      "title": "Contact with authorities",
+      "category": "ORGANIZATIONAL",
+      "objective": "Establishes and maintains a working relationship with the relevant government, regulatory and law-enforcement bodies so that legal obligations are understood and met, and so the organisation can escalate matters early and responsibly.",
+      "whyItExists": "Regulators and law enforcement expect to be contacted about material breaches within fixed deadlines, and late notification is frequently itself the second failure. Without a named contact and a rehearsed route, the first hours of a serious incident are spent hunting for the right person to call. A standing relationship also makes it far easier to interpret unusual legal requirements in the business's home jurisdictions and to respond to consultations that become mandatory later.",
+      "riskAddressed": "Failure to meet regulatory notification and cooperation obligations, and avoidable penalties or reputational damage arising from late or absent contact.",
+      "implementationGuidance": "Maintain a register of the regulatory bodies relevant to each jurisdiction in which the organisation operates, recording the body, the topic covered, the named contact or office, the escalation channel and the notification deadlines the organisation believes apply. Assign a single accountable owner for regulatory engagement, usually the general counsel, the compliance lead or the CISO for cyber matters, and require that all external contact with authorities is routed through that owner. Pre-draft notification templates for the most likely scenarios, such as personal data breach, critical infrastructure compromise or a request for information, and get them reviewed by local counsel in each jurisdiction. Run a table-top exercise at least annually that walks through deciding to notify, gathering the required facts and making the call, so that the first time is not the only rehearsal. Record every interaction and keep evidence that obligations were met, and watch for informal approaches from bodies that later generate formal obligations.",
+      "responsibleDepartment": "Legal and Compliance",
+      "evidenceExamples": [
+        "Regulatory contact register listing bodies, jurisdictions, contacts and notification deadlines",
+        "Breach notification decision tree and pre-approved notification templates per jurisdiction",
+        "Dated records of regulator correspondence and responses",
+        "Annual regulatory notification tabletop exercise report and actions",
+        "Named accountable owner for regulatory engagement with a role description"
+      ],
+      "auditTesting": "The auditor inspects the register and checks it against the organisation's legal entity and operational footprint, then samples one or two recent events involving external notification to verify timeliness and completeness. The auditor interviews the general counsel and the incident lead on the escalation route and asks them to describe the most recent notification decision. A finding is raised where the register omits a jurisdiction where the organisation operates, where notification decisions are made without a documented basis, or where the organisation has never contacted a relevant body despite the materiality threshold being met.",
+      "commonGaps": [
+        "A generic global contact list with no jurisdiction-specific deadlines or legal basis",
+        "Notification decisions made by whoever is on call rather than by a named accountable owner",
+        "Templates never reviewed by local counsel in each operating country",
+        "Regulatory correspondence received only in a shared mailbox that nobody monitors"
+      ],
+      "interviewQuestions": [
+        "Who decides that we notify a regulator, and what is the test they apply?",
+        "Show me the last time we contacted a supervisory authority and what was sent.",
+        "How do we track notification deadlines across the jurisdictions we operate in?"
+      ],
+      "scenario": "A healthcare provider suffered a ransomware incident affecting a claims system containing patient records in three states. Because the compliance team already had a standing relationship and pre-approved notification templates with local counsel, the decision to notify was made within hours of confirming the data involved. Each state's timeline was tracked against a single decision record, and the first notifications went out on day two, well inside the shortest applicable window.",
+      "relatedControls": [
+        "A.5.31",
+        "A.5.24",
+        "A.5.25",
+        "A.5.34"
+      ],
+      "keywords": [
+        "regulator",
+        "authority",
+        "notification",
+        "legal",
+        "escalation"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.OC-03",
+        "nist_800_53": "IR-4",
+        "soc_2": "CC9.2"
+      }
+    },
+    {
+      "id": "ctl_a_5_6",
+      "controlId": "A.5.6",
+      "title": "Contact with special interest groups",
+      "category": "ORGANIZATIONAL",
+      "objective": "Maintains membership of and participation in industry associations, professional networks and threat intelligence communities so that the organisation benefits from shared knowledge, early warning of emerging threats and collective influence on standards.",
+      "whyItExists": "Security intelligence is unevenly distributed. A niche exploit or a new attack technique is often publicised first in an industry association mailing list or a sector-specific CERT channel, and organisations outside that network find out later and react later. Participation also gives the organisation a route to shape the standards and regulations it will later have to comply with, and a bench of peers to call when an unprecedented incident occurs.",
+      "riskAddressed": "Delayed awareness of emerging threats and sector-specific developments, and weaker influence over the standards and regulations that will apply to the organisation.",
+      "implementationGuidance": "Identify the groups that matter for the organisation's risk profile, which usually means its sector association, the national computer emergency response team, a payment or health information security forum and one or two vendor-neutral research feeds. Assign a member of the security team to participate actively rather than just subscribing, and give that person time budgeted into their role so participation is not squeezed out by operational work. Create an inbound process so that intelligence received from these groups reaches the people who can act, such as a weekly triage of vendor advisories and CERT bulletins into the vulnerability management queue with named owners. Use the network deliberately at the moments it helps most, for example benchmarking after a near miss or comparing control designs with peers during a certification audit. Keep an outward flow too, by contributing sanitised lessons learned, because membership without contribution tends to wither. Record which feeds are relied upon and how their outputs feed into decisions, so that an auditor can trace intelligence to action.",
+      "responsibleDepartment": "GRC / Information Security",
+      "evidenceExamples": [
+        "Membership register of threat intelligence, CERT and sector associations with renewal dates",
+        "Weekly intelligence triage records showing items routed to owners",
+        "Subscription list for vendor and CERT security advisories with digest owners",
+        "Meeting notes and attendance records for industry working groups",
+        "Records of shared advisories or threat notes contributed back to the community"
+      ],
+      "auditTesting": "The auditor reviews the membership register and checks the activity evidence for the last two quarters, sampling three advisories received through those channels to confirm they were logged, triaged and assigned. The auditor interviews the participating analyst to test whether participation is active and whether intelligence has influenced a decision such as a patch priority or a control change. A finding is raised where memberships exist but no operational consumption can be shown, where intelligence sits in an unread inbox, or where a known sector channel is not covered.",
+      "commonGaps": [
+        "Memberships paid for but with no named participant or no time budgeted",
+        "Advisories forwarded to a distribution list that nobody triages",
+        "Intelligence is consumed for awareness but never changes a control or a priority",
+        "No process for sharing the organisation's own findings back into the community"
+      ],
+      "interviewQuestions": [
+        "Which advisory feeds do you rely on, and who reads them each week?",
+        "Tell me about a recent threat you learned about that changed something we do.",
+        "How do you get information back to the community that supports you?"
+      ],
+      "scenario": "A manufacturing group participated in its sector's supplier security forum and received an early warning about a credential-stuffing campaign targeting supplier portals. The intelligence team had an established triage route into vulnerability and access management, so the affected supplier accounts were identified and forced to re-enrol with phishing-resistant authentication within a week. Without the sector channel the same campaign would have reached the group only after the incident had already spread to its own supplier portal.",
+      "relatedControls": [
+        "A.5.7",
+        "A.5.19",
+        "A.5.31",
+        "A.8.8"
+      ],
+      "keywords": [
+        "threat intelligence",
+        "industry association",
+        "cert",
+        "networking",
+        "information sharing"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.SC-10",
+        "nist_800_53": "PM-9",
+        "soc_2": "CC2.2"
+      }
+    },
+    {
+      "id": "ctl_a_5_7",
+      "controlId": "A.5.7",
+      "title": "Threat intelligence",
+      "category": "ORGANIZATIONAL",
+      "objective": "Collects and analyses information about threats to the organisation's information assets so that preventive, detective and responsive controls can be informed by current knowledge rather than assumption. It converts external and internal signals into prioritised actions.",
+      "whyItExists": "Attackers operate with current knowledge and defenders frequently do not. Without a deliberate intelligence function, a warning published about a campaign targeting an industry or a technology in use never reaches the engineers who could close the gap, and the same technique succeeds elsewhere. Threat intelligence also helps the organisation judge which risks are genuinely rising, which supports proportionate spending and credible risk acceptance decisions at board level.",
+      "riskAddressed": "Exposure to known, currently exploited weaknesses and techniques that the organisation has not acted on, and misdirected investment caused by inaccurate risk assumptions.",
+      "implementationGuidance": "Build the function around a written intelligence requirement that states what the organisation wants to know: which threats target its sector, its technology stack, its geographies and its supply chain. Combine commercial feeds, open source repositories, ISAC subscriptions, vendor advisories and internal incident lessons into a single intake point, and do not let raw feeds reach analysts unprocessed. Produce regular outputs that a decision maker can act on, such as a monthly summary of relevant campaigns, a watch list of exploited vulnerabilities for the organisation's specific versions, and targeted advisories when something changes materially. Always convert intelligence into a task with an owner and a due date, because an intelligence product with no action attached is just reading. Integrate it with the vulnerability management process so that confirmed exploitation of a flaw the organisation actually has reprioritises remediation immediately, and with incident response so that matched indicators can be checked against historic logs. Keep a record of what was received, what was assessed, what was decided and why, which is also what makes the function auditable.",
+      "responsibleDepartment": "Threat Intelligence / Security Operations Centre",
+      "evidenceExamples": [
+        "Written intelligence requirements document listing priority threat sources and topics",
+        "Monthly intelligence summary with actions, owners and due dates",
+        "Triage log showing incoming items assessed, accepted or rejected with reasons",
+        "Correlations between exploited-vulnerability bulletins and internal asset inventory",
+        "Watch list of specific CVEs in use with matching remediation status"
+      ],
+      "auditTesting": "The auditor samples three intelligence items from the last two quarters and traces each through triage to either an action or a documented rejection. The auditor reconciles the exploited-vulnerability watch list against the vulnerability register and checks that genuinely exploited flaws were escalated in priority. A finding is raised where items are received but never dispositioned, where the watch list does not reflect the actual technology estate, or where intelligence is referenced in the risk register without any resulting change.",
+      "commonGaps": [
+        "Feeds purchased and reports generated, but no owner accepts the resulting actions",
+        "Intelligence is generic threat landscape material with no link to the organisation's own assets",
+        "Escalation of actively exploited vulnerabilities depends on one analyst noticing it manually",
+        "No feedback loop from incident response lessons learned back into intelligence priorities"
+      ],
+      "interviewQuestions": [
+        "What is your intelligence requirement and how is it decided?",
+        "Show me an intelligence item that changed a control or a priority.",
+        "How do you make sure you are not simply reading reports?"
+      ],
+      "scenario": "An IT services firm tracked threat intelligence against the specific remote access product it resold to customers. When a vendor advisory confirmed active exploitation, the firm's intelligence analyst linked the affected versions to the customer estate and raised a coordinated remediation campaign with named owners and weekly reporting to the service management board. The campaign cleared 96 per cent of at-risk instances in eleven days, and the same pipeline now handles the quarterly prioritisation of all critical patches.",
+      "relatedControls": [
+        "A.5.6",
+        "A.8.8",
+        "A.5.25",
+        "A.5.24"
+      ],
+      "keywords": [
+        "threat intelligence",
+        "cti",
+        "indicators",
+        "prioritisation",
+        "advisory"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.SC-10",
+        "nist_800_53": "SI-4",
+        "cis_controls": "CIS 7.1",
+        "soc_2": "CC7.1"
+      }
+    },
+    {
+      "id": "ctl_a_5_8",
+      "controlId": "A.5.8",
+      "title": "Information security in project management",
+      "category": "ORGANIZATIONAL",
+      "objective": "Integrates information security requirements and activities into the routine management of projects so that security is designed into deliverables rather than negotiated after the fact. It ensures every project is assessed for security relevance and handled accordingly.",
+      "whyItExists": "Security work bolted on at the end of a project is expensive, late and often incomplete, because by then the architecture, contracts and data flows have already been fixed. Projects also have a habit of creating temporary environments, shared credentials and vendor relationships that never appear in the operational estate. Embedding security in project governance means these are considered while they are still cheap to change, and it prevents projects from quietly producing systems the organisation does not know how to support.",
+      "riskAddressed": "New systems, services and integrations being delivered without security requirements, creating unmanaged exposure and unremediable technical debt at handover.",
+      "implementationGuidance": "Introduce a security gate into the project lifecycle with defined entry criteria, a checkpoint at architecture and design, and a mandatory security review before go-live approval. Require every project to be classified as high, medium or low security relevance at initiation using a short questionnaire covering data handled, systems touched, integrations, hosting model and supplier involvement. Scale the effort to that classification, so low-relevance internal projects get a self-assessment and high-relevance ones get architecture review, threat modelling and testing obligations. Put the security representative into the project governance structure rather than inviting them to a meeting at the end, so they can influence scope and budget. Maintain a live register of in-flight projects with their classification, owner, security reviewer and target go-live date, and use it to spot the common failure of security work starting after the build has begun. At handover require a security sign-off covering documentation, accounts, logging, support and patching commitments, and fold that sign-off into the service acceptance criteria.",
+      "responsibleDepartment": "Programme Management Office / Information Security",
+      "evidenceExamples": [
+        "Project security classification questionnaire and completed scoring records",
+        "Live register of in-flight projects showing classification, security reviewer and go-live dates",
+        "Architecture and threat model artefacts for high-relevance projects",
+        "Pre-go-live security review checklist and signed approvals",
+        "Change requests showing security sign-off added to gate criteria"
+      ],
+      "auditTesting": "The auditor selects three recently delivered or in-flight projects, including at least one classified high relevance, and checks the project artefacts for a security gate, a named reviewer and a documented decision at each checkpoint. The auditor interviews the project manager to test whether security was treated as a constraint or as a rubber stamp, and compares the project register against the change advisory board records. A finding is raised where classification was never performed, where security review happened after the build, or where handover occurred without sign-off and the asset never entered the operational inventory.",
+      "commonGaps": [
+        "Security review happens at the end and is limited to a questionnaire",
+        "Project classification is performed but not used to scale the security effort",
+        "Agile sprints run without any security definition of done",
+        "Temporary project accounts and environments survive into production unowned"
+      ],
+      "interviewQuestions": [
+        "At what point in a project does a security representative first attend?",
+        "How do you decide whether a project is security relevant?",
+        "Tell me about a project where security changed the scope or the design."
+      ],
+      "scenario": "A retailer rolled out a customer loyalty app built by an external agency. Because a security classification questionnaire was embedded in the project initiation template, the app was rated high relevance at kickoff and required architecture review, threat modelling and a penetration test before launch. The early engagement surfaced a design that would have stored national identity numbers unnecessarily, and removing that data before build saved both a redesign and a privacy notification obligation.",
+      "relatedControls": [
+        "A.5.9",
+        "A.8.25",
+        "A.8.32",
+        "A.5.15"
+      ],
+      "keywords": [
+        "project management",
+        "security gate",
+        "classification",
+        "handover",
+        "requirements"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-06",
+        "nist_800_53": "SA-8",
+        "cis_controls": "CIS 16.1",
+        "soc_2": "CC8.1"
+      }
+    },
+    {
+      "id": "ctl_a_5_9",
+      "controlId": "A.5.9",
+      "title": "Inventory of information and other associated assets",
+      "category": "ORGANIZATIONAL",
+      "objective": "Maintains a complete and current register of the organisation's information assets, including data, hardware, software, services, physical locations and the owners responsible for them. It provides the shared factual basis for every other security decision.",
+      "whyItExists": "No organisation can protect, classify, back up or retire what it does not know it owns. Incomplete inventories allow shadow systems, forgotten cloud tenants and orphaned data to persist indefinitely, and they make risk assessment guesswork. The inventory is also what turns an abstract policy into a specific instruction, because it identifies who can be contacted about a given dataset and which system holds it, so remediation can actually be directed at the right owner.",
+      "riskAddressed": "Unmanaged and unowned assets continuing to process information outside any control or oversight regime.",
+      "implementationGuidance": "Build the register from an authoritative source rather than a survey, which usually means combining discovery from the network, cloud account and endpoint management tooling with the data catalogue and the CMDB, then reconciling against finance records for owned and leased equipment. Record for each asset an identifier, type, location, owner function, the information it holds with a classification link, the systems it depends on, and its criticality, so the register supports more than counting. Automate discovery on a scheduled cycle so that new infrastructure appears automatically, and treat a discrepancy between discovered and registered assets as a reportable finding rather than noise. Assign an owner to every entry and make ownership a condition of continued operation, so an unowned asset is decommissioned. Feed the register into vulnerability scanning, backup coverage checks, data loss prevention rules and the risk assessment so that it becomes an operational instrument rather than an annual document, and reconcile it monthly for the highest-value assets.",
+      "responsibleDepartment": "IT Asset Management / Information Security",
+      "evidenceExamples": [
+        "Asset register export with owner, location, classification and criticality per asset",
+        "Automated discovery reports showing network, cloud and endpoint assets",
+        "Reconciliation log comparing discovered assets against the register with resolution dates",
+        "Data catalogue linked to the systems that process each dataset",
+        "Decommissioning records for assets removed from the register"
+      ],
+      "auditTesting": "The auditor selects a sample of systems and data stores and traces them back to the register, then samples the register and attempts to locate the asset physically or logically to confirm it exists and has an owner. The auditor reviews the last reconciliation cycle and asks what happened to the discrepancies. A finding is raised where the register omits a live asset, where a meaningful proportion of entries have no owner, or where classification and criticality fields are populated so sparsely that the register cannot support risk decisions.",
+      "commonGaps": [
+        "A manually maintained spreadsheet that is out of date within weeks",
+        "Cloud and shadow IT assets missing entirely because discovery only covers the datacentre",
+        "Ownership recorded as a department rather than a person or team that can act",
+        "Assets are counted but not linked to the data they hold, so classification and coverage cannot be tested"
+      ],
+      "interviewQuestions": [
+        "How do you know the inventory is complete and what is the reconciliation frequency?",
+        "Show me the last set of discrepancies found and how they were resolved.",
+        "Who owns the asset holding the highest sensitivity data in the estate?"
+      ],
+      "scenario": "A hospital group ran its asset register from an old spreadsheet while a clinical analytics team had spun up a cloud data warehouse that stored patient records. When the register was rebuilt from discovery tooling and cloud account inventory, the warehouse appeared with no named business owner and a dozen other undocumented instances were found. The group made registration a prerequisite for cloud provisioning, so unowned assets can no longer be created even by mistake.",
+      "relatedControls": [
+        "A.5.12",
+        "A.5.13",
+        "A.8.1",
+        "A.8.9"
+      ],
+      "keywords": [
+        "inventory",
+        "asset register",
+        "asset management",
+        "ownership",
+        "cmdb"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "ID.AM-01",
+        "nist_800_53": "CM-8",
+        "cis_controls": "CIS 1.1",
+        "pci_dss_4_0_1": "Req 12.5.1",
+        "soc_2": "CC3.2"
+      }
+    },
+    {
+      "id": "ctl_a_5_10",
+      "controlId": "A.5.10",
+      "title": "Acceptable use",
+      "category": "ORGANIZATIONAL",
+      "objective": "Defines the rules for acceptable use of information processing facilities and the information they handle, covering permitted activities and prohibited ones. It gives a clear, enforceable standard for how people are expected to work with company technology and data.",
+      "whyItExists": "Most organisations have implicitly permitted behaviours that are inconsistent with each other and sometimes with law or regulation, which makes enforcement arbitrary and makes it impossible for staff to know what is actually permitted. Explicit rules also matter when the organisation has to demonstrate to a regulator, insurer or court that it told people what was expected. Without acceptable use standards, a phishing click or a personal USB stick becomes a disciplinary matter with no rule behind it, and genuine mistakes are treated as misconduct.",
+      "riskAddressed": "Unauthorised or careless use of information processing facilities leading to data loss, malware infection, licensing breach or reputational exposure.",
+      "implementationGuidance": "Write the acceptable use policy in plain language that a new starter on their first day can follow, covering devices, accounts, data storage, personal use, removable media, printing, messaging, remote access and the use of cloud and AI tools. Be specific about the genuinely contested areas, since vagueness in the policy becomes discretion in the workplace, and state plainly what is prohibited. Apply it to all categories of user including contractors and temporary staff, and require them to acknowledge the rules before access is provisioned rather than after. Make the policy easy to find from the device itself, such as a link on the managed device wallpaper or in the service portal, and set the expectation that it is read by joining the organisation. Pair the rules with enforcement that is proportionate and consistent, since a policy that is never enforced teaches staff that it does not matter. Review the policy when the technology mix changes, particularly when new generative AI tools or bring-your-own-device schemes are introduced, and keep an explicit list of sanctioned tools so that staff are not left to guess.",
+      "responsibleDepartment": "HR / Information Security",
+      "evidenceExamples": [
+        "Approved acceptable use policy with version, owner and date",
+        "Signed acceptable use acknowledgements for a sample of joiners and contractors",
+        "Handbook section covering prohibited uses and the disciplinary link",
+        "Record of policy updates following introduction of new tools or device schemes",
+        "Exceptions list for approved departures with compensating controls"
+      ],
+      "auditTesting": "The auditor reads the policy and tests it against a sample of recent disciplinary or acceptable use cases to see whether the rule invoked actually existed and was communicated to the individual. The auditor samples acknowledgements for new joiners, contractors and privileged users, and checks that acknowledgement preceded account activation. A finding is raised where staff are disciplined for conduct the policy does not cover, where acknowledgements were signed after access was granted, or where the policy is silent on current working practices such as use of personal cloud storage.",
+      "commonGaps": [
+        "Policy written for a 2005 technology estate and never updated",
+        "Acknowledgement collected but not linked to onboarding, so leavers and joiners are indistinguishable",
+        "No rules at all for cloud collaboration tools or generative AI assistants",
+        "Rules exist but exceptions are granted informally without a register"
+      ],
+      "interviewQuestions": [
+        "What does your policy say about using company devices for personal cloud storage?",
+        "How do you know a new starter read the acceptable use rules?",
+        "Who approves an exception to the acceptable use policy and how is it recorded?"
+      ],
+      "scenario": "An engineering services company expanded into regulated sectors and found its old acceptable use policy said nothing about generative AI assistants. Rather than a blanket ban, the revised policy set out which tools were sanctioned, required the enterprise licences, prohibited pasting customer or personal data into public models, and made the rules part of the joining process. Within two quarters the entire engineering population had acknowledged the change and the security team had a clear basis for the conversations it was already having.",
+      "relatedControls": [
+        "A.5.11",
+        "A.6.3",
+        "A.6.7",
+        "A.7.7"
+      ],
+      "keywords": [
+        "acceptable use",
+        "behaviour",
+        "rules",
+        "prohibited activity",
+        "acknowledgement"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.PO-01",
+        "nist_800_53": "PS-6",
+        "cis_controls": "CIS 5.3",
+        "soc_2": "CC6.1"
+      }
+    },
+    {
+      "id": "ctl_a_5_11",
+      "controlId": "A.5.11",
+      "title": "Return of assets",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures that information processing assets issued to people are returned in an orderly way when they leave, and that the organisation recovers equipment, credentials and residual data before the departure is complete. It closes the gap between the end of employment and the end of access.",
+      "whyItExists": "Offboarding is where access most often outlives employment. A laptop returned late, an active session on a personal phone, or a badge that was never deactivated leaves an ex-employee with legitimate credentials and physical access to systems and buildings. Because the person no longer works there, nobody owns the problem and no one is watching the logs for their activity. A defined return process converts a vague expectation into a tracked handover with deadlines and evidence.",
+      "riskAddressed": "Retained access credentials, devices and physical access tokens allowing former staff to reach company systems and information after their employment ended.",
+      "implementationGuidance": "Define the return process by employment type and give it a hard deadline, for example the final working day for standard leavers and a shorter window for dismissals, with a defined owner in HR who confirms completion to IT. Use an automated leaver feed that triggers account suspension, badge deactivation, mailbox and SaaS deprovisioning and the return of devices, rather than relying on a manual list that arrives late. Recover assets physically, and where a device is genuinely unrecoverable, record a documented decision to wipe it remotely and quarantine it pending a certificate of destruction or sanitisation report. Ensure the recovery step captures the asset tag, the condition of the device and the signature of the person returning it, so that disputes about damage or loss are traceable. Reconcile the returned asset against the asset register, because a discrepancy here often points to an unreturned device that still has live credentials. Track completion as a metric reported to the risk committee, since persistent small delays add up to meaningful exposure.",
+      "responsibleDepartment": "Human Resources / IT Service Management",
+      "evidenceExamples": [
+        "Documented offboarding and asset return procedure with deadlines by leaver type",
+        "Sampled leaver records showing return, deprovisioning and badge cancellation within SLA",
+        "Asset register reconciliation showing returned assets matched to issued records",
+        "Remote wipe certificates or sanitisation reports for devices not physically returned",
+        "Offboarding KPI report on completion rates and overdue items"
+      ],
+      "auditTesting": "The auditor samples leavers from the last three months including at least one dismissal and one long-serving employee, and traces the record through HR, IT and facilities to confirm accounts were disabled, tokens cancelled and assets recovered within the stated period. For a sample of recovered devices the auditor checks whether data was sanitised or the device was returned in a usable state. A finding is raised where any sampled leaver retained an active account or badge, where returns lag beyond the defined window, or where a small proportion of devices are never recovered and never wiped.",
+      "commonGaps": [
+        "Access revoked on the last working day but the badge is cancelled weeks later",
+        "No automatic trigger, so offboarding depends on HR remembering to email IT",
+        "Devices returned but still enrolled in management platforms with valid cloud tokens",
+        "Contractors and agency staff excluded from the return process entirely"
+      ],
+      "interviewQuestions": [
+        "What happens to a leaver's access on their final working day?",
+        "How do you recover a device from someone who does not want to return it?",
+        "Show me the last case where an offboarding deadline was missed and what happened."
+      ],
+      "scenario": "A manufacturing firm found that a design engineer who moved to a competitor kept active access to a supplier portal for six weeks because badge revocation was handled by the site reception team on a paper log. The firm automated the leaver feed to trigger badge invalidation and remote account suspension simultaneously, and required a weekly reconciliation between HR leavers, badge system and identity platform. Within a quarter leaver access fell to under two hours on average, and the reconciliation caught three genuine cases of badges still in use.",
+      "relatedControls": [
+        "A.6.5",
+        "A.7.14",
+        "A.7.2",
+        "A.8.10"
+      ],
+      "keywords": [
+        "offboarding",
+        "asset return",
+        "leaver",
+        "deprovisioning",
+        "badge"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-01",
+        "nist_800_53": "PS-4",
+        "cis_controls": "CIS 5.3",
+        "soc_2": "CC6.1"
+      }
+    },
+    {
+      "id": "ctl_a_5_12",
+      "controlId": "A.5.12",
+      "title": "Classification of information",
+      "category": "ORGANIZATIONAL",
+      "objective": "Establishes a consistent scheme for classifying information according to its sensitivity, value and legal or contractual obligations. It provides the basis for deciding how information must be handled, shared, retained and protected.",
+      "whyItExists": "Treating all information alike is both wasteful and unsafe. Over-protecting low-value material creates friction that pushes people to work around controls, while under-protecting sensitive material exposes the organisation to exactly the harms the controls were meant to prevent. Classification also converts external obligations into internal instructions, because contractual and regulatory requirements about a given dataset only become actionable once that dataset has been identified and labelled.",
+      "riskAddressed": "Sensitive information handled with the same controls as trivial data, leading to breach, contract breach and regulatory non-compliance.",
+      "implementationGuidance": "Define a small number of classification levels, typically public, internal, confidential and restricted, with plain, testable handling rules for each covering storage, transmission, printing, sharing, disposal and access approval. Base the levels on impact rather than on the sensitivity of the individual, so the rules are learnable, and give every level a named set of obligations such as mandatory encryption at rest and in transit, access logging and periodic recertification. Publish a decision guide with worked examples drawn from the organisation's real data, since the test of a classification scheme is whether a new starter can classify a document correctly without asking. Tie the levels to concrete technical enforcement, mapping each level to access groups, retention schedules, encryption settings and data loss prevention rules so that classification actually changes behaviour rather than appearing only on a document header. Review the scheme whenever new categories of information appear, including data created by new products or acquired businesses, and validate that legacy data has been classified before relying on it in risk assessments.",
+      "responsibleDepartment": "GRC / Information Security with Data Owners",
+      "evidenceExamples": [
+        "Approved information classification scheme with levels and handling rules per level",
+        "Decision guide with worked examples from business data",
+        "Mapping of classification levels to technical controls such as encryption and retention",
+        "Data classification records for a sample of systems and datasets",
+        "Records of classification scheme reviews following new data categories"
+      ],
+      "auditTesting": "The auditor selects samples of documents, datasets and shared drives at each level and checks that the handling applied matches the rule set for that level, including encryption, retention and access restrictions. The auditor interviews data owners in two business units and asks them to classify a recent example, testing whether the scheme is being applied consistently. A finding is raised where the same type of data appears at different levels in different business units, where labels are applied without corresponding technical enforcement, or where newly created data categories are still unclassified.",
+      "commonGaps": [
+        "A four-level scheme that staff confuse, so almost everything is marked confidential or nothing is",
+        "Classification exists only as a document header with no effect on storage or sharing behaviour",
+        "Legacy and third-party data never classified, so risk assessments exclude it",
+        "Levels defined without corresponding access, retention or disposal rules"
+      ],
+      "interviewQuestions": [
+        "How would you classify a draft product roadmap containing unreleased financial information?",
+        "What actually changes in the system when information is marked confidential?",
+        "How do you make sure third-party data in your area is classified?"
+      ],
+      "scenario": "A telecom operator ran two parallel classification practices, one from the enterprise side and one from the regulatory compliance team, so a subscriber contact dataset was confidential in one system and internal in another. The operator consolidated to a single four-level scheme with a decision guide, then wired each level to a retention schedule and an access group. Within a quarter retention jobs were automated by classification and quarterly access recertification became meaningful because recertification questions could reference the actual level.",
+      "relatedControls": [
+        "A.5.13",
+        "A.8.11",
+        "A.5.14",
+        "A.5.33"
+      ],
+      "keywords": [
+        "classification",
+        "sensitivity",
+        "information levels",
+        "handling rules",
+        "data owner"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "ID.AM-04",
+        "nist_800_53": "RA-2",
+        "cis_controls": "CIS 3.6",
+        "soc_2": "C1.1"
+      }
+    },
+    {
+      "id": "ctl_a_5_13",
+      "controlId": "A.5.13",
+      "title": "Labelling of information",
+      "category": "ORGANIZATIONAL",
+      "objective": "Specifies how information must be labelled so that its classification is visible and unambiguous wherever it is handled. It ensures the classification set by the data owner is actually carried with the information through storage, sharing and disposal.",
+      "whyItExists": "Classification only works if it travels with the data. Documents copied into emails, saved to personal drives, exported to spreadsheets and printed for meetings routinely lose their markings, and a recipient with no way to tell whether a file is confidential will handle it like a menu. Labelling also creates a last line of defence: if someone receives an unlabelled or mislabelled item, they can recognise the problem and seek guidance rather than guess.",
+      "riskAddressed": "Mislabelled or unlabelled information being shared, stored or disposed of in ways inconsistent with its sensitivity.",
+      "implementationGuidance": "Define a labelling convention that works across formats, for example a named header or footer on documents, a metadata property on files in the enterprise repository, a subject prefix for email, and a banner in the title of shared workspaces. Make the label carry the classification level, the owner, and where practical the review or expiry date, so that stale copies surface for reconsideration. Automate rather than ask: apply the label through templates, document management policies and email transport rules so that producing a correctly labelled document is easier than producing an unlabelled one. Where sensitivity varies inside a single artefact, define the rule for the highest level present, for example a mixed pack inherits the strictest handling. Provide a defined marking for derived and aggregated information, since redaction or aggregation can easily create something more sensitive than the original in the wrong hands. Set a defined review point, for example an annual check that templates still match the classification scheme and that third-party documents arriving with no label are treated at the strictest level until assessed.",
+      "responsibleDepartment": "GRC / Information Security with Records Management",
+      "evidenceExamples": [
+        "Labelling standard specifying the convention per information format",
+        "Sample labelled documents and emails showing level, owner and review date",
+        "Template and policy configuration enforcing labels in the document management platform",
+        "Guidance on handling unlabelled third-party information with applied defaults",
+        "Record of annual review of templates against the classification scheme"
+      ],
+      "auditTesting": "The auditor samples documents, decks, spreadsheets and emails at each classification level and checks whether labels are present, correctly formatted and consistent with the underlying data classification. The auditor inspects the document management configuration to see whether labels are applied by template or policy rather than by hand. A finding is raised where a meaningful proportion of restricted information is unlabelled, where labels conflict with the classification of the same content in the catalogue, or where the mechanism for applying labels has been superseded by a new platform.",
+      "commonGaps": [
+        "Labels exist on the template but are removed when content is pasted into another document",
+        "Labelling is manual, so it is applied inconsistently and skipped under time pressure",
+        "No convention for labels on exports, extracts or data feeds",
+        "Unlabelled inbound information is stored at the least restrictive level by default"
+      ],
+      "interviewQuestions": [
+        "What happens when someone receives a document with no label on it?",
+        "How are labels carried when information is exported from the document system?",
+        "Who checks that labels still match the current classification scheme?"
+      ],
+      "scenario": "A government department found that classified spreadsheets were routinely emailed to external partners without a header, because staff exported data from the register rather than sharing the labelled source. The department applied transport rules that refuse unmarked attachments from the register and added an explicit inbound default so that any unlabelled file received is held at the strictest level until the owner confirms otherwise. The behaviour change took two months and removed a recurring source of mislabelling.",
+      "relatedControls": [
+        "A.5.12",
+        "A.5.14",
+        "A.7.7",
+        "A.8.12"
+      ],
+      "keywords": [
+        "labelling",
+        "marking",
+        "headers",
+        "metadata",
+        "classification labels"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-01",
+        "nist_800_53": "MP-3",
+        "cis_controls": "CIS 3.6",
+        "soc_2": "C1.1"
+      }
+    },
+    {
+      "id": "ctl_a_5_14",
+      "controlId": "A.5.14",
+      "title": "Information transfer",
+      "category": "ORGANIZATIONAL",
+      "objective": "Sets the rules and controls for transferring information within the organisation and to external parties, regardless of the channel used. It ensures that data leaves a controlled environment only through approved, protected and traceable routes.",
+      "whyItExists": "Information moves constantly, and most of it moves outside the control of the systems that own it. Files go to personal email, into consumer file-sharing tools, over unapproved messaging apps and through unmanaged removable media, and once an item has left a governed environment there is no way to enforce the handling rules that were designed for it. Transfers also create the exact moment at which a contractual or regulatory restriction is most likely to be breached, because the destination is chosen by a person under deadline pressure rather than by a process.",
+      "riskAddressed": "Sensitive information transmitted through unapproved channels, to unauthorised recipients or without the protection the data classification requires.",
+      "implementationGuidance": "State plainly which channels are approved for which classification levels, and make the approved route the easiest one to use by offering managed file transfer, a governed collaboration platform and secure courier or encrypted media for the cases that genuinely need them. Configure the technical estate to support this: encryption in transit enforced by policy on managed devices and mail gateways, blocked personal file-sharing services, restricted removable media with exceptions recorded, and data loss prevention rules that guide rather than merely block, since silent blocking generates workarounds. Require a defined approval and record for any transfer of restricted information outside the organisation, capturing what, who, why and under which agreement. Cover the edge cases deliberately, including printing, screen capture, mobile transfer, live demonstrations to customers and conference presentations, as these are the paths that bypass the platform controls. Monitor transfer activity using the same logging capability as the rest of the estate so that unusual flows can be identified, and review the rules quarterly against what people actually do.",
+      "responsibleDepartment": "Information Security / Data Protection Office",
+      "evidenceExamples": [
+        "Approved transfer matrix mapping classification levels to permitted channels",
+        "Encryption and data loss prevention policy configuration with rules per classification",
+        "Approved exception register for transfers outside the standard channels",
+        "Sample transfer approval records showing justification and destination",
+        "Reports of blocked or flagged transfers reviewed by the data protection function"
+      ],
+      "auditTesting": "The auditor reviews the transfer rules and tests enforcement by tracing a sample of restricted information through the systems it actually used in the last six months, checking whether encryption and authorisation applied. The auditor samples transfer exceptions and examines data loss prevention alert handling to see whether flagged transfers were investigated. A finding is raised where restricted data was sent through unapproved channels, where the rules do not cover a channel in active use, or where alerts are generated but not triaged.",
+      "commonGaps": [
+        "Rules address email and file transfer but ignore collaboration tools and consumer cloud drives",
+        "Encryption recommended but not technically enforced on the actual transfer path",
+        "DLP alerts collected but never triaged, so they provide no protection",
+        "Printing and screen sharing treated as out of scope"
+      ],
+      "interviewQuestions": [
+        "How do I send a restricted file to an external partner correctly?",
+        "Show me the last transfer that your data loss prevention tooling flagged.",
+        "What happens to someone who repeatedly bypasses the transfer controls?"
+      ],
+      "scenario": "A pharmaceutical company audited its data flows and found clinical trial data moving to personal cloud accounts because the approved collaboration platform was slow for large files. Rather than tightening the ban, the firm provisioned a governed high-speed transfer route with pre-authorised external recipients and added it to the standard toolset, then deployed DLP rules that redirect rather than block. Within a quarter the personal cloud usage had largely disappeared because the compliant path was finally the convenient path.",
+      "relatedControls": [
+        "A.5.12",
+        "A.5.13",
+        "A.8.12",
+        "A.8.2"
+      ],
+      "keywords": [
+        "data transfer",
+        "encryption in transit",
+        "dlp",
+        "approved channels",
+        "external sharing"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-02",
+        "nist_800_53": "SC-8",
+        "cis_controls": "CIS 3.2",
+        "pci_dss_4_0_1": "Req 4.2.1",
+        "soc_2": "CC6.7"
+      }
+    },
+    {
+      "id": "ctl_a_5_15",
+      "controlId": "A.5.15",
+      "title": "Access control",
+      "category": "ORGANIZATIONAL",
+      "objective": "Establishes the overarching policy and rule set for physical and logical access to information and facilities, based on business need and least privilege. It provides the framework within which individual access decisions are made and justified.",
+      "whyItExists": "Access is the mechanism through which almost every incident materialises, yet it is usually managed as a series of local technical configurations rather than as a governed rule set. Without a clear access policy, requests are granted because they were asked for, service accounts accumulate, and shared logins become normal. A formal access policy is what makes it legitimate to deny access, gives the business a shared language for entitlement discussions and provides the standard against which individual systems can later be audited.",
+      "riskAddressed": "Unnecessary, excessive or unapproved access to information and facilities, which converts any single compromise into a broad breach.",
+      "implementationGuidance": "Write a single access control policy that states the principle set: business need, least privilege, need to know, segregation of duties, access based on individual identity rather than shared credentials, and periodic recertification. Define the rule set per information classification and per environment, covering authentication strength, session controls, privileged access, physical access to secure areas and access by third parties. Translate the principle into technical enforcement so that the policy is testable, using role-based groups, conditional access, privileged access workstations and automated provisioning from the authoritative source of who works where. Define who may approve access, at what level, and what evidence is retained, and set service levels for joiners, movers and leavers so that access changes track the employment change rather than a monthly sweep. Require an exception path with compensating controls for situations where the default cannot be met, and run periodic recertification at a frequency driven by risk, which is shorter for privileged and sensitive access than for general business applications. Review the policy itself at least annually and whenever the identity platform or organisational structure changes materially.",
+      "responsibleDepartment": "Identity and Access Management",
+      "evidenceExamples": [
+        "Approved access control policy with principle set and classification-based rules",
+        "Access request and approval workflow records with named approvers and business justification",
+        "Access review exports by application showing review outcomes and completion rates",
+        "Privileged access inventory with the control applied to each entry",
+        "Exception register for access policy deviations with compensating controls and expiry"
+      ],
+      "auditTesting": "The auditor reads the access policy and samples five to ten access requests and approvals to check that business need was evidenced and that the approver held the correct authority. The auditor selects one recertification cycle and traces a sample of decisions to see that removals were actioned, and compares live entitlements against the approved baseline. A finding is raised where access was granted without a recorded justification, where the recertification produced findings that were never remediated, or where the policy does not describe the environment that actually exists.",
+      "commonGaps": [
+        "Policy is a one-page statement of principles with no testable rules for specific environments",
+        "Access is granted by IT helpdesk without business approval because requests are urgent",
+        "Recertification is performed as a rubber stamp with no removals ever resulting",
+        "Legacy applications bypass the identity platform and hold their own access lists"
+      ],
+      "interviewQuestions": [
+        "How do you decide that someone needs access to a sensitive system?",
+        "What happens when a business owner refuses to remove access during review?",
+        "How do you handle access for a user who changes role for the first time?"
+      ],
+      "scenario": "A retail bank found 6,000 entitlements had been granted through a legacy human resources feed that no longer matched the identity platform, so people who had moved jobs kept access to the old system's customer data. The bank rebuilt access provisioning so that entitlements derive from role in the human resources system, made the identity platform the single source of truth, and added a quarterly reconciliation against the legacy list until it reached zero. Recertification findings subsequently dropped because the underlying population was finally correct.",
+      "relatedControls": [
+        "A.5.16",
+        "A.5.18",
+        "A.8.2",
+        "A.8.3"
+      ],
+      "keywords": [
+        "access control",
+        "least privilege",
+        "need to know",
+        "recertification",
+        "entitlement"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-05",
+        "nist_800_53": "AC-1",
+        "cis_controls": "CIS 6.1",
+        "pci_dss_4_0_1": "Req 7.2.1",
+        "soc_2": "CC6.3"
+      }
+    },
+    {
+      "id": "ctl_a_5_16",
+      "controlId": "A.5.16",
+      "title": "Identity management",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures that identities and credentials are assigned and maintained correctly for users, services and devices throughout their lifecycle. It establishes one authoritative identity per entity and governs how that identity is created, changed and retired.",
+      "whyItExists": "Duplicate and orphaned identities are the raw material of access attacks, because every extra account is a potential entry point that defenders may not be watching. Service and machine identities, in particular, are often created by hand with static passwords and never rotated, so a compromised credential grants long-lived silent access. Managing identity as a lifecycle discipline rather than as account creation ensures that every credential has an owner, a purpose and an expiry.",
+      "riskAddressed": "Duplicate, shared, orphaned or over-privileged accounts that provide undetected paths into systems and data.",
+      "implementationGuidance": "Establish a single authoritative identity source, normally the human resources system for people, and derive all access from it so that employment status and role drive entitlement automatically. Provision identities through an approved workflow with identity verification before creation, and require a named business owner for every non-human identity. Govern service and machine identities explicitly, because they are where most unmanaged credentials live: store secrets in a managed vault, rotate them automatically, scope them narrowly and prohibit their use for interactive logins. Detect duplicate and dormant accounts on a schedule and disable them, with a defined route to request reinstatement so that the measure does not cause business disruption. Enforce that credentials are never shared, and provide a personal vault or a controlled delegation mechanism where operational tasks genuinely require shared access. Review the identity population periodically against a deregistration source and a departmental roster, so that people who moved, retired or were dismissed are removed promptly.",
+      "responsibleDepartment": "Identity and Access Management",
+      "evidenceExamples": [
+        "Authoritative identity source configuration and the joiner-mover-leaver workflow",
+        "Register of non-human and service identities with owner, purpose and rotation schedule",
+        "Duplicate and dormant account detection reports with disposition",
+        "Secret vault coverage report showing percentage of credentials under management",
+        "Access request approvals for identity creation with identity verification records"
+      ],
+      "auditTesting": "The auditor reconciles the identity population against the human resources roster and the service inventory, sampling for accounts with no matching owner or employment record. The auditor inspects the credential management coverage for machine identities and tests whether a sample of static secrets has been rotated within the stated period. A finding is raised where accounts exist without an owner, where shared accounts are in active use, or where the joiner-mover-leaver feed has a measurable lag that leaves leavers with access.",
+      "commonGaps": [
+        "Service accounts with static passwords stored in configuration files and spreadsheets",
+        "Duplicate accounts created for staff who already have a federated identity",
+        "Machine identities not linked to an owner so they survive the service that needed them",
+        "Dormant account cleanup performed once rather than continuously"
+      ],
+      "interviewQuestions": [
+        "How do you know a service account is still needed?",
+        "What stops someone creating a second account for themselves?",
+        "How are machine credentials rotated and where are they stored?"
+      ],
+      "scenario": "A hospital network discovered more than 4,000 accounts in its directory that matched no current staff record or registered system, some of them with entitlements to clinical systems. The team introduced a standing reconciliation of the directory against the human resources roster and the configuration management database, disabled 3,800 dormant and orphaned accounts after an owner notification period, and moved 600 machine identities into a managed vault with automated rotation. The reconciliation has since run monthly and takes under an hour.",
+      "relatedControls": [
+        "A.5.17",
+        "A.5.18",
+        "A.8.2",
+        "A.8.5"
+      ],
+      "keywords": [
+        "identity management",
+        "joiner mover leaver",
+        "service account",
+        "vault",
+        "lifecycle"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-01",
+        "nist_800_53": "IA-4",
+        "cis_controls": "CIS 5.1",
+        "pci_dss_4_0_1": "Req 8.2.1",
+        "soc_2": "CC6.1"
+      }
+    },
+    {
+      "id": "ctl_a_5_17",
+      "controlId": "A.5.17",
+      "title": "Authentication information",
+      "category": "ORGANIZATIONAL",
+      "objective": "Governs the allocation and management of authentication information such as passwords, tokens, keys and certificates, including the allocation process, secure handling, change intervals and disposal. It protects the credentials themselves as the assets they are.",
+      "whyItExists": "Authentication information is the target of the great majority of attacks, and its weakness is rarely about the algorithm. It is about whether a person who should not know a credential can obtain it, whether it is stored in a recoverable place, and whether it is ever changed after a suspected exposure. Shared passwords, credentials embedded in code, and secrets passed in chat are all common enough to be normal rather than exceptional, and each one removes the protection that every other access control depends on.",
+      "riskAddressed": "Compromise or disclosure of authentication information allowing an attacker to authenticate as a legitimate user or service.",
+      "implementationGuidance": "Apply strong authentication, meaning multi-factor or phishing-resistant methods, to every population whose compromise would be material, starting with administrators, remote access, privileged systems and access to sensitive data, and extend to all users where the platform supports it. Eliminate shared and generic credentials entirely by binding every account to an individual, and where a task genuinely requires a shared identity, provide a controlled credential checkout with time limits and full attribution. Store all secrets in a managed vault with automatic rotation and break-glass procedures for emergencies, and never keep them in code repositories, tickets, chat messages or personal password managers that are not enterprise managed. Define password rules that match the threat, which for most organisations means length and uniqueness rather than forced periodic rotation, since forced rotation drives users towards patterns and reuse. Require immediate credential reset on suspected compromise, and include a process for finding every place a leaked secret was copied, because changing the password does not change the copies. Review authentication controls when new platforms are introduced so that weak defaults are corrected at deployment.",
+      "responsibleDepartment": "Identity and Access Management",
+      "evidenceExamples": [
+        "Authentication policy defining required methods per user population and system",
+        "Multi-factor enrolment and coverage statistics by application and population",
+        "Vault coverage report for application credentials, keys and certificates",
+        "Secret scanning results for code repositories with remediation records",
+        "Credential reset records following reported exposure, including copy-outreach evidence"
+      ],
+      "auditTesting": "The auditor tests authentication strength by sampling accounts across populations and attempting to log in with an incorrect factor, and by checking whether single-factor logins remain available for privileged or remote access. The auditor inspects the vault and repository scanning configuration, and traces a sample of credential change requests to see whether the credential was rotated everywhere it was used. A finding is raised where privileged access relies on a single factor, where secrets are found in code or tickets, or where a rotated credential leaves known copies unchanged.",
+      "commonGaps": [
+        "Multi-factor rolled out only for corporate laptops and not for the applications people actually use",
+        "Shared service passwords embedded in application configuration",
+        "Mandatory rotation every ninety days treated as a compliance exercise that users defeat with patterns",
+        "Leaked credentials rotated without searching for where else they were reused"
+      ],
+      "interviewQuestions": [
+        "Show me where the credentials for a critical service are stored.",
+        "How do you make sure a password exposed in a code repository is not still in use elsewhere?",
+        "What authentication do remote administrators use, and why?"
+      ],
+      "scenario": "A government department found a set of administrator credentials in a public code repository through automated secret scanning. Rather than only resetting the exposed password, the response team searched all repositories and configuration stores for the same value and found two internal services still using it, then migrated those services to short-lived tokens from the existing vault. The department adopted the search-and-rotate pattern as standard, and it has since caught two further exposures before any were exploited.",
+      "relatedControls": [
+        "A.8.5",
+        "A.5.16",
+        "A.8.17",
+        "A.5.18"
+      ],
+      "keywords": [
+        "authentication",
+        "passwords",
+        "multi-factor",
+        "secrets",
+        "vault"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-03",
+        "nist_800_53": "IA-5",
+        "cis_controls": "CIS 5.6",
+        "pci_dss_4_0_1": "Req 8.3.1",
+        "soc_2": "CC6.1"
+      }
+    },
+    {
+      "id": "ctl_a_5_18",
+      "controlId": "A.5.18",
+      "title": "Access rights",
+      "category": "ORGANIZATIONAL",
+      "objective": "Defines the process for granting, modifying and removing access rights to information and facilities, including the approval authority and evidence retained for each decision. It makes entitlement management a managed business process rather than an informal favour.",
+      "whyItExists": "Access decisions made informally are rarely revisited, so entitlements accumulate far beyond what the person needs today. Because granting access feels helpful and removing it feels obstructive, the default drift is always towards excess. Formalising the request, approval, modification and removal path creates a record that can be reviewed and tested, and it puts the burden of justification on the requester and the business owner rather than on the person operating the system.",
+      "riskAddressed": "Accumulated excess entitlement that persists after a role change and provides a standing route to sensitive data.",
+      "implementationGuidance": "Define a single request and approval path with clear approver roles by entitlement level, and require a business justification recorded at the point of request rather than in an email thread that nobody can find later. Automate the mechanics so the process scales, with the identity platform pulling role and employment data and applying entitlements through defined groups, which reduces both delay and the human error that comes from manual ticketing. Attach entitlements to a request identifier so that any access can be traced back to an approval, and make removal as easy as granting. Set explicit review cadences driven by risk, quarterly for privileged and sensitive access and at least annually for general business applications, and require the reviewer to make a positive decision on each item rather than simply confirming a batch. Define the handling of dormant, orphan and excessive access, including a route for the business owner to justify keeping an entitlement that no longer matches the role. Report metrics on volume, time to grant and time to revoke, because slow revocation is a leading indicator of exposure.",
+      "responsibleDepartment": "Identity and Access Management",
+      "evidenceExamples": [
+        "Access request and approval records showing business justification and approver authority",
+        "Access review exports with reviewer identity, decision and date for each item",
+        "Metrics on time to grant and time to revoke access by system",
+        "Entitlement report showing orphaned and dormant accounts with dispositions",
+        "Approval authority matrix linking entitlement level to approver role"
+      ],
+      "auditTesting": "The auditor samples ten access changes across joiners, movers and leavers and traces each to the recorded approval, checking that the approver held the required authority and that the entitlement matched the requested role. The auditor reperforms a piece of the quarterly review by selecting items marked for removal and confirming that removal actually occurred in the target system. A finding is raised where access was granted without an approval record, where removal was approved but not effected, or where reviews are signed off wholesale with no per-item decision recorded.",
+      "commonGaps": [
+        "Entitlements granted by service desk ticket with no business approver involved",
+        "Reviewers approve entire populations in bulk without examining individual items",
+        "Removals recorded in the review tool but not applied in the target systems",
+        "Time-to-revoke never measured, so a slow process stays invisible"
+      ],
+      "interviewQuestions": [
+        "Show me a recent access request and tell me who approved it.",
+        "How long does it take to revoke access after a role change?",
+        "What do you do when a reviewer does not respond during a review cycle?"
+      ],
+      "scenario": "A manufacturer operating 40 plants found that plant managers had been granting system access verbally for years, leaving no record of who approved what. The company introduced a self-service portal with request templates mapped to approved role profiles, so a manager approved a standard set of entitlements rather than individual items, and the approval was logged against their identity. Requests that fell outside the standard profiles still went to the central team, which cut processing time from nine days to under a day while making the approvals auditable.",
+      "relatedControls": [
+        "A.5.15",
+        "A.5.16",
+        "A.8.2",
+        "A.5.11"
+      ],
+      "keywords": [
+        "access rights",
+        "entitlement",
+        "approval",
+        "provisioning",
+        "access review"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.AA-05",
+        "nist_800_53": "AC-2",
+        "cis_controls": "CIS 6.4",
+        "pci_dss_4_0_1": "Req 8.4.2",
+        "soc_2": "CC6.3"
+      }
+    },
+    {
+      "id": "ctl_a_5_19",
+      "controlId": "A.5.19",
+      "title": "Information security in supplier relationships",
+      "category": "ORGANIZATIONAL",
+      "objective": "Defines the process for assessing and managing information security risks arising from the organisation's use of supplier products and services. It ensures that third parties are evaluated before they are trusted and monitored for the duration of the relationship.",
+      "whyItExists": "An organisation's security posture is increasingly the weakest of its members, and suppliers often hold the most sensitive assets of all, from payroll data to customer records to the software that runs the business. The failures are rarely about a supplier being malicious; they are about a supplier whose controls never met the organisation's expectations, whose subcontractor was unknown, or whose breach was never disclosed. Without a structured assessment process, the organisation discovers these facts after an incident rather than before one.",
+      "riskAddressed": "Compromise, mis-handling or unavailability of information held or processed by suppliers, including unknown downstream subcontracting.",
+      "implementationGuidance": "Create a tiering model that sorts every supplier by the sensitivity of the data they touch, the criticality of the service they provide and whether they can reach internal systems. Apply proportionate assessment to each tier: a questionnaire for low tier, an evidence-based review with certification or audit reports for medium tier, and for high tier a full assessment including architecture review, contractual security requirements and possibly a site visit. Make the assessment feed the procurement process rather than run in parallel with it, so no contract is signed before the security position is known, and require security to be a gate in the tender evaluation. Record the outcome in a supplier register with the tier, the assessment date, the findings, the remediation commitments and the review frequency, and drive renewal reminders from that register so assessments do not quietly expire. Pay particular attention to subcontracting and fourth parties, asking which subcontractors are permitted and requiring disclosure of changes. Keep an exit path, since the ability to remove a supplier's access cleanly and retrieve data is itself a control that must be planned before it is needed.",
+      "responsibleDepartment": "Third Party Risk Management / Information Security",
+      "evidenceExamples": [
+        "Supplier tiering model with criteria and the full population classified",
+        "Completed supplier security assessments with findings and remediation plans",
+        "Security clauses in standard contract templates and executed deviations",
+        "Supplier register showing tier, assessment date and next review due",
+        "Contractor and subcontractor disclosure records for critical suppliers"
+      ],
+      "auditTesting": "The auditor samples five suppliers across tiers and confirms each has a current assessment, that the tier reflects the data and connectivity involved, and that identified findings were remediated within the agreed period. The auditor traces a supplier access review and checks that entitlements for suppliers are reconciled and removed when the contract ends. A finding is raised where a supplier holding sensitive data has no current assessment, where the assessment is a self-declared questionnaire with no supporting evidence, or where supplier access persists after contract expiry.",
+      "commonGaps": [
+        "Security questionnaires sent once at onboarding and never refreshed",
+        "Tiering based on spend rather than on data sensitivity and connectivity",
+        "Subcontractors and cloud sub-processors not covered by the assessment",
+        "Findings recorded but with no remediation deadline, owner or tracking"
+      ],
+      "interviewQuestions": [
+        "How is a supplier tier assigned and who signs it off?",
+        "What do you do when a critical supplier refuses to provide assessment evidence?",
+        "How do you confirm supplier access is removed at the end of a contract?"
+      ],
+      "scenario": "A retail group found that one of its biggest logistics suppliers had quietly subcontracted parcel scanning to a regional operator whose security posture was never assessed. The new tiering model required suppliers to disclose their own processing chain, and the logistics supplier's contract was amended so that any new sub-processor required prior approval and evidence. The group also used the incident to justify pulling its reconciliation and claims processing out of the supplier's estate entirely, reducing the exposure rather than only monitoring it.",
+      "relatedControls": [
+        "A.5.20",
+        "A.5.21",
+        "A.5.22",
+        "A.5.23"
+      ],
+      "keywords": [
+        "supplier",
+        "third party",
+        "vendor risk",
+        "assessment",
+        "tiering"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.SC-04",
+        "nist_800_53": "SR-3",
+        "cis_controls": "CIS 15.1",
+        "pci_dss_4_0_1": "Req 12.8.1",
+        "soc_2": "CC9.2"
+      }
+    },
+    {
+      "id": "ctl_a_5_20",
+      "controlId": "A.5.20",
+      "title": "Addressing information security within supplier agreements",
+      "category": "ORGANIZATIONAL",
+      "objective": "Defines information security requirements that must be included in supplier agreements so that external parties are contractually bound to protect information and support the organisation’s security objectives.",
+      "whyItExists": "Supplier relationships create dependencies that operational controls alone cannot govern. Without explicit contractual requirements, expectations for confidentiality, incident notification, audit rights, subcontracting and service continuity remain informal and difficult to enforce when a dispute or incident occurs.",
+      "riskAddressed": "Supplier services that process or affect information without enforceable security obligations, increasing the likelihood of misuse, delayed incident reporting or inadequate assurance.",
+      "implementationGuidance": "Identify security requirements based on supplier tier, data sensitivity, connectivity and regulatory obligations, then translate them into standard contract clauses and schedules. Cover confidentiality, acceptable use, access control, encryption, logging, vulnerability and patch expectations where relevant, incident notification timelines, right to audit or obtain assurance, subcontractor approval, data return and secure deletion at exit, and consequences for non-compliance. Align legal, procurement and security review so clauses are negotiated before signature, track approved deviations with compensating controls, and maintain evidence that executed agreements contain the required terms for in-scope suppliers.",
+      "responsibleDepartment": "Procurement / Legal / Information Security",
+      "evidenceExamples": [
+        "Executed supplier agreement with information security schedule",
+        "Standard security clause library approved by legal",
+        "Deviation register for negotiated exceptions",
+        "Supplier assurance package linked to contract"
+      ],
+      "auditTesting": "Sample in-scope supplier contracts and verify required security clauses are present, appropriate to the service and consistent with the risk assessment. Confirm deviations were approved, compensating controls recorded and incident notification or audit provisions are practical to exercise.",
+      "commonGaps": [
+        "Generic confidentiality clauses used instead of service-specific security requirements",
+        "No right to audit or obtain independent assurance",
+        "Exit, data return and deletion obligations missing",
+        "Security terms negotiated after contract signature"
+      ],
+      "interviewQuestions": [
+        "Show me the security requirements included in a recent high-risk supplier contract.",
+        "How do you ensure incident notification timelines are enforceable?",
+        "What happens when a supplier cannot meet a standard clause?"
+      ],
+      "scenario": "Before onboarding a managed payroll provider, an organisation mapped the data processed, required encryption and breach notification within 24 hours, and added a right to receive annual assurance reports. When the provider later changed a sub-processor, the contractual approval clause triggered a review that identified missing transfer safeguards before processing began.",
+      "relatedControls": [
+        "A.5.19",
+        "A.5.21",
+        "A.5.22"
+      ],
+      "keywords": [
+        "supplier agreement",
+        "contract",
+        "clauses",
+        "security requirements"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.SC-05",
+        "nist_800_53": "SR-3",
+        "iso_27001": "A.5.20"
+      }
+    },
+    {
+      "id": "ctl_a_5_21",
+      "controlId": "A.5.21",
+      "title": "Managing information security in the ICT supply chain",
+      "category": "ORGANIZATIONAL",
+      "objective": "Manages information security risks associated with the ICT supply chain, including components, services and dependencies provided by suppliers and their subcontractors.",
+      "whyItExists": "ICT products and services often include hidden dependencies, outsourced development, cloud components and fourth parties. Weaknesses anywhere in that chain can affect confidentiality, integrity and availability, so security management must extend beyond the direct supplier relationship.",
+      "riskAddressed": "Compromise or failure introduced through upstream ICT components, service dependencies or subcontractors that are not visible or governed.",
+      "implementationGuidance": "Identify critical ICT suppliers and the components or services they provide, including software, hardware, cloud platforms and managed services. Require transparency on provenance, secure development practices, vulnerability handling, support lifetimes and subcontracting where relevant. Assess supply-chain risks during selection and periodically thereafter, monitor advisories and end-of-support notices, and maintain contingency plans for supplier failure or compromise. Ensure contracts and onboarding capture obligations for downstream parties and that changes in the supply chain trigger reassessment.",
+      "responsibleDepartment": "Information Security / IT Architecture / Procurement",
+      "evidenceExamples": [
+        "ICT supplier inventory with criticality and dependency mapping",
+        "Supplier security and provenance assessments",
+        "Advisory and vulnerability monitoring records",
+        "Contingency plans for critical ICT dependencies"
+      ],
+      "auditTesting": "Review critical ICT services and confirm supply-chain risks were identified, assessed and monitored. Test whether subcontractor changes, vulnerability disclosures or end-of-support events resulted in documented decisions and actions.",
+      "commonGaps": [
+        "No inventory of critical ICT dependencies or fourth parties",
+        "Reliance on supplier reputation without evidence",
+        "End-of-support components not tracked",
+        "No contingency plan for critical service compromise"
+      ],
+      "interviewQuestions": [
+        "Which ICT suppliers are critical to your operations and why?",
+        "How do you learn about vulnerabilities or subcontractor changes in the supply chain?",
+        "What is your fallback if a critical cloud or software supplier fails?"
+      ],
+      "scenario": "A financial services firm mapped dependencies for its customer portal and discovered a niche authentication component maintained by a subcontractor. By requiring disclosure and monitoring support status, the firm planned migration before the component reached end of support and avoided an unsupported security exposure.",
+      "relatedControls": [
+        "A.5.19",
+        "A.5.20",
+        "A.5.22"
+      ],
+      "keywords": [
+        "supply chain",
+        "ict",
+        "dependencies",
+        "provenance",
+        "fourth party"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.SC-07",
+        "nist_800_53": "SR-3",
+        "iso_27001": "A.5.21"
+      }
+    },
+    {
+      "id": "ctl_a_5_22",
+      "controlId": "A.5.22",
+      "title": "Monitoring, review and change management of supplier services",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures supplier services are monitored, reviewed and reassessed over time, including when service changes, incidents or risk conditions affect security.",
+      "whyItExists": "Supplier risk is not static: services evolve, personnel and subcontractors change, incidents occur and assurance reports expire. Ongoing monitoring confirms that agreed controls continue to operate and that changes do not introduce unmanaged risk.",
+      "riskAddressed": "Degraded or changed supplier controls that go unnoticed after onboarding, leading to service disruption, data exposure or loss of assurance.",
+      "implementationGuidance": "Define monitoring activities proportionate to supplier tier, such as service reviews, KPI and SLA tracking, security report review, incident follow-up, reassessment cycles and change notifications. Require suppliers to communicate material changes to services, locations, subcontractors or security posture. Record review outcomes, track remediation actions to closure, and escalate significant issues through governance forums. Reassess suppliers at contract renewal, after incidents or when business dependence increases.",
+      "responsibleDepartment": "Third Party Risk / Service Owners / Information Security",
+      "evidenceExamples": [
+        "Supplier review meeting minutes and KPI reports",
+        "Periodic reassessment records",
+        "Supplier change notifications and impact assessments",
+        "Remediation tracker with closure evidence"
+      ],
+      "auditTesting": "Sample active suppliers and verify monitoring occurred according to tier, issues were tracked and material changes or incidents triggered reassessment or escalation. Confirm evidence is retained and current.",
+      "commonGaps": [
+        "Onboarding assessment performed but no ongoing reviews",
+        "Supplier changes accepted without security impact assessment",
+        "Remediation actions tracked informally",
+        "Expired assurance reports not refreshed"
+      ],
+      "interviewQuestions": [
+        "How often do you review this supplier’s security performance?",
+        "What triggers an out-of-cycle reassessment?",
+        "Show evidence that a supplier issue was tracked to closure."
+      ],
+      "scenario": "A cloud service provider notified a customer of a new data processing location. Because change monitoring was defined, the service owner assessed legal and security impact, updated records and obtained confirmation of equivalent controls before the change took effect.",
+      "relatedControls": [
+        "A.5.19",
+        "A.5.20",
+        "A.5.21"
+      ],
+      "keywords": [
+        "supplier monitoring",
+        "review",
+        "change management",
+        "assurance"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.SC-07",
+        "nist_800_53": "SR-6",
+        "iso_27001": "A.5.22"
+      }
+    },
+    {
+      "id": "ctl_a_5_23",
+      "controlId": "A.5.23",
+      "title": "Information security for use of cloud services",
+      "category": "ORGANIZATIONAL",
+      "objective": "Establishes processes for acquiring, using, managing and exiting cloud services securely in line with information security requirements.",
+      "whyItExists": "Cloud services introduce shared responsibility, internet exposure, rapid configuration change and dependence on provider controls. Clear governance is needed to select appropriate services, configure them securely, monitor use and plan exit so that data and operations remain protected.",
+      "riskAddressed": "Misconfigured or poorly governed cloud services leading to data exposure, unauthorised access, compliance gaps or inability to recover or exit.",
+      "implementationGuidance": "Define cloud adoption and approval processes that assess data classification, regulatory needs, shared responsibility, identity integration, logging, encryption, resilience and exit options before use. Maintain an inventory of approved cloud services, apply secure configuration baselines, restrict administrative access, monitor for misconfiguration and anomalous activity, and review provider assurance. Document responsibilities between the organisation and provider, and ensure contracts and procedures support data portability, backup and secure deletion at termination.",
+      "responsibleDepartment": "Cloud Governance / Information Security / IT Operations",
+      "evidenceExamples": [
+        "Approved cloud service inventory",
+        "Cloud risk assessments and shared responsibility mappings",
+        "Configuration baseline and monitoring evidence",
+        "Exit and data portability plans for critical services"
+      ],
+      "auditTesting": "Review selected cloud services and confirm approval, risk assessment, secure configuration and monitoring are in place. Verify responsibilities are understood and exit or continuity considerations are documented for critical services.",
+      "commonGaps": [
+        "Shadow cloud services adopted without assessment",
+        "Shared responsibility misunderstood",
+        "No monitoring for misconfiguration or excessive permissions",
+        "No exit or data return plan"
+      ],
+      "interviewQuestions": [
+        "How do you approve a new cloud service before business use?",
+        "Who is responsible for configuring security controls in this service?",
+        "How would you retrieve and delete data if the service were terminated?"
+      ],
+      "scenario": "A team adopted a collaboration platform for project files without security review. After introducing a cloud approval workflow, the organisation classified data, enabled MFA and logging, restricted external sharing and recorded an exit plan, reducing exposure from unmanaged configuration.",
+      "relatedControls": [
+        "A.5.19",
+        "A.5.20",
+        "A.8.9"
+      ],
+      "keywords": [
+        "cloud",
+        "shared responsibility",
+        "saas",
+        "iaas",
+        "paas"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.SC-05",
+        "nist_800_53": "AC-20",
+        "iso_27001": "A.5.23"
+      }
+    },
+    {
+      "id": "ctl_a_5_24",
+      "controlId": "A.5.24",
+      "title": "Information security incident management planning and preparation",
+      "category": "ORGANIZATIONAL",
+      "objective": "Defines and maintains the organisation’s incident management structure, responsibilities, procedures and readiness activities so incidents can be handled consistently and effectively.",
+      "whyItExists": "Security incidents require rapid, coordinated decisions under pressure. Without prior planning, roles, escalation paths, evidence handling and communication channels are unclear, increasing impact, recovery time and the risk of regulatory or legal missteps.",
+      "riskAddressed": "Delayed, inconsistent or ineffective incident response due to lack of preparation, unclear authority or missing procedures.",
+      "implementationGuidance": "Establish an incident management policy and plan covering detection sources, triage criteria, severity levels, roles, escalation, communication, evidence preservation, containment, recovery and post-incident review. Maintain contact lists, playbooks for likely scenarios, tooling access and decision authorities. Train responders, run exercises, and coordinate with legal, privacy, communications, business continuity and supplier contacts where relevant. Review and update plans after exercises, incidents and organisational changes.",
+      "responsibleDepartment": "Security Operations / Incident Response Lead",
+      "evidenceExamples": [
+        "Incident response plan and playbooks",
+        "Roles, escalation matrix and contact lists",
+        "Exercise reports and training records",
+        "Tooling and evidence handling procedures"
+      ],
+      "auditTesting": "Inspect incident management documentation and confirm it is current, approved and practical. Verify responders are trained, exercises are performed and lessons learned lead to updates in plans or controls.",
+      "commonGaps": [
+        "Plan exists but is outdated or untested",
+        "Escalation contacts and authorities unclear",
+        "No playbooks for common incident types",
+        "Exercises conducted without tracked improvements"
+      ],
+      "interviewQuestions": [
+        "Who has authority to declare a major incident and escalate externally?",
+        "When was the incident response plan last exercised?",
+        "How are lessons learned incorporated into preparation?"
+      ],
+      "scenario": "An organisation ran a ransomware tabletop exercise and found legal notification steps were unclear and backup contacts were outdated. Updating the plan, contacts and playbooks before a real event reduced confusion and improved decision speed during a later malware incident.",
+      "relatedControls": [
+        "A.5.25",
+        "A.5.26",
+        "A.5.27"
+      ],
+      "keywords": [
+        "incident management",
+        "preparation",
+        "playbooks",
+        "response plan"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "RS.MA-01",
+        "nist_800_53": "IR-1",
+        "iso_27001": "A.5.24"
+      }
+    },
+    {
+      "id": "ctl_a_5_25",
+      "controlId": "A.5.25",
+      "title": "Assessment and decision on information security events",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures information security events are assessed promptly to determine whether they constitute incidents and what response priority or action is required.",
+      "whyItExists": "Not every event is an incident, but missed or misclassified events can allow real incidents to escalate. A consistent assessment process supports timely escalation, appropriate prioritisation and accurate records.",
+      "riskAddressed": "Security events overlooked, misclassified or escalated too late, increasing potential damage and reducing response effectiveness.",
+      "implementationGuidance": "Define criteria for identifying, categorising and prioritising events based on impact, scope, affected assets, data sensitivity and threat indicators. Provide intake channels and logging for reported events, assign qualified personnel to triage, and record assessment decisions and rationale. Establish time expectations for initial assessment and escalation, integrate automated alerts where appropriate, and ensure handover to incident response when thresholds are met.",
+      "responsibleDepartment": "Security Operations / Service Desk",
+      "evidenceExamples": [
+        "Event reporting and triage procedures",
+        "Event and incident logs with classification decisions",
+        "Alerting and escalation criteria",
+        "Triage training or competency records"
+      ],
+      "auditTesting": "Sample reported events and alerts to confirm they were logged, assessed against defined criteria and escalated or closed with documented rationale within expected timeframes.",
+      "commonGaps": [
+        "No consistent severity or classification criteria",
+        "Events handled informally without records",
+        "Alerts not reviewed or correlated",
+        "Escalation thresholds unclear"
+      ],
+      "interviewQuestions": [
+        "How do you decide whether an event becomes an incident?",
+        "Show a recent example of triage and the rationale for the decision.",
+        "What is the expected time to assess a high-priority alert?"
+      ],
+      "scenario": "A service desk received reports of unusual login prompts. Using defined triage criteria, analysts correlated alerts, identified credential phishing as a likely incident and escalated within minutes, enabling account resets before further compromise.",
+      "relatedControls": [
+        "A.5.24",
+        "A.5.26",
+        "A.8.15"
+      ],
+      "keywords": [
+        "event assessment",
+        "triage",
+        "classification",
+        "escalation"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "DE.AE-08",
+        "nist_800_53": "IR-4",
+        "iso_27001": "A.5.25"
+      }
+    },
+    {
+      "id": "ctl_a_5_26",
+      "controlId": "A.5.26",
+      "title": "Response to information security incidents",
+      "category": "ORGANIZATIONAL",
+      "objective": "Requires information security incidents to be responded to according to documented procedures to contain impact, eradicate causes and recover services.",
+      "whyItExists": "Effective response limits damage, preserves evidence and restores normal operations. Ad hoc actions can worsen outages, destroy forensic value or leave attackers with continued access.",
+      "riskAddressed": "Uncoordinated or incomplete incident response causing extended disruption, recurring compromise or loss of evidence needed for investigation and reporting.",
+      "implementationGuidance": "Execute incident response procedures based on incident type and severity, including containment, evidence preservation, eradication, recovery and communication. Assign an incident lead, coordinate technical and business stakeholders, document actions and decisions, and manage external parties such as providers, regulators or law enforcement when required. Confirm systems are safe before restoration, monitor for recurrence and capture indicators to improve detection and controls.",
+      "responsibleDepartment": "Incident Response Team / Security Operations",
+      "evidenceExamples": [
+        "Incident records with timeline and actions taken",
+        "Containment and recovery evidence",
+        "Communication and notification records",
+        "Forensic or evidence handling logs where applicable"
+      ],
+      "auditTesting": "Review incident records and confirm response followed approved procedures, actions were documented, containment and recovery were effective and required communications occurred. Check for evidence of post-recovery monitoring.",
+      "commonGaps": [
+        "Response actions not documented",
+        "Systems restored without confirming eradication",
+        "Evidence overwritten during recovery",
+        "Required stakeholders not engaged"
+      ],
+      "interviewQuestions": [
+        "Walk me through the response to a recent incident.",
+        "How do you preserve evidence while restoring service?",
+        "Who approves returning affected systems to production?"
+      ],
+      "scenario": "During a malware outbreak, responders isolated affected endpoints, preserved disk images, removed persistence mechanisms and restored from clean backups. Documented actions supported internal reporting and helped identify a missing patching control.",
+      "relatedControls": [
+        "A.5.24",
+        "A.5.25",
+        "A.5.27"
+      ],
+      "keywords": [
+        "incident response",
+        "containment",
+        "eradication",
+        "recovery"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "RS.MI-01",
+        "nist_800_53": "IR-4",
+        "iso_27001": "A.5.26"
+      }
+    },
+    {
+      "id": "ctl_a_5_27",
+      "controlId": "A.5.27",
+      "title": "Learning from information security incidents",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures information from security incidents is analysed to identify root causes, improve controls and reduce the likelihood or impact of recurrence.",
+      "whyItExists": "Incidents reveal weaknesses in prevention, detection and response. Without structured learning, organisations repeat the same failures and miss opportunities to strengthen resilience and awareness.",
+      "riskAddressed": "Recurring incidents and persistent control gaps because lessons are not identified, prioritised or implemented.",
+      "implementationGuidance": "Conduct post-incident reviews for relevant incidents to analyse root causes, contributing factors, response effectiveness and business impact. Record lessons learned, assign corrective and preventive actions with owners and due dates, and track them to completion. Share appropriate findings with affected teams, update risk assessments, playbooks, training and controls, and report trends to management for oversight.",
+      "responsibleDepartment": "Incident Response Lead / Risk Management",
+      "evidenceExamples": [
+        "Post-incident review reports",
+        "Corrective action plans and closure evidence",
+        "Updated playbooks, risks or control records",
+        "Management trend reports"
+      ],
+      "auditTesting": "Sample incidents and verify reviews were performed where appropriate, root causes considered, actions assigned and completed, and improvements reflected in documentation, controls or training.",
+      "commonGaps": [
+        "No post-incident reviews for significant incidents",
+        "Actions identified but not tracked",
+        "Lessons not shared beyond the technical team",
+        "Recurring incidents with unchanged controls"
+      ],
+      "interviewQuestions": [
+        "How do you decide which incidents require a formal review?",
+        "Show an improvement implemented as a result of an incident.",
+        "How are incident trends reported to management?"
+      ],
+      "scenario": "After repeated phishing-related account compromises, reviews identified weak MFA coverage for legacy applications. The organisation prioritised MFA expansion and targeted awareness, reducing similar incidents in subsequent quarters.",
+      "relatedControls": [
+        "A.5.24",
+        "A.5.26",
+        "A.5.35"
+      ],
+      "keywords": [
+        "lessons learned",
+        "post-incident review",
+        "root cause",
+        "improvement"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "RC.IM-01",
+        "nist_800_53": "IR-4",
+        "iso_27001": "A.5.27"
+      }
+    },
+    {
+      "id": "ctl_a_5_28",
+      "controlId": "A.5.28",
+      "title": "Collection of evidence",
+      "category": "ORGANIZATIONAL",
+      "objective": "Establishes procedures for identifying, collecting, preserving and handling evidence related to information security events in a manner suitable for analysis and potential legal or disciplinary use.",
+      "whyItExists": "Poor evidence handling can undermine investigations, prevent accurate determination of cause and make findings unusable in disciplinary, contractual or legal proceedings. Preserving integrity and chain of custody is essential when incidents may have formal consequences.",
+      "riskAddressed": "Loss, contamination or inadmissibility of evidence needed to investigate incidents, support decisions or meet legal obligations.",
+      "implementationGuidance": "Define evidence handling procedures covering identification, collection, labelling, storage, access, transfer and retention. Maintain chain-of-custody records, use appropriate tools and methods to preserve integrity, and restrict access to authorised personnel. Coordinate with legal, HR and law enforcement requirements where applicable, and train responders on when and how to collect evidence without unnecessarily disrupting operations.",
+      "responsibleDepartment": "Incident Response / Legal / Digital Forensics",
+      "evidenceExamples": [
+        "Evidence handling procedures",
+        "Chain-of-custody forms and evidence logs",
+        "Secure evidence storage records",
+        "Responder training materials"
+      ],
+      "auditTesting": "Review procedures and sampled investigations to confirm evidence was identified, preserved and documented appropriately. Verify chain of custody, access controls and retention align with policy and legal needs.",
+      "commonGaps": [
+        "Evidence collected without documentation",
+        "Uncontrolled access to forensic images or logs",
+        "Logs overwritten before preservation",
+        "No guidance for legal or disciplinary cases"
+      ],
+      "interviewQuestions": [
+        "How do you maintain chain of custody during an investigation?",
+        "Where is evidence stored and who can access it?",
+        "When do you involve legal in evidence collection?"
+      ],
+      "scenario": "When suspicious data exfiltration was detected, responders captured relevant logs and system images, recorded hashes and maintained a chain-of-custody log. The preserved evidence supported a confirmed timeline and informed HR and contractual actions.",
+      "relatedControls": [
+        "A.5.26",
+        "A.5.33"
+      ],
+      "keywords": [
+        "evidence",
+        "chain of custody",
+        "forensics",
+        "investigation"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "RS.AN-07",
+        "nist_800_53": "IR-4",
+        "iso_27001": "A.5.28"
+      }
+    },
+    {
+      "id": "ctl_a_5_29",
+      "controlId": "A.5.29",
+      "title": "Information security during disruption",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures information security is planned, maintained and adapted during disruptions so that critical information and services remain appropriately protected.",
+      "whyItExists": "Disruptions such as outages, disasters or supplier failures can pressure teams to bypass controls to restore service. Planning helps maintain essential security protections and avoid creating additional incidents during crisis response.",
+      "riskAddressed": "Security controls weakened or bypassed during disruption, leading to data loss, unauthorised access or prolonged recovery.",
+      "implementationGuidance": "Integrate information security requirements into business continuity and disaster recovery planning, including minimum security controls during degraded operations, access restrictions, backup integrity, secure recovery procedures and communication safeguards. Identify critical assets and dependencies, define acceptable temporary measures with approval, and test continuity arrangements. Coordinate with incident response and suppliers to ensure security considerations are addressed throughout disruption and restoration.",
+      "responsibleDepartment": "Business Continuity / Information Security",
+      "evidenceExamples": [
+        "Business continuity and disaster recovery plans with security requirements",
+        "Disruption risk assessments",
+        "Test or exercise results",
+        "Records of approved temporary control deviations"
+      ],
+      "auditTesting": "Review continuity plans and exercise results to confirm security requirements are included and tested. Verify temporary measures during disruptions are risk-assessed, approved and reversed when normal operations resume.",
+      "commonGaps": [
+        "Continuity plans focus on availability but ignore confidentiality and integrity",
+        "Emergency access not controlled or reviewed",
+        "Backups not protected or tested for secure recovery",
+        "Temporary workarounds become permanent"
+      ],
+      "interviewQuestions": [
+        "How are security controls maintained during a major outage?",
+        "What temporary measures are allowed in an emergency and who approves them?",
+        "When were continuity plans last tested with security in scope?"
+      ],
+      "scenario": "During a data centre outage, a company activated a recovery site with predefined access controls, encrypted backup restoration and documented emergency access. Temporary firewall exceptions were approved, time-limited and removed after service stabilisation.",
+      "relatedControls": [
+        "A.5.24",
+        "A.5.30"
+      ],
+      "keywords": [
+        "disruption",
+        "continuity",
+        "disaster recovery",
+        "resilience"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "RC.RP-01",
+        "nist_800_53": "CP-2",
+        "iso_27001": "A.5.29"
+      }
+    },
+    {
+      "id": "ctl_a_5_30",
+      "controlId": "A.5.30",
+      "title": "ICT readiness for business continuity",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures ICT services and supporting infrastructure are prepared to meet availability and recovery requirements during disruption.",
+      "whyItExists": "Business continuity depends on ICT systems, networks, data and suppliers being recoverable within required timeframes. Readiness planning, redundancy and testing reduce downtime and support orderly recovery.",
+      "riskAddressed": "Inability to restore critical ICT services within required objectives, causing operational, financial or regulatory impact.",
+      "implementationGuidance": "Identify critical ICT services and define recovery objectives such as RTO and RPO with business owners. Implement resilience measures including backups, redundancy, failover, capacity planning and dependency management. Document recovery procedures, maintain current configurations and contact information, and test restoration and failover regularly. Address cloud and supplier dependencies, and update plans after changes, tests or incidents.",
+      "responsibleDepartment": "IT Operations / Business Continuity",
+      "evidenceExamples": [
+        "ICT continuity and recovery plans",
+        "RTO/RPO definitions for critical services",
+        "Backup, failover and restoration test records",
+        "Dependency and capacity planning documentation"
+      ],
+      "auditTesting": "Review critical services and confirm recovery objectives are defined, supported by technical measures and tested. Verify test results, issues and improvements are documented and plans reflect current architecture.",
+      "commonGaps": [
+        "Recovery objectives undefined or unrealistic",
+        "Backups untested or incomplete",
+        "Dependencies on suppliers or components not considered",
+        "Plans outdated after system changes"
+      ],
+      "interviewQuestions": [
+        "What are the RTO and RPO for this critical system?",
+        "When was the last successful restoration test?",
+        "Which dependencies could prevent recovery?"
+      ],
+      "scenario": "A company identified its order processing system as critical and implemented replicated databases and documented failover steps. Quarterly tests revealed a missing configuration backup, which was added to the recovery procedure before any real outage occurred.",
+      "relatedControls": [
+        "A.5.29",
+        "A.8.13",
+        "A.8.14"
+      ],
+      "keywords": [
+        "ict continuity",
+        "backup",
+        "recovery",
+        "rto",
+        "rpo"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "RC.RP-03",
+        "nist_800_53": "CP-10",
+        "iso_27001": "A.5.30"
+      }
+    },
+    {
+      "id": "ctl_a_5_31",
+      "controlId": "A.5.31",
+      "title": "Legal, statutory, regulatory and contractual requirements",
+      "category": "ORGANIZATIONAL",
+      "objective": "Identifies, documents and keeps up to date legal, statutory, regulatory and contractual requirements relevant to information security and the organisation’s approach to meeting them.",
+      "whyItExists": "Information security obligations arise from laws, regulations, contracts and industry requirements. If they are not identified and tracked, the organisation may unknowingly violate obligations, miss reporting duties or fail to implement required controls.",
+      "riskAddressed": "Non-compliance with applicable legal, regulatory or contractual information security requirements.",
+      "implementationGuidance": "Maintain a register of applicable requirements covering privacy, security, records, sector regulation, contractual clauses and cross-border obligations. Assign owners, map requirements to controls and processes, monitor changes, and review applicability when services, locations or data types change. Communicate obligations to relevant teams, integrate them into policies and procedures, and retain evidence of compliance activities and decisions.",
+      "responsibleDepartment": "Legal / Compliance / Information Security",
+      "evidenceExamples": [
+        "Compliance obligations register",
+        "Requirement-to-control mapping",
+        "Change monitoring and review records",
+        "Evidence of compliance assessments"
+      ],
+      "auditTesting": "Review the obligations register for completeness, currency and ownership. Sample requirements and verify they are mapped to controls, communicated and supported by evidence of compliance or tracked remediation.",
+      "commonGaps": [
+        "Register incomplete or outdated",
+        "No owner for specific obligations",
+        "Requirements identified but not implemented",
+        "Contractual security clauses overlooked"
+      ],
+      "interviewQuestions": [
+        "How do you identify new legal or regulatory security requirements?",
+        "Show how a specific requirement maps to controls and evidence.",
+        "Who owns compliance for contractual security obligations?"
+      ],
+      "scenario": "A company expanding into a new region reviewed privacy and breach notification laws before launch, updated contracts and incident procedures, and assigned local compliance owners, avoiding missed notification duties.",
+      "relatedControls": [
+        "A.5.1",
+        "A.5.36",
+        "A.5.37"
+      ],
+      "keywords": [
+        "legal requirements",
+        "regulatory compliance",
+        "contracts",
+        "obligations"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.OC-03",
+        "nist_800_53": "PL-1",
+        "iso_27001": "A.5.31"
+      }
+    },
+    {
+      "id": "ctl_a_5_32",
+      "controlId": "A.5.32",
+      "title": "Intellectual property rights",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures appropriate procedures are implemented to protect intellectual property rights associated with software, documents, data and other information assets.",
+      "whyItExists": "Unauthorised use, copying or distribution of intellectual property can create legal liability, financial penalties and reputational harm. Organisations must also protect their own intellectual property from misuse or leakage.",
+      "riskAddressed": "Legal breaches, licence violations or loss of proprietary information due to inadequate protection of intellectual property rights.",
+      "implementationGuidance": "Maintain inventories of licensed software, media and third-party content, and ensure use complies with licence terms. Implement procedures for acquiring, tracking and retiring licences, prevent installation of unauthorised software, and protect proprietary information through classification, access controls and contractual terms. Educate users on acceptable use and report suspected infringement promptly for legal review.",
+      "responsibleDepartment": "Legal / IT Asset Management / Information Security",
+      "evidenceExamples": [
+        "Software and licence inventory",
+        "Acceptable use and IP procedures",
+        "Records of licence procurement and compliance checks",
+        "Contracts protecting proprietary information"
+      ],
+      "auditTesting": "Verify licence records are maintained and reconciled to installed or used software where applicable. Sample proprietary assets and confirm access, handling and contractual protections align with policy.",
+      "commonGaps": [
+        "Unlicensed or untracked software use",
+        "No process for validating licence terms",
+        "Proprietary information shared without protection",
+        "Users unaware of IP obligations"
+      ],
+      "interviewQuestions": [
+        "How do you track software licences and compliance?",
+        "What controls protect proprietary designs or source code?",
+        "How are suspected infringement issues handled?"
+      ],
+      "scenario": "An internal review found several teams using unlicensed design tools. By centralising procurement, maintaining a licence inventory and restricting unauthorised installs, the organisation reduced legal exposure and improved cost control.",
+      "relatedControls": [
+        "A.5.9",
+        "A.5.10",
+        "A.5.12"
+      ],
+      "keywords": [
+        "intellectual property",
+        "licensing",
+        "copyright",
+        "software compliance"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.OC-03",
+        "nist_800_53": "CM-10",
+        "iso_27001": "A.5.32"
+      }
+    },
+    {
+      "id": "ctl_a_5_33",
+      "controlId": "A.5.33",
+      "title": "Protection of records",
+      "category": "ORGANIZATIONAL",
+      "objective": "Protects records from loss, destruction, falsification, unauthorised access and unauthorised release in accordance with legal, regulatory, contractual and business requirements.",
+      "whyItExists": "Records provide evidence of business activities, decisions and compliance. If records are not protected and retained appropriately, the organisation may be unable to meet legal obligations, support investigations or demonstrate control operation.",
+      "riskAddressed": "Loss, alteration or inappropriate disclosure of records required for business, legal or compliance purposes.",
+      "implementationGuidance": "Identify record types and define retention, storage, protection, access, retrieval and disposal requirements based on business value and obligations. Implement controls such as access restrictions, backups, integrity protections, audit trails and secure disposal. Ensure records stored in physical and electronic systems, including cloud services, are covered by procedures and periodically reviewed for compliance with retention schedules.",
+      "responsibleDepartment": "Records Management / Legal / Information Security",
+      "evidenceExamples": [
+        "Records retention schedule",
+        "Storage and access control procedures",
+        "Backup and integrity evidence for key records",
+        "Disposal and destruction records"
+      ],
+      "auditTesting": "Sample records across systems and confirm retention, protection, access and disposal align with defined requirements. Verify integrity and availability controls operate for records needed for compliance or business continuity.",
+      "commonGaps": [
+        "No retention schedule or inconsistent application",
+        "Records stored in unmanaged locations",
+        "Excessive access to sensitive records",
+        "Records retained longer than necessary without justification"
+      ],
+      "interviewQuestions": [
+        "How do you determine how long different records must be kept?",
+        "What protects records from unauthorised alteration?",
+        "How are records securely disposed of at end of retention?"
+      ],
+      "scenario": "A compliance team could not produce complete audit evidence because logs and approvals were stored in personal mailboxes. Implementing a records schedule and controlled repositories improved retrieval and evidential integrity.",
+      "relatedControls": [
+        "A.5.12",
+        "A.5.31",
+        "A.8.13"
+      ],
+      "keywords": [
+        "records",
+        "retention",
+        "integrity",
+        "evidence"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.DS-11",
+        "nist_800_53": "AU-11",
+        "iso_27001": "A.5.33"
+      }
+    },
+    {
+      "id": "ctl_a_5_34",
+      "controlId": "A.5.34",
+      "title": "Privacy and protection of PII",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures privacy and protection of personally identifiable information (PII) as required by applicable laws, regulations and contractual obligations.",
+      "whyItExists": "Processing PII creates obligations to individuals and regulators. Failure to protect privacy can cause harm to individuals, legal penalties, loss of trust and restrictions on business activities.",
+      "riskAddressed": "Unlawful, unfair or insecure processing of PII resulting in privacy harm, regulatory action or reputational damage.",
+      "implementationGuidance": "Identify PII processed by the organisation, define lawful purposes and handling requirements, and implement policies and controls for collection, use, storage, sharing, retention and deletion. Apply minimisation, access restrictions, encryption where appropriate, transparency and rights-handling processes. Assess privacy risks for new or changed processing, manage processor obligations, and respond to incidents involving PII according to legal and contractual requirements.",
+      "responsibleDepartment": "Privacy Office / Legal / Information Security",
+      "evidenceExamples": [
+        "PII inventory or records of processing",
+        "Privacy policies and notices",
+        "Data processing agreements and assessments",
+        "PII incident and rights request records"
+      ],
+      "auditTesting": "Review PII processing activities and confirm purposes, controls and retention are defined and implemented. Sample systems or vendors processing PII and verify contractual, technical and procedural protections are in place.",
+      "commonGaps": [
+        "PII processing not fully identified",
+        "Excessive collection or retention",
+        "Weak controls for sharing with processors",
+        "No clear process for privacy incidents or rights requests"
+      ],
+      "interviewQuestions": [
+        "What PII do you process and for what purposes?",
+        "How do you ensure vendors protect PII appropriately?",
+        "How are retention and deletion requirements enforced?"
+      ],
+      "scenario": "A marketing team collected customer data for multiple campaigns without clear retention limits. A privacy review defined purposes, minimised fields, updated notices and implemented deletion schedules aligned to policy.",
+      "relatedControls": [
+        "A.5.12",
+        "A.5.31",
+        "A.8.11"
+      ],
+      "keywords": [
+        "privacy",
+        "pii",
+        "data protection",
+        "personal data"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.OC-03",
+        "nist_800_53": "PT-1",
+        "iso_27001": "A.5.34"
+      }
+    },
+    {
+      "id": "ctl_a_5_35",
+      "controlId": "A.5.35",
+      "title": "Independent review of information security",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures the organisation’s approach to managing information security, including policies, processes and controls, is independently reviewed at planned intervals or when significant changes occur.",
+      "whyItExists": "Independent review provides objective assurance on whether security arrangements are appropriate, implemented and effective. Without it, weaknesses may persist unnoticed or be assessed with bias by those responsible for operating controls.",
+      "riskAddressed": "Undetected weaknesses in information security governance, controls or compliance due to lack of objective review.",
+      "implementationGuidance": "Plan independent reviews based on risk, regulatory expectations and significant changes such as new systems, major incidents or reorganisations. Use qualified internal or external reviewers independent of the activities being assessed, define scope and criteria, and report findings to management. Track remediation actions, verify closure and consider review results in risk assessments and improvement planning.",
+      "responsibleDepartment": "Internal Audit / Governance / Information Security",
+      "evidenceExamples": [
+        "Independent review plan and reports",
+        "Reviewer independence and competence evidence",
+        "Management responses and remediation tracker",
+        "Follow-up verification records"
+      ],
+      "auditTesting": "Verify reviews are performed by independent parties at planned intervals or after significant changes. Sample findings and confirm management actions were assigned, implemented and verified.",
+      "commonGaps": [
+        "Reviews performed by control owners without independence",
+        "No follow-up on findings",
+        "Scope too narrow to assess key risks",
+        "Reviews infrequent despite major changes"
+      ],
+      "interviewQuestions": [
+        "Who performs independent security reviews and how is independence ensured?",
+        "How are review findings tracked to closure?",
+        "When was the last review triggered by a significant change?"
+      ],
+      "scenario": "After migrating core services to cloud, an organisation commissioned an independent assessment of identity, logging and supplier controls. Findings were prioritised in the risk register and verified in a follow-up review.",
+      "relatedControls": [
+        "A.5.1",
+        "A.5.36",
+        "A.5.27"
+      ],
+      "keywords": [
+        "independent review",
+        "assurance",
+        "audit",
+        "assessment"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "ID.IM-01",
+        "nist_800_53": "CA-2",
+        "iso_27001": "A.5.35"
+      }
+    },
+    {
+      "id": "ctl_a_5_36",
+      "controlId": "A.5.36",
+      "title": "Compliance with policies, rules and standards for information security",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures compliance with the organisation’s information security policies, rules and standards is regularly reviewed and deviations are addressed.",
+      "whyItExists": "Policies and standards only reduce risk when they are followed. Regular compliance checks identify gaps, misunderstandings and exceptions so they can be corrected before causing incidents or audit findings.",
+      "riskAddressed": "Persistent non-compliance with internal security requirements leading to control failures and unmanaged risk.",
+      "implementationGuidance": "Define compliance review methods such as self-assessments, automated checks, configuration reviews, audits and metrics. Assign responsibilities for monitoring, report results to relevant managers, and require corrective actions for deviations with defined timelines. Manage exceptions formally with approval, compensating controls and review dates. Use results to improve awareness, tooling and policy clarity.",
+      "responsibleDepartment": "Information Security / Compliance / Line Management",
+      "evidenceExamples": [
+        "Compliance review reports and checklists",
+        "Automated policy or configuration compliance results",
+        "Exception register and approvals",
+        "Corrective action tracking"
+      ],
+      "auditTesting": "Sample policies or standards and verify compliance is monitored through defined methods. Confirm deviations are recorded, remediated or formally approved as exceptions with review.",
+      "commonGaps": [
+        "Compliance assumed but not measured",
+        "Exceptions undocumented or never reviewed",
+        "Findings reported without corrective action",
+        "No ownership for monitoring specific standards"
+      ],
+      "interviewQuestions": [
+        "How do you measure compliance with key security policies?",
+        "Show an example of a deviation and how it was resolved.",
+        "How are exceptions approved and reviewed?"
+      ],
+      "scenario": "A quarterly configuration review showed several systems missing required logging settings. Owners remediated configurations, updated deployment templates and recorded a short-term exception for one legacy system with compensating monitoring.",
+      "relatedControls": [
+        "A.5.1",
+        "A.5.31",
+        "A.5.35"
+      ],
+      "keywords": [
+        "policy compliance",
+        "standards",
+        "exceptions",
+        "monitoring"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "GV.OV-01",
+        "nist_800_53": "CA-7",
+        "iso_27001": "A.5.36"
+      }
+    },
+    {
+      "id": "ctl_a_5_37",
+      "controlId": "A.5.37",
+      "title": "Documented operating procedures",
+      "category": "ORGANIZATIONAL",
+      "objective": "Ensures operating procedures for information processing facilities are documented and made available to personnel who need them.",
+      "whyItExists": "Consistent, documented procedures reduce errors, support secure operation and enable continuity when staff change or incidents occur. Undocumented processes rely on individual knowledge and increase operational and security risk.",
+      "riskAddressed": "Operational errors, inconsistent control execution or delayed recovery due to missing or unclear procedures.",
+      "implementationGuidance": "Identify activities requiring documented procedures, such as system administration, backup, change handling, access management, monitoring and incident response support tasks. Document steps, responsibilities, prerequisites, security controls and escalation paths in clear language. Store procedures in accessible controlled locations, review them periodically and update them after system or process changes. Train relevant personnel and restrict editing to authorised owners.",
+      "responsibleDepartment": "IT Operations / Information Security",
+      "evidenceExamples": [
+        "Documented operating procedures repository",
+        "Procedure review and version history",
+        "Training or acknowledgement records",
+        "Change records triggering procedure updates"
+      ],
+      "auditTesting": "Sample critical operational activities and confirm procedures exist, are current, accessible to relevant staff and reflect actual practice. Verify updates occur after relevant changes or incidents.",
+      "commonGaps": [
+        "Procedures outdated or stored informally",
+        "Critical tasks dependent on individual knowledge",
+        "No version control or review cycle",
+        "Procedures not followed in practice"
+      ],
+      "interviewQuestions": [
+        "Where are operating procedures maintained and how are they kept current?",
+        "Show the procedure for a critical operational task.",
+        "How do staff know when a procedure changes?"
+      ],
+      "scenario": "After a backup failure during restoration, a team discovered the recovery steps were incomplete and known only to one administrator. Documenting and testing the procedure improved recovery consistency and reduced dependency on individuals.",
+      "relatedControls": [
+        "A.5.1",
+        "A.8.15",
+        "A.5.30"
+      ],
+      "keywords": [
+        "operating procedures",
+        "documentation",
+        "runbooks",
+        "operations"
+      ],
+      "mappings": {
+        "nist_csf_2_0": "PR.PS-01",
+        "nist_800_53": "CM-1",
+        "iso_27001": "A.5.37"
+      }
+    }
+  ]
+}

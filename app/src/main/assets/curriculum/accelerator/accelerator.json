@@ -1,0 +1,1746 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "ACCELERATOR",
+  "items": [
+    {
+      "day": 1,
+      "title": "Introduction to enterprise GRC",
+      "focus": "Treating governance, risk and compliance as one connected enterprise system rather than three separate compliance silos.",
+      "moduleId": "fnd",
+      "lessonIds": ["fnd.l01", "fnd.l02", "fnd.l03"],
+      "exercise": "Map the GRC function for a mid-sized NBFC that lends digitally. Name the governance body that owns each of the governance, risk and compliance decision streams, identify the single accountable owner for every decision, and list the five artefacts that would let an incoming board member understand the organisation's control posture within an hour.",
+      "assessmentIds": ["q.governance.001", "q.governance.002", "q.compliance.001", "q.leadership.001"],
+      "deliverables": [
+        "A one-page GRC operating map for the digital-lending NBFC",
+        "A named accountability matrix covering five GRC decisions"
+      ],
+      "revision": [
+        "Re-read fnd.l01 and restate the three pillars in your own words",
+        "Write one sentence on why GRC is an enterprise risk issue and not only a compliance issue",
+        "Self-check: can you name the board committee that receives each GRC output?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Define governance, risk and compliance and explain how they interact",
+        "Distinguish a GRC function from a compliance or risk function",
+        "Identify the parties that make a GRC function accountable",
+        "Explain why GRC is a board-level concern in every enterprise"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Governance structures and accountability",
+      "focus": "Building governance bodies with real decision rights, clear mandates and an unbroken chain of accountability to the board.",
+      "moduleId": "fnd",
+      "lessonIds": ["fnd.l04", "fnd.l05", "fnd.l06"],
+      "exercise": "Draft the terms of reference for the board Risk and Compliance Committee of a listed financial services group. State the committee's mandate, its membership, the decisions reserved to it, the quarterly reporting pack it will receive, and how dissent and unapproved risk appetite exceptions will be recorded in the minutes.",
+      "assessmentIds": ["q.governance.003", "q.governance.004", "q.leadership.002"],
+      "deliverables": [
+        "Draft terms of reference for a board Risk and Compliance Committee",
+        "A RACI-style accountability table for five committee decisions"
+      ],
+      "revision": [
+        "Re-read fnd.l04 on governance structures and list the three levels of governance",
+        "Explain the difference between accountability and responsibility in one paragraph",
+        "Self-check: could a committee member act on this mandate without asking a legal question?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Design a three-tier governance structure from board to business unit",
+        "Write decision mandates that reserve authority explicitly",
+        "Apply the principles of accountability to real committee roles",
+        "Recognise governance failure patterns such as unclear mandates and shadow committees"
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Risk management fundamentals",
+      "focus": "Understanding risk as the effect of uncertainty on objectives, and why identification alone delivers no risk reduction.",
+      "moduleId": "fnd",
+      "lessonIds": ["fnd.l07", "fnd.l08", "fnd.l09"],
+      "exercise": "For a mid-sized logistics company that has just won a contract to deliver temperature-controlled medicines, run a structured risk identification workshop for two hours. Capture at least twenty risks across people, process, technology, external and fraud categories, separate causes from the risk events they generate, and mark the five risks that most threaten the contract.",
+      "assessmentIds": ["q.risk_management.001", "q.risk_management.002", "q.governance.005"],
+      "deliverables": [
+        "A cause-based risk identification worksheet with twenty risks",
+        "A shortlist of the five contract-critical risks with named risk owners"
+      ],
+      "revision": [
+        "Re-read fnd.l07 and write the ISO 31000 definition of risk in your own words",
+        "Separate a cause from a risk event using one example from your exercise",
+        "Self-check: could two different teams describe the same risk in the same language?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "State the ISO 31000 definition of risk and its two components",
+        "Distinguish a risk cause from a risk event and a risk consequence",
+        "Apply a structured identification method to a real scenario",
+        "Explain why identification without ownership produces no risk reduction"
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Compliance and regulatory obligations",
+      "focus": "Converting scattered legal, regulatory and contractual obligations into an owned and monitored compliance framework.",
+      "moduleId": "fnd",
+      "lessonIds": ["fnd.l10", "fnd.l11", "fnd.l12"],
+      "exercise": "Build a mini obligation register for a payments business that holds a licence, processes card data and offers credit to merchants. Enter ten obligations from three different sources, record the owner, the evidence that demonstrates compliance, the testing frequency and the consequence of failure for each, and highlight the two that need an external audit rather than an internal test.",
+      "assessmentIds": ["q.compliance.002", "q.compliance.003", "q.regulatory.001"],
+      "deliverables": [
+        "A ten-line obligation register with owners, evidence and test frequency",
+        "A short note on which obligations require third-party assurance"
+      ],
+      "revision": [
+        "Re-read fnd.l10 and list the four sources of compliance obligations",
+        "Define the difference between a legal obligation and an internal policy",
+        "Self-check: for each obligation, can you name the evidence an auditor would accept?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Classify the sources of obligation: law, regulation, contract and policy",
+        "Distinguish compliance from conformance and explain why the difference matters",
+        "Build an obligation register with owner, evidence and test cycle",
+        "Recognise the compliance risk created by obligation sprawl and siloed ownership"
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Information security governance",
+      "focus": "Positioning information security as a governance obligation with board reporting, not as a purely technical function.",
+      "moduleId": "fnd",
+      "lessonIds": ["fnd.l13", "fnd.l14", "fnd.l15"],
+      "exercise": "Design the quarterly information security reporting pack for a regional bank: the three pages the board must read, the five metrics that belong on them with their definitions and target thresholds, the incidents and programme status that must be narrated, and the escalation rule for any metric that breaches its threshold twice.",
+      "assessmentIds": ["q.information_security.001", "q.information_security.002", "q.leadership.003"],
+      "deliverables": [
+        "A board-level information security dashboard specification",
+        "A two-breach escalation rule with named recipients"
+      ],
+      "revision": [
+        "Re-read fnd.l13 and list the five board questions a security function must answer",
+        "Explain why a metric without a threshold is not a report",
+        "Self-check: could a non-technical director act on your dashboard in five minutes?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Explain the governance mandate of the information security function",
+        "Translate technical security activity into board-level metrics and narrative",
+        "Apply risk appetite and tolerance to security performance indicators",
+        "Design an escalation path from a breached metric to a board decision"
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Three Lines Model and enterprise controls",
+      "focus": "Allocating first, second and third line responsibilities so that no function polices itself.",
+      "moduleId": "fnd",
+      "lessonIds": ["fnd.l12", "fnd.l13", "fnd.l14"],
+      "exercise": "Place thirty typical enterprise activities across the three lines for a consumer lending company. For each activity, state the owning line, the assurance provider, and the escalation route where a line discovers a failure in another line. Then mark the three placements that you believe are most likely to be challenged by internal audit and justify your reasoning.",
+      "assessmentIds": ["q.governance.006", "q.governance.007", "q.audit.001"],
+      "deliverables": [
+        "A three-line allocation table covering thirty enterprise activities",
+        "A short defence of the three placements most likely to be challenged"
+      ],
+      "revision": [
+        "Re-read fnd.l12 on the Three Lines Model and state its core principle",
+        "Explain why risk ownership stays with the first line even when a control fails",
+        "Self-check: name one activity that is commonly mis-assigned to the second line"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "State the core principle of the Three Lines Model",
+        "Allocate first, second and third line responsibilities correctly",
+        "Explain the role of the second line in challenging the first line",
+        "Recognise independence threats such as self-review and self-approval"
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Weekly examination and practical governance case",
+      "focus": "Consolidating week one into a defensible governance position on a realistic enterprise case.",
+      "moduleId": "fnd",
+      "lessonIds": ["fnd.l01", "fnd.l09", "fnd.l15"],
+      "exercise": "Act as the newly appointed Head of GRC for a fast-growing insurance aggregator that has no central risk register and three business units each claiming the risk function belongs to them. Produce a ninety-day stabilisation plan, a governance structure, the first risk register extract and the three questions you will put to the CEO in the first board meeting.",
+      "assessmentIds": ["q.governance.008", "q.governance.009", "q.leadership.004", "q.risk_management.003"],
+      "deliverables": [
+        "A ninety-day GRC stabilisation plan for the insurance aggregator",
+        "A board paper outline with the three questions for the CEO"
+      ],
+      "revision": [
+        "Re-read fnd.l01, fnd.l09 and fnd.l15 in one sitting and note the links between them",
+        "List every governance body, register and report you produced this week",
+        "Self-check: can you defend each week-one artefact without notes?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Synthesise week one into an integrated governance position",
+        "Apply governance, risk and compliance concepts to an unstructured enterprise",
+        "Produce a board-ready written position under time pressure",
+        "Identify the first three actions that create the greatest control gain"
+      ]
+    },
+    {
+      "day": 8,
+      "title": "ISMS fundamentals",
+      "focus": "Understanding why ISO/IEC 27001 is a management system standard and what certification actually proves.",
+      "moduleId": "isms",
+      "lessonIds": ["isms.l01", "isms.l02", "isms.l03"],
+      "exercise": "Compare an organisation that has implemented ISO/IEC 27001 with one that has simply deployed good security tools. For the certified organisation, define the ISMS scope, the interested parties, the process for setting objectives and the management review cadence, and explain to a sceptical CFO what certification does and does not guarantee.",
+      "assessmentIds": ["q.information_security.003", "q.compliance.004", "q.governance.010"],
+      "deliverables": [
+        "A one-page ISMS scope statement and interested-party list",
+        "A plain-language brief on what certification does and does not guarantee"
+      ],
+      "revision": [
+        "Re-read isms.l01 and list the four benefits of a management system approach",
+        "Write the difference between certification and compliance in two sentences",
+        "Self-check: name the three documented information sets an ISMS must maintain"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Explain the purpose and logic of an information security management system",
+        "Define ISMS scope and the interested parties it must satisfy",
+        "Distinguish certification, conformance and compliance",
+        "Describe what a certification body audits and what it does not"
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Clauses 4 and 5",
+      "focus": "Implementing the organisational context and leadership requirements that most audits fail on first sight.",
+      "moduleId": "isms",
+      "lessonIds": ["isms.l04", "isms.l05", "isms.l06"],
+      "exercise": "Write the Clause 4 context analysis and Clause 5 leadership evidence for a healthcare software provider in a data centre. Include the issue register for internal and external issues, the clause 4.3 scope statement, the organisational roles and responsibilities, and the leadership commitments that top management must give in writing for the management review.",
+      "assessmentIds": ["q.compliance.005", "q.governance.011", "q.information_security.004"],
+      "deliverables": [
+        "A Clause 4 context and scope analysis with issue register",
+        "A Clause 5 leadership commitment statement with evidence list"
+      ],
+      "revision": [
+        "Re-read isms.l04 and list every sub-clause of Clause 4",
+        "Re-read isms.l05 and list every sub-clause of Clause 5",
+        "Self-check: which Clause 5 requirement is most often evidenced by photographs?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Apply Clause 4 to determine organisational context and ISMS scope",
+        "Identify interested parties and translate their needs into requirements",
+        "Implement Clause 5 leadership, policy and role assignment requirements",
+        "Recognise the evidence an auditor will request for top management commitment"
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Clauses 6 and 7",
+      "focus": "Planning objectives and running the risk assessment and treatment process that drives every other clause.",
+      "moduleId": "isms",
+      "lessonIds": ["isms.l07", "isms.l08", "isms.l09"],
+      "exercise": "Plan the information security objectives for a university research group handling national health data. Define measurable objectives with targets, dates and owners, then run the Clause 7 risk assessment for three named information security risks, record the risk treatment options you considered and justify the treatment you selected against cost and benefit.",
+      "assessmentIds": ["q.information_security.005", "q.risk_management.004", "q.risk_management.005"],
+      "deliverables": [
+        "A set of measurable Clause 6 information security objectives",
+        "A Clause 7 risk treatment plan with options analysis and justification"
+      ],
+      "revision": [
+        "Re-read isms.l07 and list the characteristics of a well-formed objective",
+        "Re-read isms.l08 and list the seven steps of risk assessment",
+        "Self-check: state the four risk treatment options and one treatment action for each"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Plan and track information security objectives with measurable targets",
+        "Perform a clause 7 risk assessment following the prescribed sequence",
+        "Compare risk treatment options against cost, benefit and risk appetite",
+        "Produce a defensible risk treatment plan with owners and due dates"
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Clauses 8, 9 and 10",
+      "focus": "Operating the ISMS day to day through operational planning, control implementation and supplier assurance.",
+      "moduleId": "isms",
+      "lessonIds": ["isms.l10", "isms.l11", "isms.l12"],
+      "exercise": "Design the operational control plan for an e-commerce platform: the Annex A controls you will implement in the first ninety days, the eight-and-one information security methods you will document, the supplier security clauses you will require from the three highest-risk cloud and payment providers, and the monitoring you will run to prove each control operates.",
+      "assessmentIds": ["q.information_security.006", "q.third_party.001", "q.compliance.006"],
+      "deliverables": [
+        "A ninety-day operational control plan mapped to Annex A",
+        "A supplier security clause set for three critical vendors"
+      ],
+      "revision": [
+        "Re-read isms.l10 and list the two operational planning requirements",
+        "Re-read isms.l11 and recall the eight-and-one information security methods",
+        "Self-check: which Clause 8 requirement do suppliers most often fail?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Apply Clause 8 operational planning and control requirements",
+        "Select and document appropriate information security methods",
+        "Apply Clause 9 supplier assurance and out-of-source monitoring",
+        "Connect control implementation to evidence generation"
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Risk assessment and treatment",
+      "focus": "Running a complete ISMS risk assessment cycle that produces treatments that can be implemented and evidenced.",
+      "moduleId": "isms",
+      "lessonIds": ["isms.l11", "isms.l13", "isms.l14"],
+      "exercise": "Run a full information security risk assessment for a mid-sized online brokerage holding client funds. Identify eight risks covering insider misuse, credential compromise, ransomware, third-party failure, regulatory change, key-person loss, data quality and reputational damage. Score each, select treatments, and write the risk treatment plan with owners, deadlines, residual risk and the approval decision.",
+      "assessmentIds": ["q.risk_management.006", "q.risk_management.007", "q.information_security.007"],
+      "deliverables": [
+        "A completed eight-risk assessment with likelihood, impact and risk ratings",
+        "A risk treatment plan with owners, deadlines and residual risk acceptance"
+      ],
+      "revision": [
+        "Re-read isms.l13 and restate the risk assessment methodology you applied",
+        "Re-read isms.l14 and list the fields every risk treatment plan must contain",
+        "Self-check: can you name the approval required before treatment begins?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Execute a complete ISMS risk assessment with consistent methodology",
+        "Select treatments proportionate to risk and to treatment cost",
+        "Document the risk treatment plan to a standard an auditor accepts",
+        "Communicate residual risk and seek formal acceptance where required"
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Annex A control architecture",
+      "focus": "Navigating the 93 Annex A controls as a coherent architecture rather than a compliance checklist.",
+      "moduleId": "isms",
+      "lessonIds": ["isms.l13", "isms.l14", "isms.l15"],
+      "exercise": "Build an Annex A applicability matrix for a cloud-native fintech. Decide applicability for the twenty-five controls you consider most likely to be challenged, record the justification for each decision, list the eleven Annex A controls that require documented information, and identify the six controls for which you will rely on a cloud provider's attestation rather than your own evidence.",
+      "assessmentIds": ["q.information_security.008", "q.compliance.007", "q.third_party.002"],
+      "deliverables": [
+        "An Annex A applicability matrix with documented justifications",
+        "A list of controls relying on shared evidence versus own testing"
+      ],
+      "revision": [
+        "Re-read isms.l15 and recite the four Annex A control categories",
+        "Explain how a control's objective differs from its implementation",
+        "Self-check: which Annex A control would you never exclude, and why?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Navigate the four Annex A control categories and their 93 controls",
+        "Apply the applicability determination and justify exclusions",
+        "Distinguish control objectives from implementation detail",
+        "Decide when third-party evidence is acceptable and when it is not"
+      ]
+    },
+    {
+      "day": 14,
+      "title": "ISMS implementation exercise and assessment",
+      "focus": "Closing week two with a complete ISMS implementation package and a self-assessment against the standard.",
+      "moduleId": "isms",
+      "lessonIds": ["isms.l15", "isms.l13", "isms.l08"],
+      "exercise": "Produce a complete ISMS implementation package for a mid-market insurance broker as if you were preparing for a stage two certification audit in eight weeks. Deliver the scope statement, the risk assessment and treatment plan, the SoA with applicability decisions, the internal audit plan with one completed audit, the management review agenda with minutes, and a nonconformity log with corrective actions.",
+      "assessmentIds": ["q.compliance.008", "q.information_security.009", "q.audit.002", "q.governance.012"],
+      "deliverables": [
+        "A complete ISMS implementation pack ready for stage two audit",
+        "A self-assessment report listing nonconformities and corrective actions"
+      ],
+      "revision": [
+        "Re-read isms.l08 on management review and list the inputs you omitted first time",
+        "Re-read isms.l15 and check your SoA against every required attribute",
+        "Self-check: name the three documents an internal auditor requests first"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Assemble a complete, internally consistent ISMS documentation set",
+        "Run an internal audit of the ISMS and record findings properly",
+        "Facilitate a management review with the correct inputs and outputs",
+        "Manage nonconformity and corrective action through to closure"
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Enterprise risk management",
+      "focus": "Connecting the ISMS to enterprise risk management so that security risk is governed, not merely controlled.",
+      "moduleId": "erm",
+      "lessonIds": ["erm.l01", "erm.l02", "erm.l03"],
+      "exercise": "Compare an organisation running a siloed compliance function with one running an integrated enterprise risk management framework. For a consumer credit business, map every risk source across financial, operational, strategic, compliance and reputational categories, and identify the five points where the integrated approach changes a decision that the siloed approach would have missed.",
+      "assessmentIds": ["q.risk_management.008", "q.risk_management.009", "q.governance.013"],
+      "deliverables": [
+        "A five-category enterprise risk map for the consumer credit business",
+        "A note on five decisions the integrated approach changes"
+      ],
+      "revision": [
+        "Re-read erm.l01 and list the four elements of the ERM framework",
+        "Re-read erm.l02 and explain how ERM differs from a compliance programme",
+        "Self-check: give one example of a strategic risk that no control can address"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Explain the purpose of enterprise risk management in an enterprise",
+        "Distinguish enterprise risk from information security risk and compliance risk",
+        "Map risk across financial, operational, strategic, compliance and reputational sources",
+        "Identify the decision points where integration changes outcomes"
+      ]
+    },
+    {
+      "day": 16,
+      "title": "ISO 31000 and COSO ERM",
+      "focus": "Comparing two dominant ERM frameworks and choosing the principles and structure that fit the organisation.",
+      "moduleId": "erm",
+      "lessonIds": ["erm.l04", "erm.l05", "erm.l06"],
+      "exercise": "Compare ISO 31000:2018 and COSO ERM for an Indian retail bank by charting their principles, process steps and artefacts side by side. Then write a two-page position paper recommending which framework your organisation should adopt as the primary reference, what you would borrow from the other, and how you would explain the choice to a regulator asking why you did not follow the other framework.",
+      "assessmentIds": ["q.risk_management.010", "q.risk_management.011", "q.compliance.009"],
+      "deliverables": [
+        "A side-by-side framework comparison chart",
+        "A two-page position paper recommending the primary framework"
+      ],
+      "revision": [
+        "Re-read erm.l04 and recite the ISO 31000 principles and their intent",
+        "Re-read erm.l05 and list the five components of the COSO ERM framework",
+        "Self-check: explain in one sentence why a risk framework is not a control framework"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Describe the ISO 31000 principles, process and framework",
+        "Describe the COSO ERM components and its eight principles",
+        "Compare the two frameworks on purpose, structure and audience",
+        "Justify a framework choice to an executive and a regulator"
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Risk identification and classification",
+      "focus": "Running identification that produces a consistent, classified and owned risk inventory.",
+      "moduleId": "erm",
+      "lessonIds": ["erm.l07", "erm.l08"],
+      "exercise": "Run three identification techniques on a manufacturer that has just entered two new export markets: a facilitated workshop with the plant, export and finance teams, a checklist walkthrough of the end-to-end order-to-cash flow, and a review of the last twenty incidents and near misses. Consolidate the outputs into one classified risk inventory of fifteen risks, each with a category, cause, event, consequence and named owner.",
+      "assessmentIds": ["q.risk_management.012", "q.risk_management.013", "q.leadership.005"],
+      "deliverables": [
+        "A classified inventory of fifteen risks from three identification techniques",
+        "A de-duplication note explaining how overlaps were resolved"
+      ],
+      "revision": [
+        "Re-read erm.l07 and list four identification techniques with their strengths",
+        "Re-read erm.l08 and explain why risk taxonomy must be applied at identification",
+        "Self-check: give one example of a near miss that reveals a more useful risk statement"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Select and combine identification techniques appropriate to the situation",
+        "Write risk statements that name cause, event, effect and owner",
+        "Apply a risk taxonomy so risks are comparable across the enterprise",
+        "De-duplicate and consolidate workshop outputs into a single inventory"
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Risk analysis and scoring",
+      "focus": "Scoring likelihood and impact consistently so that different assessors reach comparable ratings.",
+      "moduleId": "erm",
+      "lessonIds": ["erm.l09", "erm.l10"],
+      "exercise": "Define a five-by-five likelihood and impact matrix for a payments company, with anchored descriptors for every cell rather than bare numbers. Score the ten highest risks from your day seventeen inventory, have two independent assessors score the same risks, and reconcile every two-point variance with a written justification.",
+      "assessmentIds": ["q.risk_management.014", "q.risk_management.015", "q.audit.003"],
+      "deliverables": [
+        "An anchored five-by-five risk matrix with descriptors for all cells",
+        "A scored risk list with an inter-assessor reconciliation note"
+      ],
+      "revision": [
+        "Re-read erm.l09 and write the definition of qualitative and quantitative analysis",
+        "Re-read erm.l10 and explain why anchors must describe the organisation, not a textbook",
+        "Self-check: why does the same risk score differently in two business units?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Build an anchored likelihood and impact scale grounded in organisational data",
+        "Apply consistent scoring across risk types and business units",
+        "Recognise qualitative, semi-quantitative and quantitative analysis methods",
+        "Resolve scoring disagreement with documented reasoning"
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Risk treatment and acceptance",
+      "focus": "Choosing and executing treatment options, and securing valid risk acceptance from the right authority.",
+      "moduleId": "erm",
+      "lessonIds": ["erm.l11", "erm.l12"],
+      "exercise": "For the top five risks in your scored list, develop two treatment options each with cost, effort, time to implement and expected risk reduction. Select a treatment for each, and draft the formal acceptance memo for the one risk you recommend accepting, including the acceptance authority, the conditions of acceptance, the review date and the compensating monitoring that will run meanwhile.",
+      "assessmentIds": ["q.risk_management.016", "q.risk_management.017", "q.leadership.006"],
+      "deliverables": [
+        "A treatment options analysis for five high-rated risks",
+        "A formal risk acceptance memo with conditions and review date"
+      ],
+      "revision": [
+        "Re-read erm.l11 and list the four treatment options with a use case for each",
+        "Re-read erm.l12 and name the three conditions of a valid risk acceptance",
+        "Self-check: who may accept a risk that exceeds the board-approved appetite?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Select among avoid, mitigate, transfer and accept with explicit reasoning",
+        "Design treatment plans with owners, milestones and benefits tracking",
+        "Draft a risk acceptance that names the authority, conditions and expiry",
+        "Recognise when escalation to the board is mandatory"
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Risk registers and heatmaps",
+      "focus": "Maintaining a living risk register and presenting exposure in a form executives can act on.",
+      "moduleId": "erm",
+      "lessonIds": ["erm.l13", "erm.l14"],
+      "exercise": "Build the enterprise risk register for your scenario organisation with the fields: identifier, category, cause, event, effect, existing controls, inherent rating, treatment, residual rating, owner, action date and status. Produce the heatmap view with the top three exposures highlighted, and write the one-paragraph executive commentary that explains what has changed since last quarter.",
+      "assessmentIds": ["q.risk_management.018", "q.leadership.007", "q.risk_management.019"],
+      "deliverables": [
+        "A complete enterprise risk register with all required fields",
+        "A heatmap view with an executive commentary paragraph"
+      ],
+      "revision": [
+        "Re-read erm.l13 and list twelve fields a usable risk register must carry",
+        "Re-read erm.l14 and explain why a register without actions is a data collection exercise",
+        "Self-check: state the three things an executive should learn from a heatmap alone"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Maintain a risk register that links risks to controls, treatments and actions",
+        "Present inherent and residual exposure on a heatmap",
+        "Write executive commentary that interprets rather than restates the numbers",
+        "Identify register fields that enable ageing and status tracking"
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Enterprise risk assessment simulation",
+      "focus": "Running a facilitated enterprise risk assessment end to end under realistic time and stakeholder pressure.",
+      "moduleId": "erm",
+      "lessonIds": ["erm.l04", "erm.l10", "erm.l14"],
+      "exercise": "Facilitate a two-hour enterprise risk assessment for a mid-sized logistics firm facing a new competitor and a cyber incident in the previous quarter. Run the identification workshop, score in real time with the executives present, challenge one rating that you believe is inflated, and close with a heatmap, three escalation decisions and a thirty-day action list with named owners.",
+      "assessmentIds": ["q.risk_management.020", "q.risk_management.021", "q.leadership.008"],
+      "deliverables": [
+        "Facilitation pack with workshop agenda and scoring record",
+        "A thirty-day action list with named owners and escalation decisions"
+      ],
+      "revision": [
+        "Re-read erm.l14 and rehearse the three facilitation moves that unblock a stuck workshop",
+        "Re-read erm.l10 and prepare a defence of one deliberately conservative rating",
+        "Self-check: did every risk in your session end with a named owner?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Facilitate an enterprise risk assessment with executive participation",
+        "Challenge rating bias constructively during a live session",
+        "Convert workshop output into prioritised, owned actions within the session",
+        "Decide what must be escalated rather than managed locally"
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Audit fundamentals",
+      "focus": "Understanding the purpose, independence and standards that make internal audit assurance credible.",
+      "moduleId": "cisa",
+      "lessonIds": ["cisa.l01", "cisa.l02", "cisa.l03"],
+      "exercise": "Write the internal audit charter for a listed NBFC: the purpose, the mandate approved by the audit committee, the reporting line to the audit committee chair, the full scope of responsibilities, the organisational independence safeguards, the resourcing provision and the amendment and approval process.",
+      "assessmentIds": ["q.audit.004", "q.audit.005", "q.governance.014"],
+      "deliverables": [
+        "A complete internal audit charter for a listed NBFC",
+        "A one-page summary of the independence safeguards applied"
+      ],
+      "revision": [
+        "Re-read cisa.l01 and explain the three purposes of internal audit",
+        "Re-read cisa.l02 and list the organisational independence safeguards",
+        "Self-check: who approves the charter, and how often is it reviewed?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Explain the mandate, purpose and reporting line of internal audit",
+        "Apply the IIA Global Internal Audit Standards to organisational independence",
+        "Recognise the conditions that impair auditor independence",
+        "Draft an internal audit charter that satisfies audit committee expectations"
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Audit planning and scoping",
+      "focus": "Building a risk-based annual plan and a defensible engagement scope for a single audit.",
+      "moduleId": "cisa",
+      "lessonIds": ["cisa.l04", "cisa.l05"],
+      "exercise": "Produce a twelve-month risk-based internal audit plan for a retail bank with eight lines of business. Rank the auditable entities by risk using inherent risk, control environment and change factors, allocate audit days to each entity within a fixed resource constraint, and justify two audits you deferred along with the compensating monitoring you will run in their place.",
+      "assessmentIds": ["q.audit.006", "q.audit.007", "q.risk_management.022"],
+      "deliverables": [
+        "A risk-ranked twelve-month audit plan with allocated days",
+        "A deferral justification note with compensating monitoring"
+      ],
+      "revision": [
+        "Re-read cisa.l04 and list the inputs to a risk-based audit plan",
+        "Re-read cisa.l05 and write the four elements of an engagement scope",
+        "Self-check: could you defend every deferral to the audit committee?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Construct a risk-based audit universe and annual plan",
+        "Allocate limited audit resource using a transparent prioritisation method",
+        "Define engagement scope, objectives and criteria clearly",
+        "Justify deferrals with compensating monitoring"
+      ]
+    },
+    {
+      "day": 24,
+      "title": "IT general controls",
+      "focus": "Auditing the IT environment that every application control depends on.",
+      "moduleId": "cisa",
+      "lessonIds": ["cisa.l06", "cisa.l07"],
+      "exercise": "Design an IT general controls testing programme for a company running SAP on Amazon Web Services. Define the access, change, operations and program development domains, list the specific controls you will test in each, state the population and sample approach for each test, and identify the four findings that would allow you to rely on application controls.",
+      "assessmentIds": ["q.audit.008", "q.audit.009", "q.information_security.010"],
+      "deliverables": [
+        "An ITGC testing matrix across access, change, operations and program development",
+        "A reliance criterion defining when application control testing can be reduced"
+      ],
+      "revision": [
+        "Re-read cisa.l06 and list the four ITGC domains with two controls each",
+        "Re-read cisa.l07 and explain how an ITGC failure affects reliance on application controls",
+        "Self-check: which ITGC domain do most findings sit in, and why?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Describe the four domains of IT general controls",
+        "Design testing for access, change, operations and program development",
+        "Explain the effect of ITGC deficiencies on the audit approach",
+        "Apply the concept of reliance to reduce application control testing"
+      ]
+    },
+    {
+      "day": 25,
+      "title": "Application controls",
+      "focus": "Testing input, processing, output and interface controls in business application systems.",
+      "moduleId": "cisa",
+      "lessonIds": ["cisa.l08", "cisa.l09"],
+      "exercise": "Test the application controls of an order-to-cash system in a manufacturing company. For three application controls, define the control objective, identify the control type and frequency, describe the test design including population and sample, and write the expected evidence. Then explain how you would document a control that is automated but never reviewed by a human.",
+      "assessmentIds": ["q.audit.010", "q.audit.011", "q.information_security.011"],
+      "deliverables": [
+        "Three fully designed application control tests with expected evidence",
+        "A note on how automated control review is evidenced"
+      ],
+      "revision": [
+        "Re-read cisa.l08 and list input, processing, output and interface control types",
+        "Re-read cisa.l09 and distinguish preventive, detective and corrective application controls",
+        "Self-check: what makes an automated control operating effectively?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Distinguish application controls from general controls",
+        "Design tests for automated and manual application controls",
+        "Evaluate control frequency, population and sample adequacy",
+        "Evidence the human review point of an automated control"
+      ]
+    },
+    {
+      "day": 26,
+      "title": "Evidence collection and testing",
+      "focus": "Gathering sufficient, appropriate and reproducible evidence and choosing defensible testing methods.",
+      "moduleId": "cisa",
+      "lessonIds": ["cisa.l10", "cisa.l11"],
+      "exercise": "Design the evidence plan for an access management audit covering privileged accounts in a bank. Specify the evidence request list with the business question each item answers, the extraction method and date range, the sampling approach and rationale, and the alternative procedure for each item that will not be produced. Record how you will preserve the chain of custody of exported logs.",
+      "assessmentIds": ["q.audit.012", "q.audit.013", "q.audit.014"],
+      "deliverables": [
+        "An evidence request list mapped to audit questions",
+        "A sampling rationale and chain-of-custody record for exported logs"
+      ],
+      "revision": [
+        "Re-read cisa.l10 and state the sufficiency, appropriateness and reproducibility tests",
+        "Re-read cisa.l11 and list five testing methods with their strengths",
+        "Self-check: what alternative procedure will you run if logs are unavailable?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Apply sufficiency, appropriateness and reproducibility to evidence requests",
+        "Select the right testing method for each audit objective",
+        "Design non-statistical sampling with a documented rationale",
+        "Preserve evidence integrity and prepare alternative procedures"
+      ]
+    },
+    {
+      "day": 27,
+      "title": "Audit findings and remediation",
+      "focus": "Writing findings that management will act on and driving remediation to verified closure.",
+      "moduleId": "cisa",
+      "lessonIds": ["cisa.l12", "cisa.l13"],
+      "exercise": "Write three audit findings from your week four evidence: one control design weakness, one operating effectiveness failure and one observation. For each, state the criteria, condition, cause, effect and risk, assign a rating with justification, agree the recommended action with the owner and a due date, and define the effectiveness check that will confirm closure.",
+      "assessmentIds": ["q.audit.015", "q.audit.016", "q.compliance.010"],
+      "deliverables": [
+        "Three fully structured findings with ratings and agreed actions",
+        "A closure verification plan with effectiveness checks"
+      ],
+      "revision": [
+        "Re-read cisa.l12 and recite the five elements of a well-written finding",
+        "Re-read cisa.l13 and explain the difference between recommendation and management action",
+        "Self-check: state what makes a root cause analysis useful rather than descriptive"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Write findings structured on criteria, condition, cause, effect and risk",
+        "Rate findings against a documented rating methodology",
+        "Separate the auditor's recommendation from management's action plan",
+        "Define effectiveness checks that verify remediation rather than assume it"
+      ]
+    },
+    {
+      "day": 28,
+      "title": "Audit leadership simulation",
+      "focus": "Leading an audit engagement and defending your conclusions to a demanding executive committee.",
+      "moduleId": "cisa",
+      "lessonIds": ["cisa.l14", "cisa.l05", "cisa.l12"],
+      "exercise": "Act as the chief audit executive presenting the results of a first-year internal audit programme to the audit committee of a listed NBFC. Deliver a ten-minute summary covering coverage against the plan, three findings rated high, two overdue management actions, one request for additional resource and one issue you will not report because of a scope limitation. Anticipate and answer four committee challenges.",
+      "assessmentIds": ["q.audit.017", "q.leadership.009", "q.audit.018"],
+      "deliverables": [
+        "A ten-minute audit committee results presentation",
+        "A response script for four anticipated committee challenges"
+      ],
+      "revision": [
+        "Re-read cisa.l14 and rehearse the opening ninety seconds of a results presentation",
+        "Re-read cisa.l05 and confirm your scope limitations were disclosed in the plan",
+        "Self-check: can you state the opinion your evidence actually supports?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Present audit results concisely to a non-executive audience",
+        "Communicate scope limitations, deferred audits and resource constraints",
+        "Handle challenge and disagreement from a committee without over-defending",
+        "Distinguish assurance provided from advice offered"
+      ]
+    },
+    {
+      "day": 29,
+      "title": "Information security governance",
+      "focus": "Establishing the security mandate, accountability structure and decision rights of the security function.",
+      "moduleId": "cism",
+      "lessonIds": ["cism.l01", "cism.l02"],
+      "exercise": "Design the security governance model for a global retailer operating in eleven countries. Define the security governance committee's mandate and decision rights, the role of the CISO in strategy versus operations, the escalation thresholds that trigger executive involvement, and how you will demonstrate to the audit committee that governance is functioning rather than merely meeting.",
+      "assessmentIds": ["q.information_security.012", "q.governance.015", "q.leadership.010"],
+      "deliverables": [
+        "A security governance model with decision rights and escalation thresholds",
+        "An audit committee assurance statement on governance effectiveness"
+      ],
+      "revision": [
+        "Re-read cism.l01 and list the elements of an effective security governance framework",
+        "Re-read cism.l02 and explain why security governance is not the same as security management",
+        "Self-check: name three questions a CISO should ask the board every quarter"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Establish a security governance structure with clear decision rights",
+        "Separate governance oversight from operational security management",
+        "Define escalation thresholds and executive engagement triggers",
+        "Evidence governance effectiveness for the audit committee"
+      ]
+    },
+    {
+      "day": 30,
+      "title": "Security strategy and programme management",
+      "focus": "Building a risk-based security strategy with a funded, measurable and defensible programme.",
+      "moduleId": "cism",
+      "lessonIds": ["cism.l03", "cism.l04", "cism.l05"],
+      "exercise": "Write a three-year security strategy for a mid-market fintech with twenty million records of personal data and a security team of six people. Define the target capability in three horizons, the outcomes that will be measured, the initiatives in each horizon with dependencies, the indicative budget split, and the two capabilities you will deliberately outsource, with the assurance you will require in return.",
+      "assessmentIds": ["q.information_security.013", "q.leadership.011", "q.leadership.012"],
+      "deliverables": [
+        "A three-horizon security strategy with measurable outcomes",
+        "A business case showing resource and budget implications"
+      ],
+      "revision": [
+        "Re-read cism.l03 and explain how a security strategy is derived from business objectives",
+        "Re-read cism.l04 and list the security programme management components",
+        "Self-check: what makes a security objective measurable rather than aspirational?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Derive security strategy from business objectives and risk appetite",
+        "Structure a security roadmap in achievable horizons",
+        "Build a programme with governance, funding and measurement",
+        "Justify outsourcing decisions with defined assurance requirements"
+      ]
+    },
+    {
+      "day": 31,
+      "title": "Security architecture governance",
+      "focus": "Governing technology decisions through architecture principles, standards and exception handling.",
+      "moduleId": "cism",
+      "lessonIds": ["cism.l06", "cism.l07"],
+      "exercise": "Create an architecture governance process for a bank migrating core banking to the cloud. Define five architecture principles, a set of mandatory standards covering identity, encryption, logging and network segmentation, the exception request and approval path with compensating control requirements, and the review cadence at which deviations will be challenged.",
+      "assessmentIds": ["q.information_security.014", "q.information_security.015", "q.governance.016"],
+      "deliverables": [
+        "An architecture principles and standards set",
+        "An exception request and approval workflow with compensating control rules"
+      ],
+      "revision": [
+        "Re-read cism.l06 and list the three benefits of architecture governance",
+        "Re-read cism.l07 and state the four tests an exception request must pass",
+        "Self-check: why must an expired exception return to the risk register?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Explain the governance value of architecture principles and standards",
+        "Design an exception process with compensating control and expiry",
+        "Prevent shadow IT and unmanaged technology decisions",
+        "Justify architecture decisions in risk and cost terms for the board"
+      ]
+    },
+    {
+      "day": 32,
+      "title": "Identity and access governance",
+      "focus": "Governing the full identity lifecycle so that access reflects current business need and accountability.",
+      "moduleId": "cism",
+      "lessonIds": ["cism.l08", "cism.l09"],
+      "exercise": "Design the identity governance programme for a university with forty thousand students, eleven thousand staff and a large contractor population. Define joiner, mover and leaver workflows, role design and access recertification, privileged account controls, service and machine identity handling, and the three metrics you will report to the board each quarter.",
+      "assessmentIds": ["q.information_security.016", "q.information_security.017", "q.audit.019"],
+      "deliverables": [
+        "An identity lifecycle control design covering joiner, mover and leaver",
+        "A quarterly identity governance metric set with target thresholds"
+      ],
+      "revision": [
+        "Re-read cism.l08 and list the identity lifecycle stages and their controls",
+        "Re-read cism.l09 and explain why recertification must be risk-based",
+        "Self-check: what percentage of accounts would you expect to see flagged at recertification, and why?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Design identity lifecycle controls across joiner, mover and leaver",
+        "Apply role-based access and least privilege to enterprise identities",
+        "Govern privileged, service and machine identities",
+        "Measure identity governance performance for executive reporting"
+      ]
+    },
+    {
+      "day": 33,
+      "title": "Incident management governance",
+      "focus": "Governing the incident lifecycle from severity classification through containment, recovery and learning.",
+      "moduleId": "cism",
+      "lessonIds": ["cism.l10", "cism.l11"],
+      "exercise": "Design the incident management governance framework for a payments company. Define a four-level severity model with the financial, regulatory and customer impact thresholds for each level, the response and notification timelines for each, the decision authority for declaring a severity level, and the criteria that trigger regulatory notification and a formal post-incident review.",
+      "assessmentIds": ["q.information_security.018", "q.regulatory.002", "q.leadership.013"],
+      "deliverables": [
+        "A severity classification matrix with escalation timelines",
+        "A notification decision tree for regulatory and customer reporting"
+      ],
+      "revision": [
+        "Re-read cism.l10 and recall the incident response lifecycle phases",
+        "Re-read cism.l11 and distinguish an incident from a crisis",
+        "Self-check: what is the single most common failure in incident severity classification?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Design a severity classification model tied to business impact",
+        "Set response, escalation and notification timelines by severity",
+        "Distinguish incident management from crisis management",
+        "Establish the governance that converts incidents into organisational learning"
+      ]
+    },
+    {
+      "day": 34,
+      "title": "Security operations oversight",
+      "focus": "Overseeing the security operations centre as a governance function rather than a monitoring utility.",
+      "moduleId": "cism",
+      "lessonIds": ["cism.l12", "cism.l13"],
+      "exercise": "Define the oversight model for a 24x7 security operations centre serving eight business units. Specify the service tiers, the monitoring coverage and the coverage gaps you will accept, the escalation paths for critical alerts, the metrics that demonstrate operational health, and the contractual and assurance requirements you will place on the managed detection provider.",
+      "assessmentIds": ["q.information_security.019", "q.third_party.003", "q.information_security.020"],
+      "deliverables": [
+        "A SOC oversight model with service tiers and coverage statement",
+        "A provider assurance and escalation requirement set"
+      ],
+      "revision": [
+        "Re-read cism.l12 and list the five questions an oversight body must ask of a SOC",
+        "Re-read cism.l13 and explain what a detection engineer is accountable for",
+        "Self-check: how would you detect an alert backlog that is quietly growing?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Oversee a security operations centre using a risk-based model",
+        "Define service tiers, coverage expectations and accepted gaps",
+        "Monitor detection engineering, triage quality and alert handling",
+        "Govern outsourced detection services through defined assurance"
+      ]
+    },
+    {
+      "day": 35,
+      "title": "Security programme maturity assessment",
+      "focus": "Assessing programme maturity against a recognised model and turning the result into a funded plan.",
+      "moduleId": "cism",
+      "lessonIds": ["cism.l14", "cism.l09"],
+      "exercise": "Assess the security programme of an engineering-led software company using a five-level maturity model across governance, people, process, technology and measurement. Score each dimension with written evidence, identify the three largest gaps against the target maturity, and produce a twelve-month improvement plan with the outcome, owner, cost and the metric that will prove progress.",
+      "assessmentIds": ["q.information_security.021", "q.leadership.014", "q.governance.017"],
+      "deliverables": [
+        "A scored maturity assessment with evidence references",
+        "A twelve-month improvement plan with funded, measurable initiatives"
+      ],
+      "revision": [
+        "Re-read cism.l14 and list the five maturity dimensions and their level descriptors",
+        "Re-read cism.l09 and recall how maturity differs from compliance",
+        "Self-check: state one maturity level and the evidence that separates it from the next"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Apply a recognised maturity model to a security programme",
+        "Ground every maturity rating in documentary evidence",
+        "Identify the gap between current and target maturity",
+        "Convert the assessment into a funded, measurable improvement plan"
+      ]
+    },
+    {
+      "day": 36,
+      "title": "NIST CSF 2.0",
+      "focus": "Using the CSF 2.0 functions, outcomes and tiers as a practical governance and measurement language.",
+      "moduleId": "nist",
+      "lessonIds": ["nist.l01", "nist.l02", "nist.l03"],
+      "exercise": "Build a CSF 2.0 organisational profile for a community hospital group. Map twenty of your existing controls to the six functions, identify the two outcomes you cannot evidence at all, define your current and target tier for each function with justification, and write the three organisational gap activities that would move the profile from tier two to tier three.",
+      "assessmentIds": ["q.information_security.022", "q.information_security.023", "q.risk_management.023"],
+      "deliverables": [
+        "A CSF 2.0 organisational profile with control mappings",
+        "A target tier statement with gap activities for each function"
+      ],
+      "revision": [
+        "Re-read nist.l01 and recite the six CSF functions in order",
+        "Re-read nist.l02 and explain how outcomes differ from activities",
+        "Self-check: state the difference between a CSF profile and an implementation tier"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Describe the six CSF 2.0 functions and the Govern function's role",
+        "Use CSF outcomes and informative references in practical language",
+        "Distinguish current profile, target profile and implementation tier",
+        "Build a gap analysis that produces prioritised organisational activities"
+      ]
+    },
+    {
+      "day": 37,
+      "title": "NIST RMF and SP 800-53",
+      "focus": "Governing systems through the RMF authorisation cycle and the control catalogue in SP 800-53.",
+      "moduleId": "nist",
+      "lessonIds": ["nist.l04", "nist.l05", "nist.l06"],
+      "exercise": "Prepare the authorisation package for a new cloud-hosted core banking service in an American federal agency context. Select the control baseline, document the control implementation with assessment procedures, record the findings, build the plan of action and milestones with responsible parties and dates, and write the residual risk justification supporting the authorisation decision.",
+      "assessmentIds": ["q.information_security.024", "q.information_security.025", "q.regulatory.003"],
+      "deliverables": [
+        "A control assessment package for a new system",
+        "A plan of action and milestones with dates and residual risk justification"
+      ],
+      "revision": [
+        "Re-read nist.l04 and list the RMF tasks in order with decision points",
+        "Re-read nist.l05 and explain how a control baseline is selected",
+        "Self-check: what must a POA&M entry contain to be considered complete?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Describe the RMF tasks, roles and authorisation decision points",
+        "Apply control baselines and enhancements from the SP 800-53 catalogue",
+        "Write assessment findings and a compliant plan of action and milestones",
+        "Justify an authorisation decision with documented residual risk"
+      ]
+    },
+    {
+      "day": 38,
+      "title": "NIST incident response and resilience",
+      "focus": "Aligning incident response and resilience planning with the CSF functions so that recovery is designed, not improvised.",
+      "moduleId": "nist",
+      "lessonIds": ["nist.l07", "nist.l08", "nist.l09"],
+      "exercise": "Draft the incident response and resilience playbooks for a university research computing environment facing ransomware. Map the response to the CSF Respond and Recover functions, define roles for the first four hours, write the communications protocol for a regulator and a research funder, and specify the recovery sequence that prioritises safety and academic integrity over speed.",
+      "assessmentIds": ["q.business_continuity.001", "q.information_security.026", "q.business_continuity.002"],
+      "deliverables": [
+        "An incident response playbook mapped to CSF Respond and Recover",
+        "A communications and recovery sequencing protocol"
+      ],
+      "revision": [
+        "Re-read nist.l07 and recall the IR lifecycle phases in order",
+        "Re-read nist.l08 and list the four plan types in the CSF recovery function",
+        "Self-check: what is the difference between restoration and recovery?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Align incident response activities with the CSF Respond and Recover functions",
+        "Design playbooks with defined roles, triggers and communications",
+        "Plan resilience using critical services, dependencies and priorities",
+        "Differentiate containment, eradication, restoration and lessons learned"
+      ]
+    },
+    {
+      "day": 39,
+      "title": "RBI and Indian regulatory landscape",
+      "focus": "Mapping the Indian regulatory obligations that bind an enterprise and assigning each one an owner and an evidence route.",
+      "moduleId": "reg",
+      "lessonIds": ["reg.l01", "reg.l02", "reg.l03"],
+      "exercise": "Map the regulatory obligations for a payments bank that operates a payment gateway, offers merchant credit and stores transaction data in India. For each obligation, record the issuing authority, the obligation in plain language, the internal owner, the control that satisfies it, the reporting obligation and its frequency, and the penalty exposure. Highlight the three obligations most likely to be missed without a central register.",
+      "assessmentIds": ["q.regulatory.004", "q.regulatory.005", "q.compliance.011"],
+      "deliverables": [
+        "A regulatory obligation map for the payments bank",
+        "A gap analysis naming the three obligations most at risk of omission"
+      ],
+      "revision": [
+        "Re-read reg.l01 and list the categories of Indian financial sector regulators",
+        "Re-read reg.l02 and explain the difference between an RBI regulation and an RBI circular",
+        "Self-check: name one obligation that creates a periodic reporting duty"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Identify the Indian regulators and frameworks relevant to financial entities",
+        "Read and classify a regulatory circular into specific obligations",
+        "Assign owners, controls and evidence routes to each obligation",
+        "Design a regulatory change management process for a fast-changing landscape"
+      ]
+    },
+    {
+      "day": 40,
+      "title": "GDPR and privacy governance",
+      "focus": "Operating a lawful, demonstrable and minimised processing regime under the GDPR and comparable Indian law.",
+      "moduleId": "reg",
+      "lessonIds": ["reg.l04", "reg.l05", "reg.l06"],
+      "exercise": "Build a privacy governance pack for a health-tech firm running a hospital appointment app across India, the EU and the US. Document the lawful basis for each processing purpose, complete a data protection impact assessment for the appointment and analytics processing, prepare the records of processing activities, and write the data subject rights handling procedure with response deadlines.",
+      "assessmentIds": ["q.privacy.001", "q.privacy.002", "q.regulatory.006"],
+      "deliverables": [
+        "A lawfulness register with lawful basis per processing purpose",
+        "A completed data protection impact assessment with mitigations"
+      ],
+      "revision": [
+        "Re-read reg.l04 and list the lawful bases and when consent is the wrong basis",
+        "Re-read reg.l05 and list the required content of a DPIA",
+        "Self-check: explain why privacy by design is cheaper than a breach response"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Apply the GDPR principles and accountability requirement in practice",
+        "Select and document a lawful basis for each processing purpose",
+        "Complete a data protection impact assessment with mitigations",
+        "Operate data subject rights handling within statutory deadlines"
+      ]
+    },
+    {
+      "day": 41,
+      "title": "PCI DSS and SOC 2",
+      "focus": "Choosing and managing the right assurance route for card data and customer trust commitments.",
+      "moduleId": "reg",
+      "lessonIds": ["reg.l07", "reg.l08", "reg.l09"],
+      "exercise": "Decide the assurance strategy for a subscription software company that stores card data for a payment processor and wants SOC 2 Type II for enterprise customers. Define the card data environment boundary, decide whether to outsource the compliance obligation to the processor, write the responsibility matrix, and set out the evidence you will request from each party annually.",
+      "assessmentIds": ["q.compliance.012", "q.third_party.004", "q.compliance.013"],
+      "deliverables": [
+        "A card data environment boundary diagram and scope decision",
+        "A responsibility matrix with annual evidence requests"
+      ],
+      "revision": [
+        "Re-read reg.l07 and explain what PCI DSS does and does not require",
+        "Re-read reg.l08 and state the difference between a SOC 1 and a SOC 2 report",
+        "Self-check: list the four trust services criteria categories you will scope against"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Explain PCI DSS scope determination and the merchant service provider model",
+        "Distinguish SOC 1, SOC 2 Type I and SOC 2 Type II reports",
+        "Manage a shared compliance obligation through a responsibility matrix",
+        "Select assurance proportionate to customer and regulatory expectations"
+      ]
+    },
+    {
+      "day": 42,
+      "title": "Regulatory compliance assessment",
+      "focus": "Running a consolidated compliance assessment that produces a defensible regulatory position.",
+      "moduleId": "reg",
+      "lessonIds": ["reg.l10", "reg.l11", "reg.l12"],
+      "exercise": "Run a consolidated regulatory compliance assessment for an NBFC with four product lines and three regulators. Test twenty obligations across the last twelve months, rate each test result, identify the five obligations where the evidence does not prove compliance, and write the remediation plan with the reporting implication for each identified breach.",
+      "assessmentIds": ["q.compliance.014", "q.regulatory.007", "q.audit.020"],
+      "deliverables": [
+        "A twenty-obligation compliance assessment with test results and ratings",
+        "A remediation plan with reporting implications for each breach"
+      ],
+      "revision": [
+        "Re-read reg.l10 and recall the difference between a compliance test and an audit",
+        "Re-read reg.l11 and list the three outcomes of a compliance test",
+        "Self-check: state the trigger for self-reporting a breach to a regulator"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Design a consolidated compliance testing programme across regulators",
+        "Assess whether evidence proves compliance for each obligation",
+        "Rate compliance gaps and assign remediation with due dates",
+        "Assess and act on the reporting implications of a breach"
+      ]
+    },
+    {
+      "day": 43,
+      "title": "Third-party risk management",
+      "focus": "Operating a lifecycle-based third-party risk programme that treats concentration and fourth-party exposure as first-order risks.",
+      "moduleId": "tprm",
+      "lessonIds": ["tprm.l01", "tprm.l02", "tprm.l03"],
+      "exercise": "Design the third-party risk programme for a retail bank with three hundred vendors, five of which are critical to customer payments. Define the tiering methodology with scoring criteria, the due diligence evidence pack for a critical vendor, the ongoing monitoring metrics, the contractual clauses you will require including right to audit, and the exit plan trigger for a concentration risk.",
+      "assessmentIds": ["q.third_party.005", "q.third_party.006", "q.risk_management.024"],
+      "deliverables": [
+        "A vendor tiering methodology with scoring criteria",
+        "A critical vendor assurance pack and exit plan trigger"
+      ],
+      "revision": [
+        "Re-read tprm.l01 and list the seven stages of the third-party risk lifecycle",
+        "Re-read tprm.l02 and explain how tiering determines assurance depth",
+        "Self-check: what makes a vendor fourth-party and why does it matter?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Apply a lifecycle model to third-party risk from selection to exit",
+        "Design risk-based tiering that determines assurance depth",
+        "Build due diligence, contracting and ongoing monitoring for critical vendors",
+        "Identify concentration and fourth-party risk and plan an exit"
+      ]
+    },
+    {
+      "day": 44,
+      "title": "Cloud governance",
+      "focus": "Governing the shared-responsibility boundary so that cloud adoption does not quietly transfer risk back to the enterprise.",
+      "moduleId": "cloud",
+      "lessonIds": ["cloud.l01", "cloud.l02", "cloud.l03", "cloud.l04"],
+      "exercise": "Establish cloud governance for a bank moving thirty workloads to a hyperscaler. Define the shared responsibility matrix for each migrated workload, the landing zone controls, the policy guardrails for identity, encryption, logging and network, the continuous posture monitoring you will run, and the exit or portability plan for the two workloads that create lock-in risk.",
+      "assessmentIds": ["q.information_security.027", "q.information_security.028", "q.third_party.007"],
+      "deliverables": [
+        "A shared responsibility matrix for three representative workloads",
+        "A landing zone guardrail set and portability plan"
+      ],
+      "revision": [
+        "Re-read cloud.l01 and state the provider versus customer responsibility boundary",
+        "Re-read cloud.l03 and list the six guardrail categories you will enforce",
+        "Self-check: name the three cloud risks that configuration tooling will not detect"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Apply the shared responsibility model to specific workloads",
+        "Design landing zone controls and policy-as-code guardrails",
+        "Govern cloud identity and entitlement risk",
+        "Plan for exit, portability and concentration risk in cloud adoption"
+      ]
+    },
+    {
+      "day": 45,
+      "title": "Business continuity and disaster recovery",
+      "focus": "Deriving continuity and recovery commitments from business impact analysis rather than from technology assumptions.",
+      "moduleId": "bcm",
+      "lessonIds": ["bcm.l01", "bcm.l02", "bcm.l03"],
+      "exercise": "Run a business impact analysis for a regional bank. Identify twenty business services, capture the maximum tolerable period of disruption and recovery time objective for each, map the dependencies between technology, people, premises and third parties, and write the continuity strategies for the three services whose targets cannot be met within the current budget.",
+      "assessmentIds": ["q.business_continuity.003", "q.business_continuity.004", "q.business_continuity.005"],
+      "deliverables": [
+        "A business impact analysis covering twenty business services",
+        "Continuity strategies for the three services with unfundable targets"
+      ],
+      "revision": [
+        "Re-read bcm.l01 and state the difference between MTPD, RTO and RPO",
+        "Re-read bcm.l02 and list the five steps of a business impact analysis",
+        "Self-check: why must the BIA be owned by the business rather than by IT?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Conduct a business impact analysis with business ownership",
+        "Set MTPD, RTO and RPO from business impact not technology convenience",
+        "Map interdependencies across services, suppliers and facilities",
+        "Develop continuity strategies that address unfundable targets"
+      ]
+    },
+    {
+      "day": 46,
+      "title": "Data privacy and protection",
+      "focus": "Governing personal data through its lifecycle from collection to deletion, with privacy as a design constraint.",
+      "moduleId": "priv",
+      "lessonIds": ["priv.l01", "priv.l02", "priv.l03"],
+      "exercise": "Design the data privacy programme for an Indian insurer that collects health information through its mobile app and shares it with a claims administrator and two analytics vendors. Map every personal data flow, set retention periods per category, write the deletion and consent withdrawal mechanisms, and produce the privacy notice plus the data subject rights handling procedure.",
+      "assessmentIds": ["q.privacy.003", "q.privacy.004", "q.privacy.005"],
+      "deliverables": [
+        "A personal data flow map with categories, purposes and recipients",
+        "A privacy notice and data subject rights procedure"
+      ],
+      "revision": [
+        "Re-read priv.l01 and list the data protection principles that govern collection",
+        "Re-read priv.l02 and explain how retention and deletion reduce breach impact",
+        "Self-check: state three design changes that would reduce personal data collection"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Govern personal data through the full collection to deletion lifecycle",
+        "Apply minimisation, purpose limitation and storage limitation in practice",
+        "Design consent, transparency and data subject rights mechanisms",
+        "Embed privacy by design into product and procurement decisions"
+      ]
+    },
+    {
+      "day": 47,
+      "title": "AI governance and emerging risks",
+      "focus": "Governing machine learning systems for fairness, privacy, explainability and accountable human oversight.",
+      "moduleId": "priv",
+      "lessonIds": ["priv.l04", "priv.l05", "priv.l06"],
+      "exercise": "Design the AI governance framework for a NBFC deploying a credit scoring model and a collections chatbot. Define the model inventory with owners and purposes, the human oversight model, the fairness and bias testing regime with the metrics you will use, the data governance requirements for training data, and the escalation path for a model producing adverse outcomes for a protected group.",
+      "assessmentIds": ["q.risk_management.025", "q.privacy.006", "q.information_security.029"],
+      "deliverables": [
+        "An AI model inventory with ownership, purpose and risk tiering",
+        "A fairness, explainability and human oversight control set"
+      ],
+      "revision": [
+        "Re-read priv.l04 and list the governance questions to ask about any AI system in use",
+        "Re-read priv.l05 and explain why fairness testing needs a defined protected-group baseline",
+        "Self-check: what three outputs must an AI system be able to produce on demand?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Build an inventory and risk tiering for AI systems in the enterprise",
+        "Apply fairness, bias and explainability testing to high-impact models",
+        "Govern training data provenance, quality and personal data use",
+        "Establish accountable human oversight and escalation for adverse outcomes"
+      ]
+    },
+    {
+      "day": 48,
+      "title": "OT/ICS cybersecurity governance",
+      "focus": "Governing industrial and operational technology where availability and safety constrain traditional security controls.",
+      "moduleId": "cloud",
+      "lessonIds": ["cloud.l05", "cloud.l06", "cloud.l07"],
+      "exercise": "Design the OT and ICS cybersecurity governance model for a manufacturing company with a connected plant, a supervisory control network and a cloud-hosted analytics platform. Apply zones and conduits segmentation, define the safety-linked change management procedure for production systems, set asset inventory and patching rules with compensating measures, and write the joint incident response protocol with operations, safety and IT.",
+      "assessmentIds": ["q.information_security.030", "q.business_continuity.006", "q.risk_management.026"],
+      "deliverables": [
+        "A zones and conduits architecture for the plant network",
+        "A joint OT incident response protocol with safety decision authority"
+      ],
+      "revision": [
+        "Re-read cloud.l05 and explain why availability outranks confidentiality in OT",
+        "Re-read cloud.l06 and list three controls that cannot simply be copied from IT",
+        "Self-check: what is the safe first action when a production controller is compromised?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Distinguish IT, OT and ICS environments and their different security priorities",
+        "Apply zones and conduits segmentation to a plant network",
+        "Govern patching, change and asset inventory with safety-aware compensating controls",
+        "Design joint incident response with clear safety decision authority"
+      ]
+    },
+    {
+      "day": 49,
+      "title": "Integrated enterprise GRC exercise",
+      "focus": "Running governance, risk and compliance as one operating system across a complex multi-regulator enterprise.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l01", "leadership.l02"],
+      "exercise": "Act as the consolidated GRC lead for a diversified group with a bank, an insurance arm, a software subsidiary and a retail division, each with different regulators. Produce a single integrated governance model, a unified risk taxonomy, one consolidated dashboard with five metrics, and the transition plan that retires the four separate compliance registers without losing regulatory coverage.",
+      "assessmentIds": ["q.governance.018", "q.leadership.015", "q.compliance.015"],
+      "deliverables": [
+        "An integrated governance model and unified risk taxonomy",
+        "A consolidated dashboard and register consolidation transition plan"
+      ],
+      "revision": [
+        "Re-read leadership.l01 and list the four design principles of an integrated GRC model",
+        "Re-read leadership.l02 and check each consolidation decision against regulatory coverage",
+        "Self-check: which duplicate register will you retire last, and why?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Design an integrated GRC operating model across business lines",
+        "Create a unified risk taxonomy that works across sectors",
+        "Consolidate overlapping registers without losing regulatory coverage",
+        "Build one reporting view that executives can act on"
+      ]
+    },
+    {
+      "day": 50,
+      "title": "Building an enterprise GRC programme",
+      "focus": "Designing a GRC programme that is fit for purpose, adequately resourced and phased to deliver early value.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l03", "leadership.l04"],
+      "exercise": "Design the enterprise GRC programme for a manufacturing company that has no GRC function and a board that wants assurance within two quarters. Define the programme charter and objectives, the initial scope, the operating model choices including in-house versus co-source, the three-phase roadmap with quick wins, and the success measures that will prove the programme is working.",
+      "assessmentIds": ["q.leadership.016", "q.governance.019", "q.leadership.017"],
+      "deliverables": [
+        "A GRC programme charter with scope, objectives and success measures",
+        "A phased roadmap with quick wins and resource requirements"
+      ],
+      "revision": [
+        "Re-read leadership.l03 and list the design decisions in a GRC operating model",
+        "Re-read leadership.l04 and describe the three phases of a GRC maturity roadmap",
+        "Self-check: what would you show the board in the first ninety days?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Write a GRC programme charter that states scope, authority and outcomes",
+        "Select an operating model and sourcing strategy with justification",
+        "Sequence capability build in phases that deliver early assurance value",
+        "Define success measures that demonstrate programme effectiveness"
+      ]
+    },
+    {
+      "day": 51,
+      "title": "GRC operating model and team structure",
+      "focus": "Structuring the GRC function so that it has the mandate, capability and independence to be trusted.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l05", "leadership.l06"],
+      "exercise": "Design the GRC operating model and team structure for a listed NBFC with forty thousand employees. Define the reporting line to the board risk committee, the three roles in the second line, the first line liaison network, the resourcing model with numbers and cost, the competency requirements for each role, and the two independence safeguards that the most aggressive business units will test.",
+      "assessmentIds": ["q.leadership.018", "q.governance.020", "q.leadership.019"],
+      "deliverables": [
+        "A GRC operating model with reporting line and decision rights",
+        "A team structure with headcount, cost and competency requirements"
+      ],
+      "revision": [
+        "Re-read leadership.l05 and distinguish the operating model from the organisation chart",
+        "Re-read leadership.l06 and list the four role types in a mature GRC function",
+        "Self-check: how do you protect second line independence from a revenue leader?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Design a GRC operating model with clear decision rights",
+        "Structure first, second and third line reporting relationships",
+        "Specify role competencies and a resourcing and cost model",
+        "Protect independence through structural safeguards"
+      ]
+    },
+    {
+      "day": 52,
+      "title": "Audit and compliance programme management",
+      "focus": "Running audit and compliance as one coordinated assurance programme rather than two competing functions.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l07", "leadership.l08"],
+      "exercise": "Build a coordinated assurance plan for a group with an internal audit function of fifteen people and a compliance function of ten. Produce the twelve-month audit plan, the compliance monitoring plan, the combined assurance calendar, the deduplicated testing approach, and the escalation rules that determine when a finding is simultaneously an audit finding and a compliance breach.",
+      "assessmentIds": ["q.audit.021", "q.compliance.016", "q.leadership.020"],
+      "deliverables": [
+        "A combined twelve-month assurance plan and calendar",
+        "A deduplicated testing and dual-reporting escalation protocol"
+      ],
+      "revision": [
+        "Re-read leadership.l07 and explain why combining plans reduces assurance fatigue",
+        "Re-read leadership.l08 and list the three responsibilities of the assurance committee",
+        "Self-check: what prevents internal audit and compliance from duplicating work?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Coordinate audit and compliance plans into one assurance calendar",
+        "Deduplicate testing while preserving each function's mandate",
+        "Design escalation rules for issues that are both audit findings and breaches",
+        "Report combined assurance status to the board with clear ownership"
+      ]
+    },
+    {
+      "day": 53,
+      "title": "Executive dashboards and reporting",
+      "focus": "Presenting GRC performance so that decisions are made rather than merely discussed.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l09", "leadership.l10"],
+      "exercise": "Design the executive GRC reporting suite for a global insurer. Produce the one-page board dashboard with six metrics, the monthly management pack with trend analysis, the quarterly risk deep-dive on one topic, and the regulatory reporting calendar. State for each metric the definition, the threshold, the owner and the action that fires when the threshold is breached.",
+      "assessmentIds": ["q.leadership.021", "q.leadership.022", "q.risk_management.027"],
+      "deliverables": [
+        "A one-page board dashboard specification with six metrics",
+        "A reporting calendar covering management, board and regulatory outputs"
+      ],
+      "revision": [
+        "Re-read leadership.l09 and state the three tests of an executive metric",
+        "Re-read leadership.l10 and explain why trends outrank point-in-time numbers",
+        "Self-check: what action does each of your six metrics trigger?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Design executive metrics that are decision-relevant and defined consistently",
+        "Build a layered reporting suite from board page to deep dive",
+        "Use trend analysis to make reporting forward-looking",
+        "Tie every metric to a threshold, owner and triggered action"
+      ]
+    },
+    {
+      "day": 54,
+      "title": "Risk appetite and board reporting",
+      "focus": "Converting board-approved risk appetite into operating limits that change everyday decisions.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l11", "leadership.l12"],
+      "exercise": "Draft a risk appetite statement for a mid-sized NBFC and translate it into operating limits for six risk categories. For each category, define the appetite statement in plain language, the measurable limit, the tolerance band, the early warning indicator and the escalation path when the limit is approached. Then write the board paper explaining the exceptions you recommend granting for the current year.",
+      "assessmentIds": ["q.leadership.023", "q.risk_management.028", "q.governance.021"],
+      "deliverables": [
+        "A risk appetite statement set with limits, tolerances and early warning indicators",
+        "A board paper requesting specific exceptions with justification"
+      ],
+      "revision": [
+        "Re-read leadership.l11 and distinguish appetite, tolerance and limit in one example",
+        "Re-read leadership.l12 and list what makes a board paper decision-ready",
+        "Self-check: state the two approvals required before an exception takes effect"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Write risk appetite statements that operating teams can apply",
+        "Translate appetite into measurable limits, tolerances and early warning indicators",
+        "Design escalation paths as appetite is approached and breached",
+        "Present exceptions to the board in a decision-ready format"
+      ]
+    },
+    {
+      "day": 55,
+      "title": "GRC budget and resource management",
+      "focus": "Justifying and defending GRC investment with evidence, unit economics and trade-offs.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l13", "leadership.l14"],
+      "exercise": "Build the GRC budget submission for a global retailer. Quantify the current cost of running GRC including technology licences, external assurance and internal headcount, benchmark the cost of one high-severity finding against remediation, build a three-year cost profile with the return argued in avoided loss terms, and prepare the two trade-off conversations you expect with the finance function.",
+      "assessmentIds": ["q.leadership.024", "q.leadership.025", "q.third_party.008"],
+      "deliverables": [
+        "A three-year GRC cost and benefit model",
+        "A defence pack for the two expected budget challenges"
+      ],
+      "revision": [
+        "Re-read leadership.l13 and list the four cost categories in a GRC budget",
+        "Re-read leadership.l14 and explain how to quantify avoided loss credibly",
+        "Self-check: what makes a GRC benefit case credible to a sceptical finance director?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Build a complete GRC cost model across people, technology and assurance",
+        "Quantify avoided loss and risk reduction in credible terms",
+        "Prioritise initiatives using a cost-benefit and risk lens",
+        "Defend the budget through structured trade-off conversations"
+      ]
+    },
+    {
+      "day": 56,
+      "title": "Managing stakeholders and difficult decisions",
+      "focus": "Handling the political pressure, ambiguous accountability and defensible trade-offs that define GRC leadership.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l15", "leadership.l16"],
+      "exercise": "Respond to a scenario in which a revenue leader asks you to close a high-severity audit finding before a customer contract is signed, and the CTO separately asks you to delay reporting a control failure that has already been remediated. Write the position you take with each, the evidence you require before you act, the escalation route if the request is refused, and the record you will keep of the request.",
+      "assessmentIds": ["q.leadership.026", "q.leadership.027", "q.governance.022"],
+      "deliverables": [
+        "Two written positions on requests to defer findings and reporting",
+        "An escalation and record-keeping protocol for pressure on the GRC function"
+      ],
+      "revision": [
+        "Re-read leadership.l15 and list the stakeholder power and interest strategies",
+        "Re-read leadership.l16 and describe the decision rights test for GRC professionals",
+        "Self-check: what would you document if the pressure continued after refusal?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Manage stakeholders across a power and interest grid",
+        "Apply decision rights and accountability when accountability is ambiguous",
+        "Handle requests to defer findings without compromising independence",
+        "Escalate and document persistent pressure in a defensible way"
+      ]
+    },
+    {
+      "day": 57,
+      "title": "Enterprise GRC implementation project",
+      "focus": "Delivering a complete GRC implementation package as the capstone of the programme.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l17", "leadership.l18"],
+      "exercise": "Deliver the full GRC implementation for a fictional enterprise of your choice: charter and scope, governance structure, risk register with heatmap, compliance obligation register, control framework with owners, the audit and assurance plan, the reporting pack and the 90-day implementation roadmap. State your assumptions and the three highest-risk gaps you could not close with the time available.",
+      "assessmentIds": ["q.leadership.028", "q.governance.023", "q.leadership.029"],
+      "deliverables": [
+        "A complete GRC implementation package for the chosen enterprise",
+        "An implementation roadmap with the three residual gaps named"
+      ],
+      "revision": [
+        "Re-read leadership.l17 and check your package against every required element",
+        "Re-read leadership.l18 and confirm each deliverable has a named owner",
+        "Self-check: could a board member read your package in thirty minutes and act on it?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Deliver an integrated GRC implementation package",
+        "Apply governance, risk, compliance and audit design consistently",
+        "Make and defend trade-offs under time constraint",
+        "Identify and communicate residual gaps honestly"
+      ]
+    },
+    {
+      "day": 58,
+      "title": "Integrated audit and regulatory examination",
+      "focus": "Surviving and learning from an intensive regulatory examination of the enterprise control environment.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l19", "leadership.l07"],
+      "exercise": "Respond to an on-site regulatory examination of a bank covering capital, cyber resilience, outsourcing and customer protection. Prepare the documentation index, the walkthrough plan, the responses to the twelve likely questions, the log of evidence provided with dates, and the process you will use to verify the accuracy of every factual statement before it leaves the building.",
+      "assessmentIds": ["q.audit.022", "q.regulatory.008", "q.leadership.030"],
+      "deliverables": [
+        "An examination documentation index and walkthrough plan",
+        "A response protocol with a verification step before release"
+      ],
+      "revision": [
+        "Re-read leadership.l19 and list the eight most common examination mistakes",
+        "Re-read leadership.l07 and confirm your evidence index maps to the plan",
+        "Self-check: who signs off every factual statement given to an examiner?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Prepare an organisation for an intensive regulatory examination",
+        "Manage the evidence flow and request log with accuracy controls",
+        "Respond to challenging questions without over-committing",
+        "Extract and act on the lessons from an examination"
+      ]
+    },
+    {
+      "day": 59,
+      "title": "CISO and GRC Head executive simulation",
+      "focus": "Performing under executive scrutiny when multiple stakeholders need different things from the same information.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l20", "leadership.l12"],
+      "exercise": "Simulate a ninety-minute executive session as CISO and GRC Head of a large NBFC. The board chair opens with a question on a breach that has not yet been reported, the CEO presses for a go-live on a platform with open high findings, the risk director challenges your residual risk numbers and the audit committee chair asks what you would do differently. Respond to each in turn and close with your three asks.",
+      "assessmentIds": ["q.leadership.031", "q.leadership.032", "q.information_security.031"],
+      "deliverables": [
+        "A spoken response script for four executive scenarios",
+        "A closing summary of three specific, fundable asks"
+      ],
+      "revision": [
+        "Re-read leadership.l20 and rehearse the opening statement of a crisis briefing",
+        "Re-read leadership.l12 and confirm every figure you will quote has a source",
+        "Self-check: can you state your three asks in under sixty seconds?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Respond to executive challenge with clarity and without over-committing",
+        "Handle unreported incidents and go-live pressure within governance rules",
+        "Defend risk numbers with traceable evidence",
+        "Close with specific, fundable asks that advance the programme"
+      ]
+    },
+    {
+      "day": 60,
+      "title": "Final examination, practical presentation and competency assessment",
+      "focus": "Demonstrating consolidated GRC competency and committing to a continuing professional development plan.",
+      "moduleId": "leadership",
+      "lessonIds": ["leadership.l20", "leadership.l15", "leadership.l08"],
+      "exercise": "Complete the final examination and deliver a fifteen-minute board presentation on the enterprise GRC programme you built during this course: the governance model, the risk profile, the compliance posture, the assurance results and the twelve-month plan. Anticipate five assessment questions on your weakest area, and submit your personal competency development plan for the next ninety days.",
+      "assessmentIds": ["q.leadership.033", "q.governance.024", "q.leadership.034", "q.risk_management.029"],
+      "deliverables": [
+        "A fifteen-minute board presentation of the enterprise GRC programme",
+        "A ninety-day personal competency development plan"
+      ],
+      "revision": [
+        "Re-read your weakest three days from the sixty and re-answer those exercises",
+        "Review every glossary term you flagged during the programme",
+        "Self-check: can you explain your role to a board member in one sentence?"
+      ],
+      "minutesCore": 35,
+      "minutesFramework": 25,
+      "minutesExercise": 30,
+      "minutesAssessment": 20,
+      "minutesRevision": 10,
+      "objectives": [
+        "Demonstrate consolidated competence across all eight weeks",
+        "Present an enterprise GRC programme to board standard",
+        "Self-assess honestly and identify the two largest development gaps",
+        "Commit to a specific continuing professional development plan"
+      ]
+    }
+  ]
+}

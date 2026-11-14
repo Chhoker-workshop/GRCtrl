@@ -1,0 +1,480 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "LESSONS",
+  "items": [
+    {
+      "id": "priv.l01",
+      "moduleId": "priv",
+      "topic": "Privacy",
+      "subtopic": "",
+      "title": "Privacy Principles and Governance",
+      "summary": "Covers privacy principles and governance for privacy programs.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain privacy principles and governance",
+        "Identify privacy risks and controls",
+        "Support accountable privacy practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers privacy principles and governance for privacy programs. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain privacy principles and governance",
+            "Identify privacy risks and controls",
+            "Support accountable privacy practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for privacy principles and governance are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Privacy Principles and Governance",
+          "context": "A team must address privacy principles and governance in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Privacy Principles and Governance",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to privacy principles and governance.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "PRIVACY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "priv",
+        "privacy"
+      ]
+    },
+    {
+      "id": "priv.l02",
+      "moduleId": "priv",
+      "topic": "Privacy",
+      "subtopic": "",
+      "title": "Data Lifecycle and Minimisation",
+      "summary": "Covers data lifecycle and minimisation for privacy programs.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain data lifecycle and minimisation",
+        "Identify privacy risks and controls",
+        "Support accountable privacy practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers data lifecycle and minimisation for privacy programs. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain data lifecycle and minimisation",
+            "Identify privacy risks and controls",
+            "Support accountable privacy practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for data lifecycle and minimisation are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Data Lifecycle and Minimisation",
+          "context": "A team must address data lifecycle and minimisation in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Data Lifecycle and Minimisation",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to data lifecycle and minimisation.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "PRIVACY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "priv",
+        "privacy"
+      ]
+    },
+    {
+      "id": "priv.l03",
+      "moduleId": "priv",
+      "topic": "Privacy",
+      "subtopic": "",
+      "title": "Data Subject Rights and Transparency",
+      "summary": "Covers data subject rights and transparency for privacy programs.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain data subject rights and transparency",
+        "Identify privacy risks and controls",
+        "Support accountable privacy practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers data subject rights and transparency for privacy programs. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain data subject rights and transparency",
+            "Identify privacy risks and controls",
+            "Support accountable privacy practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for data subject rights and transparency are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Data Subject Rights and Transparency",
+          "context": "A team must address data subject rights and transparency in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Data Subject Rights and Transparency",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to data subject rights and transparency.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "PRIVACY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "priv",
+        "privacy"
+      ]
+    },
+    {
+      "id": "priv.l04",
+      "moduleId": "priv",
+      "topic": "Privacy",
+      "subtopic": "",
+      "title": "Privacy by Design and DPIAs",
+      "summary": "Covers privacy by design and dpias for privacy programs.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain privacy by design and dpias",
+        "Identify privacy risks and controls",
+        "Support accountable privacy practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers privacy by design and dpias for privacy programs. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain privacy by design and dpias",
+            "Identify privacy risks and controls",
+            "Support accountable privacy practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for privacy by design and dpias are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Privacy by Design and DPIAs",
+          "context": "A team must address privacy by design and dpias in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Privacy by Design and DPIAs",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to privacy by design and dpias.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "PRIVACY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "priv",
+        "privacy"
+      ]
+    },
+    {
+      "id": "priv.l05",
+      "moduleId": "priv",
+      "topic": "Privacy",
+      "subtopic": "",
+      "title": "Privacy in Vendors and Transfers",
+      "summary": "Covers privacy in vendors and transfers for privacy programs.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain privacy in vendors and transfers",
+        "Identify privacy risks and controls",
+        "Support accountable privacy practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers privacy in vendors and transfers for privacy programs. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain privacy in vendors and transfers",
+            "Identify privacy risks and controls",
+            "Support accountable privacy practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for privacy in vendors and transfers are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Privacy in Vendors and Transfers",
+          "context": "A team must address privacy in vendors and transfers in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Privacy in Vendors and Transfers",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to privacy in vendors and transfers.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "PRIVACY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "priv",
+        "privacy"
+      ]
+    },
+    {
+      "id": "priv.l06",
+      "moduleId": "priv",
+      "topic": "Privacy",
+      "subtopic": "",
+      "title": "Privacy Incidents and Compliance",
+      "summary": "Covers privacy incidents and compliance for privacy programs.",
+      "difficulty": "INTERMEDIATE",
+      "objectives": [
+        "Explain privacy incidents and compliance",
+        "Identify privacy risks and controls",
+        "Support accountable privacy practices"
+      ],
+      "estimatedMinutes": 45,
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Covers privacy incidents and compliance for privacy programs. This lesson focuses on practical understanding, decision-making and evidence-based GRC practice.",
+          "bullets": [
+            "Explain privacy incidents and compliance",
+            "Identify privacy risks and controls",
+            "Support accountable privacy practices"
+          ]
+        },
+        {
+          "heading": "Key concepts",
+          "body": "Core concepts for privacy incidents and compliance are explained in plain language, with emphasis on roles, controls, risks and expected outcomes in an enterprise context.",
+          "bullets": [
+            "Define key terms and scope",
+            "Identify stakeholders and accountability",
+            "Apply proportionate controls and evidence"
+          ]
+        },
+        {
+          "heading": "Application",
+          "body": "Learners should be able to apply the concepts to realistic scenarios, justify decisions, and recognise common gaps or weaknesses.",
+          "bullets": [
+            "Assess current state",
+            "Prioritise actions",
+            "Document rationale and evidence"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Applying Privacy Incidents and Compliance",
+          "context": "A team must address privacy incidents and compliance in a business scenario with limited time and resources.",
+          "outcome": "A risk-informed, documented decision with clear ownership and follow-up actions.",
+          "sector": "Cross-sector"
+        }
+      ],
+      "practicalExercise": {
+        "title": "Exercise: Privacy Incidents and Compliance",
+        "brief": "Apply the lesson to a fictional organisation facing challenges related to privacy incidents and compliance.",
+        "steps": [
+          "Identify the objective and stakeholders",
+          "Assess risks and obligations",
+          "Propose actions, owners and evidence"
+        ],
+        "deliverable": "A short action plan with rationale.",
+        "evaluationCriteria": [
+          "Clear objective and scope",
+          "Risk-informed reasoning",
+          "Actionable recommendations with ownership"
+        ],
+        "estimatedMinutes": 30
+      },
+      "assessmentQuestionIds": [],
+      "references": [
+        "Project curriculum references"
+      ],
+      "competencyDomain": "PRIVACY",
+      "version": "1.0.0",
+      "lastReviewed": "2026-11-14",
+      "tags": [
+        "priv",
+        "privacy"
+      ]
+    }
+  ]
+}

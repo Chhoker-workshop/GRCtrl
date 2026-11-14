@@ -1,0 +1,1656 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "QUESTIONS",
+  "items": [
+    {
+      "id": "q.information_security.001",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.002",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.003",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.004",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.005",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.006",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.007",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.008",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.009",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.010",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.011",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.012",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.013",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.014",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.015",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.016",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.017",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.018",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.019",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.020",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.021",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.022",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.023",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.024",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.025",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.026",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.027",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.028",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.029",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "ADVANCED",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.030",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.information_security.031",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Information Security",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Information Security, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Information Security.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Information Security issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Information Security as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Information Security work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Information Security.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Information Security"
+      ]
+    },
+    {
+      "id": "q.nist.001",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Nist",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "BEGINNER",
+      "stem": "In the context of Nist, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Nist.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Nist issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Nist as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Nist work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Nist.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Nist"
+      ]
+    },
+    {
+      "id": "q.nist.002",
+      "domain": "INFORMATION_SECURITY",
+      "topic": "Nist",
+      "type": "MULTIPLE_CHOICE",
+      "difficulty": "INTERMEDIATE",
+      "stem": "In the context of Nist, which action best reflects sound enterprise GRC practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define clear accountability, document decisions, and align controls and evidence to the stated objective in Nist.",
+          "correct": true,
+          "rationale": "This option ties ownership, documented reasoning and evidence to the objective, which is the basis for defensible GRC practice."
+        },
+        {
+          "id": "b",
+          "text": "Rely on informal understanding and address Nist issues only when an audit or incident occurs.",
+          "correct": false,
+          "rationale": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged."
+        },
+        {
+          "id": "c",
+          "text": "Treat Nist as a purely technical activity owned only by one team without business context.",
+          "correct": false,
+          "rationale": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone."
+        },
+        {
+          "id": "d",
+          "text": "Copy a generic checklist without considering scope, risk, obligations or operating environment.",
+          "correct": false,
+          "rationale": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+        }
+      ],
+      "correctOptionIds": [
+        "a"
+      ],
+      "explanation": "Effective Nist work in GRC requires clear accountability, risk-informed decisions, documented rationale and evidence that can be reviewed. The best option demonstrates structured, defensible practice rather than reactive or generic handling.",
+      "whyOthersWrong": {
+        "b": "Reactive and undocumented handling leaves gaps, weak accountability and poor evidence when decisions are challenged.",
+        "c": "GRC outcomes depend on business context, cross-functional ownership and governance, not isolated technical activity alone.",
+        "d": "Checklists help, but effective practice requires tailoring to scope, risk appetite, obligations and how the organisation actually operates."
+      },
+      "frameworkRef": "Cross-framework GRC practice",
+      "learningObjective": "Apply sound judgement in Nist.",
+      "revisionRef": "",
+      "points": 1,
+      "tags": [
+        "Nist"
+      ]
+    }
+  ]
+}
