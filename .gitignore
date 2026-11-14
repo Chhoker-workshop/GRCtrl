@@ -7,15 +7,12 @@
 /captures
 .externalNativeBuild
 .cxx
-local.properties
 
 # IDE/tool caches
 .kilo/
 .kotlin/
 .pytest_cache/
 
-# Local logs
-build_output.log
 # Android/Gradle build outputs
 **/build/
 /app/build/
@@ -24,12 +21,14 @@ build_output.log
 *.ap_
 *.dm
 
-# Local logs/temp
+# Local logs
+logs/
+build_output.log
 gradle_short.txt
 test_output.txt
-build_output.log
 
-# Scratch/temp scripts
+# Scratch/temp scripts and outputs
+scripts/scratch/
 _tmp_*.py
 create_*.py
 qb_*.py
